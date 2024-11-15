@@ -13,30 +13,23 @@
 \contentsline {chapter}{\numberline {3}Modelo del Negocio}{7}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Contexto}{7}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Términos del Negocio}{7}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Modelo del dominio del problema}{8}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Modelo del dominio del problema}{8}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Entidad: Alumno}{8}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Entidad: Alumno Extranjero}{8}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Modelado de Reglas de negocio}{10}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Modelo de Procesos AS-IS}{12}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}PROC-01 Análisis de requerimientos}{12}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}PROC-02 ...}{14}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}Modelo de procesos TO-BE}{14}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}PROCM-01 ...}{14}{subsection.3.6.1}%
-\contentsline {chapter}{\numberline {4}Modelo dinámico}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Descripción de actores}{17}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Gerente de Operaciones}{19}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}CU17 Inscribir a Seminario}{20}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Descripción completa}{20}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Atributos importantes}{20}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Trayectorias del Caso de Uso}{20}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Puntos de extensión}{22}{subsection.4.2.4}%
-\contentsline {chapter}{\numberline {5}Modelo de la interacción}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Modelo de navegación}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}IU23 Pantalla de Control de Acceso}{23}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Objetivo}{23}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Diseño}{23}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Salidas}{23}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Entradas}{23}{subsection.5.2.4}%
-\contentsline {subsection}{\numberline {5.2.5}Comandos}{24}{subsection.5.2.5}%
-\contentsline {subsection}{\numberline {5.2.6}Mensajes}{25}{subsection.5.2.6}%
+\contentsline {section}{\numberline {3.3}Modelado de Reglas de negocio}{8}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Modelo dinámico}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Descripción de actores}{11}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Alumno}{12}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Personal de seguridad}{12}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Docente aplicador}{13}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}CU1 Iniciar Sesión}{14}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Descripción completa}{14}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Atributos importantes}{14}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Trayectorias del Caso de Uso}{14}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Puntos de extensión}{15}{subsection.4.2.4}%
+\contentsline {chapter}{\numberline {5}Modelo de la interacción}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Modelo de navegación}{17}{section.5.1}%
+\contentsline {section}{\numberline {5.2}IU23 Pantalla de Control de Acceso}{17}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Objetivo}{17}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Diseño}{17}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Salidas}{17}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Entradas}{17}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Comandos}{18}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Mensajes}{19}{subsection.5.2.6}%
