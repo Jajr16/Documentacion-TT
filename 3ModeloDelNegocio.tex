@@ -42,6 +42,53 @@
 	
 %	\brTermSensor{tVelocimetro}{Velocímetro:}{Velocidad de un Vehículo.}{Kilometros/hora.}{Constantemente siempre que el \cdtRef{tVehiculo}{vehículo} esté encendido.}
 \end{description}
+%---------------------------------------------------------
+\section{Modelo del dominio del problema}
+\label{sec:terminosDeNegocio}
+\subsection{Modelo del dominio del problema}
+
+El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDominio}, a continuación se describen cada una de las entidades y sus relaciones.
+
+\begin{figure}[htbp!]
+	\begin{center}
+		\includegraphics[angle=90,width=.95\textwidth]{images/modeloDelDominioDelProblema}
+		\caption{Modelo del dominio del problema}
+		\label{fig:modeloDeDominio}
+	\end{center}
+\end{figure}
+
+\begin{cdtEntidad}{Alumno}{Alumno}
+	\brAttr{registro}{Registro}{Id}{Número de registro utilizado para identificar un alumno}{Sí}
+	\brAttr{nombre}{Nombre}{Palabra Corta}
+	{Nombre o nombres del alumno.}{Sí}
+	\brAttr{primerApellido}{Primer apellido}{Palabra Corta}
+	{Primer apellido del alumno.}{Sí}
+	\brAttr{segundoApellido}{Segundo apellido}{Palabra Corta}
+	{Segundo apellido del alumno.}{No}
+	\brAttr{CURP}{CURP}{CURP}
+	{CURP del alumno.}{Sí}
+	\brAttr{nacimiento}{Nacimiento}{Fecha}
+	{Fecha de nacimiento del alumno.}{Sí}
+	\brAttr{genero}{Género}{Domicilio}
+	{Género del alumno.}{No}
+	\brAttr{telefono}{Teléfono}{Telefono}
+	{Teléfono para contactar al alumno.}{Sí}
+	\brAttr{correo}{Correo}{Correo}
+	{Correo del alumno para enviar información académica y escolar y para recuperación de clave de acceso.}{Sí}
+	\cdtEntityRelSection
+	\brRel{\brRelComposition}{Domicilio}{Un \hyperlink{Alumno}{Alumno} reside en un \hyperlink{Domicilio}{Domicilio}}	
+	\brRel{\brRelAgregation}{Grupo}{Un \hyperlink{Alumno}{Alumno} toma un \hyperlink{Curso}{Curso}}	
+\end{cdtEntidad}
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+\begin{cdtEntidad}{AlumnoExtranjero}{Alumno Extranjero}%{}
+	\brAttr{numeroResidente}{Numero de residente}{Id}{Número de registro dado por la Secretaría de Relaciones Exteriores a los extranjeros.}{Si}
+	\brAttr{paisOrigen}{Pais origen}{\hyperlink{Pais}{País}}
+	{País de origen del alumno extranjero.}{Sí}
+	\cdtEntityRelSection
+	\brRel{\brRelAgregation}{País}{Un \hyperlink{Alumno}{Alumno} es originario de un \hyperlink{Pais}{Pais}}	
+	\brRel{\brRelGeneralization}{Alumno}{Un \hyperlink{AlumnoExtranjero}{Alumno Extranjero} es un  \hyperlink{Alumno}{Alumno}}	
+\end{cdtEntidad}
 
 %---------------------------------------------------------
 \section{Modelado de Reglas de negocio}
