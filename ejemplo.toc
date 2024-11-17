@@ -13,23 +13,43 @@
 \contentsline {chapter}{\numberline {3}Modelo del Negocio}{7}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Contexto}{7}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Términos del Negocio}{7}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Modelado de Reglas de negocio}{8}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Modelo dinámico}{11}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Descripción de actores}{11}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Alumno}{12}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Personal de seguridad}{12}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Docente aplicador}{13}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}CU1 Iniciar Sesión}{14}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Descripción completa}{14}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Atributos importantes}{14}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Trayectorias del Caso de Uso}{14}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Puntos de extensión}{15}{subsection.4.2.4}%
-\contentsline {chapter}{\numberline {5}Modelo de la interacción}{17}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Modelo de navegación}{17}{section.5.1}%
-\contentsline {section}{\numberline {5.2}IU23 Pantalla de Control de Acceso}{17}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Objetivo}{17}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Diseño}{17}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Salidas}{17}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Entradas}{17}{subsection.5.2.4}%
-\contentsline {subsection}{\numberline {5.2.5}Comandos}{18}{subsection.5.2.5}%
-\contentsline {subsection}{\numberline {5.2.6}Mensajes}{19}{subsection.5.2.6}%
+\contentsline {section}{\numberline {3.3}Modelo del dominio del problema}{8}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Modelo del dominio del problema}{8}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Entidad: ESCOM}{8}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Entidad: Programa\_académico}{10}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Entidad: Persona}{10}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Entidad: Docente}{11}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Entidad: CargoDocente}{11}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Entidad: Cargo}{11}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.8}Entidad: Personal\_Seguridad}{12}{subsection.3.3.8}%
+\contentsline {subsection}{\numberline {3.3.9}Entidad: Alumno}{12}{subsection.3.3.9}%
+\contentsline {subsection}{\numberline {3.3.10}Entidad: Usuario}{13}{subsection.3.3.10}%
+\contentsline {subsection}{\numberline {3.3.11}Entidad: Tipo\_Usuario}{13}{subsection.3.3.11}%
+\contentsline {subsection}{\numberline {3.3.12}Entidad: ETS}{13}{subsection.3.3.12}%
+\contentsline {subsection}{\numberline {3.3.13}Entidad: periodo\_ETS}{14}{subsection.3.3.13}%
+\contentsline {subsection}{\numberline {3.3.14}Entidad: Aplica}{14}{subsection.3.3.14}%
+\contentsline {subsection}{\numberline {3.3.15}Entidad: InscripcionETS}{15}{subsection.3.3.15}%
+\contentsline {subsection}{\numberline {3.3.16}Entidad: SalonETS}{15}{subsection.3.3.16}%
+\contentsline {subsection}{\numberline {3.3.17}Entidad: ETS\_Unidad\_aprendizaje}{15}{subsection.3.3.17}%
+\contentsline {subsection}{\numberline {3.3.18}Entidad: Salon}{16}{subsection.3.3.18}%
+\contentsline {subsection}{\numberline {3.3.19}Entidad: Unidad\_aprendizaje}{16}{subsection.3.3.19}%
+\contentsline {section}{\numberline {3.4}Modelado de Reglas de negocio}{16}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Modelo dinámico}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Descripción de actores}{19}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Alumno}{20}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Personal de seguridad}{20}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Docente aplicador}{21}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}CU1 Iniciar Sesión}{22}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Descripción completa}{22}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Atributos importantes}{22}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Trayectorias del Caso de Uso}{22}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Puntos de extensión}{23}{subsection.4.2.4}%
+\contentsline {chapter}{\numberline {5}Modelo de la interacción}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Modelo de navegación}{25}{section.5.1}%
+\contentsline {section}{\numberline {5.2}IU23 Pantalla de Control de Acceso}{25}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Objetivo}{25}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Diseño}{25}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Salidas}{25}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Entradas}{25}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Comandos}{26}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Mensajes}{27}{subsection.5.2.6}%
