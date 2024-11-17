@@ -1,0 +1,52 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+%--------------------------------------
+\begin{UseCase}{CU-04}{Consultar periodos de ETS asignados al docente}{
+		Este caso de uso permite al docente consultar los periodos de ETS que tiene asignados. 
+	}
+	\UCitem{Versión}{\color{Gray}1.0}
+	\UCitem{Autor}{\color{Gray}De la cruz De la cruz Alejandra}
+	\UCitem{Supervisa}{\color{Gray}Ulises Velez Saldaña}
+	\UCitem{Actor}{\hyperlink{Docente}{Docente}}
+	\UCitem{Propósito}{Permitir al docente consultar los periodos de ETS que le han sido asignados.}
+	\UCitem{Entradas}{Ninguna}
+	\UCitem{Origen}{Pantalla táctil}
+	\UCitem{Salidas}{Lista de periodos de ETS asignados.}
+	\UCitem{Destino}{\IUref{IU04}{Pantalla Periodo de ETS}}
+	\UCitem{Precondiciones}{El docente debe estar autenticado en el sistema.}
+	\UCitem{Postcondiciones}{El docente ha consultado los periodos de ETS asignados.}
+	\UCitem{Errores}{
+			E1:El sistema no puede recuperar la información de los periodos.
+			
+			E2: No hay periodos de ETS asignados al docente. }
+	\UCitem{Tipo}{Se extiende del CU}
+	\UCitem{Observaciones}{Ninguna}
+\end{UseCase}
+%--------------------------------------
+\begin{UCtrayectoria}
+	\UCpaso[\UCactor] Accede a la \IUref{IUE01}{Pantalla Menú del docente} después de haber iniciado sesión.
+	\UCpaso[\UCactor] Presiona el botón \IUbutton{Consultar periodos de ETS}.
+	\UCpaso Verifica que el docente cuente con periodos de ETS. \Trayref{A}.
+	\UCpaso Busca en la base de datos los periodos de ETS asignados al docente.
+	\UCpaso Despliega la lista de periodos de ETS asignados al docente en la \IUref{IU04}{Pantalla Periodo de ETS}.
+\end{UCtrayectoria}
+%--------------------------------------        
+\begin{UCtrayectoriaA}{A}{No hay periodos asignados al docente}
+	\UCpaso Verifica y no encuentra registros de periodos de ETS asignados al docente.
+	\UCpaso Muestra un mensaje: {\bf MSG10-}{``No hay periodos de ETS asignados.''}
+	\UCpaso[\UCactor] Presiona el botón \IUbutton{Regresar} para volver a la pantalla anterior.
+	\UCpaso Fin de la trayectoria alternativa.
+\end{UCtrayectoriaA}
+%--------------------------------------        
+\begin{UCtrayectoriaA}{B}{Error en la conexión con la base de datos}
+	\UCpaso Muestra un mensaje de error: {\bf MSG11-}{``Error al consultar la base de datos. Intente nuevamente más tarde.''}
+	\UCpaso[\UCactor] Presiona el botón \IUbutton{Aceptar} para cerrar el mensaje.
+	\UCpaso[\UCactor] Puede intentar la consulta nuevamente o presionar el botón \IUbutton{Regresar} para volver a la pantalla anterior.
+	\UCpaso Fin de la trayectoria alternativa.
+\end{UCtrayectoriaA}
+%-------------------------------------- TERMINA descripción del caso de uso.

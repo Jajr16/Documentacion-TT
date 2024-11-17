@@ -1,0 +1,58 @@
+\begin{UseCase}{CU-15}{Registrar asistencia}{
+		Este caso de uso permite al personal de seguridad registrar la entrada de los alumnos mediante el escaneo de credenciales y la búsqueda por nombre o boleta.
+	}
+	\UCitem{Versión}{1.0}
+	\UCitem{Autor}{\color{Gray}De la cruz De la cruz Alejandra}
+	\UCitem{Supervisa}{\color{Gray}Ulises Velez Saldaña}
+	\UCitem{Actor}{\hyperlink{PersonalSeguridad}{Personal de Seguridad}}
+	\UCitem{Propósito}{Facilitar el registro de entrada de los alumnos a las instalaciones.}
+	\UCitem{Entradas}{
+		\begin{itemize}
+			\item Nombre del alumno o número de boleta.
+			\item Escaneo de la credencial del alumno.
+		\end{itemize}
+	}
+	\UCitem{Origen}{Teclado y Cámara con lector de códigos QR}
+	\UCitem{Salidas}{Confirmación de entrada registrada.}
+	\UCitem{Destino}{Pantalla del sistema.}
+	\UCitem{Precondiciones}{
+			El sistema debe tener acceso a la base de datos de alumnos.
+			
+			El personal de seguridad debe estar autenticado en el sistema.
+
+	}
+	\UCitem{Postcondiciones}{
+			Se registra la entrada del alumno en el sistema.
+	}
+	\UCitem{Errores}{
+			E1: No se encuentra la información del alumno.
+			E2: Error de conexión con la base de datos.
+
+	}
+	\UCitem{Tipo}{Se entiende del CU}
+	\UCitem{Observaciones}{Ninguno}
+\end{UseCase}
+%--------------------------------------
+\begin{UCtrayectoria}
+	\UCpaso[\UCactor] Presiona el botón \IUbutton{Registrar asistencia} desde la \IUref{IU12}{Pantalla Buscar alumno}.
+	\UCpaso Activa la cámara para el escaneo de la credencial. \IUref{IU10}{Pantalla Código QR}.
+	\UCpaso[\UCactor] Escanea la credencial del alumno.
+	\UCpaso Verifica la información y busca en la base de datos la correspondencia. \Trayref{A} \Trayref{B}
+	\UCpaso Despliega los datos del alumno y solicita confirmación al personal de seguridad para registrar la entrada.
+	\UCpaso[\UCactor] Confirma el registro de entrada.
+	\UCpaso El sistema guarda el registro y muestra un mensaje de confirmación: "Entrada registrada exitosamente."
+\end{UCtrayectoria}
+%--------------------------------------
+\begin{UCtrayectoriaA}{A}{Alumno no registrado o no encontrado}
+	\UCpaso Muestra un mensaje: {\bf MSG-20-}{``Alumno no registrado''}
+	\UCpaso[\UCactor] Puede intentar nuevamente el escaneo.
+	\UCpaso Fin de la trayectoria alternativa.
+\end{UCtrayectoriaA}
+%--------------------------------------
+\begin{UCtrayectoriaA}{B}{Error de conexión con la base de datos}
+
+	\UCpaso Muestra un mensaje de error: {\bf MSG11-}{``Error al consultar la base de datos. Intente nuevamente más tarde.''}
+	\UCpaso[\UCactor] Presiona el botón \IUbutton{Aceptar} para cerrar el mensaje y puede intentar la consulta nuevamente.
+	\UCpaso Fin de la trayectoria alternativa.
+\end{UCtrayectoriaA}
+%-------------------------------------- TERMINA descripción del caso de uso.
