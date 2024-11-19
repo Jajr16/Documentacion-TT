@@ -81,7 +81,7 @@
 %    \FRitem{id}{Nombre}{Descripción}{prioridad}{referencia}
 %    ...
 % \end{requerimientos}
-\newcommand{\FRitem}[5]{\par{#1} & {#2} & {#3} & {#4} & {#5} \\ \hline}%& {#4} \\ \hline}
+\newcommand{\FRitem}[4]{\par{#1} & {#2} & {#3} & {#4} \\ \hline}%& {#4} \\ \hline}
 
 \newenvironment{requerimientos}[1][tblReqColor]
 {%
@@ -111,14 +111,14 @@
 \newenvironment{requerimientosU}[1][tblReqColor]
 {%
 	\arrayrulecolor{tblReqColor}%
-	\par\noindent\begin{longtable}{| p{.03\textwidth} | p{.2\textwidth} | p{.54\textwidth} |p{.03\textwidth} | p{.05\textwidth} |}
+	\par\noindent\begin{longtable}{| p{.05\textwidth} | p{.25\textwidth} | p{.6\textwidth} | p{.1\textwidth} |}
 		\arrayrulecolor{#1}%
 		\hline%
 		\rowcolor{#1}%
-		\multicolumn{5}{|c|}{\bf\color{white}Requerimientos del Usuario}\\%
+		\multicolumn{4}{|c|}{\bf\color{white}Requerimientos del Usuario}\\%
 		\arrayrulecolor{white}%
 		\rowcolor{#1}%
-		\FRitem{\color{white}Id}{\color{white} Nombre}{\color{white} Descripción}{\color{white} Iter.}{\color{white} Stat.}\endhead%
+		\FRitem{\color{white}Id}{\color{white}Nombre}{\color{white}Descripción}{\color{white}Prioridad.}\endhead%
 		\arrayrulecolor{tblReqColor}%
 }{%
 	\end{longtable} %
@@ -129,6 +129,7 @@
 \newcommand{\DONE}{\color{Gray}\bf DONE}
 \newcommand{\TOCHK}{\color{Yellow}\bf TOCHK}
 \newcommand{\ISSUE}{\color{Red}\bf ISSUE}
+
 
 %-----------------------------------------------------
 % Documentación de requerimientos no funcionales
