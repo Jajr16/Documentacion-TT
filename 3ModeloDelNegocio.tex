@@ -102,17 +102,25 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 	\brRel{\brRelAgregation}{Usuario}{Una \hyperlink{Persona}{Persona} cuenta con un \hyperlink{Usuario}{Usuario}}
 \end{cdtEntidad}
 %---------------------------------------------------------
-\begin{cdtEntidad}{Docente}{Docente}
+\begin{cdtEntidad}{PersonalAcademico}{Personal académico}
 	\brAttr{CURP}{CURP}{Id}{Código usado para identificar a las personas.}{Sí}
 	\brAttr{RFC}{RFC}{Id}
-	{RFC que identifica al Docente.}{Sí}
+	{RFC que identifica al personal académico.}{Sí}
 	\brAttr{CorreoI}{CorreoI}{Correo}
-	{Correo institucional del docente.}{Sí}
+	{Correo institucional del personal académico.}{Sí}
+	\brAttr{TipoPA}{TipoPA}{Id}{Número que identifica que tipo de personal académico es, ya sea, por ejemplo, un docente o personal de gestión escolar.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	\cdtEntityRelSection
-	\brRel{\brRelComposition}{CargoDocente}{Un \hyperlink{Docente}{Docente} tiene asignado un \hyperlink{Cargo}{Cargo}}
-	\brRel{\brRelComposition}{ETS}{Un \hyperlink{Docente}{Docente} \hyperlink{Aplica}{Aplica} un \hyperlink{ETS}{ETS}}
-	\brRel{\brRelComposition}{Persona}{Un \hyperlink{Docente}{Docente} es una \hyperlink{Persona}{Persona}}
+	\brRel{\brRelComposition}{CargoDocente}{Un \hyperlink{PersonalAcademico}{personal académico} puede ser un \hyperlink{CargoDocente}{Docente}}
+	\brRel{\brRelComposition}{ETS}{Un \hyperlink{PersonalAcademico}{Docente} \hyperlink{Aplica}{Aplica} un \hyperlink{ETS}{ETS}}
+	\brRel{\brRelComposition}{Persona}{Un \hyperlink{PersonalAcademico}{personal académico} es una \hyperlink{Persona}{Persona}}
+	\brRel{\brRelComposition}{tipoPersonal}{Un \hyperlink{PersonalAcademico}{personal académico} tiene asignado un \hyperlink{Cargo}{Cargo}}
+\end{cdtEntidad}
+%---------------------------------------------------------
+\begin{cdtEntidad}{tipoPA}{tipoPersonal}
+	\brAttr{TipoPA}{TipoPA}{Id}
+	{Número que identifica que tipo de personal académico es la persona.}{Sí}
+	\brAttr{Cargo}{Cargo}{Frase corta}{Nombre del tipo de personal académico que tendrá la persona.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{CargoDocente}{CargoDocente}
@@ -127,7 +135,7 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 	{Nombre del cargo existente dentro de la institución escolar.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	\cdtEntityRelSection
-	\brRel{\brRelComposition}{CargoDocente}{Un \hyperlink{Cargo}{Cargo} es asignado a un \hyperlink{Docente}{Docente}}
+	\brRel{\brRelComposition}{CargoDocente}{Un \hyperlink{Cargo}{Cargo} es asignado a un \hyperlink{PersonalAcademico}{Docente}}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{PS}{Personal\_Seguridad}
@@ -146,7 +154,7 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 	{Código usado para identificar al alumnado de la institución}{Sí}
 	\brAttr{CURP}{CURP}{Id}{Código usado para identificar a las personas.}{Sí}
 	\brAttr{CorreoI}{CorreoI}{Correo}
-	{Correo institucional del docente.}{Sí}
+	{Correo institucional del alumno.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	\cdtEntityRelSection
 	\brRel{\brRelComposition}{Persona}{Un \hyperlink{Alumno}{Alumno} es una \hyperlink{Persona}{Persona}}
@@ -169,7 +177,7 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 %---------------------------------------------------------
 \begin{cdtEntidad}{TU}{Tipo\_Usuario}
 	\brAttr{Id\_TU}{Id\_TU}{Id}
-	{RFC que identifica al Docente.}{Sí}
+	{RFC que identifica al personal académico.}{Sí}
 	\brAttr{Tipo}{Tipo}{Frase corta}{Frase que definirá el tipo de usuario que tienen las personas.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
@@ -187,7 +195,7 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 	\cdtEntityRelSection
 	\brRel{\brRelComposition}{periodo\_ETS}{Un \hyperlink{ETS}{ETS} se realiza un en \hyperlink{PETS}{periodo}}
 	\brRel{\brRelComposition}{Alumno}{En un \hyperlink{ETS}{ETS} está \hyperlink{InscripcionETS}{inscrito} un \hyperlink{Alumno}{Alumno}}
-	\brRel{\brRelComposition}{Docente}{Un \hyperlink{ETS}{ETS} es \hyperlink{Aplica}{aplicado} por un \hyperlink{Docente}{Docente}}
+	\brRel{\brRelComposition}{Personal academico}{Un \hyperlink{ETS}{ETS} es \hyperlink{Aplica}{aplicado} por un \hyperlink{PersonalAcademico}{Docente}}
 	\brRel{\brRelComposition}{Salon}{A un \hyperlink{ETS}{ETS} le \hyperlink{SalonETS}{corresponde} un \hyperlink{Salon}{Salón}}
 	\brRel{\brRelComposition}{Unidad\_Aprendizaje}{Un \hyperlink{ETS}{ETS} \hyperlink{ETSUA}{es de} una \hyperlink{UA}{Unidad de Aprendizaje}.}
 \end{cdtEntidad}
