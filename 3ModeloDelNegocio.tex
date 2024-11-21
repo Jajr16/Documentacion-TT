@@ -57,50 +57,58 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 	\end{center}
 \end{figure}
 %---------------------------------------------------------
-\begin{cdtEntidad}{ESCOM}{ESCOM}
+\begin{cdtEntidad}{Unidad academica}{Unidad academica}
 	\brAttr{Id\_escuela}{Id\_escuela}{Id}{Número de registro usado para identificar a la escuela.}{Sí}
 	\brAttr{nombre}{Nombre}{Palabra}
 	{Nombre de la escuela}{Sí}
-	\brAttr{ubicacion}{Ubicación}{Frase}
-	{Ubicación en la que se encuentra la escuela.}{Sí}
-	\brAttr{telefono}{Teléfono}{Teléfono}
-	{Teléfono para contactar a la escuela.}{Si}
+%	\brAttr{ubicacion}{Ubicación}{Frase}
+%	{Ubicación en la que se encuentra la escuela.}{Sí}
+%	\brAttr{telefono}{Teléfono}{Teléfono}
+%	{Teléfono para contactar a la escuela.}{Si}
 %- - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 	% \brRelComposition \brRelAgregation
-	\cdtEntityRelSection
-	\brRel{}{Programa\_académico}{ \hyperlink{ESCOM}{ESCOM} está compuesto por un \hyperlink{PA}{Programa\_académico}}	
-	\brRel{}{Persona}{Una \hyperlink{Persona}{Persona} pertenece a \hyperlink{ESCOM}{ESCOM}}	
+%	\cdtEntityRelSection
+%	\brRel{}{Programa\_académico}{ \hyperlink{Unidad academica}{Unidad académica} está compuesto por un \hyperlink{PA}{Programa académico}}	
+%	\brRel{}{Persona}{Una \hyperlink{Persona}{Persona} pertenece a \hyperlink{Unidad academica}{Unidad academica}}	
 \end{cdtEntidad}
 %---------------------------------------------------------
-\begin{cdtEntidad}{PA}{Programa\_académico}
+\begin{cdtEntidad}{EscuelaPrograma}{Escuela\_Programa}
+	\brAttr{Id\_Escuela}{Id\_Escuela}{Id}{Número de registro usado para identificar a la escuela.}{Sí}
+	\brAttr{Id\_PA}{Id\_PA}{Id}
+	{Identificación del programa académico que imparte la Unidad académica.}{Sí}
+\end{cdtEntidad}
+%---------------------------------------------------------
+\begin{cdtEntidad}{PA}{Programa\_academico}
 	\brAttr{Id\_PA}{Id\_PA}{Id}{Número de registro usado para identificar al programa académico.}{Sí}
 	\brAttr{nombre}{Nombre}{Palabra}
 	{Nombre del programa académico}{Sí}
 	\brAttr{descripcion}{Descripción}{Frase}
 	{Descripción que habla sobre el programa académico.}{Sí}
-	\brAttr{Id\_escuela}{Id\_escuela}{Id}
-	{Id de la escuela a la que pertenece el programa académico.}{Si}
 %- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	\cdtEntityRelSection
-	\brRel{}{Unidad\_aprendizaje}{Un \hyperlink{PA}{Programa\_academico} está compuesto por una \hyperlink{UA}{Unidad\_aprendizaje}}	
-	\brRel{}{ESCOM}{\hyperlink{ESCOM}{ESCOM} está compuesto por un \hyperlink{PA}{Programa\_académico}}	
+%	\cdtEntityRelSection
+%	\brRel{}{Unidad\_aprendizaje}{Un \hyperlink{PA}{Programa academico} está compuesto por una \hyperlink{UA}{Unidad de aprendizaje}}	
+%	\brRel{}{Unidad academica}{Una \hyperlink{Unidad academica}{Unidad academica} está compuesta por un \hyperlink{PA}{Programa académico}}	
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{Persona}{Persona}
 	\brAttr{CURP}{CURP}{Id}{Código usado para identificar a las personas.}{Sí}
-	\brAttr{nombre}{Nombre}{Frase larga}
-	{Nombre de la persona.}{Sí}
+	\brAttr{nombre}{Nombre}{Frase corta}
+	{Nombre(s) de la persona.}{Sí}
+	\brAttr{ApellidoP}{Apellido\_P}{Frase corta}
+	{Apellido paterno de la persona.}{Sí}
+	\brAttr{ApellidoM}{Apellido\_M}{Frase corta}
+	{Apellido materno de la persona.}{Sí}
 	\brAttr{sexo}{Sexo}{Caracter}
 	{Letra que servirá para identificar el sexo de un alumno ('M' para masculino, 'F' para femenino).}{Sí}
 	\brAttr{Id\_escuela}{Id\_escuela}{Id}
 	{Id de la escuela a la que pertenece la persona.}{Si}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	\cdtEntityRelSection
-	\brRel{}{ESCOM}{Una \hyperlink{Persona}{Persona} pertenece a \hyperlink{ESCOM}{ESCOM}}	
-	\brRel{}{Docente}{Una \hyperlink{Persona}{Persona} es un \hyperlink{Docente}{Docente}}	
-	\brRel{}{Personal\_Seguridad}{Una \hyperlink{Persona}{Persona} es un \hyperlink{PS}{Personal\_Seguridad}}
-	\brRel{}{Alumno}{Una \hyperlink{Persona}{Persona} es un  \hyperlink{Alumno}{Alumno}}
-	\brRel{}{Usuario}{Una \hyperlink{Persona}{Persona} cuenta con un \hyperlink{Usuario}{Usuario}}
+%	\cdtEntityRelSection
+%	\brRel{}{Unidad academica}{Una \hyperlink{Persona}{Persona} pertenece a una \hyperlink{Unidad academica}{Unidad academica}}	
+%	\brRel{}{Docente}{Una \hyperlink{Persona}{Persona} es un \hyperlink{Docente}{Docente}}	
+%	\brRel{}{Personal\_Seguridad}{Una \hyperlink{Persona}{Persona} es un \hyperlink{PS}{Personal de seguridad}}
+%	\brRel{}{Alumno}{Una \hyperlink{Persona}{Persona} es un  \hyperlink{Alumno}{Alumno}}
+%	\brRel{}{Usuario}{Una \hyperlink{Persona}{Persona} cuenta con un \hyperlink{Usuario}{Usuario}}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{PersonalAcademico}{Personal académico}
@@ -111,11 +119,11 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 	{Correo institucional del personal académico.}{Sí}
 	\brAttr{TipoPA}{TipoPA}{Id}{Número que identifica que tipo de personal académico es, ya sea, por ejemplo, un docente o personal de gestión escolar.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	\cdtEntityRelSection
-	\brRel{}{CargoDocente}{Un \hyperlink{PersonalAcademico}{personal académico} puede ser un \hyperlink{CargoDocente}{Docente}}
-	\brRel{}{ETS}{Un \hyperlink{PersonalAcademico}{Docente} \hyperlink{Aplica}{Aplica} un \hyperlink{ETS}{ETS}}
-	\brRel{}{Persona}{Un \hyperlink{PersonalAcademico}{personal académico} es una \hyperlink{Persona}{Persona}}
-	\brRel{}{tipoPersonal}{Un \hyperlink{PersonalAcademico}{personal académico} tiene asignado un \hyperlink{Cargo}{Cargo}}
+%	\cdtEntityRelSection
+%	\brRel{}{CargoDocente}{Un \hyperlink{PersonalAcademico}{personal académico} puede ser un \hyperlink{CargoDocente}{Docente}}
+%	\brRel{}{ETS}{Un \hyperlink{PersonalAcademico}{Docente} \hyperlink{Aplica}{Aplica} un \hyperlink{ETS}{ETS}}
+%	\brRel{}{Persona}{Un \hyperlink{PersonalAcademico}{personal académico} es una \hyperlink{Persona}{Persona}}
+%	\brRel{}{tipoPersonal}{Un \hyperlink{PersonalAcademico}{personal académico} tiene asignado un \hyperlink{Cargo}{Cargo}}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{tipoPA}{tipoPersonal}
@@ -135,8 +143,8 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 	\brAttr{Cargo}{Cargo}{Frase corta}
 	{Nombre del cargo existente dentro de la institución escolar.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	\cdtEntityRelSection
-	\brRel{}{CargoDocente}{Un \hyperlink{Cargo}{Cargo} es asignado a un \hyperlink{PersonalAcademico}{Docente}}
+%	\cdtEntityRelSection
+%	\brRel{}{CargoDocente}{Un \hyperlink{Cargo}{Cargo} es asignado a un \hyperlink{PersonalAcademico}{Docente}}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{PS}{Personal\_Seguridad}
@@ -147,7 +155,15 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 	{Nombre del cargo del personal de seguridad.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	\cdtEntityRelSection
-	\brRel{}{Persona}{Un \hyperlink{PS}{Personal\_Seguridad} es una \hyperlink{Persona}{Persona}}
+	\brRel{}{Persona}{Un \hyperlink{PS}{Personal de seguridad} es una \hyperlink{Persona}{Persona}}
+\end{cdtEntidad}
+%---------------------------------------------------------
+\begin{cdtEntidad}{CargoPS}{CargoPS}
+	\brAttr{Id\_Cargo}{Id\_Cargo}{Id}{Código usado para identificar el cargo que tiene el personal de seguridad.}{Sí}
+	\brAttr{Nombre}{Nombre}{Frase corta}
+	{Nombre del cargo del personal de seguridad.}{Sí}
+	\brAttr{Cargo}{Cargo}{Frase corta}
+	{Nombre del cargo del personal de seguridad.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{Alumno}{Alumno}
@@ -156,10 +172,12 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 	\brAttr{CURP}{CURP}{Id}{Código usado para identificar a las personas.}{Sí}
 	\brAttr{CorreoI}{CorreoI}{Correo}
 	{Correo institucional del alumno.}{Sí}
+	\brAttr{Id\_PA}{Id\_PA}{Id}
+	{Identificación del programa académico al que pertenece el alumno.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	\cdtEntityRelSection
-	\brRel{}{Persona}{Un \hyperlink{Alumno}{Alumno} es una \hyperlink{Persona}{Persona}}
-	\brRel{}{ETS}{Un \hyperlink{Alumno}{Alumno} tiene una \hyperlink{InscripcionETS}{inscripción} a un \hyperlink{ETS}{ETS}}
+%	\cdtEntityRelSection
+%	\brRel{}{Persona}{Un \hyperlink{Alumno}{Alumno} es una \hyperlink{Persona}{Persona}}
+%	\brRel{}{ETS}{Un \hyperlink{Alumno}{Alumno} tiene una \hyperlink{InscripcionETS}{inscripción} a un \hyperlink{ETS}{ETS}}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{Usuario}{Usuario}
@@ -171,9 +189,9 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 	\brAttr{CURP}{CURP}{Id}
 	{Código usado para identificar a las personas.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	\cdtEntityRelSection
-	\brRel{}{Persona}{Un \hyperlink{Usuario}{Usuario} es asignado a una \hyperlink{Persona}{Persona}}
-	\brRel{}{Tipo\_Usuario}{Un \hyperlink{Usuario}{Usuario} tiene un \hyperlink{TU}{Tipo\_Usuario}}
+%	\cdtEntityRelSection
+%	\brRel{}{Persona}{Un \hyperlink{Usuario}{Usuario} es asignado a una \hyperlink{Persona}{Persona}}
+%	\brRel{}{Tipo\_Usuario}{Un \hyperlink{Usuario}{Usuario} tiene un \hyperlink{TU}{Tipo de usuario}}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{TU}{Tipo\_Usuario}
@@ -192,13 +210,17 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 	{Fecha y hora en la que se realizará el ETS.}{Sí}
 	\brAttr{Cupo}{Cupo}{Número}
 	{Número de personas permitidas a realizar el ETS.}{Sí}
+	\brAttr{Id\_UA}{Id\_UA}{Número}
+	{Identificación de la Unidad de aprendizaje del ETS.}{Sí}
+	\brAttr{Duracion}{Duracion}{Número}
+	{Duración en horas del ETS.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	\cdtEntityRelSection
-	\brRel{}{periodo\_ETS}{Un \hyperlink{ETS}{ETS} se realiza un en \hyperlink{PETS}{periodo}}
-	\brRel{}{Alumno}{En un \hyperlink{ETS}{ETS} está \hyperlink{InscripcionETS}{inscrito} un \hyperlink{Alumno}{Alumno}}
-	\brRel{}{Personal academico}{Un \hyperlink{ETS}{ETS} es \hyperlink{Aplica}{aplicado} por un \hyperlink{PersonalAcademico}{Docente}}
-	\brRel{}{Salon}{A un \hyperlink{ETS}{ETS} le \hyperlink{SalonETS}{corresponde} un \hyperlink{Salon}{Salón}}
-	\brRel{}{Unidad\_Aprendizaje}{Un \hyperlink{ETS}{ETS} \hyperlink{ETSUA}{es de} una \hyperlink{UA}{Unidad de Aprendizaje}.}
+%	\cdtEntityRelSection
+%	\brRel{}{periodo\_ETS}{Un \hyperlink{ETS}{ETS} se realiza un en \hyperlink{PETS}{periodo}}
+%	\brRel{}{Alumno}{En un \hyperlink{ETS}{ETS} está \hyperlink{InscripcionETS}{inscrito} un \hyperlink{Alumno}{Alumno}}
+%	\brRel{}{Personal academico}{Un \hyperlink{ETS}{ETS} es \hyperlink{Aplica}{aplicado} por un \hyperlink{PersonalAcademico}{Docente}}
+%	\brRel{}{Salon}{A un \hyperlink{ETS}{ETS} le \hyperlink{SalonETS}{corresponde} un \hyperlink{Salon}{Salón}}
+%	\brRel{}{Unidad\_Aprendizaje}{Un \hyperlink{ETS}{ETS} \hyperlink{ETSUA}{es de} una \hyperlink{UA}{Unidad de Aprendizaje}.}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{PETS}{periodo\_ETS}
@@ -212,8 +234,8 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 	\brAttr{Fecha\_Fin}{Fecha\_Fin}{Fecha}
 	{Fecha en la que terminará el periodo de los ETS.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	\cdtEntityRelSection
-	\brRel{}{ETS}{En un \hyperlink{PETS}{periodo de ETS} se realizan los \hyperlink{ETS}{ETS}.}
+%	\cdtEntityRelSection
+%	\brRel{}{ETS}{En un \hyperlink{PETS}{periodo de ETS} se realizan los \hyperlink{ETS}{ETS}.}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{Aplica}{Aplica}
@@ -236,12 +258,6 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 	\brAttr{Id\_ETS}{Id\_ETS}{Id}{Número usado para identificar los diferentes ETS registrados.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
-\begin{cdtEntidad}{ETSUA}{ETS\_Unidad\_aprendizaje}
-	\brAttr{Id\_ETS}{Id\_ETS}{Id}{Número usado para identificar los diferentes ETS registrados.}{Sí}
-	\brAttr{Id\_UA}{Id\_UA}{Id}
-	{Conjunto de caracteres usados para identificar a una unidad de aprendizaje.}{Sí}
-\end{cdtEntidad}
-%---------------------------------------------------------
 \begin{cdtEntidad}{Salon}{Salon}
 	\brAttr{Num\_Salon}{Num\_Salon}{Id}
 	{Número usado para identificar el salón en el que se aplicará un ETS.}{Sí}
@@ -249,17 +265,31 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 	{Número usado para identificar el edificio en el que se realizará el ETS.}{Sí}
 	\brAttr{Piso}{Piso}{Número}
 	{Número usado para identificar el piso del edificio en el que se realizará el ETS.}{Sí}
+	\brAttr{TipoSalon}{TipoSalon}{Id}
+	{Identificación del tipo de salón en el que se va a aplicar el ETS.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	\cdtEntityRelSection
-	\brRel{}{ETS}{Un \hyperlink{Salon}{Salon} es \hyperlink{SalonETS}{ocupado} para llevar a cabo un \hyperlink{ETS}{ETS}.}
+%	\cdtEntityRelSection
+%	\brRel{}{ETS}{Un \hyperlink{Salon}{Salon} es \hyperlink{SalonETS}{ocupado} para llevar a cabo un \hyperlink{ETS}{ETS}.}
+\end{cdtEntidad}
+%---------------------------------------------------------
+\begin{cdtEntidad}{TipoSalon}{TipoSalon}
+	\brAttr{Num\_Salon}{Num\_Salon}{Id}
+	{Número usado para identificar el salón en el que se aplicará un ETS.}{Sí}
+	\brAttr{Tipo}{Tipo}{Frase corta}
+	{Frase indicando el tipo de salón en el que se aplicará el ETS.}{Sí}
+	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	%	\cdtEntityRelSection
+	%	\brRel{}{ETS}{Un \hyperlink{Salon}{Salon} es \hyperlink{SalonETS}{ocupado} para llevar a cabo un \hyperlink{ETS}{ETS}.}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{UA}{Unidad\_aprendizaje}
-	\brAttr{Num\_Salon}{Num\_Salon}{Id}
-	{Número usado para identificar el salón en el que se aplicará un ETS.}{Sí}
-	\brAttr{Edificio}{Edificio}{Número}
+	\brAttr{Id\_UA}{Id\_UA}{Id}
+	{Identificación de la Unidad de Aprendizaje.}{Sí}
+	\brAttr{Nombre}{Nombre}{Número}
 	{Número usado para identificar el edificio en el que se realizará el ETS.}{Sí}
-	\brAttr{Piso}{Piso}{Número}
+	\brAttr{Descripcion}{Descripcion}{Número}
+	{Número usado para identificar el piso del edificio en el que se realizará el ETS.}{Sí}
+	\brAttr{Id\_PA}{Id\_PA}{Id}
 	{Número usado para identificar el piso del edificio en el que se realizará el ETS.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	\cdtEntityRelSection

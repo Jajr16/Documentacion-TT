@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {3.2}Términos del Negocio}{7}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Modelo del dominio del problema}{8}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Modelo del dominio del problema}{8}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Entidad: ESCOM}{8}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.2}Entidad: Unidad academica}{8}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Entidad: Programa\_académico}{10}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Entidad: Persona}{10}{subsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.3.5}Entidad: Personal académico}{10}{subsection.3.3.5}%

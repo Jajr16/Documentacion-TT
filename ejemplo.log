@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.16)  18 NOV 2024 18:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.16)  19 NOV 2024 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -818,7 +818,7 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
 File: utxsyc.fd 2000/12/15 v3.1
 )
 
-<theme/bannerAzul.png, id=222, 711.1368pt x 336.7782pt>
+<theme/bannerAzul.png, id=226, 711.1368pt x 336.7782pt>
 File: theme/bannerAzul.png Graphic file (type png)
 <use theme/bannerAzul.png>
 Package pdftex.def Info: theme/bannerAzul.png  used on input line 18.
@@ -852,7 +852,7 @@ LaTeX Font Info:    Font shape `OT1/txss/m/sc' will be
 
 
 
-<theme/headerPar.png, id=296, 1204.5pt x 200.75pt>
+<theme/headerPar.png, id=301, 1204.5pt x 200.75pt>
 File: theme/headerPar.png Graphic file (type png)
 <use theme/headerPar.png>
 Package pdftex.def Info: theme/headerPar.png  used on input line 23.
@@ -921,7 +921,7 @@ LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
 (Font)              scaled to size 9.49997pt on input line 34.
 )
 
-<theme/headerInp.png, id=341, 1204.5pt x 200.75pt>
+<theme/headerInp.png, id=346, 1204.5pt x 200.75pt>
 File: theme/headerInp.png Graphic file (type png)
 <use theme/headerInp.png>
 Package pdftex.def Info: theme/headerInp.png  used on input line 26.
@@ -956,7 +956,7 @@ been already used, duplicate ignored
                    \relax 
 l.43 \end{description}
                       
-<theme/plecaAyD.png, id=355, 1085.0136pt x 155.6214pt>
+<theme/plecaAyD.png, id=360, 1085.0136pt x 155.6214pt>
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 43.
@@ -993,12 +993,12 @@ Package pdftex.def Info: theme/plecaAyD.png  used on input line 34.
 Cap\'{\i }tulo 2.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 14.
-<images/organigramaEm.png, id=364, 525.6438pt x 250.536pt>
+<images/organigramaEm.png, id=369, 525.6438pt x 250.536pt>
 File: images/organigramaEm.png Graphic file (type png)
 <use images/organigramaEm.png>
 Package pdftex.def Info: images/organigramaEm.png  used on input line 20.
 (pdftex.def)             Requested size: 400.38872pt x 190.84131pt.
-<theme/uc/actorRule.png, id=365, 1401.0744pt x 130.086pt>
+<theme/uc/actorRule.png, id=370, 1401.0744pt x 130.086pt>
 File: theme/uc/actorRule.png Graphic file (type png)
 <use theme/uc/actorRule.png>
 Package pdftex.def Info: theme/uc/actorRule.png  used on input line 31.
@@ -1069,7 +1069,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--111
 
  []
 
-<images/arquitectura.png, id=374, 699.5736pt x 609.9588pt>
+<images/arquitectura.png, id=379, 699.5736pt x 609.9588pt>
 File: images/arquitectura.png Graphic file (type png)
 <use images/arquitectura.png>
 Package pdftex.def Info: images/arquitectura.png  used on input line 115.
@@ -1128,16 +1128,16 @@ File: theme/plecaAyD.png Graphic file (type png)
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 33.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
 [7]
-<images/DER.png, id=407, 646.66594pt x 498.36188pt>
+<images/DER.png, id=412, 819.06pt x 566.86781pt>
 File: images/DER.png Graphic file (type png)
 <use images/DER.png>
 Package pdftex.def Info: images/DER.png  used on input line 54.
-(pdftex.def)             Requested size: 646.66435pt x 498.36066pt.
+(pdftex.def)             Requested size: 819.058pt x 566.86642pt.
 
 
-LaTeX Warning: Float too large for page by 55.753pt on input line 58.
+LaTeX Warning: Float too large for page by 125.79517pt on input line 58.
 
-<theme/uc/classRule.png, id=408, 1930.5726pt x 130.086pt>
+<theme/uc/classRule.png, id=413, 1930.5726pt x 130.086pt>
 File: theme/uc/classRule.png Graphic file (type png)
 <use theme/uc/classRule.png>
 Package pdftex.def Info: theme/uc/classRule.png  used on input line 60.
@@ -1169,6 +1169,11 @@ Overfull \hbox (8.14804pt too wide) in alignment at lines 75--75
 
 Overfull \hbox (12.81448pt too wide) in paragraph at lines 85--85
 []|\OT1/txss/b/n/10 Unidad[]aprendizaje| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[]|\OT1/txss/b/n/10 Unidad aca-de-
  []
 
 
@@ -1204,6 +1209,11 @@ Package pdftex.def Info: theme/uc/classRule.png  used on input line 89.
 
 Overfull \hbox (3.92613pt too wide) in paragraph at lines 89--89
 []|\OT1/txss/m/n/10 Requerido| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\OT1/txss/b/n/10 Unidad aca-de-
  []
 
 
@@ -1458,7 +1468,7 @@ Package pdftex.def Info: theme/plecaAyD.png  used on input line 40.
 
  (4ModeloDinamico.tex
 Cap\'{\i }tulo 4.
-<images/casosDeUso.png, id=641, 726.5544pt x 370.0224pt>
+<images/casosDeUso.png, id=645, 726.5544pt x 370.0224pt>
 File: images/casosDeUso.png Graphic file (type png)
 <use images/casosDeUso.png>
 Package pdftex.def Info: images/casosDeUso.png  used on input line 9.
@@ -1528,7 +1538,7 @@ File: theme/plecaAyD.png Graphic file (type png)
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 15.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
 [21]
-<theme/uc/default.png, id=656, 926.46124pt x 57.21375pt>
+<theme/uc/default.png, id=660, 926.46124pt x 57.21375pt>
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 15.
@@ -1543,12 +1553,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--34
 
  []
 
-<theme/uc/actor.png, id=658, 96.36pt x 74.2775pt>
+<theme/uc/actor.png, id=662, 96.36pt x 74.2775pt>
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 35.
 (pdftex.def)             Requested size: 14.26958pt x 11.0pt.
-<theme/uc/iu.png, id=659, 61.22874pt x 55.20625pt>
+<theme/uc/iu.png, id=663, 61.22874pt x 55.20625pt>
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 35.
@@ -1557,7 +1567,7 @@ File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 36.
 (pdftex.def)             Requested size: 14.26958pt x 11.0pt.
-<theme/uc/usecase.png, id=661, 91.34125pt x 61.22874pt>
+<theme/uc/usecase.png, id=665, 91.34125pt x 61.22874pt>
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 37.
@@ -1632,7 +1642,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-<images/mapa.jpg, id=696, 640.3925pt x 480.79625pt>
+<images/mapa.jpg, id=700, 640.3925pt x 480.79625pt>
 File: images/mapa.jpg Graphic file (type jpg)
 <use images/mapa.jpg>
 Package pdftex.def Info: images/mapa.jpg  used on input line 13.
@@ -1642,7 +1652,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/Login.png, id=699, 354.32375pt x 252.945pt>
+<images/Login.png, id=703, 354.32375pt x 252.945pt>
 File: images/Login.png Graphic file (type png)
 <use images/Login.png>
 Package pdftex.def Info: images/Login.png  used on input line 10.
@@ -1705,14 +1715,14 @@ Package rerunfilecheck Warning: File `ejemplo.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `ejemplo.out':
-(rerunfilecheck)             Before: FF0F6109DFFEDAD4CA58582F2EE5567A;8714
-(rerunfilecheck)             After:  ABF0CDD0491A5EC21B704918E40DADD9;8885.
+(rerunfilecheck)             Before: ABF0CDD0491A5EC21B704918E40DADD9;8885
+(rerunfilecheck)             After:  11DD5D7E630524EBB9095EF1D6E55971;8943.
  ) 
 Here is how much of TeX's memory you used:
- 16215 strings out of 473682
- 262047 string characters out of 5716799
- 687550 words of memory out of 5000000
- 38710 multiletter control sequences out of 15000+600000
+ 16216 strings out of 473682
+ 262136 string characters out of 5716799
+ 687618 words of memory out of 5000000
+ 38711 multiletter control sequences out of 15000+600000
  616100 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,15n,107p,437b,779s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1763,9 +1773,9 @@ c/uhvr8a.pfb><C:/Users/Alfredo JR/AppData/Local/Programs/MiKTeX/fonts/type1/urw
 /helvetic/uhvr8a.pfb><C:/Users/Alfredo JR/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Users/Alfredo JR/AppData/Local/Programs/MiKTeX/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on ejemplo.pdf (37 pages, 1147656 bytes).
+Output written on ejemplo.pdf (37 pages, 1183394 bytes).
 PDF statistics:
- 827 PDF objects out of 1000 (max. 8388607)
+ 831 PDF objects out of 1000 (max. 8388607)
  237 named destinations out of 1000 (max. 500000)
- 528 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 536 words of extra memory for PDF output out of 10000 (max. 10000000)
 
