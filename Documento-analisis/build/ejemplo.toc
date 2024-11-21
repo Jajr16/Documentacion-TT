@@ -1,0 +1,429 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Presentación}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Organización del contenido}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Notación, símbolos y convenciones utilizadas}{1}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Modelo del Alcance}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Requerimientos de usuario}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Especificación de plataforma}{4}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Modelo del Negocio}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Contexto}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Términos del Negocio}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Modelo del dominio del problema}{8}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Modelo del dominio del problema}{8}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Entidad: Alumno}{8}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Entidad: Alumno Extranjero}{8}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Modelado de Reglas de negocio}{10}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Modelo dinámico}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Notación}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Descripción de actores}{25}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Alumno}{25}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Personal de seguridad}{25}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Docente}{25}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Personal de gestión escolar}{26}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Personal de la DAE}{26}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Presidente de academia}{26}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Jefe de departamento}{27}{subsection.4.2.7}%
+\contentsline {section}{\numberline {4.3}CU-01 Iniciar sesión del sistema móvil}{29}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Descripción completa}{29}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Atributos importantes}{29}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Trayectorias del Caso de Uso}{30}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}CU-02 Consultar calendario escolar}{31}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Descripción completa}{31}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Atributos importantes}{31}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Trayectorias del Caso de Uso}{31}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}CU-03 Consultar notificaciones}{33}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Descripción completa}{33}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Atributos importantes}{33}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Trayectorias del Caso de Uso}{33}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}CU-04 Consultar periodos de ETS asignados al docente}{35}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Descripción completa}{35}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Atributos importantes}{35}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Trayectorias del Caso de Uso}{35}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}CU-05 Consultar ETS asignados}{37}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Descripción completa}{37}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Atributos importantes}{37}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Trayectorias del Caso de Uso}{37}{subsection.4.7.3}%
+\contentsline {section}{\numberline {4.8}CU-06 Mostrar información de los ETS asignados}{39}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Descripción completa}{39}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Atributos importantes}{39}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}Trayectorias del Caso de Uso}{39}{subsection.4.8.3}%
+\contentsline {section}{\numberline {4.9}CU-08 Consultar lista de alumnos inscritos a un ETS}{41}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Descripción completa}{41}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Atributos importantes}{41}{subsection.4.9.2}%
+\contentsline {subsection}{\numberline {4.9.3}Trayectorias del Caso de Uso}{41}{subsection.4.9.3}%
+\contentsline {section}{\numberline {4.10}CU-10 Consultar lista de asistencia de alumnos inscritos a los ETS}{43}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Descripción completa}{43}{subsection.4.10.1}%
+\contentsline {subsection}{\numberline {4.10.2}Atributos importantes}{43}{subsection.4.10.2}%
+\contentsline {subsection}{\numberline {4.10.3}Trayectorias del Caso de Uso}{43}{subsection.4.10.3}%
+\contentsline {section}{\numberline {4.11}CU-09 Tomar asistencias a los ETS}{45}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Descripción completa}{45}{subsection.4.11.1}%
+\contentsline {subsection}{\numberline {4.11.2}Atributos importantes}{45}{subsection.4.11.2}%
+\contentsline {subsection}{\numberline {4.11.3}Trayectorias del Caso de Uso}{45}{subsection.4.11.3}%
+\contentsline {section}{\numberline {4.12}CU-11 Mostrar la foto e información del alumno}{48}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Descripción completa}{48}{subsection.4.12.1}%
+\contentsline {subsection}{\numberline {4.12.2}Atributos importantes}{48}{subsection.4.12.2}%
+\contentsline {subsection}{\numberline {4.12.3}Trayectorias del Caso de Uso}{48}{subsection.4.12.3}%
+\contentsline {section}{\numberline {4.13}CU-12 Consultar alumno mediante código QR de la credencial}{49}{section.4.13}%
+\contentsline {subsection}{\numberline {4.13.1}Descripción completa}{49}{subsection.4.13.1}%
+\contentsline {subsection}{\numberline {4.13.2}Atributos importantes}{49}{subsection.4.13.2}%
+\contentsline {subsection}{\numberline {4.13.3}Trayectorias del Caso de Uso}{49}{subsection.4.13.3}%
+\contentsline {section}{\numberline {4.14}CU-13 Buscar alumno por boleta}{51}{section.4.14}%
+\contentsline {subsection}{\numberline {4.14.1}Descripción completa}{51}{subsection.4.14.1}%
+\contentsline {subsection}{\numberline {4.14.2}Atributos importantes}{51}{subsection.4.14.2}%
+\contentsline {subsection}{\numberline {4.14.3}Trayectorias del Caso de Uso}{51}{subsection.4.14.3}%
+\contentsline {section}{\numberline {4.15}CU-14 Buscar alumno por nombre}{53}{section.4.15}%
+\contentsline {subsection}{\numberline {4.15.1}Descripción completa}{53}{subsection.4.15.1}%
+\contentsline {subsection}{\numberline {4.15.2}Atributos importantes}{53}{subsection.4.15.2}%
+\contentsline {subsection}{\numberline {4.15.3}Trayectorias del Caso de Uso}{53}{subsection.4.15.3}%
+\contentsline {section}{\numberline {4.16}CU-15 Registrar asistencia}{55}{section.4.16}%
+\contentsline {subsection}{\numberline {4.16.1}Descripción completa}{55}{subsection.4.16.1}%
+\contentsline {subsection}{\numberline {4.16.2}Atributos importantes}{55}{subsection.4.16.2}%
+\contentsline {subsection}{\numberline {4.16.3}Trayectorias del Caso de Uso}{55}{subsection.4.16.3}%
+\contentsline {section}{\numberline {4.17}CU-16 Consultar periodos de ETS inscritos del alumno}{58}{section.4.17}%
+\contentsline {subsection}{\numberline {4.17.1}Descripción completa}{58}{subsection.4.17.1}%
+\contentsline {subsection}{\numberline {4.17.2}Atributos importantes}{58}{subsection.4.17.2}%
+\contentsline {subsection}{\numberline {4.17.3}Trayectorias del Caso de Uso}{58}{subsection.4.17.3}%
+\contentsline {section}{\numberline {4.18}CU-17 Consultar ETS inscritos}{60}{section.4.18}%
+\contentsline {subsection}{\numberline {4.18.1}Descripción completa}{60}{subsection.4.18.1}%
+\contentsline {subsection}{\numberline {4.18.2}Atributos importantes}{60}{subsection.4.18.2}%
+\contentsline {subsection}{\numberline {4.18.3}Trayectorias del Caso de Uso}{60}{subsection.4.18.3}%
+\contentsline {section}{\numberline {4.19}CU-18 Mostrar información de los ETS inscritos}{62}{section.4.19}%
+\contentsline {subsection}{\numberline {4.19.1}Descripción completa}{62}{subsection.4.19.1}%
+\contentsline {subsection}{\numberline {4.19.2}Atributos importantes}{62}{subsection.4.19.2}%
+\contentsline {subsection}{\numberline {4.19.3}Trayectorias del Caso de Uso}{62}{subsection.4.19.3}%
+\contentsline {section}{\numberline {4.20}CU-19 Probar reconocimiento facial}{64}{section.4.20}%
+\contentsline {subsection}{\numberline {4.20.1}Descripción completa}{64}{subsection.4.20.1}%
+\contentsline {subsection}{\numberline {4.20.2}Atributos importantes}{64}{subsection.4.20.2}%
+\contentsline {subsection}{\numberline {4.20.3}Trayectorias del Caso de Uso}{64}{subsection.4.20.3}%
+\contentsline {section}{\numberline {4.21}CU-20 Revisar información de acceso a los ETS}{66}{section.4.21}%
+\contentsline {subsection}{\numberline {4.21.1}Descripción completa}{66}{subsection.4.21.1}%
+\contentsline {subsection}{\numberline {4.21.2}Atributos importantes}{66}{subsection.4.21.2}%
+\contentsline {subsection}{\numberline {4.21.3}Trayectorias del Caso de Uso}{66}{subsection.4.21.3}%
+\contentsline {section}{\numberline {4.22}CU-21 Dar de alta un alumno}{68}{section.4.22}%
+\contentsline {subsection}{\numberline {4.22.1}Descripción completa}{68}{subsection.4.22.1}%
+\contentsline {subsection}{\numberline {4.22.2}Atributos importantes}{68}{subsection.4.22.2}%
+\contentsline {subsection}{\numberline {4.22.3}Trayectorias del Caso de Uso}{68}{subsection.4.22.3}%
+\contentsline {section}{\numberline {4.23}CU-22 Crear credencial}{70}{section.4.23}%
+\contentsline {subsection}{\numberline {4.23.1}Descripción completa}{70}{subsection.4.23.1}%
+\contentsline {subsection}{\numberline {4.23.2}Atributos importantes}{70}{subsection.4.23.2}%
+\contentsline {subsection}{\numberline {4.23.3}Trayectorias del Caso de Uso}{70}{subsection.4.23.3}%
+\contentsline {section}{\numberline {4.24}CU-23 Capturar fotografía estudiantil}{72}{section.4.24}%
+\contentsline {subsection}{\numberline {4.24.1}Descripción completa}{72}{subsection.4.24.1}%
+\contentsline {subsection}{\numberline {4.24.2}Atributos importantes}{72}{subsection.4.24.2}%
+\contentsline {subsection}{\numberline {4.24.3}Trayectorias del Caso de Uso}{72}{subsection.4.24.3}%
+\contentsline {section}{\numberline {4.25}CU-24 Consultar lista de periodo de ETS }{74}{section.4.25}%
+\contentsline {subsection}{\numberline {4.25.1}Descripción completa}{74}{subsection.4.25.1}%
+\contentsline {subsection}{\numberline {4.25.2}Atributos importantes}{74}{subsection.4.25.2}%
+\contentsline {subsection}{\numberline {4.25.3}Trayectorias del Caso de Uso}{74}{subsection.4.25.3}%
+\contentsline {section}{\numberline {4.26}CU-25 Dar de alta de periodo de ETS}{76}{section.4.26}%
+\contentsline {subsection}{\numberline {4.26.1}Descripción completa}{76}{subsection.4.26.1}%
+\contentsline {subsection}{\numberline {4.26.2}Atributos importantes}{76}{subsection.4.26.2}%
+\contentsline {subsection}{\numberline {4.26.3}Trayectorias del Caso de Uso}{76}{subsection.4.26.3}%
+\contentsline {section}{\numberline {4.27}CU-28 Consultar lista de ETS}{78}{section.4.27}%
+\contentsline {subsection}{\numberline {4.27.1}Descripción completa}{78}{subsection.4.27.1}%
+\contentsline {subsection}{\numberline {4.27.2}Atributos importantes}{78}{subsection.4.27.2}%
+\contentsline {subsection}{\numberline {4.27.3}Trayectorias del Caso de Uso}{78}{subsection.4.27.3}%
+\contentsline {section}{\numberline {4.28}CU-29 Dar de alta ETS }{80}{section.4.28}%
+\contentsline {subsection}{\numberline {4.28.1}Descripción completa}{80}{subsection.4.28.1}%
+\contentsline {subsection}{\numberline {4.28.2}Atributos importantes}{80}{subsection.4.28.2}%
+\contentsline {subsection}{\numberline {4.28.3}Trayectorias del Caso de Uso}{80}{subsection.4.28.3}%
+\contentsline {section}{\numberline {4.29}CU-32 Consultar lista de personal de seguridad}{82}{section.4.29}%
+\contentsline {subsection}{\numberline {4.29.1}Descripción completa}{82}{subsection.4.29.1}%
+\contentsline {subsection}{\numberline {4.29.2}Atributos importantes}{82}{subsection.4.29.2}%
+\contentsline {subsection}{\numberline {4.29.3}Trayectorias del Caso de Uso}{82}{subsection.4.29.3}%
+\contentsline {section}{\numberline {4.30}CU-33 Dar de alta personal de seguridad}{84}{section.4.30}%
+\contentsline {subsection}{\numberline {4.30.1}Descripción completa}{84}{subsection.4.30.1}%
+\contentsline {subsection}{\numberline {4.30.2}Atributos importantes}{84}{subsection.4.30.2}%
+\contentsline {subsection}{\numberline {4.30.3}Trayectorias del Caso de Uso}{84}{subsection.4.30.3}%
+\contentsline {section}{\numberline {4.31}CU-36 Consultar lista de docentes }{86}{section.4.31}%
+\contentsline {subsection}{\numberline {4.31.1}Descripción completa}{86}{subsection.4.31.1}%
+\contentsline {subsection}{\numberline {4.31.2}Atributos importantes}{86}{subsection.4.31.2}%
+\contentsline {subsection}{\numberline {4.31.3}Trayectorias del Caso de Uso}{86}{subsection.4.31.3}%
+\contentsline {section}{\numberline {4.32}CU-37 Dar de alta docente}{88}{section.4.32}%
+\contentsline {subsection}{\numberline {4.32.1}Descripción completa}{88}{subsection.4.32.1}%
+\contentsline {subsection}{\numberline {4.32.2}Atributos importantes}{88}{subsection.4.32.2}%
+\contentsline {subsection}{\numberline {4.32.3}Trayectorias del Caso de Uso}{88}{subsection.4.32.3}%
+\contentsline {section}{\numberline {4.33}CU-40 Solicitar desbloqueo de cuenta}{90}{section.4.33}%
+\contentsline {subsection}{\numberline {4.33.1}Descripción completa}{90}{subsection.4.33.1}%
+\contentsline {subsection}{\numberline {4.33.2}Atributos importantes}{90}{subsection.4.33.2}%
+\contentsline {subsection}{\numberline {4.33.3}Trayectorias del Caso de Uso}{90}{subsection.4.33.3}%
+\contentsline {section}{\numberline {4.34}CU-41 Iniciar sesión de personal escolar web}{92}{section.4.34}%
+\contentsline {subsection}{\numberline {4.34.1}Descripción completa}{92}{subsection.4.34.1}%
+\contentsline {subsection}{\numberline {4.34.2}Atributos importantes}{92}{subsection.4.34.2}%
+\contentsline {subsection}{\numberline {4.34.3}Trayectorias del Caso de Uso}{93}{subsection.4.34.3}%
+\contentsline {chapter}{\numberline {5}Modelo de la interacción}{95}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Modelo de navegación}{95}{section.5.1}%
+\contentsline {section}{\numberline {5.2}IU01}{95}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Objetivo}{95}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Diseño}{95}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Salidas}{95}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Entradas}{96}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Comandos}{96}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Mensajes}{97}{subsection.5.2.6}%
+\contentsline {section}{\numberline {5.3}IU02}{98}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Objetivo}{98}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Diseño}{98}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Salidas}{99}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Entradas}{99}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Comandos}{99}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Mensajes}{99}{subsection.5.3.6}%
+\contentsline {section}{\numberline {5.4}IU03}{100}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Objetivo}{100}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Diseño}{100}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Salidas}{101}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Entradas}{101}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Comandos}{101}{subsection.5.4.5}%
+\contentsline {subsection}{\numberline {5.4.6}Mensajes}{101}{subsection.5.4.6}%
+\contentsline {section}{\numberline {5.5}IU04}{102}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Objetivo}{102}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Diseño}{102}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Salidas}{103}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Entradas}{103}{subsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.5.5}Comandos}{103}{subsection.5.5.5}%
+\contentsline {subsection}{\numberline {5.5.6}Mensajes}{103}{subsection.5.5.6}%
+\contentsline {section}{\numberline {5.6}IU05}{104}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Objetivo}{104}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Diseño}{104}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Salidas}{105}{subsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.6.4}Entradas}{105}{subsection.5.6.4}%
+\contentsline {subsection}{\numberline {5.6.5}Comandos}{105}{subsection.5.6.5}%
+\contentsline {subsection}{\numberline {5.6.6}Mensajes}{105}{subsection.5.6.6}%
+\contentsline {section}{\numberline {5.7}IU06}{106}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Objetivo}{106}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Diseño}{106}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Salidas}{107}{subsection.5.7.3}%
+\contentsline {subsection}{\numberline {5.7.4}Entradas}{107}{subsection.5.7.4}%
+\contentsline {subsection}{\numberline {5.7.5}Comandos}{107}{subsection.5.7.5}%
+\contentsline {subsection}{\numberline {5.7.6}Mensajes}{107}{subsection.5.7.6}%
+\contentsline {section}{\numberline {5.8}IU07}{108}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Objetivo}{108}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}Diseño}{108}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.3}Salidas}{109}{subsection.5.8.3}%
+\contentsline {subsection}{\numberline {5.8.4}Entradas}{109}{subsection.5.8.4}%
+\contentsline {subsection}{\numberline {5.8.5}Comandos}{109}{subsection.5.8.5}%
+\contentsline {subsection}{\numberline {5.8.6}Mensajes}{109}{subsection.5.8.6}%
+\contentsline {section}{\numberline {5.9}IU08}{110}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Objetivo}{110}{subsection.5.9.1}%
+\contentsline {subsection}{\numberline {5.9.2}Diseño}{110}{subsection.5.9.2}%
+\contentsline {subsection}{\numberline {5.9.3}Salidas}{111}{subsection.5.9.3}%
+\contentsline {subsection}{\numberline {5.9.4}Entradas}{111}{subsection.5.9.4}%
+\contentsline {subsection}{\numberline {5.9.5}Comandos}{111}{subsection.5.9.5}%
+\contentsline {subsection}{\numberline {5.9.6}Mensajes}{111}{subsection.5.9.6}%
+\contentsline {section}{\numberline {5.10}IU09}{112}{section.5.10}%
+\contentsline {subsection}{\numberline {5.10.1}Objetivo}{112}{subsection.5.10.1}%
+\contentsline {subsection}{\numberline {5.10.2}Diseño}{112}{subsection.5.10.2}%
+\contentsline {subsection}{\numberline {5.10.3}Salidas}{113}{subsection.5.10.3}%
+\contentsline {subsection}{\numberline {5.10.4}Entradas}{113}{subsection.5.10.4}%
+\contentsline {subsection}{\numberline {5.10.5}Comandos}{113}{subsection.5.10.5}%
+\contentsline {subsection}{\numberline {5.10.6}Mensajes}{113}{subsection.5.10.6}%
+\contentsline {section}{\numberline {5.11}IU10}{114}{section.5.11}%
+\contentsline {subsection}{\numberline {5.11.1}Objetivo}{114}{subsection.5.11.1}%
+\contentsline {subsection}{\numberline {5.11.2}Diseño}{114}{subsection.5.11.2}%
+\contentsline {subsection}{\numberline {5.11.3}Salidas}{115}{subsection.5.11.3}%
+\contentsline {subsection}{\numberline {5.11.4}Entradas}{115}{subsection.5.11.4}%
+\contentsline {subsection}{\numberline {5.11.5}Comandos}{115}{subsection.5.11.5}%
+\contentsline {subsection}{\numberline {5.11.6}Mensajes}{115}{subsection.5.11.6}%
+\contentsline {section}{\numberline {5.12}IU11}{116}{section.5.12}%
+\contentsline {subsection}{\numberline {5.12.1}Objetivo}{116}{subsection.5.12.1}%
+\contentsline {subsection}{\numberline {5.12.2}Diseño}{116}{subsection.5.12.2}%
+\contentsline {subsection}{\numberline {5.12.3}Salidas}{117}{subsection.5.12.3}%
+\contentsline {subsection}{\numberline {5.12.4}Entradas}{117}{subsection.5.12.4}%
+\contentsline {subsection}{\numberline {5.12.5}Comandos}{117}{subsection.5.12.5}%
+\contentsline {subsection}{\numberline {5.12.6}Mensajes}{117}{subsection.5.12.6}%
+\contentsline {section}{\numberline {5.13}IU12}{118}{section.5.13}%
+\contentsline {subsection}{\numberline {5.13.1}Objetivo}{118}{subsection.5.13.1}%
+\contentsline {subsection}{\numberline {5.13.2}Diseño}{118}{subsection.5.13.2}%
+\contentsline {subsection}{\numberline {5.13.3}Salidas}{119}{subsection.5.13.3}%
+\contentsline {subsection}{\numberline {5.13.4}Entradas}{119}{subsection.5.13.4}%
+\contentsline {subsection}{\numberline {5.13.5}Comandos}{119}{subsection.5.13.5}%
+\contentsline {subsection}{\numberline {5.13.6}Mensajes}{119}{subsection.5.13.6}%
+\contentsline {section}{\numberline {5.14}IU13}{120}{section.5.14}%
+\contentsline {subsection}{\numberline {5.14.1}Objetivo}{120}{subsection.5.14.1}%
+\contentsline {subsection}{\numberline {5.14.2}Diseño}{120}{subsection.5.14.2}%
+\contentsline {subsection}{\numberline {5.14.3}Salidas}{121}{subsection.5.14.3}%
+\contentsline {subsection}{\numberline {5.14.4}Entradas}{121}{subsection.5.14.4}%
+\contentsline {subsection}{\numberline {5.14.5}Comandos}{121}{subsection.5.14.5}%
+\contentsline {subsection}{\numberline {5.14.6}Mensajes}{121}{subsection.5.14.6}%
+\contentsline {section}{\numberline {5.15}IU14}{122}{section.5.15}%
+\contentsline {subsection}{\numberline {5.15.1}Objetivo}{122}{subsection.5.15.1}%
+\contentsline {subsection}{\numberline {5.15.2}Diseño}{122}{subsection.5.15.2}%
+\contentsline {subsection}{\numberline {5.15.3}Salidas}{123}{subsection.5.15.3}%
+\contentsline {subsection}{\numberline {5.15.4}Entradas}{123}{subsection.5.15.4}%
+\contentsline {subsection}{\numberline {5.15.5}Comandos}{123}{subsection.5.15.5}%
+\contentsline {subsection}{\numberline {5.15.6}Mensajes}{123}{subsection.5.15.6}%
+\contentsline {section}{\numberline {5.16}IU15}{124}{section.5.16}%
+\contentsline {subsection}{\numberline {5.16.1}Objetivo}{124}{subsection.5.16.1}%
+\contentsline {subsection}{\numberline {5.16.2}Diseño}{124}{subsection.5.16.2}%
+\contentsline {subsection}{\numberline {5.16.3}Salidas}{125}{subsection.5.16.3}%
+\contentsline {subsection}{\numberline {5.16.4}Entradas}{125}{subsection.5.16.4}%
+\contentsline {subsection}{\numberline {5.16.5}Comandos}{125}{subsection.5.16.5}%
+\contentsline {subsection}{\numberline {5.16.6}Mensajes}{125}{subsection.5.16.6}%
+\contentsline {section}{\numberline {5.17}IU16}{126}{section.5.17}%
+\contentsline {subsection}{\numberline {5.17.1}Objetivo}{126}{subsection.5.17.1}%
+\contentsline {subsection}{\numberline {5.17.2}Diseño}{126}{subsection.5.17.2}%
+\contentsline {subsection}{\numberline {5.17.3}Salidas}{127}{subsection.5.17.3}%
+\contentsline {subsection}{\numberline {5.17.4}Entradas}{127}{subsection.5.17.4}%
+\contentsline {subsection}{\numberline {5.17.5}Comandos}{127}{subsection.5.17.5}%
+\contentsline {subsection}{\numberline {5.17.6}Mensajes}{127}{subsection.5.17.6}%
+\contentsline {section}{\numberline {5.18}IU17}{128}{section.5.18}%
+\contentsline {subsection}{\numberline {5.18.1}Objetivo}{128}{subsection.5.18.1}%
+\contentsline {subsection}{\numberline {5.18.2}Diseño}{128}{subsection.5.18.2}%
+\contentsline {subsection}{\numberline {5.18.3}Salidas}{128}{subsection.5.18.3}%
+\contentsline {subsection}{\numberline {5.18.4}Entradas}{129}{subsection.5.18.4}%
+\contentsline {subsection}{\numberline {5.18.5}Comandos}{129}{subsection.5.18.5}%
+\contentsline {subsection}{\numberline {5.18.6}Mensajes}{129}{subsection.5.18.6}%
+\contentsline {section}{\numberline {5.19}IU18}{130}{section.5.19}%
+\contentsline {subsection}{\numberline {5.19.1}Objetivo}{130}{subsection.5.19.1}%
+\contentsline {subsection}{\numberline {5.19.2}Diseño}{130}{subsection.5.19.2}%
+\contentsline {subsection}{\numberline {5.19.3}Salidas}{131}{subsection.5.19.3}%
+\contentsline {subsection}{\numberline {5.19.4}Entradas}{131}{subsection.5.19.4}%
+\contentsline {subsection}{\numberline {5.19.5}Comandos}{131}{subsection.5.19.5}%
+\contentsline {subsection}{\numberline {5.19.6}Mensajes}{131}{subsection.5.19.6}%
+\contentsline {section}{\numberline {5.20}IU19}{132}{section.5.20}%
+\contentsline {subsection}{\numberline {5.20.1}Objetivo}{132}{subsection.5.20.1}%
+\contentsline {subsection}{\numberline {5.20.2}Diseño}{132}{subsection.5.20.2}%
+\contentsline {subsection}{\numberline {5.20.3}Salidas}{133}{subsection.5.20.3}%
+\contentsline {subsection}{\numberline {5.20.4}Entradas}{133}{subsection.5.20.4}%
+\contentsline {subsection}{\numberline {5.20.5}Comandos}{133}{subsection.5.20.5}%
+\contentsline {subsection}{\numberline {5.20.6}Mensajes}{133}{subsection.5.20.6}%
+\contentsline {section}{\numberline {5.21}IU20}{134}{section.5.21}%
+\contentsline {subsection}{\numberline {5.21.1}Objetivo}{134}{subsection.5.21.1}%
+\contentsline {subsection}{\numberline {5.21.2}Diseño}{134}{subsection.5.21.2}%
+\contentsline {subsection}{\numberline {5.21.3}Salidas}{135}{subsection.5.21.3}%
+\contentsline {subsection}{\numberline {5.21.4}Entradas}{135}{subsection.5.21.4}%
+\contentsline {subsection}{\numberline {5.21.5}Comandos}{135}{subsection.5.21.5}%
+\contentsline {subsection}{\numberline {5.21.6}Mensajes}{135}{subsection.5.21.6}%
+\contentsline {section}{\numberline {5.22}IU21}{136}{section.5.22}%
+\contentsline {subsection}{\numberline {5.22.1}Objetivo}{136}{subsection.5.22.1}%
+\contentsline {subsection}{\numberline {5.22.2}Diseño}{136}{subsection.5.22.2}%
+\contentsline {subsection}{\numberline {5.22.3}Salidas}{137}{subsection.5.22.3}%
+\contentsline {subsection}{\numberline {5.22.4}Entradas}{137}{subsection.5.22.4}%
+\contentsline {subsection}{\numberline {5.22.5}Comandos}{137}{subsection.5.22.5}%
+\contentsline {subsection}{\numberline {5.22.6}Mensajes}{137}{subsection.5.22.6}%
+\contentsline {section}{\numberline {5.23}IU22}{138}{section.5.23}%
+\contentsline {subsection}{\numberline {5.23.1}Objetivo}{138}{subsection.5.23.1}%
+\contentsline {subsection}{\numberline {5.23.2}Diseño}{138}{subsection.5.23.2}%
+\contentsline {subsection}{\numberline {5.23.3}Salidas}{139}{subsection.5.23.3}%
+\contentsline {subsection}{\numberline {5.23.4}Entradas}{139}{subsection.5.23.4}%
+\contentsline {subsection}{\numberline {5.23.5}Comandos}{139}{subsection.5.23.5}%
+\contentsline {subsection}{\numberline {5.23.6}Mensajes}{139}{subsection.5.23.6}%
+\contentsline {section}{\numberline {5.24}IU23}{140}{section.5.24}%
+\contentsline {subsection}{\numberline {5.24.1}Objetivo}{140}{subsection.5.24.1}%
+\contentsline {subsection}{\numberline {5.24.2}Diseño}{140}{subsection.5.24.2}%
+\contentsline {subsection}{\numberline {5.24.3}Salidas}{141}{subsection.5.24.3}%
+\contentsline {subsection}{\numberline {5.24.4}Entradas}{141}{subsection.5.24.4}%
+\contentsline {subsection}{\numberline {5.24.5}Comandos}{141}{subsection.5.24.5}%
+\contentsline {subsection}{\numberline {5.24.6}Mensajes}{141}{subsection.5.24.6}%
+\contentsline {section}{\numberline {5.25}IU24}{142}{section.5.25}%
+\contentsline {subsection}{\numberline {5.25.1}Objetivo}{142}{subsection.5.25.1}%
+\contentsline {subsection}{\numberline {5.25.2}Diseño}{142}{subsection.5.25.2}%
+\contentsline {subsection}{\numberline {5.25.3}Salidas}{143}{subsection.5.25.3}%
+\contentsline {subsection}{\numberline {5.25.4}Entradas}{143}{subsection.5.25.4}%
+\contentsline {subsection}{\numberline {5.25.5}Comandos}{143}{subsection.5.25.5}%
+\contentsline {subsection}{\numberline {5.25.6}Mensajes}{143}{subsection.5.25.6}%
+\contentsline {section}{\numberline {5.26}IU25}{144}{section.5.26}%
+\contentsline {subsection}{\numberline {5.26.1}Objetivo}{144}{subsection.5.26.1}%
+\contentsline {subsection}{\numberline {5.26.2}Diseño}{144}{subsection.5.26.2}%
+\contentsline {subsection}{\numberline {5.26.3}Salidas}{145}{subsection.5.26.3}%
+\contentsline {subsection}{\numberline {5.26.4}Entradas}{145}{subsection.5.26.4}%
+\contentsline {subsection}{\numberline {5.26.5}Comandos}{145}{subsection.5.26.5}%
+\contentsline {subsection}{\numberline {5.26.6}Mensajes}{145}{subsection.5.26.6}%
+\contentsline {section}{\numberline {5.27}IU26}{146}{section.5.27}%
+\contentsline {subsection}{\numberline {5.27.1}Objetivo}{146}{subsection.5.27.1}%
+\contentsline {subsection}{\numberline {5.27.2}Diseño}{146}{subsection.5.27.2}%
+\contentsline {subsection}{\numberline {5.27.3}Salidas}{147}{subsection.5.27.3}%
+\contentsline {subsection}{\numberline {5.27.4}Entradas}{147}{subsection.5.27.4}%
+\contentsline {subsection}{\numberline {5.27.5}Comandos}{147}{subsection.5.27.5}%
+\contentsline {subsection}{\numberline {5.27.6}Mensajes}{147}{subsection.5.27.6}%
+\contentsline {section}{\numberline {5.28}IU27}{148}{section.5.28}%
+\contentsline {subsection}{\numberline {5.28.1}Objetivo}{148}{subsection.5.28.1}%
+\contentsline {subsection}{\numberline {5.28.2}Diseño}{148}{subsection.5.28.2}%
+\contentsline {subsection}{\numberline {5.28.3}Salidas}{149}{subsection.5.28.3}%
+\contentsline {subsection}{\numberline {5.28.4}Entradas}{149}{subsection.5.28.4}%
+\contentsline {subsection}{\numberline {5.28.5}Comandos}{149}{subsection.5.28.5}%
+\contentsline {subsection}{\numberline {5.28.6}Mensajes}{149}{subsection.5.28.6}%
+\contentsline {section}{\numberline {5.29}IU28}{150}{section.5.29}%
+\contentsline {subsection}{\numberline {5.29.1}Objetivo}{150}{subsection.5.29.1}%
+\contentsline {subsection}{\numberline {5.29.2}Diseño}{150}{subsection.5.29.2}%
+\contentsline {subsection}{\numberline {5.29.3}Salidas}{151}{subsection.5.29.3}%
+\contentsline {subsection}{\numberline {5.29.4}Entradas}{151}{subsection.5.29.4}%
+\contentsline {subsection}{\numberline {5.29.5}Comandos}{151}{subsection.5.29.5}%
+\contentsline {subsection}{\numberline {5.29.6}Mensajes}{151}{subsection.5.29.6}%
+\contentsline {section}{\numberline {5.30}IU29}{152}{section.5.30}%
+\contentsline {subsection}{\numberline {5.30.1}Objetivo}{152}{subsection.5.30.1}%
+\contentsline {subsection}{\numberline {5.30.2}Diseño}{152}{subsection.5.30.2}%
+\contentsline {subsection}{\numberline {5.30.3}Salidas}{153}{subsection.5.30.3}%
+\contentsline {subsection}{\numberline {5.30.4}Entradas}{153}{subsection.5.30.4}%
+\contentsline {subsection}{\numberline {5.30.5}Comandos}{153}{subsection.5.30.5}%
+\contentsline {subsection}{\numberline {5.30.6}Mensajes}{153}{subsection.5.30.6}%
+\contentsline {section}{\numberline {5.31}IU30}{154}{section.5.31}%
+\contentsline {subsection}{\numberline {5.31.1}Objetivo}{154}{subsection.5.31.1}%
+\contentsline {subsection}{\numberline {5.31.2}Diseño}{154}{subsection.5.31.2}%
+\contentsline {subsection}{\numberline {5.31.3}Salidas}{155}{subsection.5.31.3}%
+\contentsline {subsection}{\numberline {5.31.4}Entradas}{155}{subsection.5.31.4}%
+\contentsline {subsection}{\numberline {5.31.5}Comandos}{155}{subsection.5.31.5}%
+\contentsline {subsection}{\numberline {5.31.6}Mensajes}{155}{subsection.5.31.6}%
+\contentsline {section}{\numberline {5.32}IU31}{156}{section.5.32}%
+\contentsline {subsection}{\numberline {5.32.1}Objetivo}{156}{subsection.5.32.1}%
+\contentsline {subsection}{\numberline {5.32.2}Diseño}{156}{subsection.5.32.2}%
+\contentsline {subsection}{\numberline {5.32.3}Salidas}{157}{subsection.5.32.3}%
+\contentsline {subsection}{\numberline {5.32.4}Entradas}{157}{subsection.5.32.4}%
+\contentsline {subsection}{\numberline {5.32.5}Comandos}{157}{subsection.5.32.5}%
+\contentsline {subsection}{\numberline {5.32.6}Mensajes}{157}{subsection.5.32.6}%
+\contentsline {section}{\numberline {5.33}IU32}{158}{section.5.33}%
+\contentsline {subsection}{\numberline {5.33.1}Objetivo}{158}{subsection.5.33.1}%
+\contentsline {subsection}{\numberline {5.33.2}Diseño}{158}{subsection.5.33.2}%
+\contentsline {subsection}{\numberline {5.33.3}Salidas}{159}{subsection.5.33.3}%
+\contentsline {subsection}{\numberline {5.33.4}Entradas}{159}{subsection.5.33.4}%
+\contentsline {subsection}{\numberline {5.33.5}Comandos}{159}{subsection.5.33.5}%
+\contentsline {subsection}{\numberline {5.33.6}Mensajes}{160}{subsection.5.33.6}%
+\contentsline {section}{\numberline {5.34}IU33}{161}{section.5.34}%
+\contentsline {subsection}{\numberline {5.34.1}Objetivo}{161}{subsection.5.34.1}%
+\contentsline {subsection}{\numberline {5.34.2}Diseño}{161}{subsection.5.34.2}%
+\contentsline {subsection}{\numberline {5.34.3}Salidas}{162}{subsection.5.34.3}%
+\contentsline {subsection}{\numberline {5.34.4}Entradas}{162}{subsection.5.34.4}%
+\contentsline {subsection}{\numberline {5.34.5}Comandos}{162}{subsection.5.34.5}%
+\contentsline {subsection}{\numberline {5.34.6}Mensajes}{162}{subsection.5.34.6}%
+\contentsline {section}{\numberline {5.35}IUE01 Saludo de docente}{163}{section.5.35}%
+\contentsline {subsection}{\numberline {5.35.1}Objetivo}{163}{subsection.5.35.1}%
+\contentsline {subsection}{\numberline {5.35.2}Diseño}{163}{subsection.5.35.2}%
+\contentsline {subsection}{\numberline {5.35.3}Salidas}{164}{subsection.5.35.3}%
+\contentsline {subsection}{\numberline {5.35.4}Entradas}{164}{subsection.5.35.4}%
+\contentsline {subsection}{\numberline {5.35.5}Comandos}{164}{subsection.5.35.5}%
+\contentsline {subsection}{\numberline {5.35.6}Mensajes}{164}{subsection.5.35.6}%
+\contentsline {section}{\numberline {5.36}IUE02 saludo de personal de seguridad}{165}{section.5.36}%
+\contentsline {subsection}{\numberline {5.36.1}Objetivo}{165}{subsection.5.36.1}%
+\contentsline {subsection}{\numberline {5.36.2}Diseño}{165}{subsection.5.36.2}%
+\contentsline {subsection}{\numberline {5.36.3}Salidas}{166}{subsection.5.36.3}%
+\contentsline {subsection}{\numberline {5.36.4}Entradas}{166}{subsection.5.36.4}%
+\contentsline {subsection}{\numberline {5.36.5}Comandos}{166}{subsection.5.36.5}%
+\contentsline {subsection}{\numberline {5.36.6}Mensajes}{166}{subsection.5.36.6}%
+\contentsline {section}{\numberline {5.37}IUE03 saludo de alumno}{167}{section.5.37}%
+\contentsline {subsection}{\numberline {5.37.1}Objetivo}{167}{subsection.5.37.1}%
+\contentsline {subsection}{\numberline {5.37.2}Diseño}{167}{subsection.5.37.2}%
+\contentsline {subsection}{\numberline {5.37.3}Salidas}{168}{subsection.5.37.3}%
+\contentsline {subsection}{\numberline {5.37.4}Entradas}{168}{subsection.5.37.4}%
+\contentsline {subsection}{\numberline {5.37.5}Comandos}{168}{subsection.5.37.5}%
+\contentsline {subsection}{\numberline {5.37.6}Mensajes}{168}{subsection.5.37.6}%
+\contentsline {section}{\numberline {5.38}IUE04 saludo de personal de la DAE}{169}{section.5.38}%
+\contentsline {subsection}{\numberline {5.38.1}Objetivo}{169}{subsection.5.38.1}%
+\contentsline {subsection}{\numberline {5.38.2}Diseño}{169}{subsection.5.38.2}%
+\contentsline {subsection}{\numberline {5.38.3}Salidas}{170}{subsection.5.38.3}%
+\contentsline {subsection}{\numberline {5.38.4}Entradas}{170}{subsection.5.38.4}%
+\contentsline {subsection}{\numberline {5.38.5}Comandos}{170}{subsection.5.38.5}%
+\contentsline {subsection}{\numberline {5.38.6}Mensajes}{170}{subsection.5.38.6}%
+\contentsline {section}{\numberline {5.39}IUE05 saludo de personal de gestión escolar}{171}{section.5.39}%
+\contentsline {subsection}{\numberline {5.39.1}Objetivo}{171}{subsection.5.39.1}%
+\contentsline {subsection}{\numberline {5.39.2}Diseño}{171}{subsection.5.39.2}%
+\contentsline {subsection}{\numberline {5.39.3}Salidas}{172}{subsection.5.39.3}%
+\contentsline {subsection}{\numberline {5.39.4}Entradas}{172}{subsection.5.39.4}%
+\contentsline {subsection}{\numberline {5.39.5}Comandos}{172}{subsection.5.39.5}%
+\contentsline {subsection}{\numberline {5.39.6}Mensajes}{172}{subsection.5.39.6}%
+\contentsline {section}{\numberline {5.40}IUE06 saludo del presidente de academia y el jefe de departamento}{173}{section.5.40}%
+\contentsline {subsection}{\numberline {5.40.1}Objetivo}{173}{subsection.5.40.1}%
+\contentsline {subsection}{\numberline {5.40.2}Diseño}{173}{subsection.5.40.2}%
+\contentsline {subsection}{\numberline {5.40.3}Salidas}{174}{subsection.5.40.3}%
+\contentsline {subsection}{\numberline {5.40.4}Entradas}{174}{subsection.5.40.4}%
+\contentsline {subsection}{\numberline {5.40.5}Comandos}{174}{subsection.5.40.5}%
+\contentsline {subsection}{\numberline {5.40.6}Mensajes}{174}{subsection.5.40.6}%
