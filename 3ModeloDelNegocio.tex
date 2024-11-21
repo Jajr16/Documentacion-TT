@@ -285,15 +285,48 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 \begin{cdtEntidad}{UA}{Unidad\_aprendizaje}
 	\brAttr{Id\_UA}{Id\_UA}{Id}
 	{Identificación de la Unidad de Aprendizaje.}{Sí}
-	\brAttr{Nombre}{Nombre}{Número}
-	{Número usado para identificar el edificio en el que se realizará el ETS.}{Sí}
-	\brAttr{Descripcion}{Descripcion}{Número}
-	{Número usado para identificar el piso del edificio en el que se realizará el ETS.}{Sí}
+	\brAttr{Nombre}{Nombre}{Frase corta.}
+	{Nombre de la unidad de aprendizaje.}{Sí}
+	\brAttr{Descripcion}{Descripcion}{Frase larga.}
+	{Descripción pequeña de lo que trata la unidad de aprendizaje.}{Sí}
 	\brAttr{Id\_PA}{Id\_PA}{Id}
-	{Número usado para identificar el piso del edificio en el que se realizará el ETS.}{Sí}
+	{Identificación del programa académico al que pertenece la unidad de aprendizaje.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	\cdtEntityRelSection
-	\brRel{}{ETS}{A una \hyperlink{UA}{Unidad de aprendizaje} le \hyperlink{ETSUA}{corresponde} una serie de \hyperlink{ETS}{ETS}.}
+%	\cdtEntityRelSection
+%	\brRel{}{ETS}{A una \hyperlink{UA}{Unidad de aprendizaje} le \hyperlink{ETSUA}{corresponde} una serie de \hyperlink{ETS}{ETS}.}
+\end{cdtEntidad}
+%---------------------------------------------------------
+\begin{cdtEntidad}{Turno}{Turno}
+	\brAttr{IdTurno}{IdTurno}{Id}
+	{Identificación del turno.}{Sí}
+	\brAttr{Nombre}{Nombre}{Frase corta}
+	{Nombre del turno. Este puede variar entre 'Matutino' y 'Vespertino'.}{Sí}
+\end{cdtEntidad}
+%---------------------------------------------------------
+\begin{cdtEntidad}{Sexo}{Sexo}
+	\brAttr{IdSexo}{IdSexo}{Id}
+	{Identificación del sexo.}{Sí}
+	\brAttr{Nombre}{Nombre}{Frase corta}
+	{Nombre del sexo. Este puede variar entre 'Masculino' y 'Femenino'.}{Sí}
+\end{cdtEntidad}
+%---------------------------------------------------------
+\begin{cdtEntidad}{AsistenciaInscripcion}{AsistenciaInscripcion}
+	\brAttr{Asistio}{Asistio}{Booleano}
+	{Booleano que ayuda a identificar si el alumno sí asistió al ETS o no.}{Sí}
+	\brAttr{FechaAsistencia}{FechaAsistencia}{Datetime}
+	{Fecha y hora de la asistencia del alumno al ETS.}{Sí}
+	\brAttr{ResultadoRN}{ResultadoRN}{Booleano}
+	{Booleano que dice si la red identificó al alumno o no.}{Sí}
+	\brAttr{Aceptado}{Aceptado}{Booleano}
+	{Booleano que identifica si el profesor le aceptó la entrada al alumno.}{Sí}
+	\brAttr{AplicaDocenteRFC}{AplicaDocenteRFC}{Id}
+	{RFC del docente que está aplicando el ETS.}{Sí}
+	\brAttr{InscripcionETSBoleta}{InscripcionETSBoleta}{Id}
+	{Boleta del alumno que está inscrito al ETS.}{Sí}
+	\brAttr{InscripcionETSId\_ETS}{InscripcionETSId\_ETS}{Id}
+	{Identificación del ETS que se está aplicando.}{Sí}
+	\brAttr{ImagenAlumno}{ImagenAlumno}{Ruta}
+	{Ruta de donde está guardada la imagen de la credencial del alumno.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \section{Modelado de Reglas de negocio}
