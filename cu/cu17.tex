@@ -2,64 +2,51 @@
 % \IUref{IUModPS}{Modificar Planta de Selección}
 % \IUref{IUEliPS}{Eliminar Planta de Selección}
 
-% 
-
-
-% Copie este bloque por cada caso de uso:
 %-------------------------------------- COMIENZA descripción del caso de uso.
 
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
 %--------------------------------------
-	\begin{UseCase}{CU1}{Iniciar Sesión}{
-		Este caso de usos permite al usuario iniciar sesión en el sistema para poder visualizar los Exámenes a Título de Suficiencia (ETS).
+\begin{UseCase}{CU-17}{Consultar ETS inscritos}{
+		Este caso de uso permite al alumno consultar los ETS que tiene asignados.
 	}
-		\UCitem{Actor}{\hyperlink{Alumno}{Alumno, Personal de seguridad, Docente}}
-		\UCitem{Propósito}{Permitir al usuario ingresar al sistema.}
-		\UCitem{Entradas}{Número de boleta (en caso de ser alumno), RFC (en caso de ser del Personal de seguridad o Docente) y Contraseña.}
-		\UCitem{Origen}{Teclado}
-		\UCitem{Salidas}{-}
-		\UCitem{Destino}{Pantalla principal del sistema}
-		\UCitem{Precondiciones}{El usuario deberá estar registrado en el sistema SAES.}
-		\UCitem{Postcondiciones}{El usuario podrá acceder a la funcionalidad del sistema.}
-		\UCitem{Errores}{Es posible que al intentar iniciar sesión se presenten los siguientes inconvenientes: 
-			\begin{itemize}
-				\item El usuario ingresa sus credenciales incorrecta. 
-				\item El usuario no llena todos lo campos obligatorios. 
-			\end{itemize}
-		}
-		\UCitem{Tipo}{Caso de uso primario}
-		\UCitem{Observaciones}{}
-	\end{UseCase}
+	\UCitem{Versión}{\color{Gray}1.0}
+	\UCitem{Autor}{\color{Gray}De la cruz De la cruz Alejandra}
+	\UCitem{Supervisa}{\color{Gray}Huertas Ramírez Daniel Martín}
+	\UCitem{Actor}{\hyperlink{Alumno}{Alumno}}
+	\UCitem{Propósito}{Permitir al alumno consultar los ETS que ha inscrito.}
+	\UCitem{Entradas}{Seleccionar un periodo}
+	\UCitem{Origen}{Pantalla táctil}
+	\UCitem{Salidas}{Lista de ETS inscritos.}
+	\UCitem{Destino}{\IUref{IU15}{Pantalla Consultar ETS del alumno}}
+	\UCitem{Precondiciones}{El alumno debe estar autenticado en el sistema.}
+	\UCitem{Postcondiciones}{El alumno ha consultado los ETS inscritos.}
+	\UCitem{Errores}{
+			E1: El sistema no puede recuperar la información de los ETS asignados y muestra el mensaje {\bf MSG-26}{``No hay ETS inscritos actualmente.''}
+			
+			E2: No hay ETS inscritos {\bf MS-G9}{``Error al consultar la base de datos. Intente nuevamente más tarde.''}.
+	}
+	\UCitem{Tipo}{Se extiende del CU-01 Iniciar sesión del sistema móvil}
+	\UCitem{Observaciones}{Ninguna}
+\end{UseCase}
 %--------------------------------------
-	\begin{UCtrayectoria}
-		\UCpaso[\UCactor] Introduce su Número de Boleta en caso de ser alumno o su RFC en caso de ser Docente o Personal de seguridad y Contraseña en el sistema vía la  \IUref{IU1}{Pantalla de Inicio de sesión}\label{CU01Login}.
-		\UCpaso[\UCactor] Confirma la operación presionando el botón \IUbutton{Iniciar Sesión}.
-		\UCpaso Verifica que los datos ingresados coincidan con algún registro guardado dentro del sistema SAES con base en la regla \BRref{BR129}{Determinar.} \Trayref{A} \Trayref{B}.
-		\UCpaso Despliega la \IUref{IU02}{Pantalla principal} con la lista de opciones disponible que tiene cada usuario.
-	\end{UCtrayectoria}
+\begin{UCtrayectoria}
+	\UCpaso[\UCactor] El alumno selecciona el período académico que desea consultar desde la \IUref{IU14}{Pantalla Periodo de ETS del alumno}.
+	\UCpaso El sistema verifica que el alumno tenga ETS inscritos en el periodo seleccionado \Trayref{A}.
+	\UCpaso El sistema despliega la lista de ETS inscritos en la \IUref{IU15}{Pantalla Consultar ETS del alumno}.
+\end{UCtrayectoria}
 
-%--------------------------------------		
-		\begin{UCtrayectoriaA}{A}{El Estudiante intenta iniciar sesión , pero el Número de boleta o RFC o contraseña no coincide con algún registro dentro de la base de datos}
-			\UCpaso Muestra el Mensaje {\bf MSG1-}``El usuario [{\em Número de Boleta o RFC}] no coincide con ninguna cuenta. Verifique la información e intente de nuevo''.
-			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}.
-			\UCpaso[] Termina el caso de uso.
-		\end{UCtrayectoriaA}
-		
+%--------------------------------------        
+\begin{UCtrayectoriaA}{A}{No hay ETS inscritos en el periodo seleccionado}
+	\UCpaso El sistema muestra un mensaje: {\bf MSG-26}{``No hay ETS inscritos actualmente.''}
+	\UCpaso[\UCactor] El alumno presiona el botón \IUbutton{Regresar} para volver a la pantalla anterior.
+	\UCpaso Fin de la trayectoria alternativa.
+\end{UCtrayectoriaA}
+%--------------------------------------        
+\begin{UCtrayectoriaA}{B}{Error en la conexión con la base de datos}
+	\UCpaso El sistema muestra un mensaje de error: {\bf MSG-09}{``Error al consultar la base de datos. Intente nuevamente más tarde.''}
+	\UCpaso[\UCactor] El alumno presiona el botón \IUbutton{Aceptar} para cerrar el mensaje.
+	\UCpaso[\UCactor] El alumno puede intentar la consulta nuevamente o presionar el botón \IUbutton{Regresar} para volver a la pantalla anterior.
+	\UCpaso Fin de la trayectoria alternativa.
+\end{UCtrayectoriaA}
 
-%--------------------------------------
-% Puntos de extensión
-\subsection{Puntos de extensión}
-\UCExtenssionPoint{
-	% Cuando:
-	Desea conocer las materias cursadas.
-}{
-	% Durante la región:
-	Del paso 4 al paso 9.
-}{
-	% Casos de uso a los que extiende:
-	\hyperlink{CU3.4}{CU3.4 Consultar historial académico}.
-}
-		
-		
-		
 %-------------------------------------- TERMINA descripción del caso de uso.
