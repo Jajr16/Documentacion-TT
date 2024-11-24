@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.18)  18 NOV 2024 21:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.18)  21 NOV 2024 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2158,28 +2158,23 @@ Underfull \hbox (badness 5696) in paragraph at lines 39--39
  []
 
 
-Overfull \hbox (50.00758pt too wide) in alignment at lines 22--42
+Underfull \hbox (badness 1308) in paragraph at lines 43--43
+[]|\OT1/txss/m/n/10 Verificaci[]on de m[]eto-dos de
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 47--47
+[]|\OT1/txss/m/n/10 Generaci[]on de cre-den-cia-les
+ []
+
+
+Overfull \hbox (50.00758pt too wide) in alignment at lines 22--52
  [] [] [] [] 
  []
 
-
-LaTeX Warning: Float too large for page by 32.42076pt on input line 46.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
-
- []
-
-<images/arquitectura.png, id=2238, 699.5736pt x 609.9588pt>
-File: images/arquitectura.png Graphic file (type png)
-<use images/arquitectura.png>
-Package pdftex.def Info: images/arquitectura.png  used on input line 68.
-(pdftex.def)             Requested size: 300.29344pt x 261.82112pt.
-)
-
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
-Package pdftex.def Info: theme/plecaAyD.png  used on input line 37.
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 52.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
 [3
 
@@ -2187,16 +2182,25 @@ Package pdftex.def Info: theme/plecaAyD.png  used on input line 37.
 
 
 ]
-
 File: theme/headerPar.png Graphic file (type png)
 <use theme/headerPar.png>
-Package pdftex.def Info: theme/headerPar.png  used on input line 37.
+Package pdftex.def Info: theme/headerPar.png  used on input line 52.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
-Package pdftex.def Info: theme/plecaAyD.png  used on input line 37.
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 52.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
 [4]
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+
+ []
+
+<images/arquitectura.jpeg, id=2246, 800.9925pt x 708.6475pt>
+File: images/arquitectura.jpeg Graphic file (type jpg)
+<use images/arquitectura.jpeg>
+Package pdftex.def Info: images/arquitectura.jpeg  used on input line 78.
+(pdftex.def)             Requested size: 300.29344pt x 265.67728pt.
+)
 
 File: theme/headerInp.png Graphic file (type png)
 <use theme/headerInp.png>
@@ -2206,25 +2210,20 @@ File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 37.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
-[5 <./images/arquitectura.png>]
-\openout2 = `3ModeloDelNegocio.aux'.
-
-(3ModeloDelNegocio.tex
+[5 <./images/arquitectura.jpeg>]
 
 File: theme/headerPar.png Graphic file (type png)
 <use theme/headerPar.png>
-Package pdftex.def Info: theme/headerPar.png  used on input line 2.
+Package pdftex.def Info: theme/headerPar.png  used on input line 37.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
-Package pdftex.def Info: theme/plecaAyD.png  used on input line 2.
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 37.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
-[6
+[6]
+\openout2 = `3ModeloDelNegocio.aux'.
 
-
-
-
-]
+(3ModeloDelNegocio.tex
 Cap\'{\i }tulo 3.
 
 
@@ -2232,10 +2231,15 @@ File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 34.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
-[7]
+[7
+
+
+
+
+]
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 45.
-<images/modeloDelDominioDelProblema.png, id=2282, 1762.4244pt x 1340.8494pt>
+<images/modeloDelDominioDelProblema.png, id=2280, 1762.4244pt x 1340.8494pt>
 File: images/modeloDelDominioDelProblema.png Graphic file (type png)
 <use images/modeloDelDominioDelProblema.png>
 Package pdftex.def Info: images/modeloDelDominioDelProblema.png  used on input 
@@ -2244,7 +2248,7 @@ line 51.
 
 LaTeX Warning: Float too large for page by 63.71478pt on input line 55.
 
-<theme/uc/classRule.png, id=2283, 1930.5726pt x 130.086pt>
+<theme/uc/classRule.png, id=2281, 1930.5726pt x 130.086pt>
 File: theme/uc/classRule.png Graphic file (type png)
 <use theme/uc/classRule.png>
 Package pdftex.def Info: theme/uc/classRule.png  used on input line 57.
@@ -2304,13 +2308,13 @@ File: theme/plecaAyD.png Graphic file (type png)
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 138.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
 [11]) (proc/proc01.tex
-<images/proceso1.png, id=2347, 1072.005pt x 760.8425pt>
+<images/proceso1.png, id=2345, 1072.005pt x 760.8425pt>
 File: images/proceso1.png Graphic file (type png)
 <use images/proceso1.png>
 Package pdftex.def Info: images/proceso1.png  used on input line 6.
 (pdftex.def)             Requested size: 350.33727pt x 248.6408pt.
 ) (proc/proc02.tex
-<images/proceso2.png, id=2348, 1044.90375pt x 277.035pt>
+<images/proceso2.png, id=2346, 1044.90375pt x 277.035pt>
 File: images/proceso2.png Graphic file (type png)
 <use images/proceso2.png>
 Package pdftex.def Info: images/proceso2.png  used on input line 6.
@@ -2336,13 +2340,13 @@ File: theme/plecaAyD.png Graphic file (type png)
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 20.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
 [13 <./images/proceso1.png> <./images/proceso2.png>])
-<images/mapaProc.png, id=2362, 825.83531pt x 546.54187pt>
+<images/mapaProc.png, id=2360, 825.83531pt x 546.54187pt>
 File: images/mapaProc.png Graphic file (type png)
 <use images/mapaProc.png>
 Package pdftex.def Info: images/mapaProc.png  used on input line 112.
 (pdftex.def)             Requested size: 400.38872pt x 264.98074pt.
 (proc/proc-m01.tex
-<images/proceso3.png, id=2363, 993.7125pt x 447.6725pt>
+<images/proceso3.png, id=2361, 993.7125pt x 447.6725pt>
 File: images/proceso3.png Graphic file (type png)
 <use images/proceso3.png>
 Package pdftex.def Info: images/proceso3.png  used on input line 6.
@@ -2387,12 +2391,12 @@ Package pdftex.def Info: theme/plecaAyD.png  used on input line 2.
 
 ]
 Cap\'{\i }tulo 4.
-<images/casosDeUso.png, id=2385, 726.5544pt x 370.0224pt>
+<images/casosDeUso.png, id=2383, 726.5544pt x 370.0224pt>
 File: images/casosDeUso.png Graphic file (type png)
 <use images/casosDeUso.png>
 Package pdftex.def Info: images/casosDeUso.png  used on input line 9.
 (pdftex.def)             Requested size: 400.38872pt x 203.9138pt.
-<theme/uc/actorRule.png, id=2386, 1401.0744pt x 130.086pt>
+<theme/uc/actorRule.png, id=2384, 1401.0744pt x 130.086pt>
 File: theme/uc/actorRule.png Graphic file (type png)
 <use theme/uc/actorRule.png>
 Package pdftex.def Info: theme/uc/actorRule.png  used on input line 21.
@@ -2434,7 +2438,7 @@ File: theme/plecaAyD.png Graphic file (type png)
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 6.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
 [19]
-<theme/uc/default.png, id=2405, 926.46124pt x 57.21375pt>
+<theme/uc/default.png, id=2403, 926.46124pt x 57.21375pt>
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 6.
@@ -2444,7 +2448,7 @@ Overfull \hbox (50.05145pt too wide) in paragraph at lines 6--6
 [][] 
  []
 
-<theme/uc/iu.png, id=2411, 61.22874pt x 55.20625pt>
+<theme/uc/iu.png, id=2409, 61.22874pt x 55.20625pt>
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 15.
@@ -2469,7 +2473,7 @@ File: theme/plecaAyD.png Graphic file (type png)
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 34.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
 [20 <./theme/uc/default.png> <./theme/uc/iu.png>]
-<theme/uc/actor.png, id=2429, 96.36pt x 74.2775pt>
+<theme/uc/actor.png, id=2427, 96.36pt x 74.2775pt>
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 35.
@@ -2482,7 +2486,7 @@ File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 36.
 (pdftex.def)             Requested size: 14.26958pt x 11.0pt.
-<theme/uc/usecase.png, id=2431, 91.34125pt x 61.22874pt>
+<theme/uc/usecase.png, id=2429, 91.34125pt x 61.22874pt>
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 37.
@@ -5411,7 +5415,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 10.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU01.jpg, id=3407, 263.48438pt x 558.085pt>
+<images/UI-CU01.jpg, id=3405, 263.48438pt x 558.085pt>
 File: images/UI-CU01.jpg Graphic file (type jpg)
 <use images/UI-CU01.jpg>
 Package pdftex.def Info: images/UI-CU01.jpg  used on input line 12.
@@ -5460,12 +5464,12 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU02.jpg, id=3427, 254.45062pt x 559.08875pt>
+<images/UI-CU02.jpg, id=3425, 254.45062pt x 559.08875pt>
 File: images/UI-CU02.jpg Graphic file (type jpg)
 <use images/UI-CU02.jpg>
 Package pdftex.def Info: images/UI-CU02.jpg  used on input line 11.
 (pdftex.def)             Requested size: 175.17244pt x 384.91002pt.
-<images/UI-CU02_2.jpg, id=3428, 812.53563pt x 577.15625pt>
+<images/UI-CU02_2.jpg, id=3426, 812.53563pt x 577.15625pt>
 File: images/UI-CU02_2.jpg Graphic file (type jpg)
 <use images/UI-CU02_2.jpg>
 Package pdftex.def Info: images/UI-CU02_2.jpg  used on input line 13.
@@ -5500,12 +5504,12 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU03.jpg, id=3441, 263.48438pt x 556.0775pt>
+<images/UI-CU03.jpg, id=3439, 263.48438pt x 556.0775pt>
 File: images/UI-CU03.jpg Graphic file (type jpg)
 <use images/UI-CU03.jpg>
 Package pdftex.def Info: images/UI-CU03.jpg  used on input line 10.
 (pdftex.def)             Requested size: 175.17244pt x 369.71053pt.
-<images/UI-CU03_2.jpg, id=3442, 823.57687pt x 579.16376pt>
+<images/UI-CU03_2.jpg, id=3440, 823.57687pt x 579.16376pt>
 File: images/UI-CU03_2.jpg Graphic file (type jpg)
 <use images/UI-CU03_2.jpg>
 Package pdftex.def Info: images/UI-CU03_2.jpg  used on input line 12.
@@ -5540,7 +5544,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu04.png, id=3455, 164.11313pt x 345.54094pt>
+<images/cu04.png, id=3453, 164.11313pt x 345.54094pt>
 File: images/cu04.png Graphic file (type png)
 <use images/cu04.png>
 Package pdftex.def Info: images/cu04.png  used on input line 10.
@@ -5570,7 +5574,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu05.png, id=3468, 165.61874pt x 346.29375pt>
+<images/cu05.png, id=3466, 165.61874pt x 346.29375pt>
 File: images/cu05.png Graphic file (type png)
 <use images/cu05.png>
 Package pdftex.def Info: images/cu05.png  used on input line 10.
@@ -5600,7 +5604,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu06.png, id=3480, 161.85469pt x 341.77687pt>
+<images/cu06.png, id=3478, 161.85469pt x 341.77687pt>
 File: images/cu06.png Graphic file (type png)
 <use images/cu06.png>
 Package pdftex.def Info: images/cu06.png  used on input line 10.
@@ -5630,7 +5634,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu08.png, id=3492, 164.11313pt x 340.27126pt>
+<images/cu08.png, id=3490, 164.11313pt x 340.27126pt>
 File: images/cu08.png Graphic file (type png)
 <use images/cu08.png>
 Package pdftex.def Info: images/cu08.png  used on input line 10.
@@ -5660,7 +5664,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu13.png, id=3505, 195.73125pt x 405.515pt>
+<images/cu13.png, id=3503, 195.73125pt x 405.515pt>
 File: images/cu13.png Graphic file (type png)
 <use images/cu13.png>
 Package pdftex.def Info: images/cu13.png  used on input line 10.
@@ -5690,7 +5694,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu14.png, id=3516, 194.7275pt x 409.53pt>
+<images/cu14.png, id=3514, 194.7275pt x 409.53pt>
 File: images/cu14.png Graphic file (type png)
 <use images/cu14.png>
 Package pdftex.def Info: images/cu14.png  used on input line 11.
@@ -5720,7 +5724,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu11.png, id=3528, 197.73875pt x 402.50375pt>
+<images/cu11.png, id=3526, 197.73875pt x 402.50375pt>
 File: images/cu11.png Graphic file (type png)
 <use images/cu11.png>
 Package pdftex.def Info: images/cu11.png  used on input line 10.
@@ -5786,7 +5790,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu16.png, id=3549, 193.72375pt x 404.51125pt>
+<images/cu16.png, id=3547, 193.72375pt x 404.51125pt>
 File: images/cu16.png Graphic file (type png)
 <use images/cu16.png>
 Package pdftex.def Info: images/cu16.png  used on input line 10.
@@ -5816,7 +5820,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu17.png, id=3560, 192.72pt x 400.49625pt>
+<images/cu17.png, id=3558, 192.72pt x 400.49625pt>
 File: images/cu17.png Graphic file (type png)
 <use images/cu17.png>
 Package pdftex.def Info: images/cu17.png  used on input line 10.
@@ -5846,7 +5850,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu18.png, id=3572, 195.73125pt x 401.5pt>
+<images/cu18.png, id=3570, 195.73125pt x 401.5pt>
 File: images/cu18.png Graphic file (type png)
 <use images/cu18.png>
 Package pdftex.def Info: images/cu18.png  used on input line 10.
@@ -5876,7 +5880,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu19.png, id=3583, 158.84344pt x 342.5297pt>
+<images/cu19.png, id=3581, 158.84344pt x 342.5297pt>
 File: images/cu19.png Graphic file (type png)
 <use images/cu19.png>
 Package pdftex.def Info: images/cu19.png  used on input line 10.
@@ -5906,7 +5910,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/CU20.png, id=3595, 147.55125pt x 308.65312pt>
+<images/CU20.png, id=3593, 147.55125pt x 308.65312pt>
 File: images/CU20.png Graphic file (type png)
 <use images/CU20.png>
 Package pdftex.def Info: images/CU20.png  used on input line 10.
@@ -5940,7 +5944,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU21.jpg, id=3609, 817.0525pt x 583.68062pt>
+<images/UI-CU21.jpg, id=3607, 817.0525pt x 583.68062pt>
 File: images/UI-CU21.jpg Graphic file (type jpg)
 <use images/UI-CU21.jpg>
 Package pdftex.def Info: images/UI-CU21.jpg  used on input line 11.
@@ -5986,7 +5990,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU22.jpg, id=3631, 814.04124pt x 581.17125pt>
+<images/UI-CU22.jpg, id=3629, 814.04124pt x 581.17125pt>
 File: images/UI-CU22.jpg Graphic file (type jpg)
 <use images/UI-CU22.jpg>
 Package pdftex.def Info: images/UI-CU22.jpg  used on input line 11.
@@ -6029,7 +6033,7 @@ tu-dian-til[][] (ver fi-gu-ra [][]5.21[][]) pue-de ser ac-ce-di-da des-de la pa
 n-ta-lla [] [][]IU22  Crear
  []
 
-<images/UI-CU23.jpg, id=3649, 823.57687pt x 582.67688pt>
+<images/UI-CU23.jpg, id=3647, 823.57687pt x 582.67688pt>
 File: images/UI-CU23.jpg Graphic file (type jpg)
 <use images/UI-CU23.jpg>
 Package pdftex.def Info: images/UI-CU23.jpg  used on input line 11.
@@ -6065,7 +6069,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU24.jpg, id=3662, 817.0525pt x 579.66562pt>
+<images/UI-CU24.jpg, id=3660, 817.0525pt x 579.66562pt>
 File: images/UI-CU24.jpg Graphic file (type jpg)
 <use images/UI-CU24.jpg>
 Package pdftex.def Info: images/UI-CU24.jpg  used on input line 9.
@@ -6101,7 +6105,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU25.jpg, id=3674, 814.54312pt x 580.1675pt>
+<images/UI-CU25.jpg, id=3672, 814.54312pt x 580.1675pt>
 File: images/UI-CU25.jpg Graphic file (type jpg)
 <use images/UI-CU25.jpg>
 Package pdftex.def Info: images/UI-CU25.jpg  used on input line 9.
@@ -6147,7 +6151,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU28.jpg, id=3696, 822.07124pt x 584.68437pt>
+<images/UI-CU28.jpg, id=3694, 822.07124pt x 584.68437pt>
 File: images/UI-CU28.jpg Graphic file (type jpg)
 <use images/UI-CU28.jpg>
 Package pdftex.def Info: images/UI-CU28.jpg  used on input line 9.
@@ -6183,7 +6187,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU29.jpg, id=3709, 819.56187pt x 586.19pt>
+<images/UI-CU29.jpg, id=3707, 819.56187pt x 586.19pt>
 File: images/UI-CU29.jpg Graphic file (type jpg)
 <use images/UI-CU29.jpg>
 Package pdftex.def Info: images/UI-CU29.jpg  used on input line 9.
@@ -6229,7 +6233,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU32.jpg, id=3734, 831.60687pt x 588.1975pt>
+<images/UI-CU32.jpg, id=3732, 831.60687pt x 588.1975pt>
 File: images/UI-CU32.jpg Graphic file (type jpg)
 <use images/UI-CU32.jpg>
 Package pdftex.def Info: images/UI-CU32.jpg  used on input line 9.
@@ -6265,7 +6269,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU33.jpg, id=3746, 831.60687pt x 591.20876pt>
+<images/UI-CU33.jpg, id=3744, 831.60687pt x 591.20876pt>
 File: images/UI-CU33.jpg Graphic file (type jpg)
 <use images/UI-CU33.jpg>
 Package pdftex.def Info: images/UI-CU33.jpg  used on input line 9.
@@ -6311,7 +6315,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU36.jpg, id=3769, 819.56187pt x 583.68062pt>
+<images/UI-CU36.jpg, id=3767, 819.56187pt x 583.68062pt>
 File: images/UI-CU36.jpg Graphic file (type jpg)
 <use images/UI-CU36.jpg>
 Package pdftex.def Info: images/UI-CU36.jpg  used on input line 9.
@@ -6354,7 +6358,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU37.jpg, id=3782, 821.0675pt x 582.175pt>
+<images/UI-CU37.jpg, id=3780, 821.0675pt x 582.175pt>
 File: images/UI-CU37.jpg Graphic file (type jpg)
 <use images/UI-CU37.jpg>
 Package pdftex.def Info: images/UI-CU37.jpg  used on input line 9.
@@ -6396,12 +6400,12 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 10.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU40.jpg, id=3803, 252.945pt x 561.09625pt>
+<images/UI-CU40.jpg, id=3801, 252.945pt x 561.09625pt>
 File: images/UI-CU40.jpg Graphic file (type jpg)
 <use images/UI-CU40.jpg>
 Package pdftex.def Info: images/UI-CU40.jpg  used on input line 12.
 (pdftex.def)             Requested size: 175.17244pt x 388.58662pt.
-<images/UI-CU40_2.jpg, id=3804, 813.0375pt x 576.65437pt>
+<images/UI-CU40_2.jpg, id=3802, 813.0375pt x 576.65437pt>
 File: images/UI-CU40_2.jpg Graphic file (type jpg)
 <use images/UI-CU40_2.jpg>
 Package pdftex.def Info: images/UI-CU40_2.jpg  used on input line 14.
@@ -6440,7 +6444,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU41.jpg, id=3820, 813.53937pt x 574.64688pt>
+<images/UI-CU41.jpg, id=3818, 813.53937pt x 574.64688pt>
 File: images/UI-CU41.jpg Graphic file (type jpg)
 <use images/UI-CU41.jpg>
 Package pdftex.def Info: images/UI-CU41.jpg  used on input line 10.
@@ -6482,7 +6486,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/IUE00.jpg, id=3835, 256.45813pt x 552.0625pt>
+<images/IUE00.jpg, id=3833, 256.45813pt x 552.0625pt>
 File: images/IUE00.jpg Graphic file (type jpg)
 <use images/IUE00.jpg>
 Package pdftex.def Info: images/IUE00.jpg  used on input line 11.
@@ -6521,7 +6525,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/IUE01.jpg, id=3849, 263.98625pt x 564.60938pt>
+<images/IUE01.jpg, id=3847, 263.98625pt x 564.60938pt>
 File: images/IUE01.jpg Graphic file (type jpg)
 <use images/IUE01.jpg>
 Package pdftex.def Info: images/IUE01.jpg  used on input line 11.
@@ -6564,7 +6568,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/IUE02.jpg, id=3865, 254.9525pt x 556.0775pt>
+<images/IUE02.jpg, id=3863, 254.9525pt x 556.0775pt>
 File: images/IUE02.jpg Graphic file (type jpg)
 <use images/IUE02.jpg>
 Package pdftex.def Info: images/IUE02.jpg  used on input line 11.
@@ -6607,7 +6611,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/IUE03.jpg, id=3880, 253.94875pt x 556.0775pt>
+<images/IUE03.jpg, id=3878, 253.94875pt x 556.0775pt>
 File: images/IUE03.jpg Graphic file (type jpg)
 <use images/IUE03.jpg>
 Package pdftex.def Info: images/IUE03.jpg  used on input line 11.
@@ -6650,7 +6654,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/IUE04.jpg, id=3895, 818.55812pt x 578.66188pt>
+<images/IUE04.jpg, id=3893, 818.55812pt x 578.66188pt>
 File: images/IUE04.jpg Graphic file (type jpg)
 <use images/IUE04.jpg>
 Package pdftex.def Info: images/IUE04.jpg  used on input line 11.
@@ -6692,7 +6696,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/IUE05.jpg, id=3910, 816.04875pt x 582.175pt>
+<images/IUE05.jpg, id=3908, 816.04875pt x 582.175pt>
 File: images/IUE05.jpg Graphic file (type jpg)
 <use images/IUE05.jpg>
 Package pdftex.def Info: images/IUE05.jpg  used on input line 11.
@@ -6761,10 +6765,10 @@ Package rerunfilecheck Info: File `ejemplo.out' has not changed.
 (rerunfilecheck)             Checksum: BE6A13A1FBA80E77A730C3E276325D0A;62019.
  ) 
 Here is how much of TeX's memory you used:
- 18564 strings out of 473682
- 308096 string characters out of 5719215
- 687200 words of memory out of 5000000
- 39917 multiletter control sequences out of 15000+600000
+ 18569 strings out of 473682
+ 308268 string characters out of 5719215
+ 695200 words of memory out of 5000000
+ 39923 multiletter control sequences out of 15000+600000
  617477 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,16n,107p,582b,781s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -7076,9 +7080,9 @@ ograms/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/luis-/AppData/Local
 /Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/luis-/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/luis-/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ejemplo.pdf (171 pages, 6475132 bytes).
+Output written on ejemplo.pdf (171 pages, 6324774 bytes).
 PDF statistics:
- 4235 PDF objects out of 4296 (max. 8388607)
- 1165 named destinations out of 1200 (max. 500000)
+ 4232 PDF objects out of 4296 (max. 8388607)
+ 1164 named destinations out of 1200 (max. 500000)
  3534 words of extra memory for PDF output out of 10000 (max. 10000000)
 
