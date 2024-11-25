@@ -1,8 +1,13 @@
-\documentclass[10pt]{book}
+\documentclass[11pt]{book}
 
 \usepackage{cdtUsecases}
 \usepackage{txfonts}
-\bibliographystyle{ieeetr} % Estilo IEEE
+\usepackage{mathptmx}         % Cambia la fuente a Times New Roman o equivalente
+\usepackage[utf8]{inputenc}   % Permite caracteres especiales
+\usepackage[T1]{fontenc}      % Mejora el manejo de caracteres (como acentos)
+\usepackage{setspace}         % Controla el espaciado (opcional)
+\bibliographystyle{ieeetr} % Estilo ieeetr
+
 
 \title{Entregable C2-EP2\bigskip\\Nombre del Proyecto}
 \subtitle{Componente 2 Iteración 2 Especificación del proyecto}
@@ -32,30 +37,22 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Análisis}
-
 %=========================================================
-%\include{1introduccion}
-\include{TeoriaDaniel/SistemaOperativo}
-\include{TeoriaDaniel/LenguajeProgramacion}
-\include{TeoriaDaniel/API}
-\include{TeoriaDaniel/IDE}
+    %\include{1introduccion}
 
-%=========================================================
-\include{2ModeloDelAlcance}
+\include{Introduccion}
 
-%=========================================================
-\include{3ModeloDelNegocio}
+\include{Estado}
 
-%=========================================================
-\include{4ModeloDinamico}
+\include{MarcoTeorico}
 
-%=========================================================
-\include{5ModeloDeInteraccion}
+\include{Analisis}
 
 %=========================================================
 \include{Diseño}
 
-\bibliography{ref}
+\include{TrabajoF}
+
+\include{Bibliografia}
 
 \end{document}
