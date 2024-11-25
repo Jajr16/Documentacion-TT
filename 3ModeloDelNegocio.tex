@@ -9,8 +9,13 @@
 %----------------------------------------------------------
 \subsection{Contexto}
 
-	\cdtInstrucciones{El contexto debe explicar bajo que ambiente los términos del negocio son aplicables y proporcionar información general para su comprensión inicial.\\}
+	El presente documento se desarrolla en el ámbito escolar dentro de una \hyperlink{tUnidadAcademica}{unidad académica}, en este caso, ESCOM (Escuela Superior de Cómputo). Dentro de esta \hyperlink{tUnidadAcademica}{unidad académica}, existen diferentes actores, como lo son, el \hyperlink{tPersonalSeguridad}{personal de seguridad}, el \hyperlink{tAlumno}{alumnado} y el \hyperlink{tPersonalAcademico}{personal académico}. Juntos desempeñan diferentes tareas que tienen que ver con el ámbito escolar, en este contexto, nos vamos a enfocar al proceso de ingreso del \hyperlink{tAlumno}{alumnado} a la \hyperlink{tUnidadAcademica}{unidad académica} durante el periodo de \hyperlink{tETS}{ETS}.
 	
+	El proceso que se lleva hasta ahora para poder realizar un \hyperlink{tETS}{ETS} es a través de la página escolar (\hyperlink{tSAES}{SAES}) de la \hyperlink{tUnidadAcademica}{unidad académica} a la que el \hyperlink{tAlumno}{alumno} pertenece. Una vez hecho esto, el \hyperlink{tAlumno}{alumno} debe de esperar al día de aplicación del \hyperlink{tETS}{ETS}, para poder presentarse a realizar el mismo.
+	
+	Actualmente, el \hyperlink{tAlumno}{alumnado} puede entrar a la \hyperlink{tUnidadAcademica}{unidad académica} mayormente sin alguna prueba de que van a realizar un \hyperlink{tETS}{ETS}, y ya en el salón de aplicación del \hyperlink{tETS}{ETS} les piden la credencial para saber si son quien dicen ser. Sin embargo, este proceso depende de cada docente, por lo que puede llegar a fallar y también, es muy propenso al fallo humano.
+	
+	Por esto, se propone un sistema que ayude a realizar el proceso de ingreso a la \hyperlink{tUnidadAcademica}{unidad académica}, por medio de un  \hyperlink{tControlAcceso}{control de acceso} que se apoye con un \hyperlink{tSistemaVerificacion}{Sistema de verificación de identidad}, o bien por medio del escanéo del \hyperlink{tCodigoQR}{código QR} que tiene la \hyperlink{tCredencialEscolar}{credencial escolar} en la parte trasera de la misma. 
 	
 %---------------------------------------------------------
 \subsection{Términos del Negocio}
@@ -26,7 +31,7 @@
 	
 	\item[\hypertarget{tAlumno}{Alumno:}] (es un tipo de Usuario) Se refiere a las personas inscritas dentro de algún plan de estudios ofertado en la \hyperlink{tUnidadAcademica}{unidad académica}.
 	
-	\item[\hypertarget{tDocenteAplicador}{Docente aplicador:}] (es un tipo de Usuario) Se refiere a las personas registradas como trabajadores que dan clases a los alumnos y supervisan los ETS asignados.
+	\item[\hypertarget{tPersonalAcademico}{Personal Académico:}] (es un tipo de Usuario) Se refiere a las personas registradas como trabajadores dentro de una unidad académica. Estos elaboran diferentes tipos de tareas dependiendo del rol o del cargo que tengan.
 	
 	\item[\hypertarget{tPersonalSeguridad}{Personal de seguridad:}] (es un tipo de Usuario) Se refiere a las personas registradas como trabajadores y que permiten o no el acceso a la \hyperlink{tUnidadAcademica}{unidad académica}.
 	
@@ -39,6 +44,8 @@
 	\item[\hypertarget{tControlAcceso}{Control de acceso:}] Sistema implementado para verificar y autorizar el acceso a la \hyperlink{tUnidadAcademica}{unidad académica}.
 	
 	\item[\hypertarget{tRegistroAcceso}{Registro de acceso:}] Historial digital que documenta los accesos permitidos y denegados, incluyendo datos de cada intento de entrada para consulta posterior.
+	
+	\item[\hypertarget{tSAES}{SAES:}] Herramienta informática que utiliza el Instituto Politécnico Nacional (IPN) para pode controlar toda la información académica de cada estudiante.
 	
 %	\brTermSensor{tVelocimetro}{Velocímetro:}{Velocidad de un Vehículo.}{Kilometros/hora.}{Constantemente siempre que el \cdtRef{tVehiculo}{vehículo} esté encendido.}
 \end{description}
