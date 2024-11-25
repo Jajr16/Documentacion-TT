@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.17)  25 NOV 2024 02:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.17)  25 NOV 2024 04:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -528,7 +528,7 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (d:\Repositorio\Documentacion-TT\build\ejemplo2.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
- (d:\Repositorio\Documentacion-TT\build\2ModeloDelAlcance.aux) (d:\Repositorio\Documentacion-TT\build\3ModeloDelNegocio.aux) (d:\Repositorio\Documentacion-TT\build\4ModeloDinamico.aux) (d:\Repositorio\Documentacion-TT\build\5ModeloDeInteraccion.aux) (d:\Repositorio\Documentacion-TT\build\Diseño.aux))
+ (d:\Repositorio\Documentacion-TT\build\TeoriaDaniel/SistemaOperativo.aux) (d:\Repositorio\Documentacion-TT\build\TeoriaDaniel/LenguajeProgramacion.aux) (d:\Repositorio\Documentacion-TT\build\TeoriaDaniel/API.aux) (d:\Repositorio\Documentacion-TT\build\TeoriaDaniel/IDE.aux) (d:\Repositorio\Documentacion-TT\build\2ModeloDelAlcance.aux) (d:\Repositorio\Documentacion-TT\build\3ModeloDelNegocio.aux) (d:\Repositorio\Documentacion-TT\build\4ModeloDinamico.aux) (d:\Repositorio\Documentacion-TT\build\5ModeloDeInteraccion.aux) (d:\Repositorio\Documentacion-TT\build\Diseño.aux))
 \openout1 = `ejemplo2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 14.
@@ -671,405 +671,436 @@ LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
 
 
 LaTeX Font Info:    Font shape `OT1/txss/m/sc' will be
-(Font)              scaled to size 9.49997pt on input line 34.
+(Font)              scaled to size 9.49997pt on input line 33.
 [1
 
 ]
-Overfull \hbox (1.12093pt too wide) detected at line 180
+
+<theme/escudoESCOM.png, id=809, 481.8pt x 367.3725pt>
+File: theme/escudoESCOM.png Graphic file (type png)
+<use theme/escudoESCOM.png>
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 124.
+(pdftex.def)             Requested size: 45.89644pt x 35.0pt.
+[2 <./theme/escudoESCOM.png>]
+Overfull \hbox (1.12093pt too wide) detected at line 188
  []\OT1/txss/m/n/10 101
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 184
+Overfull \hbox (1.12093pt too wide) detected at line 192
  []\OT1/txss/m/n/10 103
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 185
- []\OT1/txss/m/n/10 103
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 186
- []\OT1/txss/m/n/10 106
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 193
- []\OT1/txss/m/n/10 108
+Overfull \hbox (1.12093pt too wide) detected at line 196
+ []\OT1/txss/m/n/10 105
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 200
- []\OT1/txss/m/n/10 110
+ []\OT1/txss/m/n/10 107
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 207
- []\OT1/txss/m/n/10 112
+Overfull \hbox (1.12093pt too wide) detected at line 204
+ []\OT1/txss/m/n/10 109
  []
 
 
+Overfull \hbox (1.12093pt too wide) detected at line 208
+ []\OT1/txss/m/n/10 111
+ []
 
-<theme/escudoESCOM.png, id=697, 481.8pt x 367.3725pt>
-File: theme/escudoESCOM.png Graphic file (type png)
-<use theme/escudoESCOM.png>
-Package pdftex.def Info: theme/escudoESCOM.png  used on input line 214.
-(pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[2 <./theme/escudoESCOM.png>]
+
+Overfull \hbox (1.12093pt too wide) detected at line 212
+ []\OT1/txss/m/n/10 113
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 213
+ []\OT1/txss/m/n/10 113
+ []
+
+
 Overfull \hbox (1.12093pt too wide) detected at line 214
- []\OT1/txss/m/n/10 114
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 221
  []\OT1/txss/m/n/10 116
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 228
+Overfull \hbox (1.12093pt too wide) detected at line 221
  []\OT1/txss/m/n/10 118
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 235
+Overfull \hbox (1.12093pt too wide) detected at line 228
  []\OT1/txss/m/n/10 120
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 242
+Overfull \hbox (1.12093pt too wide) detected at line 235
  []\OT1/txss/m/n/10 122
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 249
+Overfull \hbox (1.12093pt too wide) detected at line 242
  []\OT1/txss/m/n/10 124
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 256
+Overfull \hbox (1.12093pt too wide) detected at line 249
  []\OT1/txss/m/n/10 126
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 263
+Overfull \hbox (1.12093pt too wide) detected at line 256
  []\OT1/txss/m/n/10 128
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 270
+Overfull \hbox (1.12093pt too wide) detected at line 263
  []\OT1/txss/m/n/10 130
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 277
+Overfull \hbox (1.12093pt too wide) detected at line 270
  []\OT1/txss/m/n/10 132
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 284
+Overfull \hbox (1.12093pt too wide) detected at line 277
  []\OT1/txss/m/n/10 134
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 291
+Overfull \hbox (1.12093pt too wide) detected at line 284
  []\OT1/txss/m/n/10 136
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 298
+Overfull \hbox (1.12093pt too wide) detected at line 291
  []\OT1/txss/m/n/10 138
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 305
+Overfull \hbox (1.12093pt too wide) detected at line 298
  []\OT1/txss/m/n/10 140
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 312
+Overfull \hbox (1.12093pt too wide) detected at line 305
  []\OT1/txss/m/n/10 142
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 319
+Overfull \hbox (1.12093pt too wide) detected at line 312
  []\OT1/txss/m/n/10 144
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 326
+Overfull \hbox (1.12093pt too wide) detected at line 319
  []\OT1/txss/m/n/10 146
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 333
+Overfull \hbox (1.12093pt too wide) detected at line 326
  []\OT1/txss/m/n/10 148
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 340
+Overfull \hbox (1.12093pt too wide) detected at line 333
  []\OT1/txss/m/n/10 150
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 347
+Overfull \hbox (1.12093pt too wide) detected at line 340
  []\OT1/txss/m/n/10 152
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 354
+Overfull \hbox (1.12093pt too wide) detected at line 347
  []\OT1/txss/m/n/10 154
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 361
+Overfull \hbox (1.12093pt too wide) detected at line 354
  []\OT1/txss/m/n/10 156
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 368
+Overfull \hbox (1.12093pt too wide) detected at line 361
  []\OT1/txss/m/n/10 158
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 375
+Overfull \hbox (1.12093pt too wide) detected at line 368
  []\OT1/txss/m/n/10 160
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 382
- []\OT1/txss/m/n/10 162
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 389
- []\OT1/txss/m/n/10 164
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 396
- []\OT1/txss/m/n/10 166
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 403
- []\OT1/txss/m/n/10 168
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 410
- []\OT1/txss/m/n/10 171
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 417
- []\OT1/txss/m/n/10 173
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 424
- []\OT1/txss/m/n/10 175
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 431
- []\OT1/txss/m/n/10 177
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 438
- []\OT1/txss/m/n/10 179
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 445
- []\OT1/txss/m/n/10 181
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 452
- []\OT1/txss/m/n/10 183
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 460
- []\OT1/txss/m/n/10 185
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 461
- []\OT1/txss/m/n/10 186
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 462
- []\OT1/txss/m/n/10 187
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 463
- []\OT1/txss/m/n/10 188
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 464
- []\OT1/txss/m/n/10 189
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 465
- []\OT1/txss/m/n/10 190
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 466
- []\OT1/txss/m/n/10 191
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 467
- []\OT1/txss/m/n/10 192
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 468
- []\OT1/txss/m/n/10 193
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 469
- []\OT1/txss/m/n/10 194
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 470
- []\OT1/txss/m/n/10 195
  []
 
 
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
-Package pdftex.def Info: theme/escudoESCOM.png  used on input line 471.
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 375.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
 [3]
-Overfull \hbox (1.12093pt too wide) detected at line 471
- []\OT1/txss/m/n/10 196
+Overfull \hbox (1.12093pt too wide) detected at line 375
+ []\OT1/txss/m/n/10 162
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 472
- []\OT1/txss/m/n/10 197
+Overfull \hbox (1.12093pt too wide) detected at line 382
+ []\OT1/txss/m/n/10 164
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 389
+ []\OT1/txss/m/n/10 166
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 396
+ []\OT1/txss/m/n/10 168
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 403
+ []\OT1/txss/m/n/10 170
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 410
+ []\OT1/txss/m/n/10 172
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 417
+ []\OT1/txss/m/n/10 174
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 424
+ []\OT1/txss/m/n/10 176
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 431
+ []\OT1/txss/m/n/10 178
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 438
+ []\OT1/txss/m/n/10 181
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 445
+ []\OT1/txss/m/n/10 183
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 452
+ []\OT1/txss/m/n/10 185
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 459
+ []\OT1/txss/m/n/10 187
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 466
+ []\OT1/txss/m/n/10 189
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 473
- []\OT1/txss/m/n/10 198
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 474
- []\OT1/txss/m/n/10 199
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 475
- []\OT1/txss/m/n/10 200
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 476
- []\OT1/txss/m/n/10 201
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 477
- []\OT1/txss/m/n/10 202
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 478
- []\OT1/txss/m/n/10 203
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 479
- []\OT1/txss/m/n/10 204
+ []\OT1/txss/m/n/10 191
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 480
- []\OT1/txss/m/n/10 205
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 481
- []\OT1/txss/m/n/10 206
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 482
- []\OT1/txss/m/n/10 207
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 483
- []\OT1/txss/m/n/10 208
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 484
- []\OT1/txss/m/n/10 209
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 485
- []\OT1/txss/m/n/10 210
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 486
- []\OT1/txss/m/n/10 211
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 487
- []\OT1/txss/m/n/10 212
+ []\OT1/txss/m/n/10 193
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 488
- []\OT1/txss/m/n/10 213
+ []\OT1/txss/m/n/10 195
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 489
- []\OT1/txss/m/n/10 214
+ []\OT1/txss/m/n/10 196
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 490
- []\OT1/txss/m/n/10 215
+ []\OT1/txss/m/n/10 197
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 491
- []\OT1/txss/m/n/10 216
+ []\OT1/txss/m/n/10 198
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 492
- []\OT1/txss/m/n/10 217
+ []\OT1/txss/m/n/10 199
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 493
- []\OT1/txss/m/n/10 218
+ []\OT1/txss/m/n/10 200
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 494
+ []\OT1/txss/m/n/10 201
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 495
+ []\OT1/txss/m/n/10 202
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 496
+ []\OT1/txss/m/n/10 203
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 497
+ []\OT1/txss/m/n/10 204
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 498
+ []\OT1/txss/m/n/10 205
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 499
+ []\OT1/txss/m/n/10 206
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 500
+ []\OT1/txss/m/n/10 207
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 501
+ []\OT1/txss/m/n/10 208
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 502
+ []\OT1/txss/m/n/10 209
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 503
+ []\OT1/txss/m/n/10 210
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 504
+ []\OT1/txss/m/n/10 211
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 505
+ []\OT1/txss/m/n/10 212
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 506
+ []\OT1/txss/m/n/10 213
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 507
+ []\OT1/txss/m/n/10 214
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 508
+ []\OT1/txss/m/n/10 215
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 509
+ []\OT1/txss/m/n/10 216
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 510
+ []\OT1/txss/m/n/10 217
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 511
+ []\OT1/txss/m/n/10 218
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 512
  []\OT1/txss/m/n/10 219
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 513
+ []\OT1/txss/m/n/10 220
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 514
+ []\OT1/txss/m/n/10 221
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 515
+ []\OT1/txss/m/n/10 222
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 516
+ []\OT1/txss/m/n/10 223
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 517
+ []\OT1/txss/m/n/10 224
+ []
+
+
+
+File: theme/escudoESCOM.png Graphic file (type png)
+<use theme/escudoESCOM.png>
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 518.
+(pdftex.def)             Requested size: 45.89644pt x 35.0pt.
+[4]
+Overfull \hbox (1.12093pt too wide) detected at line 518
+ []\OT1/txss/m/n/10 225
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 519
+ []\OT1/txss/m/n/10 226
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 520
+ []\OT1/txss/m/n/10 227
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 521
+ []\OT1/txss/m/n/10 228
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 522
+ []\OT1/txss/m/n/10 229
  []
 
 )
@@ -1082,361 +1113,367 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 23.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[4] (d:\Repositorio\Documentacion-TT\build\ejemplo2.lof
+[5]
+
+File: theme/escudoESCOM.png Graphic file (type png)
+<use theme/escudoESCOM.png>
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 23.
+(pdftex.def)             Requested size: 45.89644pt x 35.0pt.
+[6
+
+] (d:\Repositorio\Documentacion-TT\build\ejemplo2.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
 Overfull \hbox (1.12093pt too wide) detected at line 9
- []\OT1/txss/m/n/10 103
+ []\OT1/txss/m/n/10 113
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 10
- []\OT1/txss/m/n/10 104
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 11
- []\OT1/txss/m/n/10 105
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 12
- []\OT1/txss/m/n/10 106
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 13
- []\OT1/txss/m/n/10 108
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 14
- []\OT1/txss/m/n/10 110
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 15
- []\OT1/txss/m/n/10 112
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 16
  []\OT1/txss/m/n/10 114
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 17
+Overfull \hbox (1.12093pt too wide) detected at line 11
+ []\OT1/txss/m/n/10 115
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 12
  []\OT1/txss/m/n/10 116
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 18
+Overfull \hbox (1.12093pt too wide) detected at line 13
  []\OT1/txss/m/n/10 118
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 19
+Overfull \hbox (1.12093pt too wide) detected at line 14
  []\OT1/txss/m/n/10 120
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 20
+Overfull \hbox (1.12093pt too wide) detected at line 15
  []\OT1/txss/m/n/10 122
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 21
+Overfull \hbox (1.12093pt too wide) detected at line 16
  []\OT1/txss/m/n/10 124
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 22
+Overfull \hbox (1.12093pt too wide) detected at line 17
  []\OT1/txss/m/n/10 126
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 23
+Overfull \hbox (1.12093pt too wide) detected at line 18
  []\OT1/txss/m/n/10 128
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 24
+Overfull \hbox (1.12093pt too wide) detected at line 19
  []\OT1/txss/m/n/10 130
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 25
+Overfull \hbox (1.12093pt too wide) detected at line 20
  []\OT1/txss/m/n/10 132
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 26
+Overfull \hbox (1.12093pt too wide) detected at line 21
  []\OT1/txss/m/n/10 134
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 27
+Overfull \hbox (1.12093pt too wide) detected at line 22
  []\OT1/txss/m/n/10 136
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 28
+Overfull \hbox (1.12093pt too wide) detected at line 23
  []\OT1/txss/m/n/10 138
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 29
+Overfull \hbox (1.12093pt too wide) detected at line 24
  []\OT1/txss/m/n/10 140
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 30
+Overfull \hbox (1.12093pt too wide) detected at line 25
  []\OT1/txss/m/n/10 142
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 31
+Overfull \hbox (1.12093pt too wide) detected at line 26
  []\OT1/txss/m/n/10 144
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 32
+Overfull \hbox (1.12093pt too wide) detected at line 27
  []\OT1/txss/m/n/10 146
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 33
+Overfull \hbox (1.12093pt too wide) detected at line 28
  []\OT1/txss/m/n/10 148
  []
 
 
-
-[5
-
-]
-Overfull \hbox (1.12093pt too wide) detected at line 34
+Overfull \hbox (1.12093pt too wide) detected at line 29
  []\OT1/txss/m/n/10 150
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 35
+Overfull \hbox (1.12093pt too wide) detected at line 30
  []\OT1/txss/m/n/10 152
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 36
+Overfull \hbox (1.12093pt too wide) detected at line 31
  []\OT1/txss/m/n/10 154
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 37
+Overfull \hbox (1.12093pt too wide) detected at line 32
  []\OT1/txss/m/n/10 156
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 38
+Overfull \hbox (1.12093pt too wide) detected at line 33
  []\OT1/txss/m/n/10 158
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 39
+
+[7]
+Overfull \hbox (1.12093pt too wide) detected at line 34
  []\OT1/txss/m/n/10 160
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 40
+Overfull \hbox (1.12093pt too wide) detected at line 35
  []\OT1/txss/m/n/10 162
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 41
+Overfull \hbox (1.12093pt too wide) detected at line 36
  []\OT1/txss/m/n/10 164
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 42
+Overfull \hbox (1.12093pt too wide) detected at line 37
  []\OT1/txss/m/n/10 166
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 43
+Overfull \hbox (1.12093pt too wide) detected at line 38
  []\OT1/txss/m/n/10 168
  []
 
 
+Overfull \hbox (1.12093pt too wide) detected at line 39
+ []\OT1/txss/m/n/10 170
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 40
+ []\OT1/txss/m/n/10 172
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 41
+ []\OT1/txss/m/n/10 174
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 42
+ []\OT1/txss/m/n/10 176
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 43
+ []\OT1/txss/m/n/10 178
+ []
+
+
 Overfull \hbox (1.12093pt too wide) detected at line 44
- []\OT1/txss/m/n/10 169
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 45
- []\OT1/txss/m/n/10 171
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 46
- []\OT1/txss/m/n/10 173
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 47
- []\OT1/txss/m/n/10 175
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 48
- []\OT1/txss/m/n/10 177
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 49
  []\OT1/txss/m/n/10 179
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 50
+Overfull \hbox (1.12093pt too wide) detected at line 45
  []\OT1/txss/m/n/10 181
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 51
+Overfull \hbox (1.12093pt too wide) detected at line 46
  []\OT1/txss/m/n/10 183
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 53
- []\OT1/txss/m/n/10 186
+Overfull \hbox (1.12093pt too wide) detected at line 47
+ []\OT1/txss/m/n/10 185
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 54
+Overfull \hbox (1.12093pt too wide) detected at line 48
  []\OT1/txss/m/n/10 187
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 55
- []\OT1/txss/m/n/10 188
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 56
+Overfull \hbox (1.12093pt too wide) detected at line 49
  []\OT1/txss/m/n/10 189
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 57
- []\OT1/txss/m/n/10 190
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 58
+Overfull \hbox (1.12093pt too wide) detected at line 50
  []\OT1/txss/m/n/10 191
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 59
- []\OT1/txss/m/n/10 192
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 60
+Overfull \hbox (1.12093pt too wide) detected at line 51
  []\OT1/txss/m/n/10 193
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 61
- []\OT1/txss/m/n/10 194
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 62
- []\OT1/txss/m/n/10 195
- []
-
-
-Overfull \hbox (1.12093pt too wide) detected at line 63
+Overfull \hbox (1.12093pt too wide) detected at line 53
  []\OT1/txss/m/n/10 196
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 64
+Overfull \hbox (1.12093pt too wide) detected at line 54
  []\OT1/txss/m/n/10 197
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 65
+Overfull \hbox (1.12093pt too wide) detected at line 55
  []\OT1/txss/m/n/10 198
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 66
+Overfull \hbox (1.12093pt too wide) detected at line 56
  []\OT1/txss/m/n/10 199
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 67
+Overfull \hbox (1.12093pt too wide) detected at line 57
  []\OT1/txss/m/n/10 200
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 68
+Overfull \hbox (1.12093pt too wide) detected at line 58
  []\OT1/txss/m/n/10 201
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 69
+Overfull \hbox (1.12093pt too wide) detected at line 59
  []\OT1/txss/m/n/10 202
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 70
+Overfull \hbox (1.12093pt too wide) detected at line 60
  []\OT1/txss/m/n/10 203
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 71
+Overfull \hbox (1.12093pt too wide) detected at line 61
  []\OT1/txss/m/n/10 204
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 72
+Overfull \hbox (1.12093pt too wide) detected at line 62
  []\OT1/txss/m/n/10 205
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 73
+Overfull \hbox (1.12093pt too wide) detected at line 63
  []\OT1/txss/m/n/10 206
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 74
+Overfull \hbox (1.12093pt too wide) detected at line 64
  []\OT1/txss/m/n/10 207
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 75
+Overfull \hbox (1.12093pt too wide) detected at line 65
  []\OT1/txss/m/n/10 208
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 76
+Overfull \hbox (1.12093pt too wide) detected at line 66
  []\OT1/txss/m/n/10 209
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 77
+Overfull \hbox (1.12093pt too wide) detected at line 67
  []\OT1/txss/m/n/10 210
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 78
+Overfull \hbox (1.12093pt too wide) detected at line 68
  []\OT1/txss/m/n/10 211
  []
 
 
-Overfull \hbox (1.12093pt too wide) detected at line 79
+Overfull \hbox (1.12093pt too wide) detected at line 69
  []\OT1/txss/m/n/10 212
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 70
+ []\OT1/txss/m/n/10 213
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 71
+ []\OT1/txss/m/n/10 214
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 72
+ []\OT1/txss/m/n/10 215
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 73
+ []\OT1/txss/m/n/10 216
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 74
+ []\OT1/txss/m/n/10 217
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 75
+ []\OT1/txss/m/n/10 218
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 76
+ []\OT1/txss/m/n/10 219
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 77
+ []\OT1/txss/m/n/10 220
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 78
+ []\OT1/txss/m/n/10 221
+ []
+
+
+Overfull \hbox (1.12093pt too wide) detected at line 79
+ []\OT1/txss/m/n/10 222
  []
 
 
@@ -1445,39 +1482,39 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 80.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[6]
+[8]
 Overfull \hbox (1.12093pt too wide) detected at line 80
- []\OT1/txss/m/n/10 213
+ []\OT1/txss/m/n/10 223
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 81
- []\OT1/txss/m/n/10 214
+ []\OT1/txss/m/n/10 224
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 82
- []\OT1/txss/m/n/10 215
+ []\OT1/txss/m/n/10 225
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 83
- []\OT1/txss/m/n/10 216
+ []\OT1/txss/m/n/10 226
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 84
- []\OT1/txss/m/n/10 217
+ []\OT1/txss/m/n/10 227
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 85
- []\OT1/txss/m/n/10 218
+ []\OT1/txss/m/n/10 228
  []
 
 
 Overfull \hbox (1.12093pt too wide) detected at line 86
- []\OT1/txss/m/n/10 219
+ []\OT1/txss/m/n/10 229
  []
 
 )
@@ -1490,13 +1527,13 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 24.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[7]
+[9]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 24.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[8
+[10
 
 ] (d:\Repositorio\Documentacion-TT\build\ejemplo2.lot
 LaTeX Info: Redefining \. on input line 1.
@@ -1507,13 +1544,13 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 
-[9]
+[11]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 28.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[10
+[12
 
 ]
 Cap\'{\i }tulo 1.
@@ -1523,18 +1560,228 @@ Cap\'{\i }tulo 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 \include{2ModeloDelAlcance}
-                                 [1
+l.37 \include{TeoriaDaniel/SistemaOperativo}
+                                             [1
 
 ]
+\openout2 = `TeoriaDaniel/SistemaOperativo.aux'.
+
+ (TeoriaDaniel/SistemaOperativo.tex
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 3.
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 10.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 19.
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
+(Font)              scaled to size 8.54997pt on input line 33.
+
+
+File: theme/escudoESCOM.png Graphic file (type png)
+<use theme/escudoESCOM.png>
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 71.
+(pdftex.def)             Requested size: 45.89644pt x 35.0pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.71         \item\relax
+                         [2
+
+]
+Underfull \hbox (badness 2158) in paragraph at lines 89--89
+[]|\OT1/txss/m/n/10 Lenguajes de pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\OT1/txss/m/n/10 Documentaci[]on y
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 92--92
+[]|\OT1/txss/m/n/10 Acceso m[]as fle-xi-ble, pe-ro con
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 93--93
+[]|\OT1/txss/m/n/10 Publicaci[]on r[]api-da, sin apro-ba-
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 96--96
+[]|\OT1/txss/m/n/10 Desarrollo mul-ti-pla-
+ []
+
+
+
+File: theme/escudoESCOM.png Graphic file (type png)
+<use theme/escudoESCOM.png>
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 109.
+(pdftex.def)             Requested size: 45.89644pt x 35.0pt.
+[3]
+
+File: theme/escudoESCOM.png Graphic file (type png)
+<use theme/escudoESCOM.png>
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 157.
+(pdftex.def)             Requested size: 45.89644pt x 35.0pt.
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+[]|\OT1/txss/b/n/10 Caracter[]^^Psti-
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 173--173
+[]|\OT1/txss/m/n/10 Soporta una am-plia ga-ma de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
+[]|\OT1/txss/m/n/10 Soporta he-rra-mien-tas co-mo
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 173--173
+\OT1/txss/m/n/10 Vi-sual Stu-dio Co-de, Py-Charm,
+ []
+
+
+Overfull \hbox (5.91766pt too wide) in paragraph at lines 174--174
+[]|\OT1/txss/m/n/10 Compatibilidad
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 174--174
+\OT1/txss/m/n/10 con Len-gua-
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 174--174
+[]|\OT1/txss/m/n/10 Amplia com-pa-ti-bi-li-dad con len-
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 174--174
+[]|\OT1/txss/m/n/10 Compatible con to-dos los len-
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 174--174
+\OT1/txss/m/n/10 te pa-ra de-sa-rro-llo iOS (Swift,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+[]|\OT1/txss/m/n/10 Soporte de
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 175--175
+\OT1/txss/m/n/10 por-te pa-ra soft-wa-re li-bre y de
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 176--176
+[]|\OT1/txss/m/n/10 Gran ren-di-mien-to en hard-wa-re
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
+[]|\OT1/txss/m/n/10 Soporte de
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 178--178
+\OT1/txss/m/n/10 tas avan-za-das y ad-mi-nis-tra-ci[]on
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 179--179
+[]|\OT1/txss/m/n/10 Facilidad de
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 179--179
+[]|\OT1/txss/m/n/10 Requiere al-go de co-no-ci-mien-to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
+[]|\OT1/txss/m/n/10 Desarrollo
+ []
+
+
+Overfull \hbox (33.21281pt too wide) in paragraph at lines 168--186
+ [][] 
+ []
+
+
+
+File: theme/escudoESCOM.png Graphic file (type png)
+<use theme/escudoESCOM.png>
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 194.
+(pdftex.def)             Requested size: 45.89644pt x 35.0pt.
+[5])
+
+File: theme/escudoESCOM.png Graphic file (type png)
+<use theme/escudoESCOM.png>
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 37.
+(pdftex.def)             Requested size: 45.89644pt x 35.0pt.
+[6]
+\openout2 = `TeoriaDaniel/LenguajeProgramacion.aux'.
+
+ (TeoriaDaniel/LenguajeProgramacion.tex
+
+File: theme/escudoESCOM.png Graphic file (type png)
+<use theme/escudoESCOM.png>
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 64.
+(pdftex.def)             Requested size: 45.89644pt x 35.0pt.
+[7
+
+
+
+])
+
+File: theme/escudoESCOM.png Graphic file (type png)
+<use theme/escudoESCOM.png>
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 38.
+(pdftex.def)             Requested size: 45.89644pt x 35.0pt.
+[8]
+\openout2 = `TeoriaDaniel/API.aux'.
+
+ (TeoriaDaniel/API.tex)
+
+File: theme/escudoESCOM.png Graphic file (type png)
+<use theme/escudoESCOM.png>
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 39.
+(pdftex.def)             Requested size: 45.89644pt x 35.0pt.
+[9
+
+
+
+]
+\openout2 = `TeoriaDaniel/IDE.aux'.
+
+ (TeoriaDaniel/IDE.tex
+
+File: theme/escudoESCOM.png Graphic file (type png)
+<use theme/escudoESCOM.png>
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 70.
+(pdftex.def)             Requested size: 45.89644pt x 35.0pt.
+[10
+
+
+
+])
+
+File: theme/escudoESCOM.png Graphic file (type png)
+<use theme/escudoESCOM.png>
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 40.
+(pdftex.def)             Requested size: 45.89644pt x 35.0pt.
+[11]
 \openout2 = `2ModeloDelAlcance.aux'.
 
  (2ModeloDelAlcance.tex
-LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 2.
-LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 12.
-
 Overfull \hbox (50.00758pt too wide) in alignment at lines 17--17
  [] [] [] [] 
  []
@@ -1568,10 +1815,10 @@ LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
 (Font)              scaled to size 7.59998pt on input line 45.
 
-LaTeX Warning: Reference `tbl:leyendaRF' on page 2 undefined on input line 45.
+LaTeX Warning: Reference `tbl:leyendaRF' on page 12 undefined on input line 45.
 
 
-LaTeX Warning: Reference `tbl:leyendaRF' on page 2 undefined on input line 45.
+LaTeX Warning: Reference `tbl:leyendaRF' on page 12 undefined on input line 45.
 
 
 Overfull \hbox (50.00758pt too wide) in alignment at lines 17--47
@@ -1582,15 +1829,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 47.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
+[12
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.47 	\end{requerimientosU}
-                            [2
+
 
 ]
-<images/arquitectura.jpeg, id=988, 800.9925pt x 708.6475pt>
+<images/arquitectura.jpeg, id=1182, 800.9925pt x 708.6475pt>
 File: images/arquitectura.jpeg Graphic file (type jpg)
 <use images/arquitectura.jpeg>
 Package pdftex.def Info: images/arquitectura.jpeg  used on input line 70.
@@ -1599,15 +1843,15 @@ Package pdftex.def Info: images/arquitectura.jpeg  used on input line 70.
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
-Package pdftex.def Info: theme/escudoESCOM.png  used on input line 39.
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 43.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[3]
+[13]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
-Package pdftex.def Info: theme/escudoESCOM.png  used on input line 39.
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 43.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[4 <./images/arquitectura.jpeg>]
+[14 <./images/arquitectura.jpeg>]
 \openout2 = `3ModeloDelNegocio.aux'.
 
  (3ModeloDelNegocio.tex
@@ -1621,17 +1865,17 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 44.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[5
+[15
 
 
 
 ]
-<images/DER.png, id=1047, 819.06pt x 600.74437pt>
+<images/DER.png, id=1241, 819.06pt x 600.74437pt>
 File: images/DER.png Graphic file (type png)
 <use images/DER.png>
 Package pdftex.def Info: images/DER.png  used on input line 65.
 (pdftex.def)             Requested size: 819.058pt x 600.7429pt.
-<theme/uc/classRule.png, id=1048, 1930.5726pt x 130.086pt>
+<theme/uc/classRule.png, id=1242, 1930.5726pt x 130.086pt>
 File: theme/uc/classRule.png Graphic file (type png)
 <use theme/uc/classRule.png>
 Package pdftex.def Info: theme/uc/classRule.png  used on input line 72.
@@ -1665,13 +1909,13 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 103.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[6 <./theme/uc/classRule.png>]
+[16 <./theme/uc/classRule.png>]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 103.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[7 <./images/DER.png (PNG copy)>]
+[17 <./images/DER.png (PNG copy)>]
 File: theme/uc/classRule.png Graphic file (type png)
 <use theme/uc/classRule.png>
 Package pdftex.def Info: theme/uc/classRule.png  used on input line 105.
@@ -1705,7 +1949,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 145.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[8]
+[18]
 File: theme/uc/classRule.png Graphic file (type png)
 <use theme/uc/classRule.png>
 Package pdftex.def Info: theme/uc/classRule.png  used on input line 147.
@@ -1737,7 +1981,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 171.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[9]
+[19]
 File: theme/uc/classRule.png Graphic file (type png)
 <use theme/uc/classRule.png>
 Package pdftex.def Info: theme/uc/classRule.png  used on input line 173.
@@ -1771,7 +2015,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 209.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[10]
+[20]
 File: theme/uc/classRule.png Graphic file (type png)
 <use theme/uc/classRule.png>
 Package pdftex.def Info: theme/uc/classRule.png  used on input line 211.
@@ -1805,7 +2049,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 253.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[11]
+[21]
 File: theme/uc/classRule.png Graphic file (type png)
 <use theme/uc/classRule.png>
 Package pdftex.def Info: theme/uc/classRule.png  used on input line 255.
@@ -1839,7 +2083,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 273.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[12]
+[22]
 File: theme/uc/classRule.png Graphic file (type png)
 <use theme/uc/classRule.png>
 Package pdftex.def Info: theme/uc/classRule.png  used on input line 275.
@@ -1873,7 +2117,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 311.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[13]
+[23]
 File: theme/uc/classRule.png Graphic file (type png)
 <use theme/uc/classRule.png>
 Package pdftex.def Info: theme/uc/classRule.png  used on input line 313.
@@ -1905,88 +2149,88 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 344.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[14] (3-1-reglas.tex
+[24] (3-1-reglas.tex
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 35.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[15]
+[25]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 79.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[16]
+[26]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 121.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[17]
+[27]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 166.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[18]
+[28]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 216.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[19]
+[29]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 263.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[20]
+[30]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 311.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[21]
+[31]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 357.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[22]
+[32]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 406.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[23]
+[33]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 452.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[24]
+[34]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 497.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[25]))
+[35]))
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
-Package pdftex.def Info: theme/escudoESCOM.png  used on input line 42.
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 46.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[26]
+[36]
 \openout2 = `4ModeloDinamico.aux'.
 
  (4ModeloDinamico.tex
-<images/Notacion.jpg, id=1427, 466.24188pt x 293.095pt>
+<images/Notacion.jpg, id=1621, 466.24188pt x 293.095pt>
 File: images/Notacion.jpg Graphic file (type jpg)
 <use images/Notacion.jpg>
 Package pdftex.def Info: images/Notacion.jpg  used on input line 15.
 (pdftex.def)             Requested size: 175.17244pt x 110.12054pt.
-<images/EstructuraU.jpg, id=1429, 506.89375pt x 370.38374pt>
+<images/EstructuraU.jpg, id=1623, 506.89375pt x 370.38374pt>
 File: images/EstructuraU.jpg Graphic file (type jpg)
 <use images/EstructuraU.jpg>
 Package pdftex.def Info: images/EstructuraU.jpg  used on input line 29.
@@ -1997,7 +2241,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 36.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[27
+[37
 
 
 
@@ -2007,13 +2251,13 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 36.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[28 <./images/EstructuraU.jpg>]
+[38 <./images/EstructuraU.jpg>]
 pdfTeX warning (ext4): destination with the same identifier (name{tAlumno}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.55 	}
        
-<theme/uc/actorRule.png, id=1439, 1401.0744pt x 130.086pt>
+<theme/uc/actorRule.png, id=1633, 1401.0744pt x 130.086pt>
 File: theme/uc/actorRule.png Graphic file (type png)
 <use theme/uc/actorRule.png>
 Package pdftex.def Info: theme/uc/actorRule.png  used on input line 55.
@@ -2044,7 +2288,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 92.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[29 <./theme/uc/actorRule.png>]
+[39 <./theme/uc/actorRule.png>]
 File: theme/uc/actorRule.png Graphic file (type png)
 <use theme/uc/actorRule.png>
 Package pdftex.def Info: theme/uc/actorRule.png  used on input line 101.
@@ -2063,7 +2307,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 136.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[30]
+[40]
 File: theme/uc/actorRule.png Graphic file (type png)
 <use theme/uc/actorRule.png>
 Package pdftex.def Info: theme/uc/actorRule.png  used on input line 149.
@@ -2074,8 +2318,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 161.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[31]
-<images/casosDeUso1.jpg, id=1467, 654.94687pt x 574.145pt>
+[41]
+<images/casosDeUso1.jpg, id=1661, 654.94687pt x 574.145pt>
 File: images/casosDeUso1.jpg Graphic file (type jpg)
 <use images/casosDeUso1.jpg>
 Package pdftex.def Info: images/casosDeUso1.jpg  used on input line 170.
@@ -2086,8 +2330,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 177.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[32 <./images/casosDeUso1.jpg>]
-<images/casosDeUso2.jpg, id=1473, 559.59062pt x 376.40625pt>
+[42 <./images/casosDeUso1.jpg>]
+<images/casosDeUso2.jpg, id=1667, 559.59062pt x 376.40625pt>
 File: images/casosDeUso2.jpg Graphic file (type jpg)
 <use images/casosDeUso2.jpg>
 Package pdftex.def Info: images/casosDeUso2.jpg  used on input line 182.
@@ -2098,8 +2342,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 6.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[33 <./images/casosDeUso2.jpg>]
-<theme/uc/default.png, id=1479, 926.46124pt x 57.21375pt>
+[43 <./images/casosDeUso2.jpg>]
+<theme/uc/default.png, id=1673, 926.46124pt x 57.21375pt>
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 6.
@@ -2109,7 +2353,7 @@ Overfull \hbox (50.05145pt too wide) in paragraph at lines 6--6
 [][] 
  []
 
-<theme/uc/iu.png, id=1493, 61.22874pt x 55.20625pt>
+<theme/uc/iu.png, id=1687, 61.22874pt x 55.20625pt>
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 15.
@@ -2130,12 +2374,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 31.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[34 <./theme/uc/default.png> <./theme/uc/iu.png>]
+[44 <./theme/uc/default.png> <./theme/uc/iu.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
 
  []
 
-<theme/uc/actor.png, id=1518, 96.36pt x 74.2775pt>
+<theme/uc/actor.png, id=1712, 96.36pt x 74.2775pt>
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 35.
@@ -2156,7 +2400,7 @@ File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 37.
 (pdftex.def)             Requested size: 14.26958pt x 11.0pt.
-<theme/uc/usecase.png, id=1521, 91.34125pt x 61.22874pt>
+<theme/uc/usecase.png, id=1715, 91.34125pt x 61.22874pt>
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 38.
@@ -2207,7 +2451,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 197.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[35 <./theme/uc/actor.png> <D:/MikTeX/tex/latex/keystroke/keystroke_left.pdf> <D:/MikTeX/tex/latex/keystroke/keystroke_middle.pdf> <D:/MikTeX/tex/latex/keystroke/keystroke_right.pdf> <./theme/uc/usecase.png>] (cu/cu2.tex
+[45 <./theme/uc/actor.png> <D:/MikTeX/tex/latex/keystroke/keystroke_left.pdf> <D:/MikTeX/tex/latex/keystroke/keystroke_middle.pdf> <D:/MikTeX/tex/latex/keystroke/keystroke_right.pdf> <./theme/uc/usecase.png>] (cu/cu2.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 6.
@@ -2252,13 +2496,13 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 35.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[36])
+[46])
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 200.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[37] (cu/cu3.tex
+[47] (cu/cu3.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 6.
@@ -2293,10 +2537,6 @@ File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 31.
 (pdftex.def)             Requested size: 16.40865pt x 11.0pt.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 35.
-LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 8.54997pt on input line 35.
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 36.
@@ -2307,7 +2547,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 37.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[38]
+[48]
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 37.
@@ -2322,7 +2562,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 203.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[39] (cu/cu4.tex
+[49] (cu/cu4.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 12.
@@ -2375,7 +2615,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 41.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[40]
+[50]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 42.
@@ -2414,7 +2654,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 206.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[41] (cu/cu5.tex
+[51] (cu/cu5.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 11.
@@ -2467,7 +2707,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 42.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[42]
+[52]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 42.
@@ -2494,7 +2734,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 209.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[43] (cu/cu6.tex
+[53] (cu/cu6.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 12.
@@ -2543,7 +2783,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 40.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[44]
+[54]
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 40.
@@ -2574,7 +2814,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 212.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[45] (cu/cu7.tex
+[55] (cu/cu7.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 11.
@@ -2635,13 +2875,13 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 38.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[46])
+[56])
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 215.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[47] (cu/cu8.tex
+[57] (cu/cu8.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 11.
@@ -2690,7 +2930,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 40.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[48]
+[58]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 41.
@@ -2725,7 +2965,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 218.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[49] (cu/cu9.tex
+[59] (cu/cu9.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 11.
@@ -2770,7 +3010,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 38.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[50]
+[60]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 38.
@@ -2849,7 +3089,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 70.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[51]
+[61]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 71.
@@ -2924,7 +3164,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 221.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[52] (cu/cu10.tex
+[62] (cu/cu10.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 11.
@@ -2969,7 +3209,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 39.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[53]
+[63]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 40.
@@ -3004,7 +3244,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 224.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[54] (cu/cu11.tex
+[64] (cu/cu11.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 7.
@@ -3049,7 +3289,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 227.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[55] (cu/cu12.tex
+[65] (cu/cu12.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 11.
@@ -3082,7 +3322,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 37.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[56]
+[66]
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 37.
@@ -3149,7 +3389,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 230.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[57] (cu/cu13.tex
+[67] (cu/cu13.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 11.
@@ -3190,7 +3430,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 35.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[58]
+[68]
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 35.
@@ -3237,7 +3477,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 233.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[59] (cu/cu14.tex
+[69] (cu/cu14.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 11.
@@ -3282,7 +3522,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 37.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[60]
+[70]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 37.
@@ -3321,7 +3561,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 236.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[61] (cu/cu15.tex
+[71] (cu/cu15.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 3.
@@ -3362,7 +3602,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 41.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[62]
+[72]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 41.
@@ -3437,7 +3677,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 74.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[63]
+[73]
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 75.
@@ -3456,7 +3696,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 239.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[64] (cu/cu16-2.tex
+[74] (cu/cu16-2.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 11.
@@ -3509,7 +3749,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 41.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[65]
+[75]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 41.
@@ -3548,7 +3788,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 245.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[66] (cu/cu17.tex
+[76] (cu/cu17.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 11.
@@ -3597,7 +3837,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 41.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[67]
+[77]
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 41.
@@ -3628,7 +3868,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 248.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[68] (cu/cu18.tex
+[78] (cu/cu18.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 11.
@@ -3677,7 +3917,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 41.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[69]
+[79]
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 41.
@@ -3708,7 +3948,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 251.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[70] (cu/cu19.tex
+[80] (cu/cu19.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 5.
@@ -3753,7 +3993,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 35.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[71]
+[81]
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 36.
@@ -3776,7 +4016,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 254.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[72] (cu/cu20.tex
+[82] (cu/cu20.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 5.
@@ -3829,7 +4069,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 35.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[73]
+[83]
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 35.
@@ -3848,7 +4088,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 257.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[74] (cu/cu21.tex
+[84] (cu/cu21.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 7.
@@ -3889,7 +4129,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 38.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[75]
+[85]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 38.
@@ -3916,7 +4156,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 260.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[76] (cu/cu22.tex
+[86] (cu/cu22.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 7.
@@ -3953,7 +4193,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 35.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[77]
+[87]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 35.
@@ -4020,7 +4260,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 263.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[78] (cu/cu23.tex
+[88] (cu/cu23.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 7.
@@ -4081,13 +4321,13 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 36.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[79])
+[89])
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 266.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[80] (cu/cu24.tex
+[90] (cu/cu24.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 7.
@@ -4148,13 +4388,13 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 37.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[81])
+[91])
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 269.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[82] (cu/cu25.tex
+[92] (cu/cu25.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 7.
@@ -4203,7 +4443,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 39.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[83]
+[93]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 39.
@@ -4222,7 +4462,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 272.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[84] (cu/cu28.tex
+[94] (cu/cu28.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 7.
@@ -4283,13 +4523,13 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 37.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[85])
+[95])
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 275.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[86] (cu/cu29.tex
+[96] (cu/cu29.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 7.
@@ -4334,7 +4574,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 38.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[87]
+[97]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 38.
@@ -4357,7 +4597,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 278.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[88] (cu/cu32.tex
+[98] (cu/cu32.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 7.
@@ -4410,7 +4650,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 36.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[89]
+[99]
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 36.
@@ -4425,7 +4665,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 281.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[90] (cu/cu33.tex
+[100] (cu/cu33.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 7.
@@ -4474,7 +4714,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 40.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[91]
+[101]
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 40.
@@ -4489,7 +4729,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 284.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[92] (cu/cu36.tex
+[102] (cu/cu36.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 7.
@@ -4550,13 +4790,13 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 287.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[93]
+[103]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 287.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[94] (cu/cu37.tex
+[104] (cu/cu37.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 7.
@@ -4610,7 +4850,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 40.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[95]
+[105]
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 40.
@@ -4625,7 +4865,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 290.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[96] (cu/cu40.tex
+[106] (cu/cu40.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 6.
@@ -4666,7 +4906,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 36.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[97]
+[107]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 36.
@@ -4681,7 +4921,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 293.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[98] (cu/cu41.tex
+[108] (cu/cu41.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 6.
@@ -4710,7 +4950,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 34.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[99]
+[109]
 File: theme/uc/actor.png Graphic file (type png)
 <use theme/uc/actor.png>
 Package pdftex.def Info: theme/uc/actor.png  used on input line 35.
@@ -4765,7 +5005,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 296.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[100] (cu/cu43.tex
+[110] (cu/cu43.tex
 File: theme/uc/default.png Graphic file (type png)
 <use theme/uc/default.png>
 Package pdftex.def Info: theme/uc/default.png  used on input line 11.
@@ -4818,7 +5058,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 37.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[101]
+[111]
 File: theme/uc/usecase.png Graphic file (type png)
 <use theme/uc/usecase.png>
 Package pdftex.def Info: theme/uc/usecase.png  used on input line 37.
@@ -4835,13 +5075,13 @@ Package pdftex.def Info: theme/uc/iu.png  used on input line 38.
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
-Package pdftex.def Info: theme/escudoESCOM.png  used on input line 45.
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 49.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[102]
+[112]
 \openout2 = `5ModeloDeInteraccion.aux'.
 
  (5ModeloDeInteraccion.tex
-<images/alumno.jpg, id=2605, 1445.4pt x 448.074pt>
+<images/alumno.jpg, id=2799, 1445.4pt x 448.074pt>
 File: images/alumno.jpg Graphic file (type jpg)
 <use images/alumno.jpg>
 Package pdftex.def Info: images/alumno.jpg  used on input line 14.
@@ -4852,12 +5092,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 20.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[103
+[113
 
 
 
  <./images/alumno.jpg>]
-<images/docente.jpg, id=2611, 1372.6482pt x 805.0878pt>
+<images/docente.jpg, id=2805, 1372.6482pt x 805.0878pt>
 File: images/docente.jpg Graphic file (type jpg)
 <use images/docente.jpg>
 Package pdftex.def Info: images/docente.jpg  used on input line 24.
@@ -4868,10 +5108,10 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 30.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[104
+[114
 
  <./images/docente.jpg>]
-<images/personalseguridad.jpg, id=2616, 1366.8666pt x 667.293pt>
+<images/personalseguridad.jpg, id=2810, 1366.8666pt x 667.293pt>
 File: images/personalseguridad.jpg Graphic file (type jpg)
 <use images/personalseguridad.jpg>
 Package pdftex.def Info: images/personalseguridad.jpg  used on input line 34.
@@ -4882,14 +5122,14 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 40.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[105
+[115
 
  <./images/personalseguridad.jpg>] (iu/iu01.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 10.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU01.jpg, id=2623, 252.945pt x 564.60938pt>
+<images/UI-CU01.jpg, id=2817, 252.945pt x 564.60938pt>
 File: images/UI-CU01.jpg Graphic file (type jpg)
 <use images/UI-CU01.jpg>
 Package pdftex.def Info: images/UI-CU01.jpg  used on input line 12.
@@ -4900,7 +5140,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 18.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[106 <./images/UI-CU01.jpg>]
+[116 <./images/UI-CU01.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 23.
@@ -4919,12 +5159,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 42.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[107] (iu/iu02.tex
+[117] (iu/iu02.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU02.jpg, id=2650, 251.94125pt x 555.57562pt>
+<images/UI-CU02.jpg, id=2844, 251.94125pt x 555.57562pt>
 File: images/UI-CU02.jpg Graphic file (type jpg)
 <use images/UI-CU02.jpg>
 Package pdftex.def Info: images/UI-CU02.jpg  used on input line 11.
@@ -4935,7 +5175,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 20.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[108 <./images/UI-CU02.jpg>]
+[118 <./images/UI-CU02.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 23.
@@ -4946,12 +5186,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 45.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[109] (iu/iu03.tex
+[119] (iu/iu03.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU03.jpg, id=2670, 251.94125pt x 559.08875pt>
+<images/UI-CU03.jpg, id=2864, 251.94125pt x 559.08875pt>
 File: images/UI-CU03.jpg Graphic file (type jpg)
 <use images/UI-CU03.jpg>
 Package pdftex.def Info: images/UI-CU03.jpg  used on input line 10.
@@ -4962,7 +5202,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 14.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[110 <./images/UI-CU03.jpg>]
+[120 <./images/UI-CU03.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 21.
@@ -4973,12 +5213,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 48.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[111] (iu/iu04.tex
+[121] (iu/iu04.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu04.jpg, id=2689, 259.97125pt x 557.08125pt>
+<images/cu04.jpg, id=2883, 259.97125pt x 557.08125pt>
 File: images/cu04.jpg Graphic file (type jpg)
 <use images/cu04.jpg>
 Package pdftex.def Info: images/cu04.jpg  used on input line 10.
@@ -4989,7 +5229,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 16.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[112 <./images/cu04.jpg>]
+[122 <./images/cu04.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 22.
@@ -5008,12 +5248,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 51.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[113] (iu/iu05.tex
+[123] (iu/iu05.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu05.jpg, id=2709, 258.46562pt x 554.07pt>
+<images/cu05.jpg, id=2903, 258.46562pt x 554.07pt>
 File: images/cu05.jpg Graphic file (type jpg)
 <use images/cu05.jpg>
 Package pdftex.def Info: images/cu05.jpg  used on input line 10.
@@ -5024,7 +5264,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 18.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[114 <./images/cu05.jpg>]
+[124 <./images/cu05.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 21.
@@ -5043,12 +5283,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 54.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[115] (iu/iu06.tex
+[125] (iu/iu06.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu06.jpg, id=2730, 264.99pt x 564.1075pt>
+<images/cu06.jpg, id=2924, 264.99pt x 564.1075pt>
 File: images/cu06.jpg Graphic file (type jpg)
 <use images/cu06.jpg>
 Package pdftex.def Info: images/cu06.jpg  used on input line 10.
@@ -5059,7 +5299,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 19.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[116 <./images/cu06.jpg>]
+[126 <./images/cu06.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 21.
@@ -5070,7 +5310,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 57.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[117] (iu/iu07.tex
+[127] (iu/iu07.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
@@ -5079,7 +5319,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU43.jpg, id=2749, 247.92625pt x 557.58313pt>
+<images/UI-CU43.jpg, id=2943, 247.92625pt x 557.58313pt>
 File: images/UI-CU43.jpg Graphic file (type jpg)
 <use images/UI-CU43.jpg>
 Package pdftex.def Info: images/UI-CU43.jpg  used on input line 10.
@@ -5090,7 +5330,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[118 <./images/UI-CU43.jpg>]
+[128 <./images/UI-CU43.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 21.
@@ -5105,12 +5345,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 60.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[119] (iu/iu08.tex
+[129] (iu/iu08.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu08.jpg, id=2768, 250.43562pt x 559.08875pt>
+<images/cu08.jpg, id=2962, 250.43562pt x 559.08875pt>
 File: images/cu08.jpg Graphic file (type jpg)
 <use images/cu08.jpg>
 Package pdftex.def Info: images/cu08.jpg  used on input line 10.
@@ -5121,7 +5361,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[120 <./images/cu08.jpg>]
+[130 <./images/cu08.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 20.
@@ -5140,12 +5380,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 63.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[121] (iu/iu43.tex
+[131] (iu/iu43.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU44.jpg, id=2791, 263.48438pt x 558.085pt>
+<images/UI-CU44.jpg, id=2985, 263.48438pt x 558.085pt>
 File: images/UI-CU44.jpg Graphic file (type jpg)
 <use images/UI-CU44.jpg>
 Package pdftex.def Info: images/UI-CU44.jpg  used on input line 10.
@@ -5156,7 +5396,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[122 <./images/UI-CU44.jpg>]
+[132 <./images/UI-CU44.jpg>]
 LaTeX Font Info:    Font shape `TS1/txss/b/n' in size <10> not available
 (Font)              Font shape `TS1/txss/bx/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `TS1/txss/bx/n' will be
@@ -5167,12 +5407,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 66.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[123] (iu/iu11.tex
+[133] (iu/iu11.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu12.jpg, id=2809, 265.49188pt x 563.60562pt>
+<images/cu12.jpg, id=3003, 265.49188pt x 563.60562pt>
 File: images/cu12.jpg Graphic file (type jpg)
 <use images/cu12.jpg>
 Package pdftex.def Info: images/cu12.jpg  used on input line 10.
@@ -5183,7 +5423,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[124 <./images/cu12.jpg>]
+[134 <./images/cu12.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 21.
@@ -5198,12 +5438,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 70.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[125] (iu/iu12.tex
+[135] (iu/iu12.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu14.jpg, id=2828, 265.49188pt x 558.58687pt>
+<images/cu14.jpg, id=3022, 265.49188pt x 558.58687pt>
 File: images/cu14.jpg Graphic file (type jpg)
 <use images/cu14.jpg>
 Package pdftex.def Info: images/cu14.jpg  used on input line 11.
@@ -5214,7 +5454,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 16.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[126 <./images/cu14.jpg>]
+[136 <./images/cu14.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 22.
@@ -5229,12 +5469,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 73.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[127] (iu/iu13.tex
+[137] (iu/iu13.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu13.jpg, id=2849, 258.46562pt x 568.62437pt>
+<images/cu13.jpg, id=3043, 258.46562pt x 568.62437pt>
 File: images/cu13.jpg Graphic file (type jpg)
 <use images/cu13.jpg>
 Package pdftex.def Info: images/cu13.jpg  used on input line 10.
@@ -5245,7 +5485,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[128 <./images/cu13.jpg>]
+[138 <./images/cu13.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 22.
@@ -5260,12 +5500,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 76.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[129] (iu/iu44.tex
+[139] (iu/iu44.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu07.jpg, id=2868, 262.9825pt x 564.1075pt>
+<images/cu07.jpg, id=3062, 262.9825pt x 564.1075pt>
 File: images/cu07.jpg Graphic file (type jpg)
 <use images/cu07.jpg>
 Package pdftex.def Info: images/cu07.jpg  used on input line 10.
@@ -5276,7 +5516,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[130 <./images/cu07.jpg>]
+[140 <./images/cu07.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 20.
@@ -5295,12 +5535,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 82.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[131] (iu/iu15.tex
+[141] (iu/iu15.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu16.jpg, id=2888, 261.97874pt x 572.1375pt>
+<images/cu16.jpg, id=3082, 261.97874pt x 572.1375pt>
 File: images/cu16.jpg Graphic file (type jpg)
 <use images/cu16.jpg>
 Package pdftex.def Info: images/cu16.jpg  used on input line 10.
@@ -5311,7 +5551,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[132 <./images/cu16.jpg>]
+[142 <./images/cu16.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 21.
@@ -5330,12 +5570,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 85.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[133] (iu/iu16.tex
+[143] (iu/iu16.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu17.jpg, id=2910, 257.96375pt x 573.14125pt>
+<images/cu17.jpg, id=3104, 257.96375pt x 573.14125pt>
 File: images/cu17.jpg Graphic file (type jpg)
 <use images/cu17.jpg>
 Package pdftex.def Info: images/cu17.jpg  used on input line 10.
@@ -5346,7 +5586,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[134 <./images/cu17.jpg>]
+[144 <./images/cu17.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 22.
@@ -5361,12 +5601,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 88.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[135] (iu/iu17.tex
+[145] (iu/iu17.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu18.jpg, id=2929, 256.45813pt x 557.58313pt>
+<images/cu18.jpg, id=3123, 256.45813pt x 557.58313pt>
 File: images/cu18.jpg Graphic file (type jpg)
 <use images/cu18.jpg>
 Package pdftex.def Info: images/cu18.jpg  used on input line 10.
@@ -5377,7 +5617,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 16.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[136 <./images/cu18.jpg>]
+[146 <./images/cu18.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 22.
@@ -5392,7 +5632,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 92.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[137] (iu/iu18.tex
+[147] (iu/iu18.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
@@ -5401,7 +5641,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu19.jpg, id=2949, 254.45062pt x 558.58687pt>
+<images/cu19.jpg, id=3143, 254.45062pt x 558.58687pt>
 File: images/cu19.jpg Graphic file (type jpg)
 <use images/cu19.jpg>
 Package pdftex.def Info: images/cu19.jpg  used on input line 11.
@@ -5412,7 +5652,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 19.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[138 <./images/cu19.jpg>]
+[148 <./images/cu19.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 23.
@@ -5427,12 +5667,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 95.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[139] (iu/iu19.tex
+[149] (iu/iu19.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/CU20.jpg, id=2969, 257.96375pt x 562.60187pt>
+<images/CU20.jpg, id=3163, 257.96375pt x 562.60187pt>
 File: images/CU20.jpg Graphic file (type jpg)
 <use images/CU20.jpg>
 Package pdftex.def Info: images/CU20.jpg  used on input line 10.
@@ -5443,7 +5683,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 16.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[140 <./images/CU20.jpg>]
+[150 <./images/CU20.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 22.
@@ -5458,7 +5698,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 98.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[141] (iu/iu45.tex
+[151] (iu/iu45.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 7.
@@ -5467,7 +5707,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 7.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu19-2.jpg, id=2989, 262.9825pt x 568.62437pt>
+<images/cu19-2.jpg, id=3183, 262.9825pt x 568.62437pt>
 File: images/cu19-2.jpg Graphic file (type jpg)
 <use images/cu19-2.jpg>
 Package pdftex.def Info: images/cu19-2.jpg  used on input line 9.
@@ -5478,7 +5718,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 14.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[142 <./images/cu19-2.jpg>]
+[152 <./images/cu19-2.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 21.
@@ -5493,12 +5733,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 101.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[143] (iu/iu42.tex
+[153] (iu/iu42.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/cu11.jpg, id=3008, 257.46187pt x 560.0925pt>
+<images/cu11.jpg, id=3202, 257.46187pt x 560.0925pt>
 File: images/cu11.jpg Graphic file (type jpg)
 <use images/cu11.jpg>
 Package pdftex.def Info: images/cu11.jpg  used on input line 10.
@@ -5509,13 +5749,13 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 16.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[144 <./images/cu11.jpg>])
+[154 <./images/cu11.jpg>])
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 104.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[145] (iu/iu21.tex
+[155] (iu/iu21.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
@@ -5524,7 +5764,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU21.jpg, id=3027, 820.56563pt x 581.67313pt>
+<images/UI-CU21.jpg, id=3221, 820.56563pt x 581.67313pt>
 File: images/UI-CU21.jpg Graphic file (type jpg)
 <use images/UI-CU21.jpg>
 Package pdftex.def Info: images/UI-CU21.jpg  used on input line 11.
@@ -5535,7 +5775,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 17.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[146 <./images/UI-CU21.jpg>]
+[156 <./images/UI-CU21.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 19.
@@ -5546,7 +5786,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 107.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[147] (iu/iu22.tex
+[157] (iu/iu22.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
@@ -5555,7 +5795,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU22.jpg, id=3053, 826.58812pt x 588.69937pt>
+<images/UI-CU22.jpg, id=3247, 826.58812pt x 588.69937pt>
 File: images/UI-CU22.jpg Graphic file (type jpg)
 <use images/UI-CU22.jpg>
 Package pdftex.def Info: images/UI-CU22.jpg  used on input line 11.
@@ -5566,7 +5806,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[148 <./images/UI-CU22.jpg>]
+[158 <./images/UI-CU22.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 19.
@@ -5577,7 +5817,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 110.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[149] (iu/iu23.tex
+[159] (iu/iu23.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
@@ -5586,7 +5826,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU23.jpg, id=3079, 822.57312pt x 584.1825pt>
+<images/UI-CU23.jpg, id=3273, 822.57312pt x 584.1825pt>
 File: images/UI-CU23.jpg Graphic file (type jpg)
 <use images/UI-CU23.jpg>
 Package pdftex.def Info: images/UI-CU23.jpg  used on input line 11.
@@ -5597,7 +5837,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[150 <./images/UI-CU23.jpg>]
+[160 <./images/UI-CU23.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 19.
@@ -5608,7 +5848,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 113.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[151] (iu/iu24.tex
+[161] (iu/iu24.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
@@ -5617,7 +5857,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU24.jpg, id=3101, 823.57687pt x 586.19pt>
+<images/UI-CU24.jpg, id=3295, 823.57687pt x 586.19pt>
 File: images/UI-CU24.jpg Graphic file (type jpg)
 <use images/UI-CU24.jpg>
 Package pdftex.def Info: images/UI-CU24.jpg  used on input line 9.
@@ -5628,7 +5868,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 13.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[152 <./images/UI-CU24.jpg>]
+[162 <./images/UI-CU24.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 17.
@@ -5639,7 +5879,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 116.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[153] (iu/iu25.tex
+[163] (iu/iu25.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
@@ -5648,7 +5888,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU25.jpg, id=3121, 826.58812pt x 586.19pt>
+<images/UI-CU25.jpg, id=3315, 826.58812pt x 586.19pt>
 File: images/UI-CU25.jpg Graphic file (type jpg)
 <use images/UI-CU25.jpg>
 Package pdftex.def Info: images/UI-CU25.jpg  used on input line 9.
@@ -5659,7 +5899,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[154 <./images/UI-CU25.jpg>]
+[164 <./images/UI-CU25.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 17.
@@ -5670,7 +5910,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 119.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[155] (iu/iu28.tex
+[165] (iu/iu28.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
@@ -5679,7 +5919,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU28.jpg, id=3146, 820.56563pt x 585.68813pt>
+<images/UI-CU28.jpg, id=3340, 820.56563pt x 585.68813pt>
 File: images/UI-CU28.jpg Graphic file (type jpg)
 <use images/UI-CU28.jpg>
 Package pdftex.def Info: images/UI-CU28.jpg  used on input line 9.
@@ -5695,7 +5935,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[156 <./images/UI-CU28.jpg>]
+[166 <./images/UI-CU28.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 17.
@@ -5706,7 +5946,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 122.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[157] (iu/iu29.tex
+[167] (iu/iu29.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
@@ -5715,7 +5955,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU29.jpg, id=3168, 825.0825pt x 584.68437pt>
+<images/UI-CU29.jpg, id=3362, 825.0825pt x 584.68437pt>
 File: images/UI-CU29.jpg Graphic file (type jpg)
 <use images/UI-CU29.jpg>
 Package pdftex.def Info: images/UI-CU29.jpg  used on input line 9.
@@ -5726,7 +5966,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[158 <./images/UI-CU29.jpg>]
+[168 <./images/UI-CU29.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 17.
@@ -5737,7 +5977,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 125.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[159] (iu/iu32.tex
+[169] (iu/iu32.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
@@ -5746,7 +5986,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU32.jpg, id=3198, 820.56563pt x 586.19pt>
+<images/UI-CU32.jpg, id=3392, 820.56563pt x 586.19pt>
 File: images/UI-CU32.jpg Graphic file (type jpg)
 <use images/UI-CU32.jpg>
 Package pdftex.def Info: images/UI-CU32.jpg  used on input line 9.
@@ -5757,7 +5997,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 13.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[160 <./images/UI-CU32.jpg>]
+[170 <./images/UI-CU32.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 17.
@@ -5768,7 +6008,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 128.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[161] (iu/iu33.tex
+[171] (iu/iu33.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
@@ -5777,7 +6017,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU33.jpg, id=3218, 819.56187pt x 585.18625pt>
+<images/UI-CU33.jpg, id=3412, 819.56187pt x 585.18625pt>
 File: images/UI-CU33.jpg Graphic file (type jpg)
 <use images/UI-CU33.jpg>
 Package pdftex.def Info: images/UI-CU33.jpg  used on input line 9.
@@ -5788,7 +6028,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[162 <./images/UI-CU33.jpg>]
+[172 <./images/UI-CU33.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 17.
@@ -5799,7 +6039,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 131.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[163] (iu/iu36.tex
+[173] (iu/iu36.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
@@ -5808,7 +6048,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU36.jpg, id=3245, 824.07875pt x 589.70313pt>
+<images/UI-CU36.jpg, id=3439, 824.07875pt x 589.70313pt>
 File: images/UI-CU36.jpg Graphic file (type jpg)
 <use images/UI-CU36.jpg>
 Package pdftex.def Info: images/UI-CU36.jpg  used on input line 9.
@@ -5819,7 +6059,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[164 <./images/UI-CU36.jpg>]
+[174 <./images/UI-CU36.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 17.
@@ -5830,7 +6070,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 134.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[165] (iu/iu37.tex
+[175] (iu/iu37.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
@@ -5839,7 +6079,7 @@ File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU37.jpg, id=3265, 826.58812pt x 588.1975pt>
+<images/UI-CU37.jpg, id=3459, 826.58812pt x 588.1975pt>
 File: images/UI-CU37.jpg Graphic file (type jpg)
 <use images/UI-CU37.jpg>
 Package pdftex.def Info: images/UI-CU37.jpg  used on input line 9.
@@ -5850,7 +6090,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 15.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[166 <./images/UI-CU37.jpg>]
+[176 <./images/UI-CU37.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 17.
@@ -5861,17 +6101,17 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 137.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[167] (iu/iu40.tex
+[177] (iu/iu40.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 10.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU40.jpg, id=3291, 252.945pt x 561.09625pt>
+<images/UI-CU40.jpg, id=3485, 252.945pt x 561.09625pt>
 File: images/UI-CU40.jpg Graphic file (type jpg)
 <use images/UI-CU40.jpg>
 Package pdftex.def Info: images/UI-CU40.jpg  used on input line 12.
 (pdftex.def)             Requested size: 175.17244pt x 388.58662pt.
-<images/UI-CU40_2.jpg, id=3292, 823.075pt x 588.1975pt>
+<images/UI-CU40_2.jpg, id=3486, 823.075pt x 588.1975pt>
 File: images/UI-CU40_2.jpg Graphic file (type jpg)
 <use images/UI-CU40_2.jpg>
 Package pdftex.def Info: images/UI-CU40_2.jpg  used on input line 14.
@@ -5882,24 +6122,24 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 20.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[168 <./images/UI-CU40.jpg>]
+[178 <./images/UI-CU40.jpg>]
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 32.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[169 <./images/UI-CU40_2.jpg>])
+[179 <./images/UI-CU40_2.jpg>])
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 140.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[170] (iu/iu41.tex
+[180] (iu/iu41.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 8.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/UI-CU41.jpg, id=3316, 813.53937pt x 574.64688pt>
+<images/UI-CU41.jpg, id=3510, 813.53937pt x 574.64688pt>
 File: images/UI-CU41.jpg Graphic file (type jpg)
 <use images/UI-CU41.jpg>
 Package pdftex.def Info: images/UI-CU41.jpg  used on input line 10.
@@ -5910,7 +6150,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 16.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[171 <./images/UI-CU41.jpg>]
+[181 <./images/UI-CU41.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 21.
@@ -5929,12 +6169,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 143.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[172] (iu/iue01.tex
+[182] (iu/iue01.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/IUE01.jpg, id=3337, 258.46562pt x 562.60187pt>
+<images/IUE01.jpg, id=3531, 258.46562pt x 562.60187pt>
 File: images/IUE01.jpg Graphic file (type jpg)
 <use images/IUE01.jpg>
 Package pdftex.def Info: images/IUE01.jpg  used on input line 11.
@@ -5945,7 +6185,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 17.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[173 <./images/IUE01.jpg>]
+[183 <./images/IUE01.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 22.
@@ -5964,12 +6204,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 147.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[174] (iu/iue02.tex
+[184] (iu/iue02.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/IUE02.jpg, id=3358, 260.975pt x 559.08875pt>
+<images/IUE02.jpg, id=3552, 260.975pt x 559.08875pt>
 File: images/IUE02.jpg Graphic file (type jpg)
 <use images/IUE02.jpg>
 Package pdftex.def Info: images/IUE02.jpg  used on input line 11.
@@ -5980,7 +6220,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 17.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[175 <./images/IUE02.jpg>]
+[185 <./images/IUE02.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 22.
@@ -6003,12 +6243,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 150.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[176] (iu/iue03.tex
+[186] (iu/iue03.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/IUE03.jpg, id=3380, 263.98625pt x 563.10374pt>
+<images/IUE03.jpg, id=3574, 263.98625pt x 563.10374pt>
 File: images/IUE03.jpg Graphic file (type jpg)
 <use images/IUE03.jpg>
 Package pdftex.def Info: images/IUE03.jpg  used on input line 11.
@@ -6019,7 +6259,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 17.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[177 <./images/IUE03.jpg>]
+[187 <./images/IUE03.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 22.
@@ -6042,12 +6282,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 153.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[178] (iu/iue04.tex
+[188] (iu/iue04.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/IUE04.jpg, id=3402, 818.55812pt x 584.1825pt>
+<images/IUE04.jpg, id=3596, 818.55812pt x 584.1825pt>
 File: images/IUE04.jpg Graphic file (type jpg)
 <use images/IUE04.jpg>
 Package pdftex.def Info: images/IUE04.jpg  used on input line 11.
@@ -6058,7 +6298,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 17.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[179 <./images/IUE04.jpg>]
+[189 <./images/IUE04.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 22.
@@ -6077,12 +6317,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 156.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[180] (iu/iue05.tex
+[190] (iu/iue05.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/IUE05.jpg, id=3423, 819.06pt x 587.69562pt>
+<images/IUE05.jpg, id=3617, 819.06pt x 587.69562pt>
 File: images/IUE05.jpg Graphic file (type jpg)
 <use images/IUE05.jpg>
 Package pdftex.def Info: images/IUE05.jpg  used on input line 11.
@@ -6093,7 +6333,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 17.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[181 <./images/IUE05.jpg>]
+[191 <./images/IUE05.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 22.
@@ -6124,12 +6364,12 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 159.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[182] (iu/iue06.tex
+[192] (iu/iue06.tex
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 9.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
-<images/IUE06.jpg, id=3450, 271.51437pt x 572.1375pt>
+<images/IUE06.jpg, id=3644, 271.51437pt x 572.1375pt>
 File: images/IUE06.jpg Graphic file (type jpg)
 <use images/IUE06.jpg>
 Package pdftex.def Info: images/IUE06.jpg  used on input line 11.
@@ -6140,7 +6380,7 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 20.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[183 <./images/IUE06.jpg>]
+[193 <./images/IUE06.jpg>]
 File: theme/uc/iu.png Graphic file (type png)
 <use theme/uc/iu.png>
 Package pdftex.def Info: theme/uc/iu.png  used on input line 22.
@@ -6157,22 +6397,22 @@ Package pdftex.def Info: theme/uc/iu.png  used on input line 24.
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
-Package pdftex.def Info: theme/escudoESCOM.png  used on input line 48.
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 52.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[184]
+[194]
 \openout2 = `Diseño.aux'.
 
  (Diseño.tex
 Cap\'{\i }tulo 2.
 
 
-[185
+[195
 
 
 
 
 ]
-<Clases/Clases.jpg, id=3473, 1409.265pt x 828.09375pt>
+<Clases/Clases.jpg, id=3667, 1409.265pt x 828.09375pt>
 File: Clases/Clases.jpg Graphic file (type jpg)
 <use Clases/Clases.jpg>
 Package pdftex.def Info: Clases/Clases.jpg  used on input line 16.
@@ -6188,8 +6428,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 28.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[186 <./Clases/Clases.jpg>]
-<Secuencia/CU-01.png, id=3478, 1411.2725pt x 810.02625pt>
+[196 <./Clases/Clases.jpg>]
+<Secuencia/CU-01.png, id=3672, 1411.2725pt x 810.02625pt>
 File: Secuencia/CU-01.png Graphic file (type png)
 <use Secuencia/CU-01.png>
 Package pdftex.def Info: Secuencia/CU-01.png  used on input line 34.
@@ -6205,8 +6445,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 42.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[187 <./Secuencia/CU-01.png (PNG copy)>]
-<Secuencia/CU-02.png, id=3487, 1812.7725pt x 499.8675pt>
+[197 <./Secuencia/CU-01.png (PNG copy)>]
+<Secuencia/CU-02.png, id=3681, 1812.7725pt x 499.8675pt>
 File: Secuencia/CU-02.png Graphic file (type png)
 <use Secuencia/CU-02.png>
 Package pdftex.def Info: Secuencia/CU-02.png  used on input line 48.
@@ -6222,8 +6462,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 56.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[188 <./Secuencia/CU-02.png (PNG copy)>]
-<Secuencia/CU-03.png, id=3495, 1414.28375pt x 457.71pt>
+[198 <./Secuencia/CU-02.png (PNG copy)>]
+<Secuencia/CU-03.png, id=3689, 1414.28375pt x 457.71pt>
 File: Secuencia/CU-03.png Graphic file (type png)
 <use Secuencia/CU-03.png>
 Package pdftex.def Info: Secuencia/CU-03.png  used on input line 62.
@@ -6234,7 +6474,7 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 62--63
  []
 
 
-LaTeX Warning: Reference `fig:Diagrama de secuencia CU-03' on page 189 undefined on input line 68.
+LaTeX Warning: Reference `fig:Diagrama de secuencia CU-03' on page 199 undefined on input line 68.
 
 
 
@@ -6242,8 +6482,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 70.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[189 <./Secuencia/CU-03.png (PNG copy)>]
-<Secuencia/CU-04.png, id=3502, 1361.085pt x 606.265pt>
+[199 <./Secuencia/CU-03.png (PNG copy)>]
+<Secuencia/CU-04.png, id=3696, 1361.085pt x 606.265pt>
 File: Secuencia/CU-04.png Graphic file (type png)
 <use Secuencia/CU-04.png>
 Package pdftex.def Info: Secuencia/CU-04.png  used on input line 76.
@@ -6259,8 +6499,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 84.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[190 <./Secuencia/CU-04.png (PNG copy)>]
-<Secuencia/CU-05.png, id=3510, 897.3525pt x 635.37375pt>
+[200 <./Secuencia/CU-04.png (PNG copy)>]
+<Secuencia/CU-05.png, id=3704, 897.3525pt x 635.37375pt>
 File: Secuencia/CU-05.png Graphic file (type png)
 <use Secuencia/CU-05.png>
 Package pdftex.def Info: Secuencia/CU-05.png  used on input line 90.
@@ -6276,8 +6516,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 98.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[191 <./Secuencia/CU-05.png (PNG copy)>]
-<Secuencia/CU-06.png, id=3518, 1328.965pt x 606.265pt>
+[201 <./Secuencia/CU-05.png (PNG copy)>]
+<Secuencia/CU-06.png, id=3712, 1328.965pt x 606.265pt>
 File: Secuencia/CU-06.png Graphic file (type png)
 <use Secuencia/CU-06.png>
 Package pdftex.def Info: Secuencia/CU-06.png  used on input line 104.
@@ -6293,8 +6533,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 112.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[192 <./Secuencia/CU-06.png (PNG copy)>]
-<Secuencia/CU-07.png, id=3526, 935.495pt x 415.5525pt>
+[202 <./Secuencia/CU-06.png (PNG copy)>]
+<Secuencia/CU-07.png, id=3720, 935.495pt x 415.5525pt>
 File: Secuencia/CU-07.png Graphic file (type png)
 <use Secuencia/CU-07.png>
 Package pdftex.def Info: Secuencia/CU-07.png  used on input line 118.
@@ -6310,8 +6550,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 126.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[193 <./Secuencia/CU-07.png (PNG copy)>]
-<Secuencia/CU-08.png, id=3535, 1301.86375pt x 635.37375pt>
+[203 <./Secuencia/CU-07.png (PNG copy)>]
+<Secuencia/CU-08.png, id=3729, 1301.86375pt x 635.37375pt>
 File: Secuencia/CU-08.png Graphic file (type png)
 <use Secuencia/CU-08.png>
 Package pdftex.def Info: Secuencia/CU-08.png  used on input line 132.
@@ -6327,8 +6567,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 140.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[194 <./Secuencia/CU-08.png (PNG copy)>]
-<Secuencia/CU-09.png, id=3543, 1628.0825pt x 2405.98875pt>
+[204 <./Secuencia/CU-08.png (PNG copy)>]
+<Secuencia/CU-09.png, id=3737, 1628.0825pt x 2405.98875pt>
 File: Secuencia/CU-09.png Graphic file (type png)
 <use Secuencia/CU-09.png>
 Package pdftex.def Info: Secuencia/CU-09.png  used on input line 146.
@@ -6342,8 +6582,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 153.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[195 <./Secuencia/CU-09.png (PNG copy)>]
-<Secuencia/CU-10.png, id=3550, 1176.395pt x 810.02625pt>
+[205 <./Secuencia/CU-09.png (PNG copy)>]
+<Secuencia/CU-10.png, id=3744, 1176.395pt x 810.02625pt>
 File: Secuencia/CU-10.png Graphic file (type png)
 <use Secuencia/CU-10.png>
 Package pdftex.def Info: Secuencia/CU-10.png  used on input line 158.
@@ -6359,8 +6599,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 166.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[196 <./Secuencia/CU-10.png (PNG copy)>]
-<Secuencia/CU-11.png, id=3559, 1185.42876pt x 821.0675pt>
+[206 <./Secuencia/CU-10.png (PNG copy)>]
+<Secuencia/CU-11.png, id=3753, 1185.42876pt x 821.0675pt>
 File: Secuencia/CU-11.png Graphic file (type png)
 <use Secuencia/CU-11.png>
 Package pdftex.def Info: Secuencia/CU-11.png  used on input line 172.
@@ -6376,8 +6616,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 181.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[197 <./Secuencia/CU-11.png (PNG copy)>]
-<Secuencia/CU-12.png, id=3567, 1175.39125pt x 747.79375pt>
+[207 <./Secuencia/CU-11.png (PNG copy)>]
+<Secuencia/CU-12.png, id=3761, 1175.39125pt x 747.79375pt>
 File: Secuencia/CU-12.png Graphic file (type png)
 <use Secuencia/CU-12.png>
 Package pdftex.def Info: Secuencia/CU-12.png  used on input line 187.
@@ -6393,8 +6633,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 195.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[198 <./Secuencia/CU-12.png (PNG copy)>]
-<Secuencia/CU-13.png, id=3575, 1175.39125pt x 663.47874pt>
+[208 <./Secuencia/CU-12.png (PNG copy)>]
+<Secuencia/CU-13.png, id=3769, 1175.39125pt x 663.47874pt>
 File: Secuencia/CU-13.png Graphic file (type png)
 <use Secuencia/CU-13.png>
 Package pdftex.def Info: Secuencia/CU-13.png  used on input line 201.
@@ -6410,8 +6650,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 209.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[199 <./Secuencia/CU-13.png (PNG copy)>]
-<Secuencia/CU-14.png, id=3584, 1196.47pt x 663.47874pt>
+[209 <./Secuencia/CU-13.png (PNG copy)>]
+<Secuencia/CU-14.png, id=3778, 1196.47pt x 663.47874pt>
 File: Secuencia/CU-14.png Graphic file (type png)
 <use Secuencia/CU-14.png>
 Package pdftex.def Info: Secuencia/CU-14.png  used on input line 215.
@@ -6427,8 +6667,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 223.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[200 <./Secuencia/CU-14.png (PNG copy)>]
-<Secuencia/CU-15.png, id=3592, 1660.2025pt x 2405.98875pt>
+[210 <./Secuencia/CU-14.png (PNG copy)>]
+<Secuencia/CU-15.png, id=3786, 1660.2025pt x 2405.98875pt>
 File: Secuencia/CU-15.png Graphic file (type png)
 <use Secuencia/CU-15.png>
 Package pdftex.def Info: Secuencia/CU-15.png  used on input line 229.
@@ -6439,8 +6679,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 236.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[201 <./Secuencia/CU-15.png (PNG copy)>]
-<Secuencia/CU-16.png, id=3601, 1361.085pt x 737.75626pt>
+[211 <./Secuencia/CU-15.png (PNG copy)>]
+<Secuencia/CU-16.png, id=3795, 1361.085pt x 737.75626pt>
 File: Secuencia/CU-16.png Graphic file (type png)
 <use Secuencia/CU-16.png>
 Package pdftex.def Info: Secuencia/CU-16.png  used on input line 241.
@@ -6456,8 +6696,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 249.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[202 <./Secuencia/CU-16.png (PNG copy)>]
-<Secuencia/CU-17.png, id=3612, 882.29625pt x 661.47125pt>
+[212 <./Secuencia/CU-16.png (PNG copy)>]
+<Secuencia/CU-17.png, id=3806, 882.29625pt x 661.47125pt>
 File: Secuencia/CU-17.png Graphic file (type png)
 <use Secuencia/CU-17.png>
 Package pdftex.def Info: Secuencia/CU-17.png  used on input line 255.
@@ -6473,8 +6713,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 263.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[203 <./Secuencia/CU-17.png (PNG copy)>]
-<Secuencia/CU-18.png, id=3620, 1326.9575pt x 619.31375pt>
+[213 <./Secuencia/CU-17.png (PNG copy)>]
+<Secuencia/CU-18.png, id=3814, 1326.9575pt x 619.31375pt>
 File: Secuencia/CU-18.png Graphic file (type png)
 <use Secuencia/CU-18.png>
 Package pdftex.def Info: Secuencia/CU-18.png  used on input line 269.
@@ -6490,8 +6730,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 277.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[204 <./Secuencia/CU-18.png (PNG copy)>]
-<Secuencia/CU-19.png, id=3628, 1390.19376pt x 747.79375pt>
+[214 <./Secuencia/CU-18.png (PNG copy)>]
+<Secuencia/CU-19.png, id=3822, 1390.19376pt x 747.79375pt>
 File: Secuencia/CU-19.png Graphic file (type png)
 <use Secuencia/CU-19.png>
 Package pdftex.def Info: Secuencia/CU-19.png  used on input line 283.
@@ -6507,8 +6747,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 291.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[205 <./Secuencia/CU-19.png (PNG copy)>]
-<Secuencia/CU-20.png, id=3637, 1048.91875pt x 340.27126pt>
+[215 <./Secuencia/CU-19.png (PNG copy)>]
+<Secuencia/CU-20.png, id=3831, 1048.91875pt x 340.27126pt>
 File: Secuencia/CU-20.png Graphic file (type png)
 <use Secuencia/CU-20.png>
 Package pdftex.def Info: Secuencia/CU-20.png  used on input line 297.
@@ -6524,8 +6764,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 305.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[206 <./Secuencia/CU-20.png (PNG copy)>]
-<Secuencia/CU-21.png, id=3645, 1424.32124pt x 636.3775pt>
+[216 <./Secuencia/CU-20.png (PNG copy)>]
+<Secuencia/CU-21.png, id=3839, 1424.32124pt x 636.3775pt>
 File: Secuencia/CU-21.png Graphic file (type png)
 <use Secuencia/CU-21.png>
 Package pdftex.def Info: Secuencia/CU-21.png  used on input line 311.
@@ -6541,8 +6781,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 319.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[207 <./Secuencia/CU-21.png (PNG copy)>]
-<Secuencia/CU-22_23.png, id=3653, 1433.355pt x 649.42625pt>
+[217 <./Secuencia/CU-21.png (PNG copy)>]
+<Secuencia/CU-22_23.png, id=3847, 1433.355pt x 649.42625pt>
 File: Secuencia/CU-22_23.png Graphic file (type png)
 <use Secuencia/CU-22_23.png>
 Package pdftex.def Info: Secuencia/CU-22_23.png  used on input line 325.
@@ -6558,8 +6798,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 333.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[208 <./Secuencia/CU-22_23.png (PNG copy)>]
-<Secuencia/CU-24.png, id=3662, 893.3375pt x 415.5525pt>
+[218 <./Secuencia/CU-22_23.png (PNG copy)>]
+<Secuencia/CU-24.png, id=3856, 893.3375pt x 415.5525pt>
 File: Secuencia/CU-24.png Graphic file (type png)
 <use Secuencia/CU-24.png>
 Package pdftex.def Info: Secuencia/CU-24.png  used on input line 339.
@@ -6575,8 +6815,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 347.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[209 <./Secuencia/CU-24.png (PNG copy)>]
-<Secuencia/CU-25.png, id=3670, 1836.8625pt x 636.3775pt>
+[219 <./Secuencia/CU-24.png (PNG copy)>]
+<Secuencia/CU-25.png, id=3864, 1836.8625pt x 636.3775pt>
 File: Secuencia/CU-25.png Graphic file (type png)
 <use Secuencia/CU-25.png>
 Package pdftex.def Info: Secuencia/CU-25.png  used on input line 353.
@@ -6592,8 +6832,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 361.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[210 <./Secuencia/CU-25.png (PNG copy)>]
-<Secuencia/CU-28.png, id=3678, 744.7825pt x 415.5525pt>
+[220 <./Secuencia/CU-25.png (PNG copy)>]
+<Secuencia/CU-28.png, id=3872, 744.7825pt x 415.5525pt>
 File: Secuencia/CU-28.png Graphic file (type png)
 <use Secuencia/CU-28.png>
 Package pdftex.def Info: Secuencia/CU-28.png  used on input line 367.
@@ -6609,8 +6849,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 375.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[211 <./Secuencia/CU-28.png (PNG copy)>]
-<Secuencia/CU-29.png, id=3687, 1163.34625pt x 636.3775pt>
+[221 <./Secuencia/CU-28.png (PNG copy)>]
+<Secuencia/CU-29.png, id=3881, 1163.34625pt x 636.3775pt>
 File: Secuencia/CU-29.png Graphic file (type png)
 <use Secuencia/CU-29.png>
 Package pdftex.def Info: Secuencia/CU-29.png  used on input line 381.
@@ -6626,8 +6866,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 389.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[212 <./Secuencia/CU-29.png (PNG copy)>]
-<Secuencia/CU-32.png, id=3695, 927.465pt x 415.5525pt>
+[222 <./Secuencia/CU-29.png (PNG copy)>]
+<Secuencia/CU-32.png, id=3889, 927.465pt x 415.5525pt>
 File: Secuencia/CU-32.png Graphic file (type png)
 <use Secuencia/CU-32.png>
 Package pdftex.def Info: Secuencia/CU-32.png  used on input line 395.
@@ -6643,8 +6883,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 403.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[213 <./Secuencia/CU-32.png (PNG copy)>]
-<Secuencia/CU-33.png, id=3703, 1455.4375pt x 636.3775pt>
+[223 <./Secuencia/CU-32.png (PNG copy)>]
+<Secuencia/CU-33.png, id=3897, 1455.4375pt x 636.3775pt>
 File: Secuencia/CU-33.png Graphic file (type png)
 <use Secuencia/CU-33.png>
 Package pdftex.def Info: Secuencia/CU-33.png  used on input line 409.
@@ -6660,8 +6900,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 417.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[214 <./Secuencia/CU-33.png (PNG copy)>]
-<Secuencia/CU-36.png, id=3711, 955.57pt x 415.5525pt>
+[224 <./Secuencia/CU-33.png (PNG copy)>]
+<Secuencia/CU-36.png, id=3905, 955.57pt x 415.5525pt>
 File: Secuencia/CU-36.png Graphic file (type png)
 <use Secuencia/CU-36.png>
 Package pdftex.def Info: Secuencia/CU-36.png  used on input line 423.
@@ -6677,8 +6917,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 431.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[215 <./Secuencia/CU-36.png (PNG copy)>]
-<Secuencia/CU-37.png, id=3719, 1385.175pt x 636.3775pt>
+[225 <./Secuencia/CU-36.png (PNG copy)>]
+<Secuencia/CU-37.png, id=3913, 1385.175pt x 636.3775pt>
 File: Secuencia/CU-37.png Graphic file (type png)
 <use Secuencia/CU-37.png>
 Package pdftex.def Info: Secuencia/CU-37.png  used on input line 437.
@@ -6694,8 +6934,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 445.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[216 <./Secuencia/CU-37.png (PNG copy)>]
-<Secuencia/CU-40.png, id=3727, 1237.62375pt x 340.27126pt>
+[226 <./Secuencia/CU-37.png (PNG copy)>]
+<Secuencia/CU-40.png, id=3921, 1237.62375pt x 340.27126pt>
 File: Secuencia/CU-40.png Graphic file (type png)
 <use Secuencia/CU-40.png>
 Package pdftex.def Info: Secuencia/CU-40.png  used on input line 451.
@@ -6711,8 +6951,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 459.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[217 <./Secuencia/CU-40.png (PNG copy)>]
-<Secuencia/CU-41.png, id=3736, 1425.325pt x 810.02625pt>
+[227 <./Secuencia/CU-40.png (PNG copy)>]
+<Secuencia/CU-41.png, id=3930, 1425.325pt x 810.02625pt>
 File: Secuencia/CU-41.png Graphic file (type png)
 <use Secuencia/CU-41.png>
 Package pdftex.def Info: Secuencia/CU-41.png  used on input line 465.
@@ -6728,8 +6968,8 @@ File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
 Package pdftex.def Info: theme/escudoESCOM.png  used on input line 474.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[218 <./Secuencia/CU-41.png (PNG copy)>]
-<Secuencia/CU-42.png, id=3744, 1704.3675pt x 620.3175pt>
+[228 <./Secuencia/CU-41.png (PNG copy)>]
+<Secuencia/CU-42.png, id=3938, 1704.3675pt x 620.3175pt>
 File: Secuencia/CU-42.png Graphic file (type png)
 <use Secuencia/CU-42.png>
 Package pdftex.def Info: Secuencia/CU-42.png  used on input line 480.
@@ -6743,12 +6983,12 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 480--481
 
 File: theme/escudoESCOM.png Graphic file (type png)
 <use theme/escudoESCOM.png>
-Package pdftex.def Info: theme/escudoESCOM.png  used on input line 51.
+Package pdftex.def Info: theme/escudoESCOM.png  used on input line 55.
 (pdftex.def)             Requested size: 45.89644pt x 35.0pt.
-[219 <./Secuencia/CU-42.png (PNG copy)>] (d:\Repositorio\Documentacion-TT\build\ejemplo2.aux
+[229 <./Secuencia/CU-42.png (PNG copy)>] (d:\Repositorio\Documentacion-TT\build\ejemplo2.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
- (d:\Repositorio\Documentacion-TT\build\2ModeloDelAlcance.aux) (d:\Repositorio\Documentacion-TT\build\3ModeloDelNegocio.aux) (d:\Repositorio\Documentacion-TT\build\4ModeloDinamico.aux) (d:\Repositorio\Documentacion-TT\build\5ModeloDeInteraccion.aux) (d:\Repositorio\Documentacion-TT\build\Diseño.aux))
+ (d:\Repositorio\Documentacion-TT\build\TeoriaDaniel/SistemaOperativo.aux) (d:\Repositorio\Documentacion-TT\build\TeoriaDaniel/LenguajeProgramacion.aux) (d:\Repositorio\Documentacion-TT\build\TeoriaDaniel/API.aux) (d:\Repositorio\Documentacion-TT\build\TeoriaDaniel/IDE.aux) (d:\Repositorio\Documentacion-TT\build\2ModeloDelAlcance.aux) (d:\Repositorio\Documentacion-TT\build\3ModeloDelNegocio.aux) (d:\Repositorio\Documentacion-TT\build\4ModeloDinamico.aux) (d:\Repositorio\Documentacion-TT\build\5ModeloDeInteraccion.aux) (d:\Repositorio\Documentacion-TT\build\Diseño.aux))
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
@@ -6758,13 +6998,13 @@ L3 programming layer <2024-11-02>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `ejemplo2.out' has not changed.
-(rerunfilecheck)             Checksum: 16E86D4ED18B1E9E43B0900F6CA70A26;35103.
+(rerunfilecheck)             Checksum: DBC0120A21BE790E5623D7791BE91576;39542.
  ) 
 Here is how much of TeX's memory you used:
- 18980 strings out of 473681
- 298233 string characters out of 5735749
- 699816 words of memory out of 5000000
- 40002 multiletter control sequences out of 15000+600000
+ 19161 strings out of 473681
+ 304034 string characters out of 5735749
+ 701596 words of memory out of 5000000
+ 40110 multiletter control sequences out of 15000+600000
  611315 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,16n,107p,1086b,781s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -6973,9 +7213,9 @@ pdfTeX warning (dest): name{CURP} has been referenced but does not exist, replac
 pdfTeX warning (dest): name{CU41} has been referenced but does not exist, replaced by a fixed one
 
 <D:/MikTeX/fonts/type1/public/txfonts/rtcxbss.pfb><D:/MikTeX/fonts/type1/public/txfonts/rtcxss.pfb><D:/MikTeX/fonts/type1/public/txfonts/rtxsc.pfb><D:/MikTeX/fonts/type1/public/txfonts/rtxsssc.pfb><D:/MikTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/MikTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/MikTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/MikTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on d:\Repositorio\Documentacion-TT\build\ejemplo2.pdf (231 pages, 7611097 bytes).
+Output written on d:\Repositorio\Documentacion-TT\build\ejemplo2.pdf (243 pages, 7670047 bytes).
 PDF statistics:
- 4102 PDF objects out of 4296 (max. 8388607)
- 1508 named destinations out of 1728 (max. 500000)
- 1658 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4306 PDF objects out of 5155 (max. 8388607)
+ 1550 named destinations out of 1728 (max. 500000)
+ 1882 words of extra memory for PDF output out of 10000 (max. 10000000)
 

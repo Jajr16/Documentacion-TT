@@ -1,7 +1,7 @@
-PWD c:\Users\sackb\Desktop\Documento capitulo 4 y 5
+PWD d:\Repositorio\Documentacion-TT\TT junto 1
 INPUT C:\Users\sackb\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\ejemplo2.tex
-OUTPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.log
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\ejemplo2.tex
+OUTPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.log
 INPUT D:\MikTeX\tex\latex\base\book.cls
 INPUT D:\MikTeX\tex\latex\base\book.cls
 INPUT D:\MikTeX\tex\latex\base\bk10.clo
@@ -167,7 +167,7 @@ INPUT D:\MikTeX\tex\latex\keystroke\keystroke.sty
 INPUT D:\MikTeX\tex\latex\keystroke\keystroke_left.pdf
 INPUT D:\MikTeX\tex\latex\keystroke\keystroke_left.pdf
 INPUT D:\MikTeX\tex\latex\keystroke\keystroke_left.pdf
-OUTPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.pdf
+OUTPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.pdf
 INPUT D:\MikTeX\tex\latex\keystroke\keystroke_left.pdf
 INPUT D:\MikTeX\tex\latex\keystroke\keystroke_left.pdf
 INPUT D:\MikTeX\tex\latex\keystroke\keystroke_middle.pdf
@@ -194,25 +194,25 @@ INPUT D:\MikTeX\tex\latex\txfonts\ot1txss.fd
 INPUT D:\MikTeX\fonts\tfm\public\txfonts\txss.tfm
 INPUT D:\MikTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT D:\MikTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\1introduccion.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\1introduccion.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\1introduccion.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\2ModeloDelAlcance.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\2ModeloDelAlcance.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\2ModeloDelAlcance.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\3ModeloDelNegocio.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\3ModeloDelNegocio.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\3ModeloDelNegocio.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\4ModeloDinamico.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\4ModeloDinamico.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\4ModeloDinamico.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\5ModeloDeInteraccion.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\5ModeloDeInteraccion.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\5ModeloDeInteraccion.aux
-OUTPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\1introduccion.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\1introduccion.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\1introduccion.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\2ModeloDelAlcance.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\2ModeloDelAlcance.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\2ModeloDelAlcance.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\3ModeloDelNegocio.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\3ModeloDelNegocio.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\3ModeloDelNegocio.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\4ModeloDinamico.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\4ModeloDinamico.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\4ModeloDinamico.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\5ModeloDeInteraccion.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\5ModeloDeInteraccion.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\5ModeloDeInteraccion.aux
+OUTPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.aux
 INPUT D:\MikTeX\tex\latex\txfonts\omltxmi.fd
 INPUT D:\MikTeX\tex\latex\txfonts\omltxmi.fd
 INPUT D:\MikTeX\tex\latex\txfonts\omltxmi.fd
@@ -233,13 +233,13 @@ INPUT D:\MikTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT D:\MikTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT D:\MikTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT D:\MikTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.out
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.out
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.out
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.out
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.out
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.out
-OUTPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.out
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.out
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.out
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.out
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.out
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.out
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.out
+OUTPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.out
 INPUT D:\MikTeX\fonts\tfm\public\txfonts\txss.tfm
 INPUT D:\MikTeX\fonts\tfm\public\txfonts\txss.tfm
 INPUT D:\MikTeX\fonts\tfm\public\txfonts\txss.tfm
@@ -300,9 +300,9 @@ INPUT D:\MikTeX\fonts\vf\public\txfonts\txss.vf
 INPUT D:\MikTeX\fonts\tfm\public\txfonts\rtxphvr.tfm
 INPUT D:\MikTeX\fonts\tfm\public\txfonts\rtxss.tfm
 INPUT D:\MikTeX\fonts\tfm\public\txfonts\txss.tfm
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.toc
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.toc
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.toc
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.toc
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.toc
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.toc
 INPUT D:\MikTeX\fonts\tfm\public\txfonts\txbss.tfm
 INPUT D:\MikTeX\fonts\tfm\public\txfonts\txr.tfm
 INPUT D:\MikTeX\fonts\tfm\public\txfonts\txr.tfm
@@ -385,30 +385,30 @@ INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
-OUTPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.toc
+OUTPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.toc
 INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.lof
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.lof
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.lof
-OUTPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.lof
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.lof
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.lof
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.lof
+OUTPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.lof
 INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.lot
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.lot
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.lot
-OUTPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.lot
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.lot
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.lot
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.lot
+OUTPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.lot
 INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
 INPUT .\1introduccion.tex
 INPUT .\1introduccion.tex
-OUTPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\1introduccion.aux
+OUTPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\1introduccion.aux
 INPUT .\1introduccion.tex
 INPUT .\1introduccion.tex
 INPUT 1introduccion.tex
@@ -436,7 +436,7 @@ INPUT D:\MikTeX\fonts\vf\public\txfonts\txr.vf
 INPUT D:\MikTeX\fonts\tfm\public\txfonts\rtxr.tfm
 INPUT .\2ModeloDelAlcance.tex
 INPUT .\2ModeloDelAlcance.tex
-OUTPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\2ModeloDelAlcance.aux
+OUTPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\2ModeloDelAlcance.aux
 INPUT .\2ModeloDelAlcance.tex
 INPUT .\2ModeloDelAlcance.tex
 INPUT 2ModeloDelAlcance.tex
@@ -460,7 +460,7 @@ INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
 INPUT .\3ModeloDelNegocio.tex
 INPUT .\3ModeloDelNegocio.tex
-OUTPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\3ModeloDelNegocio.aux
+OUTPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\3ModeloDelNegocio.aux
 INPUT .\3ModeloDelNegocio.tex
 INPUT .\3ModeloDelNegocio.tex
 INPUT 3ModeloDelNegocio.tex
@@ -627,7 +627,7 @@ INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
 INPUT .\4ModeloDinamico.tex
 INPUT .\4ModeloDinamico.tex
-OUTPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\4ModeloDinamico.aux
+OUTPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\4ModeloDinamico.aux
 INPUT .\4ModeloDinamico.tex
 INPUT .\4ModeloDinamico.tex
 INPUT 4ModeloDinamico.tex
@@ -2599,7 +2599,7 @@ INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
 INPUT .\5ModeloDeInteraccion.tex
 INPUT .\5ModeloDeInteraccion.tex
-OUTPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\5ModeloDeInteraccion.aux
+OUTPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\5ModeloDeInteraccion.aux
 INPUT .\5ModeloDeInteraccion.tex
 INPUT .\5ModeloDeInteraccion.tex
 INPUT 5ModeloDeInteraccion.tex
@@ -3801,24 +3801,24 @@ INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
 INPUT .\theme\escudoESCOM.png
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\1introduccion.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\1introduccion.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\1introduccion.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\2ModeloDelAlcance.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\2ModeloDelAlcance.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\2ModeloDelAlcance.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\3ModeloDelNegocio.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\3ModeloDelNegocio.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\3ModeloDelNegocio.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\4ModeloDinamico.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\4ModeloDinamico.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\4ModeloDinamico.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\5ModeloDeInteraccion.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\5ModeloDeInteraccion.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\5ModeloDeInteraccion.aux
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.out
-INPUT c:\Users\sackb\Desktop\Documento capitulo 4 y 5\build\ejemplo2.out
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\1introduccion.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\1introduccion.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\1introduccion.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\2ModeloDelAlcance.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\2ModeloDelAlcance.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\2ModeloDelAlcance.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\3ModeloDelNegocio.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\3ModeloDelNegocio.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\3ModeloDelNegocio.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\4ModeloDinamico.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\4ModeloDinamico.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\4ModeloDinamico.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\5ModeloDeInteraccion.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\5ModeloDeInteraccion.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\5ModeloDeInteraccion.aux
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.out
+INPUT d:\Repositorio\Documentacion-TT\TT junto 1\build\ejemplo2.out
 INPUT D:\MikTeX\fonts\type1\public\txfonts\rtcxbss.pfb
 INPUT D:\MikTeX\fonts\type1\public\txfonts\rtcxbss.pfb
 INPUT D:\MikTeX\fonts\type1\public\txfonts\rtcxss.pfb
