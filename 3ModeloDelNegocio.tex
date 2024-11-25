@@ -1,18 +1,19 @@
-\chapter{Modelo del Negocio}	
+\section{Modelo del Negocio}	
 \label{cap:reqSist}
 
-	En este capítulo se modela la {\em Arquitectura del negocio} la cual está conformada por la Ontología del negocio ({\em Términos} y {\em Hechos del negocio}), Arquitectura de procesos y las {\em Reglas del negocio}. Primero se especifica brevemente el {\em Contexto} en el que los términos tienen significado.
-	
-	En las secciones \ref{sec:terminosDeNegocio} y \ref{sec:hechosDeNegocio} se presentan los Términos del negocio a manera de Glosario y por último se presentan los Hechos del negocio a manera de relaciones entre términos del negocio.
+	En está sección se modela la {\em Arquitectura del negocio} la cual está conformada por la Ontología del negocio ({\em Términos} y {\em Hechos del negocio}), Arquitectura de procesos y las {\em Reglas del negocio}. Primero se especifica brevemente el {\em Contexto} en el que los términos tienen significado.
+		
+	En las sección \ref{sec:terminosDeNegocio} se presentan los Términos del negocio a manera de Glosario y por último se presentan los Hechos del negocio a manera de relaciones entre términos del negocio.
+
 
 %----------------------------------------------------------
-\section{Contexto}
+\subsection{Contexto}
 
 	\cdtInstrucciones{El contexto debe explicar bajo que ambiente los términos del negocio son aplicables y proporcionar información general para su comprensión inicial.\\}
 	
 	
 %---------------------------------------------------------
-\section{Términos del Negocio}
+\subsection{Términos del Negocio}
 \label{sec:terminosDeNegocio}
 
 \begin{description}
@@ -44,11 +45,11 @@
 %---------------------------------------------------------
 
 
-\section{Modelo del dominio del problema}
+\subsection{Modelo del dominio del problema}
 \label{sec:terminosDeNegocio}
 
 
-\subsection{Modelo del dominio del problema}
+\subsubsection{Modelo del dominio del problema}
 
 El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDominio}, a continuación se describen cada una de las entidades y sus relaciones.
 
@@ -303,7 +304,7 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 	\brRel{}{ETS}{A una \hyperlink{UA}{Unidad de aprendizaje} le \hyperlink{ETSUA}{corresponde} una serie de \hyperlink{ETS}{ETS}.}
 \end{cdtEntidad}
 %---------------------------------------------------------
-\section{Modelado de Reglas de negocio}
+\subsection{Modelado de Reglas de negocio}
 
 \input{3-1-reglas}
 
