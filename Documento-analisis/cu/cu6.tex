@@ -1,0 +1,51 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+%--------------------------------------
+\begin{UseCase}{CU-06}{Mostrar información de los ETS asignados}{
+		Este caso de uso permite al docente visualizar la información detallada de los ETS que tiene asignados.
+	}
+	\UCitem{Versión}{\color{Gray}1.0}
+	\UCitem{Autor}{\color{Gray}De la cruz De la cruz Alejandra}
+	\UCitem{Supervisa}{\color{Gray}De la cruz De la cruz Alejandra}
+	\UCitem{Actor}{\hyperlink{Docente}{Docente}}
+	\UCitem{Propósito}{Permite al docente visualizar la información detallada de cada ETS que tiene asignado.}
+	\UCitem{Entradas}{Ninguna}
+	\UCitem{Origen}{Pantalla táctil}
+	\UCitem{Salidas}{Detalle de ETS asignado.}
+	\UCitem{Destino}{\IUref{IU06}{Pantalla Información de ETS}}
+	\UCitem{Precondiciones}{El docente debe estar autenticado y tener ETS asignados en el sistema.}
+	\UCitem{Postcondiciones}{El docente ha visualizado la información detallada de sus ETS asignados.}
+	\UCitem{Errores}{
+			E1: El sistema no puede recuperar la información detallada de los ETS.
+			E2: Error en la conexión con la base de datos.
+	}
+	\UCitem{Tipo}{S extiende al CU}
+	\UCitem{Observaciones}{Ninguna}
+\end{UseCase}
+%--------------------------------------
+\begin{UCtrayectoria}
+	\UCpaso[\UCactor] Selecciona el ETS que desea visualizar desde la \IUref{IU05}{Pantalla  Consultar ETS}.
+	\UCpaso[\UCsist] Verifica si existen detalles disponibles para el ETS seleccionado. \Trayref{A}
+	\UCpaso Despliega la información detallada de cada ETS asignado en la \IUref{IU06}{Pantalla Información de ETS}.
+\end{UCtrayectoria}
+%--------------------------------------        
+\begin{UCtrayectoriaA}{A}{No hay detalles disponibles para el ETS seleccionado}
+	\UCpaso Muestra un mensaje: {\bf MSG-13-}{``Información no disponible para el ETS seleccinado''}
+	\UCpaso[\UCactor] Presiona el botón \IUbutton{Regresar} para volver a la lista de ETS.
+	\UCpaso Fin de la trayectoria alternativa.
+\end{UCtrayectoriaA}
+
+%--------------------------------------        
+\begin{UCtrayectoriaA}{B}{Error en la conexión con la base de datos}
+	\UCpaso Muestra un mensaje de error: {\bf MSG11-}{``Error al consultar la base de datos. Intente nuevamente más tarde.''}
+	\UCpaso[\UCactor] Presiona el botón \IUbutton{Aceptar} para cerrar el mensaje.
+	\UCpaso[\UCactor] Puede intentar la consulta nuevamente o presionar el botón \IUbutton{Regresar} para volver a la pantalla anterior.
+	\UCpaso Fin de la trayectoria alternativa.
+\end{UCtrayectoriaA}
+
+%-------------------------------------- TERMINA descripción del caso de uso.

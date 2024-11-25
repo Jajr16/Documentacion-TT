@@ -1,0 +1,79 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+%--------------------------------------
+\begin{UseCase}{CU-09}{Tomar asistencias a los ETS}{
+		Este caso de uso permite al docente registrar la asistencia de los alumnos inscritos a un ETS asignado.
+	}
+	\UCitem{Versión}{\color{Gray}1.0}
+	\UCitem{Autor}{\color{Gray}De la cruz De la cruz Alejandra}
+	\UCitem{Supervisa}{\color{Gray}De la cruz De la cruz Alejandra}
+	\UCitem{Actor}{\hyperlink{Docente}{Docente}}
+	\UCitem{Propósito}{Permitir al docente registrar la asistencia de los alumnos que estén inscritos a un ETS.}
+	\UCitem{Entradas}{-}
+	\UCitem{Origen}{Pantalla táctil}
+	\UCitem{Salidas}{Confirmación del registro de asistencia de los alumnos.}
+	\UCitem{Destino}{\IUref{IU08}{Lista de asistencia de ETS.}}
+	\UCitem{Precondiciones}{El docente debe estar autenticado y asignado al ETS correspondiente.}
+	\UCitem{Postcondiciones}{La asistencia de los alumnos ha sido registrada en el sistema para el ETS.}
+	\UCitem{Errores}{
+		\begin{itemize}
+			\item El ETS seleccionado no tiene alumnos inscritos.
+			\item El sistema pierde la conexión al intentar registrar la asistencia.
+		\end{itemize}
+	}
+	\UCitem{Tipo}{Caso de uso primario}
+	\UCitem{Observaciones}{}
+\end{UseCase}
+%--------------------------------------
+\begin{UCtrayectoria}
+	\UCpaso[\UCactor] Presiona el botón \IUbutton{Tomar asistencia} desde la pantalla \IUref{IU07}{Pantalla Lista de alumno}.
+	\UCpaso Activa la cámara y comienza el proceso de reconocimiento facial de los alumnos presentes \IUref{IU17}{Pantalla Reconocimiento facial}. \Trayref{A} \Trayref{B}
+	\UCpaso Analiza la imagen de cada alumno y muestra un indicador:
+	\begin{itemize}
+		\item Verde: El sistema está casi seguro de que la persona es quien dice ser y muestra las características coincidentes.
+		\item Rojo: El sistema está casi seguro de que la persona no es quien dice ser y muestra las características que no coinciden. \Trayref{D}
+		\item Amarillo: El sistema no está seguro y necesita la ayuda del docente para confirmar la identidad, mostrando tanto las características coincidentes como las que no coinciden. \Trayref{C}
+	\end{itemize}
+	\UCpaso[\UCactor] Revisa las características del alumno y decide si confirma la identidad del alumno cuando el indicador marque el color Amarillo. 
+	\UCpaso Marca la asistencia de cada alumno.
+	\UCpaso[\UCactor] Confirma el registro de asistencia.
+	\UCpaso Guarda la asistencia y muestra un mensaje de confirmación: {\bf MSG-19-}{``Asistencia registrada exitosamente.''}
+	\UCpaso Muestra la lista de asistencia de los alumnos en la \IUref{IU08}{Pantalla Lista de asistencia de ETS.}
+\end{UCtrayectoria}
+%--------------------------------------        
+\begin{UCtrayectoriaA}{A}{El ETS no tiene alumnos inscritos}
+	\UCpaso Muestra un mensaje: {\bf MSG-18-}{``No hay alumnos inscritos en este ETS.''}
+	\UCpaso[\UCactor] Presiona el botón \IUbutton{Regresar} para volver a la pantalla anterior.
+	\UCpaso Fin de la trayectoria alternativa.
+\end{UCtrayectoriaA}
+%--------------------------------------        
+\begin{UCtrayectoriaA}{B}{Error en la conexión con la base de datos}
+	\UCpaso[\UCactor] Muestra un mensaje de error: {\bf MSG11-}{``Error al consultar la base de datos. Intente nuevamente más tarde.''}
+	\UCpaso[\UCactor] Presiona el botón \IUbutton{Aceptar} para cerrar el mensaje.
+	\UCpaso[\UCactor] Puede intentar registrar la asistencia.
+	\UCpaso Fin de la trayectoria alternativa.
+\end{UCtrayectoriaA}
+%--------------------------------------        
+\begin{UCtrayectoriaA}{C}{El sistema detecta incertidumbre en la identidad de un alumno}
+	\UCpaso Detecta las características coincidentes como las que no coinciden con el alumno.
+	\UCpaso[\UCactor] Revisa la información proporcionada y toma una decisión sobre la identidad del alumno.
+	\UCpaso[\UCactor] Confirma o corrige la asistencia.
+	\UCpaso Actualiza la asistencia según la confirmación del docente.
+	\UCpaso Muestra la lista de asistencia de los alumnos actualizada en la \IUref{IU08}{Pantalla Lista de asistencia de ETS}.
+	\UCpaso Fin de la trayectoria alternativa.
+\end{UCtrayectoriaA}
+%--------------------------------------        
+\begin{UCtrayectoriaA}{D}{el sistema identifica que el alumno no coincide con la foto registrada}
+	\UCpaso Muestra al docente las características que no coinciden.
+	\UCpaso[\UCactor] Revisa las discrepancias y decide marcar al alumno como ausente o realizar una verificación adicional.
+	\UCpaso Actualiza la asistencia.
+	\UCpaso Muestra la lista de asistencia de los alumnos actualizada en la \IUref{IU08}{Lista de asistencia de ETS}.
+	\UCpaso Fin de la trayectoria alternativa.
+\end{UCtrayectoriaA}
+
+%-------------------------------------- TERMINA descripción del caso de uso.

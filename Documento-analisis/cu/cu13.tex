@@ -1,0 +1,53 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+%--------------------------------------
+\begin{UseCase}{CU-13}{Buscar alumno por boleta}{
+		Este caso de uso permite al personal de seguridad buscar la información de un alumno utilizando su número de boleta.
+	}
+	\UCitem{Versión}{\color{Gray}1.0}
+	\UCitem{Autor}{\color{Gray}De la cruz De la cruz Alejandra}
+	\UCitem{Supervisa}{\color{Gray}Ulises Velez Saldaña}
+	\UCitem{Actor}{\hyperlink{PersonalSeguridad}{Personal de Seguridad}}
+	\UCitem{Propósito}{Permitir al personal de seguridad acceder a la información del alumno mediante su número de boleta.}
+	\UCitem{Entradas}{Número de boleta del alumno.}
+	\UCitem{Origen}{Teclado}
+	\UCitem{Salidas}{Información del alumno.}
+	\UCitem{Destino}{\IUref{IU12}{Pantalla Buscar alumno}}
+	\UCitem{Precondiciones}{El sistema debe tener conectividad con la base de datos y el personal de seguridad debe estar autenticado en el sistema.}
+	\UCitem{Postcondiciones}{El personal de seguridad ha consultado la información del alumno utilizando su número de boleta.}
+	\UCitem{Errores}{
+			E1: El número de boleta ingresado no corresponde a ningún alumno registrado.
+			
+			E2: El sistema no puede recuperar la información del alumno.}
+	\UCitem{Tipo}{Se extiende del CU}
+	\UCitem{Observaciones}{Este caso de uso es esencial para validar la identidad de los alumnos al acceder a las instalaciones mediante la búsqueda por número de boleta.}
+\end{UseCase}
+
+%--------------------------------------
+\begin{UCtrayectoria}
+	\UCpaso[\UCactor] Accede a la \IUref{IUE02}{Pantalla Menú del personal de seguridad} después de haber iniciado sesión.
+	\UCpaso[\UCactor] Selecciona la opción \IUbutton{Consultar alumno}"
+	\UCpaso[\UCactor] Ingresa el número de boleta del alumno en el campo correspondiente.
+	\UCpaso Verifica el número de boleta y busca en la base de datos la información del alumno correspondiente. \Trayref{A}.
+	\UCpaso Despliega la información del alumno en la \IUref{IU12}{Pantalla Buscar alumno}.
+\end{UCtrayectoria}
+%--------------------------------------        
+\begin{UCtrayectoriaA}{A}{Alumno no registrado}
+	\UCpaso[\UCactor] Muestra un mensaje: {\bf MSG-20-}{``Alumno no registrado''}
+	\UCpaso[\UCactor] Presiona el botón \IUbutton{Regresar} para intentar una nueva búsqueda o regresar a la pantalla anterior.
+	\UCpaso Fin de la trayectoria alternativa.
+\end{UCtrayectoriaA}
+
+%--------------------------------------        
+\begin{UCtrayectoriaA}{B}{Error de conexión con la base de datos}
+	\UCpaso[\UCactor] Muestra un mensaje de error: {\bf MSG11-}{``Error al consultar la base de datos. Intente nuevamente más tarde.''}
+	\UCpaso[\UCactor] Presiona el botón \IUbutton{Aceptar} para cerrar el mensaje y puede intentar la consulta nuevamente.
+	\UCpaso Fin de la trayectoria alternativa.
+\end{UCtrayectoriaA}
+
+%-------------------------------------- TERMINA descripción del caso de uso.
