@@ -1,7 +1,7 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Arquitectura del sistema.}}{5}{figure.1.1}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Modelo del dominio del problema}}{9}{figure.1.2}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Modelo del dominio del problema}}{7}{figure.1.2}%
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Análisis de viabilidad de los casos de uso.}}{27}{figure.1.3}%
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Estructura de los usuarios.}}{28}{figure.1.4}%
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Diagrama de casos de uso del sistema movil.}}{32}{figure.1.5}%
@@ -52,11 +52,11 @@
 \contentsline {figure}{\numberline {1.50}{\ignorespaces IUE06~{}saludo del presidente de academia y el jefe de departamento.}}{181}{figure.1.50}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrama de clases.}}{183}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama de secuencia del caso de uso número 01 (CU-01).}}{184}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagrama de secuencia del caso de uso número 02 (CU-02).}}{184}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagrama de secuencia del caso de uso número 03 (CU-03).}}{184}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagrama de secuencia del caso de uso número 04 (CU-04).}}{184}{figure.2.5}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagrama de secuencia del caso de uso número 05 (CU-05).}}{185}{figure.2.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama de secuencia del caso de uso número 01 (Iniciar sesión del sistema móvil).}}{184}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagrama de secuencia del caso de uso número 02 (Consultar calendario escolar).}}{184}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagrama de secuencia del caso de uso número 03 (Consultar notificaciones).}}{184}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagrama de secuencia del caso de uso número 04 (Consultar periodos de ETS asignados al docente).}}{184}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagrama de secuencia del caso de uso número 05 (Consultar ETS asignados).}}{185}{figure.2.6}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Diagrama de secuencia del caso de uso número 06 (CU-06).}}{185}{figure.2.7}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Diagrama de secuencia del caso de uso número 07 (CU-07).}}{185}{figure.2.8}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Diagrama de secuencia del caso de uso número 08 (CU-08).}}{185}{figure.2.9}%

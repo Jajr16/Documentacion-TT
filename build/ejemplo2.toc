@@ -16,24 +16,27 @@
 \contentsline {subsection}{\numberline {1.3.5}Entidad: Escuela\_Programa}{8}{subsection.1.3.5}%
 \contentsline {subsection}{\numberline {1.3.6}Entidad: Programa\_academico}{8}{subsection.1.3.6}%
 \contentsline {subsection}{\numberline {1.3.7}Entidad: Persona}{8}{subsection.1.3.7}%
-\contentsline {subsection}{\numberline {1.3.8}Entidad: Personal académico}{10}{subsection.1.3.8}%
-\contentsline {subsection}{\numberline {1.3.9}Entidad: tipoPersonal}{10}{subsection.1.3.9}%
-\contentsline {subsection}{\numberline {1.3.10}Entidad: CargoDocente}{11}{subsection.1.3.10}%
-\contentsline {subsection}{\numberline {1.3.11}Entidad: Cargo}{11}{subsection.1.3.11}%
-\contentsline {subsection}{\numberline {1.3.12}Entidad: Personal\_Seguridad}{11}{subsection.1.3.12}%
-\contentsline {subsection}{\numberline {1.3.13}Entidad: CargoPS}{11}{subsection.1.3.13}%
-\contentsline {subsection}{\numberline {1.3.14}Entidad: Alumno}{12}{subsection.1.3.14}%
-\contentsline {subsection}{\numberline {1.3.15}Entidad: Usuario}{12}{subsection.1.3.15}%
-\contentsline {subsection}{\numberline {1.3.16}Entidad: Tipo\_Usuario}{13}{subsection.1.3.16}%
-\contentsline {subsection}{\numberline {1.3.17}Entidad: ETS}{13}{subsection.1.3.17}%
-\contentsline {subsection}{\numberline {1.3.18}Entidad: periodo\_ETS}{13}{subsection.1.3.18}%
-\contentsline {subsection}{\numberline {1.3.19}Entidad: Aplica}{14}{subsection.1.3.19}%
-\contentsline {subsection}{\numberline {1.3.20}Entidad: InscripcionETS}{14}{subsection.1.3.20}%
-\contentsline {subsection}{\numberline {1.3.21}Entidad: SalonETS}{14}{subsection.1.3.21}%
-\contentsline {subsection}{\numberline {1.3.22}Entidad: Salon}{15}{subsection.1.3.22}%
-\contentsline {subsection}{\numberline {1.3.23}Entidad: TipoSalon}{15}{subsection.1.3.23}%
-\contentsline {subsection}{\numberline {1.3.24}Entidad: Unidad\_aprendizaje}{15}{subsection.1.3.24}%
-\contentsline {subsection}{\numberline {1.3.25}Modelado de Reglas de negocio}{16}{subsection.1.3.25}%
+\contentsline {subsection}{\numberline {1.3.8}Entidad: Personal académico}{9}{subsection.1.3.8}%
+\contentsline {subsection}{\numberline {1.3.9}Entidad: tipoPersonal}{9}{subsection.1.3.9}%
+\contentsline {subsection}{\numberline {1.3.10}Entidad: CargoDocente}{10}{subsection.1.3.10}%
+\contentsline {subsection}{\numberline {1.3.11}Entidad: Cargo}{10}{subsection.1.3.11}%
+\contentsline {subsection}{\numberline {1.3.12}Entidad: Personal\_Seguridad}{10}{subsection.1.3.12}%
+\contentsline {subsection}{\numberline {1.3.13}Entidad: CargoPS}{10}{subsection.1.3.13}%
+\contentsline {subsection}{\numberline {1.3.14}Entidad: Alumno}{11}{subsection.1.3.14}%
+\contentsline {subsection}{\numberline {1.3.15}Entidad: Usuario}{11}{subsection.1.3.15}%
+\contentsline {subsection}{\numberline {1.3.16}Entidad: Tipo\_Usuario}{12}{subsection.1.3.16}%
+\contentsline {subsection}{\numberline {1.3.17}Entidad: ETS}{12}{subsection.1.3.17}%
+\contentsline {subsection}{\numberline {1.3.18}Entidad: periodo\_ETS}{12}{subsection.1.3.18}%
+\contentsline {subsection}{\numberline {1.3.19}Entidad: Aplica}{13}{subsection.1.3.19}%
+\contentsline {subsection}{\numberline {1.3.20}Entidad: InscripcionETS}{13}{subsection.1.3.20}%
+\contentsline {subsection}{\numberline {1.3.21}Entidad: SalonETS}{13}{subsection.1.3.21}%
+\contentsline {subsection}{\numberline {1.3.22}Entidad: Salon}{14}{subsection.1.3.22}%
+\contentsline {subsection}{\numberline {1.3.23}Entidad: TipoSalon}{14}{subsection.1.3.23}%
+\contentsline {subsection}{\numberline {1.3.24}Entidad: Unidad\_aprendizaje}{14}{subsection.1.3.24}%
+\contentsline {subsection}{\numberline {1.3.25}Entidad: Turno}{15}{subsection.1.3.25}%
+\contentsline {subsection}{\numberline {1.3.26}Entidad: Sexo}{15}{subsection.1.3.26}%
+\contentsline {subsection}{\numberline {1.3.27}Entidad: AsistenciaInscripcion}{15}{subsection.1.3.27}%
+\contentsline {subsection}{\numberline {1.3.28}Modelado de Reglas de negocio}{16}{subsection.1.3.28}%
 \contentsline {section}{\numberline {1.4}Modelo dinámico}{27}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Notación}{27}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}Estructura de usuarios }{27}{subsection.1.4.2}%
