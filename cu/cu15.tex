@@ -35,8 +35,9 @@
 \end{UseCase}
 %--------------------------------------
 \begin{UCtrayectoria}
-\UCpaso[\UCactor] El personal de seguridad presiona el botón \IUbutton{Registrar asistencia} desde la \IUref{IU12}{Pantalla Buscar alumno} o escanea la codigo QR de la credencial del alumno desde la \IUref{IU10}{Pantalla Código QR}.
-\UCpaso El sistema verifica la información y busca en la base de datos la correspondencia. \Trayref{A} \Trayref{B}
+\UCpaso[\UCactor] El personal de seguridad selecciona al alumno desde la \IUref{IU12}{Pantalla Buscar alumno} o escanea la codigo QR de la credencial del alumno desde la \IUref{IU10}{Pantalla Código QR}.
+\UCpaso El sistema obtiene la boleta del alumno.
+\UCpaso El sistema verifica la información y busca en la base de datos por boleta. \Trayref{A} \Trayref{B}
 \UCpaso El sistema despliega los datos del alumno y solicita confirmación al personal de seguridad para registrar la entrada.
 \UCpaso El sistema le muestra una imagen del alumno al personal de seguridad.
 \UCpaso[\UCactor] El personal de seguridad no está seguro de la identidad del alumno, por lo que decide usar el reconocimiento facial. \Trayref{C} \Trayref{D}
