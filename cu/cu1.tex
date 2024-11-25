@@ -7,9 +7,9 @@
 \UCitem{Versión}{\color{Gray}1}
 \UCitem{Autor}{\color{Gray}Huertas Ramírez Daniel Martín.}
 \UCitem{Supervisa}{\color{Gray}De la Cruz de la Cruz Alejandra.}
-\UCitem{Actor}{ \hyperlink{Docente}{Docente}, \hyperlink{Personal de seguridad}{Personal de seguridad}, \hyperlink{Alumno}{Alumno}, \hyperlink{Presidente de academia}{Presidente de academia} y \hyperlink{Jefe de departamento}{Jefe de departamento } }
+\UCitem{Actor}{ \hyperlink{PersonalAcademico}{Docente}, \hyperlink{PS}{Personal de seguridad}, \hyperlink{Alumno}{Alumno}, \hyperlink{PersonalAcademico}{Presidente de academia} y \hyperlink{PersonalAcademico}{Jefe de departamento } }
 \UCitem{Propósito}{Que el usuario del sistema móvil pueda acceder al sistema móvil y sus funciones específicas.}
-\UCitem{Entradas}{ En caso del empleado \hyperlink{Empleado.RFC}{RFC}, \hyperlink{Empleado.Contraseña}{Contraseña} y en caso del alumno \hyperlink{Alumn.CURP}{CURP}, \hyperlink{Alumno.Contraseña}{Contraseña} }
+\UCitem{Entradas}{ En caso del \hyperlink{PS}{personal de seguridad}, ingresará con su \hyperlink{CURP}{CURP} y \hyperlink{Password}{Contraseña}. En caso del alumno con su \hyperlink{Boleta}{Boleta}, \hyperlink{Password}{Contraseña}. En caso del \hyperlink{PersonalAcademico}{personal académico} se usará su \hyperlink{RFC}{RFC} y su \hyperlink{Password}{Contraseña}}
 \UCitem{Origen}{Pantalla táctil}
 \UCitem{Salidas}{Saludo del sistema y mención de su nombre.}
 \UCitem{Destino}{Pantalla \IUref{IUE01}{Pantalla de saludo del docente} si es un docente, a la \IUref{IUE02}{Pantalla de saludo del personal de seguridad} si es un personal de seguridad, a la \IUref{IUE03}{Pantalla de saludo del alumno} si es un alumno y a la \IUref{IUE06}{Pantalla de saludo del presidente de academia/jefe de departamento} si es un presidente de academia o jefe de departamento.}
@@ -33,7 +33,7 @@
 
 \begin{UCtrayectoria}
 \UCpaso[\UCactor] El usuario inicia la aplicación y accede a la pantalla \IUref{IU01}{Iniciar sesión del sistema móvil}
-\UCpaso[\UCactor] Si el usuario es un alumno; introduce su número de boleta y su contraseña, por otro lado, si el usuario no es un alumno introduce su RFC y contraseña en el sistema vía la \IUref{IU01}{ Iniciar sesión del sistema móvil }\label{CU01.introduceDatos}.
+\UCpaso[\UCactor] Si el usuario es un alumno; introduce su número de boleta y su contraseña, por otro lado, si el usuario es un personal académico introduce su RFC y contraseña, o bien, si el usuario es un personal de seguridad, introduce su CURP y contraseña en el sistema vía la \IUref{IU01}{ Iniciar sesión del sistema móvil }\label{CU01.introduceDatos}.
 \UCpaso[\UCactor] El usuario confirma la operación presionando el botón \IUbutton{Entrar}.
 \UCpaso El sistema verifica que todos los datos requeridos hayan sido capturados.
 \UCpaso El sistema verifica que el usuario este registrado en el sistema.

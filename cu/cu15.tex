@@ -8,7 +8,7 @@
 \UCitem{Propósito}{Facilitar el registro de entrada de los alumnos a las instalaciones.}
 \UCitem{Entradas}{
 	\begin{itemize}
-		\item \hyperlink{Alumno.Nombre}{Nombre del alumno} Nombre del alumno o número de boleta.
+		\item \hyperlink{Alumno.Nombre}{Nombre del alumno} o número de boleta.
 		\item Escaneo de la credencial del alumno.
 	\end{itemize}
 }
@@ -59,18 +59,18 @@
 %--------------------------------------
 \begin{UCtrayectoriaA}{B}{Error de conexión con la base de datos}
 
-\UCpaso EL sistema muestra un mensaje de error: {\bf MSG-9}{``Error al consultar la base de datos. Intente nuevamente más tarde.''}
+\UCpaso El sistema muestra un mensaje de error: {\bf MSG-9}{``Error al consultar la base de datos. Intente nuevamente más tarde.''}
 \UCpaso[\UCactor] El personal de seguridad presiona el botón \IUbutton{Aceptar} para cerrar el mensaje y puede intentar la consulta nuevamente.
 \UCpaso Fin de la trayectoria alternativa.
 \end{UCtrayectoriaA}
 %--------------------------------------        
-\begin{UCtrayectoriaA}{}{El personal de seguridad está seguro de la identidad del alumno sin la necesidad de usar el reconocimiento facial y decide que le registrara asistencia sin la necesidad del reconocimiento facial}
+\begin{UCtrayectoriaA}{C}{El personal de seguridad está seguro de la identidad del alumno sin la necesidad de usar el reconocimiento facial y decide que le registrara asistencia sin la necesidad del reconocimiento facial}
 \UCpaso[\UCactor] El personal de seguridad presiona el botón \IUbutton{Registrar asistencia}.
 \UCpaso El sistema actualiza la asistencia.
 \UCpaso Fin de la trayectoria alternativa.
 \end{UCtrayectoriaA}
 %--------------------------------------        
-\begin{UCtrayectoriaA}{B}{El personal de seguridad está seguro de la identidad del alumno sin la necesidad de usar el reconocimiento facial y decide que no le registrara asistencia}
+\begin{UCtrayectoriaA}{D}{El personal de seguridad está seguro de la identidad del alumno sin la necesidad de usar el reconocimiento facial y decide que no le registrara asistencia}
 \UCpaso[\UCactor] El personal de seguridad presiona el botón \IUbutton{No registrar asistencia}.
 \UCpaso El sistema no actualiza la asistencia.
 \UCpaso Fin de la trayectoria alternativa.
