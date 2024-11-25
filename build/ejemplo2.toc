@@ -1,458 +1,494 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{\numberline {1}Análisis}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Notaciones }{2}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Presentación}{2}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Organización del contenido}{2}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Notación, símbolos y convenciones utilizadas}{2}{subsection.1.1.3}%
-\contentsline {section}{\numberline {1.2}Modelo del Alcance}{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Requerimientos de usuario}{3}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Especificación de plataforma}{4}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Modelo del Negocio}{6}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Contexto}{6}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Términos del Negocio}{6}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Modelo del dominio del problema}{7}{subsection.1.3.3}%
-\contentsline {subsubsection}{Modelo del dominio del problema}{7}{section*.4}%
-\contentsline {subsection}{\numberline {1.3.4}Entidad: Unidad academica}{8}{subsection.1.3.4}%
-\contentsline {subsection}{\numberline {1.3.5}Entidad: Escuela\_Programa}{8}{subsection.1.3.5}%
-\contentsline {subsection}{\numberline {1.3.6}Entidad: Programa\_academico}{8}{subsection.1.3.6}%
-\contentsline {subsection}{\numberline {1.3.7}Entidad: Persona}{8}{subsection.1.3.7}%
-\contentsline {subsection}{\numberline {1.3.8}Entidad: Personal académico}{9}{subsection.1.3.8}%
-\contentsline {subsection}{\numberline {1.3.9}Entidad: tipoPersonal}{9}{subsection.1.3.9}%
-\contentsline {subsection}{\numberline {1.3.10}Entidad: CargoDocente}{10}{subsection.1.3.10}%
-\contentsline {subsection}{\numberline {1.3.11}Entidad: Cargo}{10}{subsection.1.3.11}%
-\contentsline {subsection}{\numberline {1.3.12}Entidad: Personal\_Seguridad}{10}{subsection.1.3.12}%
-\contentsline {subsection}{\numberline {1.3.13}Entidad: CargoPS}{10}{subsection.1.3.13}%
-\contentsline {subsection}{\numberline {1.3.14}Entidad: Alumno}{11}{subsection.1.3.14}%
-\contentsline {subsection}{\numberline {1.3.15}Entidad: Usuario}{11}{subsection.1.3.15}%
-\contentsline {subsection}{\numberline {1.3.16}Entidad: Tipo\_Usuario}{12}{subsection.1.3.16}%
-\contentsline {subsection}{\numberline {1.3.17}Entidad: ETS}{12}{subsection.1.3.17}%
-\contentsline {subsection}{\numberline {1.3.18}Entidad: periodo\_ETS}{12}{subsection.1.3.18}%
-\contentsline {subsection}{\numberline {1.3.19}Entidad: Aplica}{13}{subsection.1.3.19}%
-\contentsline {subsection}{\numberline {1.3.20}Entidad: InscripcionETS}{13}{subsection.1.3.20}%
-\contentsline {subsection}{\numberline {1.3.21}Entidad: SalonETS}{13}{subsection.1.3.21}%
-\contentsline {subsection}{\numberline {1.3.22}Entidad: Salon}{14}{subsection.1.3.22}%
-\contentsline {subsection}{\numberline {1.3.23}Entidad: TipoSalon}{14}{subsection.1.3.23}%
-\contentsline {subsection}{\numberline {1.3.24}Entidad: Unidad\_aprendizaje}{14}{subsection.1.3.24}%
-\contentsline {subsection}{\numberline {1.3.25}Entidad: Turno}{15}{subsection.1.3.25}%
-\contentsline {subsection}{\numberline {1.3.26}Entidad: Sexo}{15}{subsection.1.3.26}%
-\contentsline {subsection}{\numberline {1.3.27}Entidad: AsistenciaInscripcion}{15}{subsection.1.3.27}%
-\contentsline {subsection}{\numberline {1.3.28}Modelado de Reglas de negocio}{16}{subsection.1.3.28}%
-\contentsline {section}{\numberline {1.4}Modelo dinámico}{27}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Notación}{27}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Estructura de usuarios }{27}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Descripción de actores}{29}{subsection.1.4.3}%
-\contentsline {subsubsection}{Alumno}{29}{section*.5}%
-\contentsline {subsubsection}{Personal de seguridad}{29}{section*.6}%
-\contentsline {subsubsection}{Docente}{29}{section*.7}%
-\contentsline {subsubsection}{Personal de gestión escolar}{30}{section*.8}%
-\contentsline {subsubsection}{Personal de la DAE}{30}{section*.9}%
-\contentsline {subsubsection}{Presidente de academia}{31}{section*.10}%
-\contentsline {subsubsection}{Jefe de departamento}{31}{section*.11}%
-\contentsline {subsection}{\numberline {1.4.4}Diagramas de casos de uso}{32}{subsection.1.4.4}%
-\contentsline {subsection}{\numberline {1.4.5}CU-01 Iniciar sesión del sistema móvil}{34}{subsection.1.4.5}%
-\contentsline {subsubsection}{Descripción completa}{34}{section*.12}%
-\contentsline {subsubsection}{Atributos importantes}{34}{section*.13}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{35}{section*.14}%
-\contentsline {subsection}{\numberline {1.4.6}CU-02 Consultar calendario escolar}{36}{subsection.1.4.6}%
-\contentsline {subsubsection}{Descripción completa}{36}{section*.15}%
-\contentsline {subsubsection}{Atributos importantes}{36}{section*.16}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{36}{section*.17}%
-\contentsline {subsection}{\numberline {1.4.7}CU-03 Consultar notificaciones}{38}{subsection.1.4.7}%
-\contentsline {subsubsection}{Descripción completa}{38}{section*.18}%
-\contentsline {subsubsection}{Atributos importantes}{38}{section*.19}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{38}{section*.20}%
-\contentsline {subsection}{\numberline {1.4.8}CU-04 Consultar periodos de ETS asignados al docente}{40}{subsection.1.4.8}%
-\contentsline {subsubsection}{Descripción completa}{40}{section*.21}%
-\contentsline {subsubsection}{Atributos importantes}{40}{section*.22}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{40}{section*.23}%
-\contentsline {subsection}{\numberline {1.4.9}CU-05 Consultar ETS asignados}{42}{subsection.1.4.9}%
-\contentsline {subsubsection}{Descripción completa}{42}{section*.24}%
-\contentsline {subsubsection}{Atributos importantes}{42}{section*.25}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{42}{section*.26}%
-\contentsline {subsection}{\numberline {1.4.10}CU-06 Mostrar información de los ETS asignados}{44}{subsection.1.4.10}%
-\contentsline {subsubsection}{Descripción completa}{44}{section*.27}%
-\contentsline {subsubsection}{Atributos importantes}{44}{section*.28}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{44}{section*.29}%
-\contentsline {subsection}{\numberline {1.4.11}CU-07 Solicitar remplazo }{46}{subsection.1.4.11}%
-\contentsline {subsubsection}{Descripción completa}{46}{section*.30}%
-\contentsline {subsubsection}{Atributos importantes}{46}{section*.31}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{46}{section*.32}%
-\contentsline {subsection}{\numberline {1.4.12}CU-08 Consultar lista de alumnos inscritos a un ETS}{48}{subsection.1.4.12}%
-\contentsline {subsubsection}{Descripción completa}{48}{section*.33}%
-\contentsline {subsubsection}{Atributos importantes}{48}{section*.34}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{48}{section*.35}%
-\contentsline {subsection}{\numberline {1.4.13}CU-09 Tomar asistencias a los ETS}{50}{subsection.1.4.13}%
-\contentsline {subsubsection}{Descripción completa}{50}{section*.36}%
-\contentsline {subsubsection}{Atributos importantes}{50}{section*.37}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{50}{section*.38}%
-\contentsline {subsection}{\numberline {1.4.14}CU-10 Consultar lista de asistencia de alumnos inscritos a los ETS}{53}{subsection.1.4.14}%
-\contentsline {subsubsection}{Descripción completa}{53}{section*.39}%
-\contentsline {subsubsection}{Atributos importantes}{53}{section*.40}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{53}{section*.41}%
-\contentsline {subsection}{\numberline {1.4.15}CU-11 Mostrar la foto e información del alumno}{55}{subsection.1.4.15}%
-\contentsline {subsubsection}{Descripción completa}{55}{section*.42}%
-\contentsline {subsubsection}{Atributos importantes}{55}{section*.43}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{55}{section*.44}%
-\contentsline {subsection}{\numberline {1.4.16}CU-12 Consultar alumno mediante código QR de la credencial}{56}{subsection.1.4.16}%
-\contentsline {subsubsection}{Descripción completa}{56}{section*.45}%
-\contentsline {subsubsection}{Atributos importantes}{56}{section*.46}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{56}{section*.47}%
-\contentsline {subsection}{\numberline {1.4.17}CU-13 Buscar alumno por boleta}{58}{subsection.1.4.17}%
-\contentsline {subsubsection}{Descripción completa}{58}{section*.48}%
-\contentsline {subsubsection}{Atributos importantes}{58}{section*.49}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{58}{section*.50}%
-\contentsline {subsection}{\numberline {1.4.18}CU-14 Buscar alumno por nombre}{60}{subsection.1.4.18}%
-\contentsline {subsubsection}{Descripción completa}{60}{section*.51}%
-\contentsline {subsubsection}{Atributos importantes}{60}{section*.52}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{60}{section*.53}%
-\contentsline {subsection}{\numberline {1.4.19}CU-15 Registrar asistencia}{62}{subsection.1.4.19}%
-\contentsline {subsubsection}{Descripción completa}{62}{section*.54}%
-\contentsline {subsubsection}{Atributos importantes}{62}{section*.55}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{62}{section*.56}%
-\contentsline {subsection}{\numberline {1.4.20}CU-16 Consultar periodos de ETS inscritos del alumno}{65}{subsection.1.4.20}%
-\contentsline {subsubsection}{Descripción completa}{65}{section*.57}%
-\contentsline {subsubsection}{Atributos importantes}{65}{section*.58}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{65}{section*.59}%
-\contentsline {subsection}{\numberline {1.4.21}CU-17 Consultar ETS inscritos}{67}{subsection.1.4.21}%
-\contentsline {subsubsection}{Descripción completa}{67}{section*.60}%
-\contentsline {subsubsection}{Atributos importantes}{67}{section*.61}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{67}{section*.62}%
-\contentsline {subsection}{\numberline {1.4.22}CU-18 Mostrar información de los ETS inscritos}{69}{subsection.1.4.22}%
-\contentsline {subsubsection}{Descripción completa}{69}{section*.63}%
-\contentsline {subsubsection}{Atributos importantes}{69}{section*.64}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{69}{section*.65}%
-\contentsline {subsection}{\numberline {1.4.23}CU-19 Probar reconocimiento facial}{71}{subsection.1.4.23}%
-\contentsline {subsubsection}{Descripción completa}{71}{section*.66}%
-\contentsline {subsubsection}{Atributos importantes}{71}{section*.67}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{71}{section*.68}%
-\contentsline {subsection}{\numberline {1.4.24}CU-20 Revisar información de acceso a los ETS}{73}{subsection.1.4.24}%
-\contentsline {subsubsection}{Descripción completa}{73}{section*.69}%
-\contentsline {subsubsection}{Atributos importantes}{73}{section*.70}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{73}{section*.71}%
-\contentsline {subsection}{\numberline {1.4.25}CU-21 Dar de alta un alumno}{75}{subsection.1.4.25}%
-\contentsline {subsubsection}{Descripción completa}{75}{section*.72}%
-\contentsline {subsubsection}{Atributos importantes}{75}{section*.73}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{75}{section*.74}%
-\contentsline {subsection}{\numberline {1.4.26}CU-22 Crear credencial}{77}{subsection.1.4.26}%
-\contentsline {subsubsection}{Descripción completa}{77}{section*.75}%
-\contentsline {subsubsection}{Atributos importantes}{77}{section*.76}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{77}{section*.77}%
-\contentsline {subsection}{\numberline {1.4.27}CU-23 Capturar fotografía estudiantil}{79}{subsection.1.4.27}%
-\contentsline {subsubsection}{Descripción completa}{79}{section*.78}%
-\contentsline {subsubsection}{Atributos importantes}{79}{section*.79}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{79}{section*.80}%
-\contentsline {subsection}{\numberline {1.4.28}CU-24 Consultar lista de periodo de ETS }{81}{subsection.1.4.28}%
-\contentsline {subsubsection}{Descripción completa}{81}{section*.81}%
-\contentsline {subsubsection}{Atributos importantes}{81}{section*.82}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{81}{section*.83}%
-\contentsline {subsection}{\numberline {1.4.29}CU-25 Dar de alta de periodo de ETS}{83}{subsection.1.4.29}%
-\contentsline {subsubsection}{Descripción completa}{83}{section*.84}%
-\contentsline {subsubsection}{Atributos importantes}{83}{section*.85}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{83}{section*.86}%
-\contentsline {subsection}{\numberline {1.4.30}CU-28 Consultar lista de ETS}{85}{subsection.1.4.30}%
-\contentsline {subsubsection}{Descripción completa}{85}{section*.87}%
-\contentsline {subsubsection}{Atributos importantes}{85}{section*.88}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{85}{section*.89}%
-\contentsline {subsection}{\numberline {1.4.31}CU-29 Dar de alta ETS }{87}{subsection.1.4.31}%
-\contentsline {subsubsection}{Descripción completa}{87}{section*.90}%
-\contentsline {subsubsection}{Atributos importantes}{87}{section*.91}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{87}{section*.92}%
-\contentsline {subsection}{\numberline {1.4.32}CU-32 Consultar lista de personal de seguridad}{89}{subsection.1.4.32}%
-\contentsline {subsubsection}{Descripción completa}{89}{section*.93}%
-\contentsline {subsubsection}{Atributos importantes}{89}{section*.94}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{89}{section*.95}%
-\contentsline {subsection}{\numberline {1.4.33}CU-33 Dar de alta personal de seguridad}{91}{subsection.1.4.33}%
-\contentsline {subsubsection}{Descripción completa}{91}{section*.96}%
-\contentsline {subsubsection}{Atributos importantes}{91}{section*.97}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{91}{section*.98}%
-\contentsline {subsection}{\numberline {1.4.34}CU-36 Consultar lista de docentes }{93}{subsection.1.4.34}%
-\contentsline {subsubsection}{Descripción completa}{93}{section*.99}%
-\contentsline {subsubsection}{Atributos importantes}{93}{section*.100}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{93}{section*.101}%
-\contentsline {subsection}{\numberline {1.4.35}CU-37 Dar de alta docente}{95}{subsection.1.4.35}%
-\contentsline {subsubsection}{Descripción completa}{95}{section*.102}%
-\contentsline {subsubsection}{Atributos importantes}{95}{section*.103}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{95}{section*.104}%
-\contentsline {subsection}{\numberline {1.4.36}CU-40 Solicitar desbloqueo de cuenta}{97}{subsection.1.4.36}%
-\contentsline {subsubsection}{Descripción completa}{97}{section*.105}%
-\contentsline {subsubsection}{Atributos importantes}{97}{section*.106}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{97}{section*.107}%
-\contentsline {subsection}{\numberline {1.4.37}CU-41 Iniciar sesión de personal escolar web}{99}{subsection.1.4.37}%
-\contentsline {subsubsection}{Descripción completa}{99}{section*.108}%
-\contentsline {subsubsection}{Atributos importantes}{99}{section*.109}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{100}{section*.110}%
-\contentsline {subsection}{\numberline {1.4.38}CU-42 Asignar docente de remplazo }{101}{subsection.1.4.38}%
-\contentsline {subsubsection}{Descripción completa}{101}{section*.111}%
-\contentsline {subsubsection}{Atributos importantes}{101}{section*.112}%
-\contentsline {subsubsection}{Trayectorias del Caso de Uso}{101}{section*.113}%
-\contentsline {section}{\numberline {1.5}Modelo de la interacción}{103}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Modelo de navegación}{103}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}IU01 Pantalla Iniciar sesión de personal escolar móvil}{106}{subsection.1.5.2}%
-\contentsline {subsubsection}{Objetivo}{106}{section*.114}%
-\contentsline {subsubsection}{Diseño}{106}{section*.115}%
-\contentsline {subsubsection}{Salidas}{107}{section*.116}%
-\contentsline {subsubsection}{Entradas}{107}{section*.117}%
-\contentsline {subsubsection}{Comandos}{107}{section*.118}%
-\contentsline {subsubsection}{Mensajes}{107}{section*.119}%
-\contentsline {subsection}{\numberline {1.5.3}IU02 Pantalla Consultar calendario escolar}{108}{subsection.1.5.3}%
-\contentsline {subsubsection}{Objetivo}{108}{section*.120}%
-\contentsline {subsubsection}{Diseño}{108}{section*.121}%
-\contentsline {subsubsection}{Salidas}{109}{section*.122}%
-\contentsline {subsubsection}{Entradas}{109}{section*.123}%
-\contentsline {subsubsection}{Comandos}{109}{section*.124}%
-\contentsline {subsubsection}{Mensajes}{109}{section*.125}%
-\contentsline {subsection}{\numberline {1.5.4}IU03 Pantalla Consultar notificaciones}{110}{subsection.1.5.4}%
-\contentsline {subsubsection}{Objetivo}{110}{section*.126}%
-\contentsline {subsubsection}{Diseño}{110}{section*.127}%
-\contentsline {subsubsection}{Salidas}{111}{section*.128}%
-\contentsline {subsubsection}{Entradas}{111}{section*.129}%
-\contentsline {subsubsection}{Comandos}{111}{section*.130}%
-\contentsline {subsubsection}{Mensajes}{111}{section*.131}%
-\contentsline {subsection}{\numberline {1.5.5}IU04 Pantalla Periodo de ETS}{112}{subsection.1.5.5}%
-\contentsline {subsubsection}{Objetivo}{112}{section*.132}%
-\contentsline {subsubsection}{Diseño}{112}{section*.133}%
-\contentsline {subsubsection}{Salidas}{112}{section*.134}%
-\contentsline {subsubsection}{Entradas}{113}{section*.135}%
-\contentsline {subsubsection}{Comandos}{113}{section*.136}%
-\contentsline {subsubsection}{Mensajes}{113}{section*.137}%
-\contentsline {subsection}{\numberline {1.5.6}IU05 Pantalla Consultar ETS}{114}{subsection.1.5.6}%
-\contentsline {subsubsection}{Objetivo}{114}{section*.138}%
-\contentsline {subsubsection}{Diseño}{114}{section*.139}%
-\contentsline {subsubsection}{Salidas}{114}{section*.140}%
-\contentsline {subsubsection}{Entradas}{115}{section*.141}%
-\contentsline {subsubsection}{Comandos}{115}{section*.142}%
-\contentsline {subsubsection}{Mensajes}{115}{section*.143}%
-\contentsline {subsection}{\numberline {1.5.7}IU06 Pantalla Información de ETS}{116}{subsection.1.5.7}%
-\contentsline {subsubsection}{Objetivo}{116}{section*.144}%
-\contentsline {subsubsection}{Diseño}{116}{section*.145}%
-\contentsline {subsubsection}{Salidas}{116}{section*.146}%
-\contentsline {subsubsection}{Entradas}{117}{section*.147}%
-\contentsline {subsubsection}{Comandos}{117}{section*.148}%
-\contentsline {subsubsection}{Mensajes}{117}{section*.149}%
-\contentsline {subsection}{\numberline {1.5.8}IU08 Pantalla Lista de asistencia de ETS}{118}{subsection.1.5.8}%
-\contentsline {subsubsection}{Objetivo}{118}{section*.150}%
-\contentsline {subsubsection}{Diseño}{118}{section*.151}%
-\contentsline {subsubsection}{Salidas}{119}{section*.152}%
-\contentsline {subsubsection}{Entradas}{119}{section*.153}%
-\contentsline {subsubsection}{Comandos}{119}{section*.154}%
-\contentsline {subsubsection}{Mensajes}{119}{section*.155}%
-\contentsline {subsection}{\numberline {1.5.9}IU09 Asignar docente de remplazo}{120}{subsection.1.5.9}%
-\contentsline {subsubsection}{Objetivo}{120}{section*.156}%
-\contentsline {subsubsection}{Diseño}{120}{section*.157}%
-\contentsline {subsubsection}{Salidas}{121}{section*.158}%
-\contentsline {subsubsection}{Entradas}{121}{section*.159}%
-\contentsline {subsubsection}{Comandos}{121}{section*.160}%
-\contentsline {subsubsection}{Mensajes}{121}{section*.161}%
-\contentsline {subsection}{\numberline {1.5.10}IU10 Pantalla Código QR}{122}{subsection.1.5.10}%
-\contentsline {subsubsection}{Objetivo}{122}{section*.162}%
-\contentsline {subsubsection}{Diseño}{122}{section*.163}%
+\contentsline {section}{\numberline {1.1}Modelo del Alcance}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Requerimientos de usuario}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Especificación de plataforma}{3}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Modelo del Negocio}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Contexto}{5}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Términos del Negocio}{5}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Modelo del dominio del problema}{6}{subsection.1.2.3}%
+\contentsline {subsubsection}{Modelo del dominio del problema}{6}{section*.4}%
+\contentsline {subsection}{\numberline {1.2.4}Entidad: Unidad academica}{7}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Entidad: Escuela\_Programa}{7}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}Entidad: Programa\_academico}{7}{subsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.2.7}Entidad: Persona}{7}{subsection.1.2.7}%
+\contentsline {subsection}{\numberline {1.2.8}Entidad: Personal académico}{8}{subsection.1.2.8}%
+\contentsline {subsection}{\numberline {1.2.9}Entidad: tipoPersonal}{8}{subsection.1.2.9}%
+\contentsline {subsection}{\numberline {1.2.10}Entidad: CargoDocente}{9}{subsection.1.2.10}%
+\contentsline {subsection}{\numberline {1.2.11}Entidad: Cargo}{9}{subsection.1.2.11}%
+\contentsline {subsection}{\numberline {1.2.12}Entidad: Personal\_Seguridad}{9}{subsection.1.2.12}%
+\contentsline {subsection}{\numberline {1.2.13}Entidad: CargoPS}{9}{subsection.1.2.13}%
+\contentsline {subsection}{\numberline {1.2.14}Entidad: Alumno}{10}{subsection.1.2.14}%
+\contentsline {subsection}{\numberline {1.2.15}Entidad: Usuario}{10}{subsection.1.2.15}%
+\contentsline {subsection}{\numberline {1.2.16}Entidad: Tipo\_Usuario}{11}{subsection.1.2.16}%
+\contentsline {subsection}{\numberline {1.2.17}Entidad: ETS}{11}{subsection.1.2.17}%
+\contentsline {subsection}{\numberline {1.2.18}Entidad: periodo\_ETS}{11}{subsection.1.2.18}%
+\contentsline {subsection}{\numberline {1.2.19}Entidad: Aplica}{12}{subsection.1.2.19}%
+\contentsline {subsection}{\numberline {1.2.20}Entidad: InscripcionETS}{12}{subsection.1.2.20}%
+\contentsline {subsection}{\numberline {1.2.21}Entidad: SalonETS}{12}{subsection.1.2.21}%
+\contentsline {subsection}{\numberline {1.2.22}Entidad: Salon}{13}{subsection.1.2.22}%
+\contentsline {subsection}{\numberline {1.2.23}Entidad: TipoSalon}{13}{subsection.1.2.23}%
+\contentsline {subsection}{\numberline {1.2.24}Entidad: Unidad\_aprendizaje}{13}{subsection.1.2.24}%
+\contentsline {subsection}{\numberline {1.2.25}Entidad: Turno}{14}{subsection.1.2.25}%
+\contentsline {subsection}{\numberline {1.2.26}Entidad: Sexo}{14}{subsection.1.2.26}%
+\contentsline {subsection}{\numberline {1.2.27}Entidad: AsistenciaInscripcion}{14}{subsection.1.2.27}%
+\contentsline {subsection}{\numberline {1.2.28}Modelado de Reglas de negocio}{15}{subsection.1.2.28}%
+\contentsline {section}{\numberline {1.3}Modelo dinámico}{26}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Notación}{26}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Estructura de usuarios }{26}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Descripción de actores}{28}{subsection.1.3.3}%
+\contentsline {subsubsection}{Alumno}{28}{section*.5}%
+\contentsline {subsubsection}{Personal de seguridad}{28}{section*.6}%
+\contentsline {subsubsection}{Docente}{28}{section*.7}%
+\contentsline {subsubsection}{Personal de gestión escolar}{29}{section*.8}%
+\contentsline {subsubsection}{Personal de la DAE}{29}{section*.9}%
+\contentsline {subsubsection}{Presidente de academia}{30}{section*.10}%
+\contentsline {subsubsection}{Jefe de departamento}{30}{section*.11}%
+\contentsline {subsection}{\numberline {1.3.4}Diagramas de casos de uso}{31}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}CU-01 Iniciar sesión del sistema móvil}{33}{subsection.1.3.5}%
+\contentsline {subsubsection}{Descripción completa}{33}{section*.12}%
+\contentsline {subsubsection}{Atributos importantes}{33}{section*.13}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{34}{section*.14}%
+\contentsline {subsection}{\numberline {1.3.6}CU-02 Consultar calendario escolar}{35}{subsection.1.3.6}%
+\contentsline {subsubsection}{Descripción completa}{35}{section*.15}%
+\contentsline {subsubsection}{Atributos importantes}{35}{section*.16}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{35}{section*.17}%
+\contentsline {subsection}{\numberline {1.3.7}CU-03 Consultar notificaciones}{37}{subsection.1.3.7}%
+\contentsline {subsubsection}{Descripción completa}{37}{section*.18}%
+\contentsline {subsubsection}{Atributos importantes}{37}{section*.19}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{37}{section*.20}%
+\contentsline {subsection}{\numberline {1.3.8}CU-04 Consultar periodos de ETS asignados al docente}{39}{subsection.1.3.8}%
+\contentsline {subsubsection}{Descripción completa}{39}{section*.21}%
+\contentsline {subsubsection}{Atributos importantes}{39}{section*.22}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{39}{section*.23}%
+\contentsline {subsection}{\numberline {1.3.9}CU-05 Consultar ETS asignados}{41}{subsection.1.3.9}%
+\contentsline {subsubsection}{Descripción completa}{41}{section*.24}%
+\contentsline {subsubsection}{Atributos importantes}{41}{section*.25}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{41}{section*.26}%
+\contentsline {subsection}{\numberline {1.3.10}CU-06 Mostrar información de los ETS asignados}{43}{subsection.1.3.10}%
+\contentsline {subsubsection}{Descripción completa}{43}{section*.27}%
+\contentsline {subsubsection}{Atributos importantes}{43}{section*.28}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{43}{section*.29}%
+\contentsline {subsection}{\numberline {1.3.11}CU-07 Solicitar remplazo }{45}{subsection.1.3.11}%
+\contentsline {subsubsection}{Descripción completa}{45}{section*.30}%
+\contentsline {subsubsection}{Atributos importantes}{45}{section*.31}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{45}{section*.32}%
+\contentsline {subsection}{\numberline {1.3.12}CU-08 Consultar lista de alumnos inscritos a un ETS}{47}{subsection.1.3.12}%
+\contentsline {subsubsection}{Descripción completa}{47}{section*.33}%
+\contentsline {subsubsection}{Atributos importantes}{47}{section*.34}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{47}{section*.35}%
+\contentsline {subsection}{\numberline {1.3.13}CU-09 Tomar asistencias a los ETS}{49}{subsection.1.3.13}%
+\contentsline {subsubsection}{Descripción completa}{49}{section*.36}%
+\contentsline {subsubsection}{Atributos importantes}{49}{section*.37}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{49}{section*.38}%
+\contentsline {subsection}{\numberline {1.3.14}CU-10 Consultar lista de asistencia de alumnos inscritos a los ETS}{52}{subsection.1.3.14}%
+\contentsline {subsubsection}{Descripción completa}{52}{section*.39}%
+\contentsline {subsubsection}{Atributos importantes}{52}{section*.40}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{52}{section*.41}%
+\contentsline {subsection}{\numberline {1.3.15}CU-11 Mostrar la foto e información del alumno}{54}{subsection.1.3.15}%
+\contentsline {subsubsection}{Descripción completa}{54}{section*.42}%
+\contentsline {subsubsection}{Atributos importantes}{54}{section*.43}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{54}{section*.44}%
+\contentsline {subsection}{\numberline {1.3.16}CU-12 Consultar alumno mediante código QR de la credencial}{55}{subsection.1.3.16}%
+\contentsline {subsubsection}{Descripción completa}{55}{section*.45}%
+\contentsline {subsubsection}{Atributos importantes}{55}{section*.46}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{55}{section*.47}%
+\contentsline {subsection}{\numberline {1.3.17}CU-13 Buscar alumno por boleta}{57}{subsection.1.3.17}%
+\contentsline {subsubsection}{Descripción completa}{57}{section*.48}%
+\contentsline {subsubsection}{Atributos importantes}{57}{section*.49}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{57}{section*.50}%
+\contentsline {subsection}{\numberline {1.3.18}CU-14 Buscar alumno por nombre}{59}{subsection.1.3.18}%
+\contentsline {subsubsection}{Descripción completa}{59}{section*.51}%
+\contentsline {subsubsection}{Atributos importantes}{59}{section*.52}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{59}{section*.53}%
+\contentsline {subsection}{\numberline {1.3.19}CU-15 Registrar asistencia}{61}{subsection.1.3.19}%
+\contentsline {subsubsection}{Descripción completa}{61}{section*.54}%
+\contentsline {subsubsection}{Atributos importantes}{61}{section*.55}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{61}{section*.56}%
+\contentsline {subsection}{\numberline {1.3.20}CU-16 Consultar periodos de ETS inscritos del alumno}{64}{subsection.1.3.20}%
+\contentsline {subsubsection}{Descripción completa}{64}{section*.57}%
+\contentsline {subsubsection}{Atributos importantes}{64}{section*.58}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{64}{section*.59}%
+\contentsline {subsection}{\numberline {1.3.21}CU-17 Consultar ETS inscritos}{66}{subsection.1.3.21}%
+\contentsline {subsubsection}{Descripción completa}{66}{section*.60}%
+\contentsline {subsubsection}{Atributos importantes}{66}{section*.61}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{66}{section*.62}%
+\contentsline {subsection}{\numberline {1.3.22}CU-18 Mostrar información de los ETS inscritos}{68}{subsection.1.3.22}%
+\contentsline {subsubsection}{Descripción completa}{68}{section*.63}%
+\contentsline {subsubsection}{Atributos importantes}{68}{section*.64}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{68}{section*.65}%
+\contentsline {subsection}{\numberline {1.3.23}CU-19 Probar reconocimiento facial}{70}{subsection.1.3.23}%
+\contentsline {subsubsection}{Descripción completa}{70}{section*.66}%
+\contentsline {subsubsection}{Atributos importantes}{70}{section*.67}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{70}{section*.68}%
+\contentsline {subsection}{\numberline {1.3.24}CU-20 Revisar información de acceso a los ETS}{72}{subsection.1.3.24}%
+\contentsline {subsubsection}{Descripción completa}{72}{section*.69}%
+\contentsline {subsubsection}{Atributos importantes}{72}{section*.70}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{72}{section*.71}%
+\contentsline {subsection}{\numberline {1.3.25}CU-21 Dar de alta un alumno}{74}{subsection.1.3.25}%
+\contentsline {subsubsection}{Descripción completa}{74}{section*.72}%
+\contentsline {subsubsection}{Atributos importantes}{74}{section*.73}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{74}{section*.74}%
+\contentsline {subsection}{\numberline {1.3.26}CU-22 Crear credencial}{76}{subsection.1.3.26}%
+\contentsline {subsubsection}{Descripción completa}{76}{section*.75}%
+\contentsline {subsubsection}{Atributos importantes}{76}{section*.76}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{76}{section*.77}%
+\contentsline {subsection}{\numberline {1.3.27}CU-23 Capturar fotografía estudiantil}{78}{subsection.1.3.27}%
+\contentsline {subsubsection}{Descripción completa}{78}{section*.78}%
+\contentsline {subsubsection}{Atributos importantes}{78}{section*.79}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{78}{section*.80}%
+\contentsline {subsection}{\numberline {1.3.28}CU-24 Consultar lista de periodo de ETS }{80}{subsection.1.3.28}%
+\contentsline {subsubsection}{Descripción completa}{80}{section*.81}%
+\contentsline {subsubsection}{Atributos importantes}{80}{section*.82}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{80}{section*.83}%
+\contentsline {subsection}{\numberline {1.3.29}CU-25 Dar de alta de periodo de ETS}{82}{subsection.1.3.29}%
+\contentsline {subsubsection}{Descripción completa}{82}{section*.84}%
+\contentsline {subsubsection}{Atributos importantes}{82}{section*.85}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{82}{section*.86}%
+\contentsline {subsection}{\numberline {1.3.30}CU-28 Consultar lista de ETS}{84}{subsection.1.3.30}%
+\contentsline {subsubsection}{Descripción completa}{84}{section*.87}%
+\contentsline {subsubsection}{Atributos importantes}{84}{section*.88}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{84}{section*.89}%
+\contentsline {subsection}{\numberline {1.3.31}CU-29 Dar de alta ETS }{86}{subsection.1.3.31}%
+\contentsline {subsubsection}{Descripción completa}{86}{section*.90}%
+\contentsline {subsubsection}{Atributos importantes}{86}{section*.91}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{86}{section*.92}%
+\contentsline {subsection}{\numberline {1.3.32}CU-32 Consultar lista de personal de seguridad}{88}{subsection.1.3.32}%
+\contentsline {subsubsection}{Descripción completa}{88}{section*.93}%
+\contentsline {subsubsection}{Atributos importantes}{88}{section*.94}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{88}{section*.95}%
+\contentsline {subsection}{\numberline {1.3.33}CU-33 Dar de alta personal de seguridad}{90}{subsection.1.3.33}%
+\contentsline {subsubsection}{Descripción completa}{90}{section*.96}%
+\contentsline {subsubsection}{Atributos importantes}{90}{section*.97}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{90}{section*.98}%
+\contentsline {subsection}{\numberline {1.3.34}CU-36 Consultar lista de docentes }{92}{subsection.1.3.34}%
+\contentsline {subsubsection}{Descripción completa}{92}{section*.99}%
+\contentsline {subsubsection}{Atributos importantes}{92}{section*.100}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{92}{section*.101}%
+\contentsline {subsection}{\numberline {1.3.35}CU-37 Dar de alta docente}{94}{subsection.1.3.35}%
+\contentsline {subsubsection}{Descripción completa}{94}{section*.102}%
+\contentsline {subsubsection}{Atributos importantes}{94}{section*.103}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{94}{section*.104}%
+\contentsline {subsection}{\numberline {1.3.36}CU-40 Solicitar desbloqueo de cuenta}{96}{subsection.1.3.36}%
+\contentsline {subsubsection}{Descripción completa}{96}{section*.105}%
+\contentsline {subsubsection}{Atributos importantes}{96}{section*.106}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{96}{section*.107}%
+\contentsline {subsection}{\numberline {1.3.37}CU-41 Iniciar sesión de personal escolar web}{98}{subsection.1.3.37}%
+\contentsline {subsubsection}{Descripción completa}{98}{section*.108}%
+\contentsline {subsubsection}{Atributos importantes}{98}{section*.109}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{99}{section*.110}%
+\contentsline {subsection}{\numberline {1.3.38}CU-42 Asignar docente de remplazo }{100}{subsection.1.3.38}%
+\contentsline {subsubsection}{Descripción completa}{100}{section*.111}%
+\contentsline {subsubsection}{Atributos importantes}{100}{section*.112}%
+\contentsline {subsubsection}{Trayectorias del Caso de Uso}{100}{section*.113}%
+\contentsline {section}{\numberline {1.4}Modelo de la interacción}{102}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Modelo de navegación}{102}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}IU01 Pantalla Iniciar sesión de personal escolar móvil}{105}{subsection.1.4.2}%
+\contentsline {subsubsection}{Objetivo}{105}{section*.114}%
+\contentsline {subsubsection}{Diseño}{105}{section*.115}%
+\contentsline {subsubsection}{Salidas}{106}{section*.116}%
+\contentsline {subsubsection}{Entradas}{106}{section*.117}%
+\contentsline {subsubsection}{Comandos}{106}{section*.118}%
+\contentsline {subsubsection}{Mensajes}{106}{section*.119}%
+\contentsline {subsection}{\numberline {1.4.3}IU02 Pantalla Consultar calendario escolar}{107}{subsection.1.4.3}%
+\contentsline {subsubsection}{Objetivo}{107}{section*.120}%
+\contentsline {subsubsection}{Diseño}{107}{section*.121}%
+\contentsline {subsubsection}{Salidas}{108}{section*.122}%
+\contentsline {subsubsection}{Entradas}{108}{section*.123}%
+\contentsline {subsubsection}{Comandos}{108}{section*.124}%
+\contentsline {subsubsection}{Mensajes}{108}{section*.125}%
+\contentsline {subsection}{\numberline {1.4.4}IU03 Pantalla Consultar notificaciones}{109}{subsection.1.4.4}%
+\contentsline {subsubsection}{Objetivo}{109}{section*.126}%
+\contentsline {subsubsection}{Diseño}{109}{section*.127}%
+\contentsline {subsubsection}{Salidas}{110}{section*.128}%
+\contentsline {subsubsection}{Entradas}{110}{section*.129}%
+\contentsline {subsubsection}{Comandos}{110}{section*.130}%
+\contentsline {subsubsection}{Mensajes}{110}{section*.131}%
+\contentsline {subsection}{\numberline {1.4.5}IU04 Pantalla Periodo de ETS}{111}{subsection.1.4.5}%
+\contentsline {subsubsection}{Objetivo}{111}{section*.132}%
+\contentsline {subsubsection}{Diseño}{111}{section*.133}%
+\contentsline {subsubsection}{Salidas}{111}{section*.134}%
+\contentsline {subsubsection}{Entradas}{112}{section*.135}%
+\contentsline {subsubsection}{Comandos}{112}{section*.136}%
+\contentsline {subsubsection}{Mensajes}{112}{section*.137}%
+\contentsline {subsection}{\numberline {1.4.6}IU05 Pantalla Consultar ETS}{113}{subsection.1.4.6}%
+\contentsline {subsubsection}{Objetivo}{113}{section*.138}%
+\contentsline {subsubsection}{Diseño}{113}{section*.139}%
+\contentsline {subsubsection}{Salidas}{113}{section*.140}%
+\contentsline {subsubsection}{Entradas}{114}{section*.141}%
+\contentsline {subsubsection}{Comandos}{114}{section*.142}%
+\contentsline {subsubsection}{Mensajes}{114}{section*.143}%
+\contentsline {subsection}{\numberline {1.4.7}IU06 Pantalla Información de ETS}{115}{subsection.1.4.7}%
+\contentsline {subsubsection}{Objetivo}{115}{section*.144}%
+\contentsline {subsubsection}{Diseño}{115}{section*.145}%
+\contentsline {subsubsection}{Salidas}{115}{section*.146}%
+\contentsline {subsubsection}{Entradas}{116}{section*.147}%
+\contentsline {subsubsection}{Comandos}{116}{section*.148}%
+\contentsline {subsubsection}{Mensajes}{116}{section*.149}%
+\contentsline {subsection}{\numberline {1.4.8}IU07 Pantalla de Solicitar remplazo}{117}{subsection.1.4.8}%
+\contentsline {subsubsection}{Objetivo}{117}{section*.150}%
+\contentsline {subsubsection}{Diseño}{117}{section*.151}%
+\contentsline {subsubsection}{Salidas}{118}{section*.152}%
+\contentsline {subsubsection}{Entradas}{118}{section*.153}%
+\contentsline {subsubsection}{Comandos}{118}{section*.154}%
+\contentsline {subsubsection}{Mensajes}{118}{section*.155}%
+\contentsline {subsection}{\numberline {1.4.9}IU08 Pantalla Lista de asistencia de ETS}{119}{subsection.1.4.9}%
+\contentsline {subsubsection}{Objetivo}{119}{section*.156}%
+\contentsline {subsubsection}{Diseño}{119}{section*.157}%
+\contentsline {subsubsection}{Salidas}{120}{section*.158}%
+\contentsline {subsubsection}{Entradas}{120}{section*.159}%
+\contentsline {subsubsection}{Comandos}{120}{section*.160}%
+\contentsline {subsubsection}{Mensajes}{120}{section*.161}%
+\contentsline {subsection}{\numberline {1.4.10}IU09 Asignar docente de remplazo}{121}{subsection.1.4.10}%
+\contentsline {subsubsection}{Objetivo}{121}{section*.162}%
+\contentsline {subsubsection}{Diseño}{121}{section*.163}%
 \contentsline {subsubsection}{Salidas}{122}{section*.164}%
-\contentsline {subsubsection}{Entradas}{123}{section*.165}%
-\contentsline {subsubsection}{Comandos}{123}{section*.166}%
-\contentsline {subsubsection}{Mensajes}{123}{section*.167}%
-\contentsline {subsection}{\numberline {1.5.11}IU11 Pantalla Credencial del alumno}{124}{subsection.1.5.11}%
-\contentsline {subsubsection}{Objetivo}{124}{section*.168}%
-\contentsline {subsubsection}{Diseño}{124}{section*.169}%
-\contentsline {subsubsection}{Salidas}{124}{section*.170}%
-\contentsline {subsubsection}{Entradas}{125}{section*.171}%
-\contentsline {subsubsection}{Comandos}{125}{section*.172}%
-\contentsline {subsubsection}{Mensajes}{125}{section*.173}%
-\contentsline {subsection}{\numberline {1.5.12}IU12 Pantalla Buscar alumno}{126}{subsection.1.5.12}%
-\contentsline {subsubsection}{Objetivo}{126}{section*.174}%
-\contentsline {subsubsection}{Diseño}{126}{section*.175}%
-\contentsline {subsubsection}{Salidas}{127}{section*.176}%
-\contentsline {subsubsection}{Entradas}{127}{section*.177}%
-\contentsline {subsubsection}{Comandos}{127}{section*.178}%
-\contentsline {subsubsection}{Mensajes}{127}{section*.179}%
-\contentsline {subsection}{\numberline {1.5.13}IU13 Pantalla consultar lista de alumnos inscritos a un ETS}{128}{subsection.1.5.13}%
-\contentsline {subsubsection}{Objetivo}{128}{section*.180}%
-\contentsline {subsubsection}{Diseño}{128}{section*.181}%
+\contentsline {subsubsection}{Entradas}{122}{section*.165}%
+\contentsline {subsubsection}{Comandos}{122}{section*.166}%
+\contentsline {subsubsection}{Mensajes}{122}{section*.167}%
+\contentsline {subsection}{\numberline {1.4.11}IU10 Pantalla Código QR}{123}{subsection.1.4.11}%
+\contentsline {subsubsection}{Objetivo}{123}{section*.168}%
+\contentsline {subsubsection}{Diseño}{123}{section*.169}%
+\contentsline {subsubsection}{Salidas}{123}{section*.170}%
+\contentsline {subsubsection}{Entradas}{124}{section*.171}%
+\contentsline {subsubsection}{Comandos}{124}{section*.172}%
+\contentsline {subsubsection}{Mensajes}{124}{section*.173}%
+\contentsline {subsection}{\numberline {1.4.12}IU11 Pantalla Credencial del alumno}{125}{subsection.1.4.12}%
+\contentsline {subsubsection}{Objetivo}{125}{section*.174}%
+\contentsline {subsubsection}{Diseño}{125}{section*.175}%
+\contentsline {subsubsection}{Salidas}{125}{section*.176}%
+\contentsline {subsubsection}{Entradas}{126}{section*.177}%
+\contentsline {subsubsection}{Comandos}{126}{section*.178}%
+\contentsline {subsubsection}{Mensajes}{126}{section*.179}%
+\contentsline {subsection}{\numberline {1.4.13}IU12 Pantalla Buscar alumno}{127}{subsection.1.4.13}%
+\contentsline {subsubsection}{Objetivo}{127}{section*.180}%
+\contentsline {subsubsection}{Diseño}{127}{section*.181}%
 \contentsline {subsubsection}{Salidas}{128}{section*.182}%
-\contentsline {subsubsection}{Entradas}{129}{section*.183}%
-\contentsline {subsubsection}{Comandos}{129}{section*.184}%
-\contentsline {subsubsection}{Mensajes}{129}{section*.185}%
-\contentsline {subsection}{\numberline {1.5.14}IU14 Pantalla Periodo de ETS del alumno}{130}{subsection.1.5.14}%
-\contentsline {subsubsection}{Objetivo}{130}{section*.186}%
-\contentsline {subsubsection}{Diseño}{130}{section*.187}%
-\contentsline {subsubsection}{Salidas}{131}{section*.188}%
-\contentsline {subsubsection}{Entradas}{131}{section*.189}%
-\contentsline {subsubsection}{Comandos}{131}{section*.190}%
-\contentsline {subsubsection}{Mensajes}{131}{section*.191}%
-\contentsline {subsection}{\numberline {1.5.15}IU15 Pantalla Consultar ETS del alumno}{132}{subsection.1.5.15}%
-\contentsline {subsubsection}{Objetivo}{132}{section*.192}%
-\contentsline {subsubsection}{Diseño}{132}{section*.193}%
-\contentsline {subsubsection}{Salidas}{133}{section*.194}%
-\contentsline {subsubsection}{Entradas}{133}{section*.195}%
-\contentsline {subsubsection}{Comandos}{133}{section*.196}%
-\contentsline {subsubsection}{Mensajes}{133}{section*.197}%
-\contentsline {subsection}{\numberline {1.5.16}IU16 Pantalla Información de ETS}{134}{subsection.1.5.16}%
-\contentsline {subsubsection}{Objetivo}{134}{section*.198}%
-\contentsline {subsubsection}{Diseño}{134}{section*.199}%
+\contentsline {subsubsection}{Entradas}{128}{section*.183}%
+\contentsline {subsubsection}{Comandos}{128}{section*.184}%
+\contentsline {subsubsection}{Mensajes}{128}{section*.185}%
+\contentsline {subsection}{\numberline {1.4.14}IU13 Pantalla consultar lista de alumnos inscritos a un ETS}{129}{subsection.1.4.14}%
+\contentsline {subsubsection}{Objetivo}{129}{section*.186}%
+\contentsline {subsubsection}{Diseño}{129}{section*.187}%
+\contentsline {subsubsection}{Salidas}{129}{section*.188}%
+\contentsline {subsubsection}{Entradas}{130}{section*.189}%
+\contentsline {subsubsection}{Comandos}{130}{section*.190}%
+\contentsline {subsubsection}{Mensajes}{130}{section*.191}%
+\contentsline {subsection}{\numberline {1.4.15}IU14 Pantalla Periodo de ETS del alumno}{131}{subsection.1.4.15}%
+\contentsline {subsubsection}{Objetivo}{131}{section*.192}%
+\contentsline {subsubsection}{Diseño}{131}{section*.193}%
+\contentsline {subsubsection}{Salidas}{132}{section*.194}%
+\contentsline {subsubsection}{Entradas}{132}{section*.195}%
+\contentsline {subsubsection}{Comandos}{132}{section*.196}%
+\contentsline {subsubsection}{Mensajes}{132}{section*.197}%
+\contentsline {subsection}{\numberline {1.4.16}IU15 Pantalla Consultar ETS del alumno}{133}{subsection.1.4.16}%
+\contentsline {subsubsection}{Objetivo}{133}{section*.198}%
+\contentsline {subsubsection}{Diseño}{133}{section*.199}%
 \contentsline {subsubsection}{Salidas}{134}{section*.200}%
-\contentsline {subsubsection}{Entradas}{135}{section*.201}%
-\contentsline {subsubsection}{Comandos}{135}{section*.202}%
-\contentsline {subsubsection}{Mensajes}{135}{section*.203}%
-\contentsline {subsection}{\numberline {1.5.17}IU17 Pantalla de Reconocimiento facial}{136}{subsection.1.5.17}%
-\contentsline {subsubsection}{Objetivo}{136}{section*.204}%
-\contentsline {subsubsection}{Diseño}{136}{section*.205}%
-\contentsline {subsubsection}{Salidas}{136}{section*.206}%
-\contentsline {subsubsection}{Entradas}{137}{section*.207}%
-\contentsline {subsubsection}{Comandos}{137}{section*.208}%
-\contentsline {subsubsection}{Mensajes}{137}{section*.209}%
-\contentsline {subsection}{\numberline {1.5.18}IU18 Pantalla de Detalles del proceso de ETS}{138}{subsection.1.5.18}%
-\contentsline {subsubsection}{Objetivo}{138}{section*.210}%
-\contentsline {subsubsection}{Diseño}{138}{section*.211}%
-\contentsline {subsubsection}{Salidas}{138}{section*.212}%
-\contentsline {subsubsection}{Entradas}{139}{section*.213}%
-\contentsline {subsubsection}{Comandos}{139}{section*.214}%
-\contentsline {subsubsection}{Mensajes}{139}{section*.215}%
-\contentsline {subsection}{\numberline {1.5.19}IU19 Pantalla de Reconocimiento facial alumno}{140}{subsection.1.5.19}%
-\contentsline {subsubsection}{Objetivo}{140}{section*.216}%
-\contentsline {subsubsection}{Diseño}{140}{section*.217}%
-\contentsline {subsubsection}{Salidas}{140}{section*.218}%
-\contentsline {subsubsection}{Entradas}{141}{section*.219}%
-\contentsline {subsubsection}{Comandos}{141}{section*.220}%
-\contentsline {subsubsection}{Mensajes}{141}{section*.221}%
-\contentsline {subsection}{\numberline {1.5.20}IU20 Mostrar la foto e información del alumno}{142}{subsection.1.5.20}%
-\contentsline {subsubsection}{Objetivo}{142}{section*.222}%
-\contentsline {subsubsection}{Diseño}{142}{section*.223}%
-\contentsline {subsubsection}{Salidas}{142}{section*.224}%
-\contentsline {subsubsection}{Entradas}{143}{section*.225}%
-\contentsline {subsubsection}{Comandos}{143}{section*.226}%
-\contentsline {subsubsection}{Mensajes}{143}{section*.227}%
-\contentsline {subsection}{\numberline {1.5.21}IU21 Dar de alta a alumno}{144}{subsection.1.5.21}%
-\contentsline {subsubsection}{Objetivo}{144}{section*.228}%
-\contentsline {subsubsection}{Diseño}{144}{section*.229}%
-\contentsline {subsubsection}{Salidas}{144}{section*.230}%
-\contentsline {subsubsection}{Entradas}{145}{section*.231}%
-\contentsline {subsubsection}{Comandos}{145}{section*.232}%
-\contentsline {subsubsection}{Mensajes}{145}{section*.233}%
-\contentsline {subsection}{\numberline {1.5.22}IU22 Crear credencial}{146}{subsection.1.5.22}%
-\contentsline {subsubsection}{Objetivo}{146}{section*.234}%
-\contentsline {subsubsection}{Diseño}{146}{section*.235}%
-\contentsline {subsubsection}{Salidas}{146}{section*.236}%
-\contentsline {subsubsection}{Entradas}{147}{section*.237}%
-\contentsline {subsubsection}{Comandos}{147}{section*.238}%
-\contentsline {subsubsection}{Mensajes}{147}{section*.239}%
-\contentsline {subsection}{\numberline {1.5.23}IU23 Capturar fotografía estudiantil}{148}{subsection.1.5.23}%
-\contentsline {subsubsection}{Objetivo}{148}{section*.240}%
-\contentsline {subsubsection}{Diseño}{148}{section*.241}%
-\contentsline {subsubsection}{Salidas}{148}{section*.242}%
-\contentsline {subsubsection}{Entradas}{149}{section*.243}%
-\contentsline {subsubsection}{Comandos}{149}{section*.244}%
-\contentsline {subsubsection}{Mensajes}{149}{section*.245}%
-\contentsline {subsection}{\numberline {1.5.24}IU24 Consultar lista de periodo de ETS}{150}{subsection.1.5.24}%
-\contentsline {subsubsection}{Objetivo}{150}{section*.246}%
-\contentsline {subsubsection}{Diseño}{150}{section*.247}%
-\contentsline {subsubsection}{Salidas}{150}{section*.248}%
-\contentsline {subsubsection}{Entradas}{151}{section*.249}%
-\contentsline {subsubsection}{Comandos}{151}{section*.250}%
-\contentsline {subsubsection}{Mensajes}{151}{section*.251}%
-\contentsline {subsection}{\numberline {1.5.25}IU25 Dar de alta de periodo de ETS}{152}{subsection.1.5.25}%
-\contentsline {subsubsection}{Objetivo}{152}{section*.252}%
-\contentsline {subsubsection}{Diseño}{152}{section*.253}%
-\contentsline {subsubsection}{Salidas}{152}{section*.254}%
-\contentsline {subsubsection}{Entradas}{153}{section*.255}%
-\contentsline {subsubsection}{Comandos}{153}{section*.256}%
-\contentsline {subsubsection}{Mensajes}{153}{section*.257}%
-\contentsline {subsection}{\numberline {1.5.26}IU26 Consultar lista de ETS}{154}{subsection.1.5.26}%
-\contentsline {subsubsection}{Objetivo}{154}{section*.258}%
-\contentsline {subsubsection}{Diseño}{154}{section*.259}%
-\contentsline {subsubsection}{Salidas}{154}{section*.260}%
-\contentsline {subsubsection}{Entradas}{155}{section*.261}%
-\contentsline {subsubsection}{Comandos}{155}{section*.262}%
-\contentsline {subsubsection}{Mensajes}{155}{section*.263}%
-\contentsline {subsection}{\numberline {1.5.27}IU27 Dar de alta ETS}{156}{subsection.1.5.27}%
-\contentsline {subsubsection}{Objetivo}{156}{section*.264}%
-\contentsline {subsubsection}{Diseño}{156}{section*.265}%
-\contentsline {subsubsection}{Salidas}{156}{section*.266}%
-\contentsline {subsubsection}{Entradas}{157}{section*.267}%
-\contentsline {subsubsection}{Comandos}{157}{section*.268}%
-\contentsline {subsubsection}{Mensajes}{157}{section*.269}%
-\contentsline {subsection}{\numberline {1.5.28}IU28 Consultar lista de personal de seguridad}{158}{subsection.1.5.28}%
-\contentsline {subsubsection}{Objetivo}{158}{section*.270}%
-\contentsline {subsubsection}{Diseño}{158}{section*.271}%
-\contentsline {subsubsection}{Salidas}{158}{section*.272}%
-\contentsline {subsubsection}{Entradas}{159}{section*.273}%
-\contentsline {subsubsection}{Comandos}{159}{section*.274}%
-\contentsline {subsubsection}{Mensajes}{159}{section*.275}%
-\contentsline {subsection}{\numberline {1.5.29}IU29 Dar de alta personal de seguridad}{160}{subsection.1.5.29}%
-\contentsline {subsubsection}{Objetivo}{160}{section*.276}%
-\contentsline {subsubsection}{Diseño}{160}{section*.277}%
-\contentsline {subsubsection}{Salidas}{160}{section*.278}%
-\contentsline {subsubsection}{Entradas}{161}{section*.279}%
-\contentsline {subsubsection}{Comandos}{161}{section*.280}%
-\contentsline {subsubsection}{Mensajes}{161}{section*.281}%
-\contentsline {subsection}{\numberline {1.5.30}IU30 Consultar lista de docentes}{162}{subsection.1.5.30}%
-\contentsline {subsubsection}{Objetivo}{162}{section*.282}%
-\contentsline {subsubsection}{Diseño}{162}{section*.283}%
-\contentsline {subsubsection}{Salidas}{162}{section*.284}%
-\contentsline {subsubsection}{Entradas}{163}{section*.285}%
-\contentsline {subsubsection}{Comandos}{163}{section*.286}%
-\contentsline {subsubsection}{Mensajes}{163}{section*.287}%
-\contentsline {subsection}{\numberline {1.5.31}IU31 Dar de alta docente}{164}{subsection.1.5.31}%
-\contentsline {subsubsection}{Objetivo}{164}{section*.288}%
-\contentsline {subsubsection}{Diseño}{164}{section*.289}%
-\contentsline {subsubsection}{Salidas}{164}{section*.290}%
-\contentsline {subsubsection}{Entradas}{165}{section*.291}%
-\contentsline {subsubsection}{Comandos}{165}{section*.292}%
-\contentsline {subsubsection}{Mensajes}{165}{section*.293}%
-\contentsline {subsection}{\numberline {1.5.32}IU32 Iniciar Solicitar desbloqueo de cuenta}{166}{subsection.1.5.32}%
-\contentsline {subsubsection}{Objetivo}{166}{section*.294}%
-\contentsline {subsubsection}{Diseño}{166}{section*.295}%
-\contentsline {subsubsection}{Salidas}{167}{section*.296}%
-\contentsline {subsubsection}{Entradas}{167}{section*.297}%
-\contentsline {subsubsection}{Comandos}{167}{section*.298}%
-\contentsline {subsubsection}{Mensajes}{168}{section*.299}%
-\contentsline {subsection}{\numberline {1.5.33}IU33 Pantalla Iniciar sesión de personal escolar web}{169}{subsection.1.5.33}%
-\contentsline {subsubsection}{Objetivo}{169}{section*.300}%
-\contentsline {subsubsection}{Diseño}{169}{section*.301}%
-\contentsline {subsubsection}{Salidas}{169}{section*.302}%
-\contentsline {subsubsection}{Entradas}{170}{section*.303}%
-\contentsline {subsubsection}{Comandos}{170}{section*.304}%
-\contentsline {subsubsection}{Mensajes}{170}{section*.305}%
-\contentsline {subsection}{\numberline {1.5.34}IUE01 Saludo de docente}{171}{subsection.1.5.34}%
-\contentsline {subsubsection}{Objetivo}{171}{section*.306}%
-\contentsline {subsubsection}{Diseño}{171}{section*.307}%
-\contentsline {subsubsection}{Salidas}{172}{section*.308}%
-\contentsline {subsubsection}{Entradas}{172}{section*.309}%
-\contentsline {subsubsection}{Comandos}{172}{section*.310}%
-\contentsline {subsubsection}{Mensajes}{172}{section*.311}%
-\contentsline {subsection}{\numberline {1.5.35}IUE02 saludo de personal de seguridad}{173}{subsection.1.5.35}%
-\contentsline {subsubsection}{Objetivo}{173}{section*.312}%
-\contentsline {subsubsection}{Diseño}{173}{section*.313}%
-\contentsline {subsubsection}{Salidas}{174}{section*.314}%
-\contentsline {subsubsection}{Entradas}{174}{section*.315}%
-\contentsline {subsubsection}{Comandos}{174}{section*.316}%
-\contentsline {subsubsection}{Mensajes}{174}{section*.317}%
-\contentsline {subsection}{\numberline {1.5.36}IUE03 saludo de alumno}{175}{subsection.1.5.36}%
-\contentsline {subsubsection}{Objetivo}{175}{section*.318}%
-\contentsline {subsubsection}{Diseño}{175}{section*.319}%
-\contentsline {subsubsection}{Salidas}{176}{section*.320}%
-\contentsline {subsubsection}{Entradas}{176}{section*.321}%
-\contentsline {subsubsection}{Comandos}{176}{section*.322}%
-\contentsline {subsubsection}{Mensajes}{176}{section*.323}%
-\contentsline {subsection}{\numberline {1.5.37}IUE04 saludo de personal de la DAE}{177}{subsection.1.5.37}%
-\contentsline {subsubsection}{Objetivo}{177}{section*.324}%
-\contentsline {subsubsection}{Diseño}{177}{section*.325}%
+\contentsline {subsubsection}{Entradas}{134}{section*.201}%
+\contentsline {subsubsection}{Comandos}{134}{section*.202}%
+\contentsline {subsubsection}{Mensajes}{134}{section*.203}%
+\contentsline {subsection}{\numberline {1.4.17}IU16 Pantalla Información de ETS}{135}{subsection.1.4.17}%
+\contentsline {subsubsection}{Objetivo}{135}{section*.204}%
+\contentsline {subsubsection}{Diseño}{135}{section*.205}%
+\contentsline {subsubsection}{Salidas}{135}{section*.206}%
+\contentsline {subsubsection}{Entradas}{136}{section*.207}%
+\contentsline {subsubsection}{Comandos}{136}{section*.208}%
+\contentsline {subsubsection}{Mensajes}{136}{section*.209}%
+\contentsline {subsection}{\numberline {1.4.18}IU17 Pantalla de Reconocimiento facial}{137}{subsection.1.4.18}%
+\contentsline {subsubsection}{Objetivo}{137}{section*.210}%
+\contentsline {subsubsection}{Diseño}{137}{section*.211}%
+\contentsline {subsubsection}{Salidas}{137}{section*.212}%
+\contentsline {subsubsection}{Entradas}{138}{section*.213}%
+\contentsline {subsubsection}{Comandos}{138}{section*.214}%
+\contentsline {subsubsection}{Mensajes}{138}{section*.215}%
+\contentsline {subsection}{\numberline {1.4.19}IU18 Pantalla de Detalles del proceso de ETS}{139}{subsection.1.4.19}%
+\contentsline {subsubsection}{Objetivo}{139}{section*.216}%
+\contentsline {subsubsection}{Diseño}{139}{section*.217}%
+\contentsline {subsubsection}{Salidas}{139}{section*.218}%
+\contentsline {subsubsection}{Entradas}{140}{section*.219}%
+\contentsline {subsubsection}{Comandos}{140}{section*.220}%
+\contentsline {subsubsection}{Mensajes}{140}{section*.221}%
+\contentsline {subsection}{\numberline {1.4.20}IU19 Pantalla de Reconocimiento facial alumno}{141}{subsection.1.4.20}%
+\contentsline {subsubsection}{Objetivo}{141}{section*.222}%
+\contentsline {subsubsection}{Diseño}{141}{section*.223}%
+\contentsline {subsubsection}{Salidas}{141}{section*.224}%
+\contentsline {subsubsection}{Entradas}{142}{section*.225}%
+\contentsline {subsubsection}{Comandos}{142}{section*.226}%
+\contentsline {subsubsection}{Mensajes}{142}{section*.227}%
+\contentsline {subsection}{\numberline {1.4.21}IU20 Mostrar la foto e información del alumno}{143}{subsection.1.4.21}%
+\contentsline {subsubsection}{Objetivo}{143}{section*.228}%
+\contentsline {subsubsection}{Diseño}{143}{section*.229}%
+\contentsline {subsubsection}{Salidas}{143}{section*.230}%
+\contentsline {subsubsection}{Entradas}{144}{section*.231}%
+\contentsline {subsubsection}{Comandos}{144}{section*.232}%
+\contentsline {subsubsection}{Mensajes}{144}{section*.233}%
+\contentsline {subsection}{\numberline {1.4.22}IU21 Dar de alta a alumno}{145}{subsection.1.4.22}%
+\contentsline {subsubsection}{Objetivo}{145}{section*.234}%
+\contentsline {subsubsection}{Diseño}{145}{section*.235}%
+\contentsline {subsubsection}{Salidas}{145}{section*.236}%
+\contentsline {subsubsection}{Entradas}{146}{section*.237}%
+\contentsline {subsubsection}{Comandos}{146}{section*.238}%
+\contentsline {subsubsection}{Mensajes}{146}{section*.239}%
+\contentsline {subsection}{\numberline {1.4.23}IU22 Crear credencial}{147}{subsection.1.4.23}%
+\contentsline {subsubsection}{Objetivo}{147}{section*.240}%
+\contentsline {subsubsection}{Diseño}{147}{section*.241}%
+\contentsline {subsubsection}{Salidas}{147}{section*.242}%
+\contentsline {subsubsection}{Entradas}{148}{section*.243}%
+\contentsline {subsubsection}{Comandos}{148}{section*.244}%
+\contentsline {subsubsection}{Mensajes}{148}{section*.245}%
+\contentsline {subsection}{\numberline {1.4.24}IU23 Capturar fotografía estudiantil}{149}{subsection.1.4.24}%
+\contentsline {subsubsection}{Objetivo}{149}{section*.246}%
+\contentsline {subsubsection}{Diseño}{149}{section*.247}%
+\contentsline {subsubsection}{Salidas}{149}{section*.248}%
+\contentsline {subsubsection}{Entradas}{150}{section*.249}%
+\contentsline {subsubsection}{Comandos}{150}{section*.250}%
+\contentsline {subsubsection}{Mensajes}{150}{section*.251}%
+\contentsline {subsection}{\numberline {1.4.25}IU24 Consultar lista de periodo de ETS}{151}{subsection.1.4.25}%
+\contentsline {subsubsection}{Objetivo}{151}{section*.252}%
+\contentsline {subsubsection}{Diseño}{151}{section*.253}%
+\contentsline {subsubsection}{Salidas}{151}{section*.254}%
+\contentsline {subsubsection}{Entradas}{152}{section*.255}%
+\contentsline {subsubsection}{Comandos}{152}{section*.256}%
+\contentsline {subsubsection}{Mensajes}{152}{section*.257}%
+\contentsline {subsection}{\numberline {1.4.26}IU25 Dar de alta de periodo de ETS}{153}{subsection.1.4.26}%
+\contentsline {subsubsection}{Objetivo}{153}{section*.258}%
+\contentsline {subsubsection}{Diseño}{153}{section*.259}%
+\contentsline {subsubsection}{Salidas}{153}{section*.260}%
+\contentsline {subsubsection}{Entradas}{154}{section*.261}%
+\contentsline {subsubsection}{Comandos}{154}{section*.262}%
+\contentsline {subsubsection}{Mensajes}{154}{section*.263}%
+\contentsline {subsection}{\numberline {1.4.27}IU26 Consultar lista de ETS}{155}{subsection.1.4.27}%
+\contentsline {subsubsection}{Objetivo}{155}{section*.264}%
+\contentsline {subsubsection}{Diseño}{155}{section*.265}%
+\contentsline {subsubsection}{Salidas}{155}{section*.266}%
+\contentsline {subsubsection}{Entradas}{156}{section*.267}%
+\contentsline {subsubsection}{Comandos}{156}{section*.268}%
+\contentsline {subsubsection}{Mensajes}{156}{section*.269}%
+\contentsline {subsection}{\numberline {1.4.28}IU27 Dar de alta ETS}{157}{subsection.1.4.28}%
+\contentsline {subsubsection}{Objetivo}{157}{section*.270}%
+\contentsline {subsubsection}{Diseño}{157}{section*.271}%
+\contentsline {subsubsection}{Salidas}{157}{section*.272}%
+\contentsline {subsubsection}{Entradas}{158}{section*.273}%
+\contentsline {subsubsection}{Comandos}{158}{section*.274}%
+\contentsline {subsubsection}{Mensajes}{158}{section*.275}%
+\contentsline {subsection}{\numberline {1.4.29}IU28 Consultar lista de personal de seguridad}{159}{subsection.1.4.29}%
+\contentsline {subsubsection}{Objetivo}{159}{section*.276}%
+\contentsline {subsubsection}{Diseño}{159}{section*.277}%
+\contentsline {subsubsection}{Salidas}{159}{section*.278}%
+\contentsline {subsubsection}{Entradas}{160}{section*.279}%
+\contentsline {subsubsection}{Comandos}{160}{section*.280}%
+\contentsline {subsubsection}{Mensajes}{160}{section*.281}%
+\contentsline {subsection}{\numberline {1.4.30}IU29 Dar de alta personal de seguridad}{161}{subsection.1.4.30}%
+\contentsline {subsubsection}{Objetivo}{161}{section*.282}%
+\contentsline {subsubsection}{Diseño}{161}{section*.283}%
+\contentsline {subsubsection}{Salidas}{161}{section*.284}%
+\contentsline {subsubsection}{Entradas}{162}{section*.285}%
+\contentsline {subsubsection}{Comandos}{162}{section*.286}%
+\contentsline {subsubsection}{Mensajes}{162}{section*.287}%
+\contentsline {subsection}{\numberline {1.4.31}IU30 Consultar lista de docentes}{163}{subsection.1.4.31}%
+\contentsline {subsubsection}{Objetivo}{163}{section*.288}%
+\contentsline {subsubsection}{Diseño}{163}{section*.289}%
+\contentsline {subsubsection}{Salidas}{163}{section*.290}%
+\contentsline {subsubsection}{Entradas}{164}{section*.291}%
+\contentsline {subsubsection}{Comandos}{164}{section*.292}%
+\contentsline {subsubsection}{Mensajes}{164}{section*.293}%
+\contentsline {subsection}{\numberline {1.4.32}IU31 Dar de alta docente}{165}{subsection.1.4.32}%
+\contentsline {subsubsection}{Objetivo}{165}{section*.294}%
+\contentsline {subsubsection}{Diseño}{165}{section*.295}%
+\contentsline {subsubsection}{Salidas}{165}{section*.296}%
+\contentsline {subsubsection}{Entradas}{166}{section*.297}%
+\contentsline {subsubsection}{Comandos}{166}{section*.298}%
+\contentsline {subsubsection}{Mensajes}{166}{section*.299}%
+\contentsline {subsection}{\numberline {1.4.33}IU32 Iniciar Solicitar desbloqueo de cuenta}{167}{subsection.1.4.33}%
+\contentsline {subsubsection}{Objetivo}{167}{section*.300}%
+\contentsline {subsubsection}{Diseño}{167}{section*.301}%
+\contentsline {subsubsection}{Salidas}{168}{section*.302}%
+\contentsline {subsubsection}{Entradas}{168}{section*.303}%
+\contentsline {subsubsection}{Comandos}{168}{section*.304}%
+\contentsline {subsubsection}{Mensajes}{169}{section*.305}%
+\contentsline {subsection}{\numberline {1.4.34}IU33 Pantalla Iniciar sesión de personal escolar web}{170}{subsection.1.4.34}%
+\contentsline {subsubsection}{Objetivo}{170}{section*.306}%
+\contentsline {subsubsection}{Diseño}{170}{section*.307}%
+\contentsline {subsubsection}{Salidas}{170}{section*.308}%
+\contentsline {subsubsection}{Entradas}{171}{section*.309}%
+\contentsline {subsubsection}{Comandos}{171}{section*.310}%
+\contentsline {subsubsection}{Mensajes}{171}{section*.311}%
+\contentsline {subsection}{\numberline {1.4.35}IUE01 Saludo de docente}{172}{subsection.1.4.35}%
+\contentsline {subsubsection}{Objetivo}{172}{section*.312}%
+\contentsline {subsubsection}{Diseño}{172}{section*.313}%
+\contentsline {subsubsection}{Salidas}{173}{section*.314}%
+\contentsline {subsubsection}{Entradas}{173}{section*.315}%
+\contentsline {subsubsection}{Comandos}{173}{section*.316}%
+\contentsline {subsubsection}{Mensajes}{173}{section*.317}%
+\contentsline {subsection}{\numberline {1.4.36}IUE02 saludo de personal de seguridad}{174}{subsection.1.4.36}%
+\contentsline {subsubsection}{Objetivo}{174}{section*.318}%
+\contentsline {subsubsection}{Diseño}{174}{section*.319}%
+\contentsline {subsubsection}{Salidas}{175}{section*.320}%
+\contentsline {subsubsection}{Entradas}{175}{section*.321}%
+\contentsline {subsubsection}{Comandos}{175}{section*.322}%
+\contentsline {subsubsection}{Mensajes}{175}{section*.323}%
+\contentsline {subsection}{\numberline {1.4.37}IUE03 saludo de alumno}{176}{subsection.1.4.37}%
+\contentsline {subsubsection}{Objetivo}{176}{section*.324}%
+\contentsline {subsubsection}{Diseño}{176}{section*.325}%
 \contentsline {subsubsection}{Salidas}{177}{section*.326}%
-\contentsline {subsubsection}{Entradas}{178}{section*.327}%
-\contentsline {subsubsection}{Comandos}{178}{section*.328}%
-\contentsline {subsubsection}{Mensajes}{178}{section*.329}%
-\contentsline {subsection}{\numberline {1.5.38}IUE05 saludo de personal de gestión escolar}{179}{subsection.1.5.38}%
-\contentsline {subsubsection}{Objetivo}{179}{section*.330}%
-\contentsline {subsubsection}{Diseño}{179}{section*.331}%
-\contentsline {subsubsection}{Salidas}{179}{section*.332}%
-\contentsline {subsubsection}{Entradas}{180}{section*.333}%
-\contentsline {subsubsection}{Comandos}{180}{section*.334}%
-\contentsline {subsubsection}{Mensajes}{180}{section*.335}%
-\contentsline {subsection}{\numberline {1.5.39}IUE06 saludo del presidente de academia y el jefe de departamento}{181}{subsection.1.5.39}%
-\contentsline {subsubsection}{Objetivo}{181}{section*.336}%
-\contentsline {subsubsection}{Diseño}{181}{section*.337}%
-\contentsline {subsubsection}{Salidas}{181}{section*.338}%
-\contentsline {subsubsection}{Entradas}{182}{section*.339}%
-\contentsline {subsubsection}{Comandos}{182}{section*.340}%
-\contentsline {subsubsection}{Mensajes}{182}{section*.341}%
-\contentsline {chapter}{\numberline {2}Diseño}{183}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Diagrama de clases}{183}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Diagramas de secuencia}{183}{section.2.2}%
+\contentsline {subsubsection}{Entradas}{177}{section*.327}%
+\contentsline {subsubsection}{Comandos}{177}{section*.328}%
+\contentsline {subsubsection}{Mensajes}{177}{section*.329}%
+\contentsline {subsection}{\numberline {1.4.38}IUE04 saludo de personal de la DAE}{178}{subsection.1.4.38}%
+\contentsline {subsubsection}{Objetivo}{178}{section*.330}%
+\contentsline {subsubsection}{Diseño}{178}{section*.331}%
+\contentsline {subsubsection}{Salidas}{178}{section*.332}%
+\contentsline {subsubsection}{Entradas}{179}{section*.333}%
+\contentsline {subsubsection}{Comandos}{179}{section*.334}%
+\contentsline {subsubsection}{Mensajes}{179}{section*.335}%
+\contentsline {subsection}{\numberline {1.4.39}IUE05 saludo de personal de gestión escolar}{180}{subsection.1.4.39}%
+\contentsline {subsubsection}{Objetivo}{180}{section*.336}%
+\contentsline {subsubsection}{Diseño}{180}{section*.337}%
+\contentsline {subsubsection}{Salidas}{180}{section*.338}%
+\contentsline {subsubsection}{Entradas}{181}{section*.339}%
+\contentsline {subsubsection}{Comandos}{181}{section*.340}%
+\contentsline {subsubsection}{Mensajes}{181}{section*.341}%
+\contentsline {subsection}{\numberline {1.4.40}IUE06 saludo del presidente de academia y el jefe de departamento}{182}{subsection.1.4.40}%
+\contentsline {subsubsection}{Objetivo}{182}{section*.342}%
+\contentsline {subsubsection}{Diseño}{182}{section*.343}%
+\contentsline {subsubsection}{Salidas}{182}{section*.344}%
+\contentsline {subsubsection}{Entradas}{183}{section*.345}%
+\contentsline {subsubsection}{Comandos}{183}{section*.346}%
+\contentsline {subsubsection}{Mensajes}{183}{section*.347}%
+\contentsline {chapter}{\numberline {2}Diseño}{185}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Diagrama de clases}{185}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Diagramas de secuencia}{186}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}SE-01 Iniciar sesión del sistema móvil}{187}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}SE-02 Consultar calendario escolar}{188}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}SE-03 Consultar notificaciones}{189}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}SE-04 Consultar periodos de ETS asignados al docente}{190}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}SE-05 Consultar ETS asignados}{191}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}SE-06 Mostrar información de los ETS asignados}{192}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}SE-07 Solicitar remplazo}{193}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}SE-08 Consultar lista de alumnos inscritos a un ETS}{194}{subsection.2.2.8}%
+\contentsline {subsection}{\numberline {2.2.9}SE-09 Tomar asistencias a los ETS}{195}{subsection.2.2.9}%
+\contentsline {subsection}{\numberline {2.2.10}SE-10 Consultar lista de asistencia de alumnos inscritos a los ETS}{196}{subsection.2.2.10}%
+\contentsline {subsection}{\numberline {2.2.11}SE-11 Mostrar la foto e información del alumno}{197}{subsection.2.2.11}%
+\contentsline {subsection}{\numberline {2.2.12}SE-12 Consultar alumno mediante código QR de la credencial}{198}{subsection.2.2.12}%
+\contentsline {subsection}{\numberline {2.2.13}SE-13 Buscar alumno por boleta}{199}{subsection.2.2.13}%
+\contentsline {subsection}{\numberline {2.2.14}SE-14 Buscar alumno por nombre}{200}{subsection.2.2.14}%
+\contentsline {subsection}{\numberline {2.2.15}SE-15 Registrar asistencia}{201}{subsection.2.2.15}%
+\contentsline {subsection}{\numberline {2.2.16}SE-16 Consultar periodos de ETS inscritos del alumno}{202}{subsection.2.2.16}%
+\contentsline {subsection}{\numberline {2.2.17}SE-17 Consultar ETS inscritos}{203}{subsection.2.2.17}%
+\contentsline {subsection}{\numberline {2.2.18}SE-18 Mostrar información del los ETS inscritos}{204}{subsection.2.2.18}%
+\contentsline {subsection}{\numberline {2.2.19}SE-19 Probar reconocimiento facial}{205}{subsection.2.2.19}%
+\contentsline {subsection}{\numberline {2.2.20}SE-20 Revisar información de acceso a los ETS}{206}{subsection.2.2.20}%
+\contentsline {subsection}{\numberline {2.2.21}SE-21 Dar de alta a alumno}{207}{subsection.2.2.21}%
+\contentsline {subsection}{\numberline {2.2.22}SE-22 Crear credencial y capturar fotografía estudiantil}{208}{subsection.2.2.22}%
+\contentsline {subsection}{\numberline {2.2.23}SE-23 Consultar lista de periodo de ETS}{209}{subsection.2.2.23}%
+\contentsline {subsection}{\numberline {2.2.24}SE-24 Dar de alta de periodo de ETS}{210}{subsection.2.2.24}%
+\contentsline {subsection}{\numberline {2.2.25}SE-25 Consultar lista de ETS}{211}{subsection.2.2.25}%
+\contentsline {subsection}{\numberline {2.2.26}SE-26 Dar de alta ETS}{212}{subsection.2.2.26}%
+\contentsline {subsection}{\numberline {2.2.27}SE-27 Consultar lista de personal de seguridad}{213}{subsection.2.2.27}%
+\contentsline {subsection}{\numberline {2.2.28}SE-28 Dar de alta personal de seguridad}{214}{subsection.2.2.28}%
+\contentsline {subsection}{\numberline {2.2.29}SE-29 Consultar lista de docentes}{215}{subsection.2.2.29}%
+\contentsline {subsection}{\numberline {2.2.30}SE-30 Dar de alta docente}{216}{subsection.2.2.30}%
+\contentsline {subsection}{\numberline {2.2.31}SE-31 Solicitar desbloqueo de cuenta}{217}{subsection.2.2.31}%
+\contentsline {subsection}{\numberline {2.2.32}SE-32 Iniciar sesión del sistema web}{218}{subsection.2.2.32}%
+\contentsline {subsection}{\numberline {2.2.33}SE-33 Asignar docente de remplazo}{219}{subsection.2.2.33}%
