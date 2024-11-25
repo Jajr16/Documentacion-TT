@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.18)  24 NOV 2024 23:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.18)  25 NOV 2024 01:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -581,7 +581,10 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (ejemplo.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
-(Problematica.aux) (MarcoTeorico.aux
+(Introducción.aux) (MarcoTeorico.aux
+
+LaTeX Warning: Label `cap:reqUsr' multiply defined.
+
 
 LaTeX Warning: Label `fig:casosDeUso' multiply defined.
 
@@ -744,7 +747,7 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
 File: utxsyc.fd 2000/12/15 v3.1
 )
 
-<theme/bannerAzul.png, id=162, 711.1368pt x 336.7782pt>
+<theme/bannerAzul.png, id=190, 711.1368pt x 336.7782pt>
 File: theme/bannerAzul.png Graphic file (type png)
 <use theme/bannerAzul.png>
 Package pdftex.def Info: theme/bannerAzul.png  used on input line 22.
@@ -778,7 +781,7 @@ LaTeX Font Info:    Font shape `OT1/txss/m/sc' will be
 
 
 
-<theme/headerPar.png, id=221, 1204.5pt x 200.75pt>
+<theme/headerPar.png, id=256, 1204.5pt x 200.75pt>
 File: theme/headerPar.png Graphic file (type png)
 <use theme/headerPar.png>
 Package pdftex.def Info: theme/headerPar.png  used on input line 27.
@@ -833,61 +836,80 @@ Package pdftex.def Info: theme/headerPar.png  used on input line 30.
 [6
 
 ]
-\openout2 = `Problematica.aux'.
+\openout2 = `Introducción.aux'.
 
-(Problematica.tex
+(Introducción.tex
 Cap\'{\i }tulo 1.
+(introduccion/antecedentes.tex
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 3.
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 7.
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 9.
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 7.
-)
+(Font)              scaled to size 9.49997pt on input line 9.
+) (introduccion/planteamiento.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 \include{Problematica}
-                           
-<theme/plecaAyD.png, id=266, 1085.0136pt x 155.6214pt>
+l.8 
+    
+<theme/plecaAyD.png, id=301, 1085.0136pt x 155.6214pt>
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
-Package pdftex.def Info: theme/plecaAyD.png  used on input line 36.
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 8.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
 [1
 
 
  <./theme/plecaAyD.png>]
-\openout2 = `MarcoTeorico.aux'.
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
-(MarcoTeorico.tex
+ []
+
+) (introduccion/propuesta.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--2
+
+ []
+
+) (introduccion/objetivos.tex
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 5.
+) (introduccion/justificación.tex) (introduccion/organización.tex))
 
 File: theme/headerPar.png Graphic file (type png)
 <use theme/headerPar.png>
-Package pdftex.def Info: theme/headerPar.png  used on input line 2.
+Package pdftex.def Info: theme/headerPar.png  used on input line 36.
 (pdftex.def)             Requested size: 210.00035pt x 35.0pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2 \chapter
-            {Marco Teórico}
+l.36 \include{Introducción}
+                            
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
-Package pdftex.def Info: theme/plecaAyD.png  used on input line 2.
+Package pdftex.def Info: theme/plecaAyD.png  used on input line 36.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
-[2
+[2]
+\openout2 = `MarcoTeorico.aux'.
 
-
-
-
-]
+(MarcoTeorico.tex
 Cap\'{\i }tulo 2.
 (teoria/ETS.tex
-LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 3.
 
 LaTeX Warning: Citation `refIPN' on page 3 undefined on input line 4.
 
@@ -898,15 +920,18 @@ File: ts1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
 (Font)              scaled to size 9.49997pt on input line 14.
-LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 18.
 
 
 File: theme/plecaAyD.png Graphic file (type png)
 <use theme/plecaAyD.png>
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 21.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
-[3]
+[3
+
+
+
+
+]
 
 LaTeX Warning: Citation `ref9' on page 4 undefined on input line 24.
 
@@ -919,7 +944,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-<images/img01.png, id=279, 266.9975pt x 269.005pt>
+<images/img01.png, id=314, 266.9975pt x 269.005pt>
 File: images/img01.png Graphic file (type png)
 <use images/img01.png>
 Package pdftex.def Info: images/img01.png  used on input line 11.
@@ -929,7 +954,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-<images/img02.png, id=280, 268.00125pt x 269.005pt>
+<images/img02.png, id=315, 268.00125pt x 269.005pt>
 File: images/img02.png Graphic file (type png)
 <use images/img02.png>
 Package pdftex.def Info: images/img02.png  used on input line 23.
@@ -939,7 +964,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-<images/img03.png, id=281, 268.00125pt x 269.005pt>
+<images/img03.png, id=316, 268.00125pt x 269.005pt>
 File: images/img03.png Graphic file (type png)
 <use images/img03.png>
 Package pdftex.def Info: images/img03.png  used on input line 35.
@@ -956,7 +981,7 @@ Package pdftex.def Info: theme/plecaAyD.png  used on input line 43.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
 [4 <./images/img01.png>]
 
-<theme/headerInp.png, id=287, 1204.5pt x 200.75pt>
+<theme/headerInp.png, id=322, 1204.5pt x 200.75pt>
 File: theme/headerInp.png Graphic file (type png)
 <use theme/headerInp.png>
 Package pdftex.def Info: theme/headerInp.png  used on input line 43.
@@ -966,7 +991,7 @@ File: theme/plecaAyD.png Graphic file (type png)
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 43.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
 [5 <./theme/headerInp.png> <./images/img02.png> <./images/img03.png>]
-<images/img04.png, id=296, 268.00125pt x 269.005pt>
+<images/img04.png, id=331, 268.00125pt x 269.005pt>
 File: images/img04.png Graphic file (type png)
 <use images/img04.png>
 Package pdftex.def Info: images/img04.png  used on input line 49.
@@ -976,7 +1001,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-<images/img05.png, id=297, 269.005pt x 269.005pt>
+<images/img05.png, id=332, 269.005pt x 269.005pt>
 File: images/img05.png Graphic file (type png)
 <use images/img05.png>
 Package pdftex.def Info: images/img05.png  used on input line 61.
@@ -997,7 +1022,7 @@ File: theme/plecaAyD.png Graphic file (type png)
 Package pdftex.def Info: theme/plecaAyD.png  used on input line 69.
 (pdftex.def)             Requested size: 614.29208pt x 88.1067pt.
 [6 <./images/img04.png> <./images/img05.png>]
-<images/img06.png, id=304, 268.00125pt x 269.005pt>
+<images/img06.png, id=339, 268.00125pt x 269.005pt>
 File: images/img06.png Graphic file (type png)
 <use images/img06.png>
 Package pdftex.def Info: images/img06.png  used on input line 74.
@@ -1007,7 +1032,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-<images/img07.png, id=305, 268.00125pt x 269.005pt>
+<images/img07.png, id=340, 268.00125pt x 269.005pt>
 File: images/img07.png Graphic file (type png)
 <use images/img07.png>
 Package pdftex.def Info: images/img07.png  used on input line 86.
@@ -1037,7 +1062,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<images/img08.png, id=312, 1027.84pt x 513.92pt>
+<images/img08.png, id=347, 1027.84pt x 513.92pt>
 File: images/img08.png Graphic file (type png)
 <use images/img08.png>
 Package pdftex.def Info: images/img08.png  used on input line 12.
@@ -1215,7 +1240,7 @@ Package pdftex.def Info: theme/plecaAyD.png  used on input line 39.
 [18] (ejemplo.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
-(Problematica.aux) (MarcoTeorico.aux))
+(Introducción.aux) (MarcoTeorico.aux))
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
@@ -1230,16 +1255,16 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `ejemplo.out' has not changed.
-(rerunfilecheck)             Checksum: B9FA812B9AB734C72584B4649B73ACF1;7193.
+(rerunfilecheck)             Checksum: 1A5DDAD401D0D583D621B40A0EC29511;8296.
  ) 
 Here is how much of TeX's memory you used:
- 16196 strings out of 473682
- 259219 string characters out of 5719215
- 657215 words of memory out of 5000000
- 38841 multiletter control sequences out of 15000+600000
+ 16250 strings out of 473682
+ 261452 string characters out of 5719215
+ 657221 words of memory out of 5000000
+ 38868 multiletter control sequences out of 15000+600000
  610198 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 105i,16n,107p,693b,1199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,16n,107p,876b,1199s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/luis-/AppData/Local/Programs/MiKTeX/fonts/type1/public/marvosym/mar
 vosym.pfb><C:/Users/luis-/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfo
 nts/rtcxss.pfb><C:/Users/luis-/AppData/Local/Programs/MiKTeX/fonts/type1/public
@@ -1254,9 +1279,9 @@ MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/luis-/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/luis-/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/luis-/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ejemplo.pdf (26 pages, 451232 bytes).
+Output written on ejemplo.pdf (26 pages, 460372 bytes).
 PDF statistics:
- 467 PDF objects out of 1000 (max. 8388607)
- 98 named destinations out of 1000 (max. 500000)
- 388 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 503 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 444 words of extra memory for PDF output out of 10000 (max. 10000000)
 
