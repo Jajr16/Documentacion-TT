@@ -26,36 +26,36 @@ Warning--entry type for "UNAMSE" isn't style-file defined
 Warning--I'm ignoring FacialF's extra "pages" field
 --line 1261 of file ref.bib
 Warning--I didn't find a database entry for "."
-You've used 64 entries,
+You've used 65 entries,
             1876 wiz_defined-function locations,
-            848 strings with 13514 characters,
-and the built_in function-call counts, 9399 in all, are:
-= -- 950
-> -- 299
+            854 strings with 13709 characters,
+and the built_in function-call counts, 9535 in all, are:
+= -- 964
+> -- 303
 < -- 0
-+ -- 141
-- -- 77
-* -- 400
-:= -- 1391
-add.period$ -- 121
-call.type$ -- 64
-change.case$ -- 61
++ -- 143
+- -- 78
+* -- 405
+:= -- 1411
+add.period$ -- 123
+call.type$ -- 65
+change.case$ -- 62
 chr.to.int$ -- 0
-cite$ -- 64
-duplicate$ -- 316
-empty$ -- 1177
-format.name$ -- 77
-if$ -- 2389
+cite$ -- 65
+duplicate$ -- 320
+empty$ -- 1195
+format.name$ -- 78
+if$ -- 2424
 int.to.chr$ -- 0
-int.to.str$ -- 64
+int.to.str$ -- 65
 missing$ -- 4
-newline$ -- 252
-num.names$ -- 64
-pop$ -- 367
+newline$ -- 256
+num.names$ -- 65
+pop$ -- 373
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 230
+skip$ -- 233
 stack$ -- 0
 substring$ -- 88
 swap$ -- 35
@@ -64,7 +64,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 71
-width$ -- 66
-write$ -- 630
+while$ -- 72
+width$ -- 67
+write$ -- 640
 (There were 5 warnings)
