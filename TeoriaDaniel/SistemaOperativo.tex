@@ -81,11 +81,18 @@ Los sistemas operativos se dividen según su entorno (móviles o de computadora)
 
 \subsection{Comparando Android e iOS}
 
-\begin{table}[ht]
-    \centering
-    \begin{tabular}{|p{3cm}|p{5cm}|p{5cm}|}
+\begin{longtable}{|p{5cm}|p{5cm}|p{5cm}|}
     \hline
-    \textbf{Criterio} & \textbf{Android} & \textbf{iOS} \\ \hline
+    \textbf{Criterio} & \textbf{Android} & \textbf{iOS} \\ 
+    \endfirsthead
+    \hline
+    \textbf{Criterio} & \textbf{Android} & \textbf{iOS} \\  
+    \hline
+    \endhead
+    \hline
+    \endfoot
+    \endlastfoot
+    \hline
     Lenguajes de programación & Kotlin & Swift \\ \hline
     IDE (Entorno de desarrollo) & Android Studio & Xcode \\ \hline
     Plataforma de distribución & Google Play Store & App Store \\ \hline
@@ -97,10 +104,10 @@ Los sistemas operativos se dividen según su entorno (móviles o de computadora)
     Actualizaciones & Las actualizaciones son más lentas y dependen del fabricante. & Actualizaciones frecuentes y rápidas para todos los usuarios. \\ \hline
     Comunidad y recursos & Comunidad más grande con más recursos, tutoriales y soporte. & Comunidad muy activa pero más pequeña comparada con Android, además de que los tutoriales son más avanzados y poco amigables a los principiantes. \\
     \hline
-    \end{tabular}
-    \caption{Comparación entre Android y iOS.}
+    
+    \caption{Comparación entre Android y iOS. Elaboración propia}
     \label{tab:Tabla1}
-\end{table}
+\end{longtable}
 
 
     Analizando las características de estos 2 sistemas operativos, decidimos enfocar nuestros esfuerzos en el desarrollo de una aplicación para Android, ya que, nuestro presupuesto es limitado y el tiempo de desarrollo es ajustado, esta plataforma nos ofrece varias ventajas. En primer lugar, Android tiene una cuota de mercado mucho más amplia, lo que nos permitirá llegar a un público más amplio sin tener que depender de un grupo cerrado como es el de iOS, esto es de suma importancia porque necesitamos maximizar el impacto de nuestra aplicación alcanzando la mayor cantidad de usuarios posible para que la mayor parte de los alumnos y profesores puedan usar la aplicación.
@@ -161,13 +168,23 @@ Por sus características técnicas y su filosofía abierta, existen diversos sis
 \end{list}
 
 
+
 \subsection{Comparando Windows, Linux y macOS}
 
-\begin{table}[ht]
-    \centering
-    \begin{tabular}{|p{2cm}|p{5cm}|p{5cm}|p{5cm}|}
-    \hline
-    \textbf{Característica} & \textbf{Windows} & \textbf{Linux} & \textbf{macOS}\\ \hline
+
+    
+    \begin{longtable}{|p{3cm}|p{4.5cm}|p{4.5cm}|p{5cm}|}
+        \hline
+		\textbf{Característica} & \textbf{Windows} & \textbf{Linux} & \textbf{macOS}\\ 
+		\endfirsthead
+		\hline
+        \textbf{Característica} & \textbf{Windows} & \textbf{Linux} & \textbf{macOS}\\ 
+		\hline
+		\endhead
+		\hline
+		\endfoot
+		\endlastfoot
+        \hline
 
     Accesibilidad & Muy accesible, ampliamente disponible en PCs de todos los rangos de precios. & Requiere conocimientos técnicos, pero es gratis y disponible en una amplia gama de hardware. & Accesible solo en hardware Apple (más costoso). \\ \hline
     Herramientas de Desarrollo & Soporta una amplia gama de IDEs y plataformas de desarrollo. & Soporta herramientas como Visual Studio Code, PyCharm, Eclipse; excelente para desarrollo web, sistemas y servidores. & Excelente soporte para Xcode y terminal poderoso. \\ \hline
@@ -182,10 +199,10 @@ Por sus características técnicas y su filosofía abierta, existen diversos sis
 
 
     \hline
-    \end{tabular}
-    \caption{Comparación entre Android y iOS.}
+    
+    \caption{Comparación entre Android y iOS. Elaboración propia}
     \label{tab:Tabla2}
-    \end{table}
+    \end{longtable}
 
 Conociendo las características de estos 3 sistemas operativos, decidimos optar por Windows como el sistema operativo principal para el desarrollo de nuestro proyecto, ya que, teniendo en cuenta nuestras limitaciones de presupuesto y tiempo, este sistema operativo nos ofrece ventajas importantes. En primer lugar, Windows es el sistema operativo más accesible para nosotros porque todo el equipo posee una computadora con este sistema operativo, por lo cual se nos facilita que nuestro equipo trabaje con estos equipos o si se requiere, se nos facilitaría adquirir nuevas computadoras sin que el costo sea una preocupación mayor.
 Otro punto a favor que consideramos de Windows es la compatibilidad con una gran cantidad de herramientas de desarrollo ya que este sistema operativo ofrece soporte para una variedad de lenguajes de programación y es compatible con muchos de los entornos de desarrollo integrados (IDE). Esto nos permite utilizar las herramientas que ya conocemos o las que se ajustan mejor a nuestras necesidades sin tener que invertir tiempo en aprender nuevas plataformas, además, Windows es compatible con una gran variedad de software comercial y aplicaciones específicas, como las herramientas de diseño gráfico y edición, que son necesarias para el diseño de la aplicación y sus componentes gráficos.
