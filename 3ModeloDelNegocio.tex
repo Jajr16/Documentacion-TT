@@ -69,8 +69,8 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 
 %---------------------------------------------------------
 \begin{cdtEntidad}{Unidad academica}{Unidad academica}
-	\brAttr{Id\_escuela}{Id\_escuela}{Id}{Número de registro usado para identificar a la escuela.}{Sí}
-	\brAttr{nombre}{Nombre}{Palabra}
+	\brAttr{Id\_escuela}{Id\_escuela}{integer}{Número de registro usado para identificar a la escuela.}{Sí}
+	\brAttr{nombre}{Nombre}{varchar}
 	{Nombre de la escuela}{Sí}
 %	\brAttr{ubicacion}{Ubicación}{Frase}
 %	{Ubicación en la que se encuentra la escuela.}{Sí}
@@ -84,16 +84,16 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{EscuelaPrograma}{Escuela\_Programa}
-	\brAttr{Id\_Escuela}{Id\_Escuela}{Id}{Número de registro usado para identificar a la escuela.}{Sí}
-	\brAttr{Id\_PA}{Id\_PA}{Id}
+	\brAttr{Id\_Escuela}{Id\_Escuela}{integer}{Número de registro usado para identificar a la escuela.}{Sí}
+	\brAttr{Id\_PA}{Id\_PA}{varchar}
 	{Identificación del programa académico que imparte la Unidad académica.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{PA}{Programa\_academico}
-	\brAttr{Id\_PA}{Id\_PA}{Id}{Número de registro usado para identificar al programa académico.}{Sí}
-	\brAttr{nombre}{Nombre}{Palabra}
+	\brAttr{Id\_PA}{Id\_PA}{varchar}{Número de registro usado para identificar al programa académico.}{Sí}
+	\brAttr{nombre}{Nombre}{varchar}
 	{Nombre del programa académico}{Sí}
-	\brAttr{descripcion}{Descripción}{Frase}
+	\brAttr{descripcion}{Descripción}{varchar}
 	{Descripción que habla sobre el programa académico.}{Sí}
 %- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 %	\cdtEntityRelSection
@@ -103,15 +103,15 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 %---------------------------------------------------------
 \begin{cdtEntidad}{Persona}{Persona}
 	\brAttr{CURP}{CURP}{Id}{Código usado para identificar a las personas.}{Sí}
-	\brAttr{nombre}{Nombre}{Frase corta}
+	\brAttr{nombre}{Nombre}{varchar}
 	{Nombre(s) de la persona.}{Sí}
-	\brAttr{ApellidoP}{Apellido\_P}{Frase corta}
+	\brAttr{ApellidoP}{Apellido\_P}{varchar}
 	{Apellido paterno de la persona.}{Sí}
-	\brAttr{ApellidoM}{Apellido\_M}{Frase corta}
+	\brAttr{ApellidoM}{Apellido\_M}{varchar}
 	{Apellido materno de la persona.}{Sí}
-	\brAttr{sexo}{Sexo}{Caracter}
+	\brAttr{sexo}{Sexo}{integer}
 	{Letra que servirá para identificar el sexo de un alumno ('M' para masculino, 'F' para femenino).}{Sí}
-	\brAttr{Id\_escuela}{Id\_escuela}{Id}
+	\brAttr{Id\_escuela}{Id\_escuela}{integer}
 	{Id de la escuela a la que pertenece la persona.}{Si}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 %	\cdtEntityRelSection
@@ -123,12 +123,12 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{PersonalAcademico}{Personal académico}
-	\brAttr{CURP}{CURP}{Id}{Código usado para identificar a las personas.}{Sí}
-	\brAttr{RFC}{RFC}{Id}
+	\brAttr{CURP}{CURP}{varchar}{Código usado para identificar a las personas.}{Sí}
+	\brAttr{RFC}{RFC}{varchar}
 	{RFC que identifica al personal académico.}{Sí}
-	\brAttr{CorreoI}{CorreoI}{Correo}
+	\brAttr{CorreoI}{CorreoI}{varchar}
 	{Correo institucional del personal académico.}{Sí}
-	\brAttr{TipoPA}{TipoPA}{Id}{Número que identifica que tipo de personal académico es, ya sea, por ejemplo, un docente o personal de gestión escolar.}{Sí}
+	\brAttr{TipoPA}{TipoPA}{integer}{Número que identifica que tipo de personal académico es, ya sea, por ejemplo, un docente o personal de gestión escolar.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 %	\cdtEntityRelSection
 %	\brRel{}{CargoDocente}{Un \hyperlink{PersonalAcademico}{personal académico} puede ser un \hyperlink{CargoDocente}{Docente}}
@@ -138,20 +138,20 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{tipoPA}{tipoPersonal}
-	\brAttr{TipoPA}{TipoPA}{Id}
+	\brAttr{TipoPA}{TipoPA}{integer}
 	{Número que identifica que tipo de personal académico es la persona.}{Sí}
-	\brAttr{Cargo}{Cargo}{Frase corta}{Nombre del tipo de personal académico que tendrá la persona.}{Sí}
+	\brAttr{Cargo}{Cargo}{varchar}{Nombre del tipo de personal académico que tendrá la persona.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{CargoDocente}{CargoDocente}
-	\brAttr{RFC}{RFC}{Id}
+	\brAttr{RFC}{RFC}{varchar}
 	{RFC que identifica al Docente.}{Sí}
-	\brAttr{IdCargo}{IdCargo}{Id}{Código usado para identificar un cargo dentro de la escuela.}{Sí}
+	\brAttr{IdCargo}{IdCargo}{integer}{Código usado para identificar un cargo dentro de la escuela.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{Cargo}{Cargo}
-	\brAttr{IdCargo}{IdCargo}{Id}{Código usado para identificar un cargo dentro de la escuela.}{Sí}
-	\brAttr{Cargo}{Cargo}{Frase corta}
+	\brAttr{IdCargo}{IdCargo}{integer}{Código usado para identificar un cargo dentro de la escuela.}{Sí}
+	\brAttr{Cargo}{Cargo}{varchar}
 	{Nombre del cargo existente dentro de la institución escolar.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 %	\cdtEntityRelSection
@@ -159,10 +159,10 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{PS}{Personal\_Seguridad}
-	\brAttr{CURP}{CURP}{Id}{Código usado para identificar a las personas.}{Sí}
-	\brAttr{Turno}{Turno}{Caracter}
+	\brAttr{CURP}{CURP}{varchar}{Código usado para identificar a las personas.}{Sí}
+	\brAttr{Turno}{Turno}{integer}
 	{Letra usada identificar el turno en el que se aplica el ETS ('M' para matutino, 'V' para vespertino).}{Sí}
-	\brAttr{Cargo}{Cargo}{Frase corta}
+	\brAttr{Cargo}{Cargo}{integer}
 	{Nombre del cargo del personal de seguridad.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	\cdtEntityRelSection
@@ -170,22 +170,20 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{CargoPS}{CargoPS}
-	\brAttr{Id\_Cargo}{Id\_Cargo}{Id}{Código usado para identificar el cargo que tiene el personal de seguridad.}{Sí}
-	\brAttr{Nombre}{Nombre}{Frase corta}
-	{Nombre del cargo del personal de seguridad.}{Sí}
-	\brAttr{Cargo}{Cargo}{Frase corta}
+	\brAttr{Id\_Cargo}{Id\_Cargo}{integer}{Código usado para identificar el cargo que tiene el personal de seguridad.}{Sí}
+	\brAttr{Cargo}{Cargo}{varchar}
 	{Nombre del cargo del personal de seguridad.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{Alumno}{Alumno}
-	\brAttr{Boleta}{Boleta}{Id}
+	\brAttr{Boleta}{Boleta}{varchar}
 	{Código usado para identificar al alumnado de la institución}{Sí}
-	\brAttr{CURP}{CURP}{Id}{Código usado para identificar a las personas.}{Sí}
-	\brAttr{CorreoI}{CorreoI}{Correo}
+	\brAttr{CURP}{CURP}{varchar}{Código usado para identificar a las personas.}{Sí}
+	\brAttr{CorreoI}{CorreoI}{varchar}
 	{Correo institucional del alumno.}{Sí}
-	\brAttr{Id\_PA}{Id\_PA}{Id}
+	\brAttr{Id\_PA}{Id\_PA}{varchar}
 	{Identificación del programa académico al que pertenece el alumno.}{Sí}
-	\brAttr{ImagenCredencial}{ImagenCredencial}{Ruta}
+	\brAttr{ImagenCredencial}{ImagenCredencial}{varchar}
 	{Ruta de donde está guardada la imagen de la credencial del alumno.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 %	\cdtEntityRelSection
@@ -194,12 +192,12 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{Usuario}{Usuario}
-	\brAttr{Usuario}{Usuario}{Usuario}{Nombre de usuario asignado a una persona dentro del sistema.}{Sí}
-	\brAttr{Password}{Password}{Contraseña}
+	\brAttr{Usuario}{Usuario}{varchar}{Nombre de usuario asignado a una persona dentro del sistema.}{Sí}
+	\brAttr{Password}{Password}{varchar}
 	{Contraseña ligada al usuario de una persona registrada dentro del sistema.}{Sí}
-	\brAttr{TipoU}{TipoU}{Id}
+	\brAttr{TipoU}{TipoU}{integer}
 	{Número que identificará a los tipos de usuario registrados dentro del sistema.}{Sí}
-	\brAttr{CURP}{CURP}{Id}
+	\brAttr{CURP}{CURP}{varchar}
 	{Código usado para identificar a las personas.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 %	\cdtEntityRelSection
@@ -208,24 +206,24 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{TU}{Tipo\_Usuario}
-	\brAttr{Id\_TU}{Id\_TU}{Id}
+	\brAttr{Id\_TU}{Id\_TU}{integer}
 	{RFC que identifica al personal académico.}{Sí}
-	\brAttr{Tipo}{Tipo}{Frase corta}{Frase que definirá el tipo de usuario que tienen las personas.}{Sí}
+	\brAttr{Tipo}{Tipo}{varchar}{Frase que definirá el tipo de usuario que tienen las personas.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{ETS}{ETS}
-	\brAttr{Id\_ETS}{Id\_ETS}{Id}{Número usado para identificar los diferentes ETS registrados.}{Sí}
-	\brAttr{Id\_periodo}{Id\_periodo}{Id}
+	\brAttr{Id\_ETS}{Id\_ETS}{integer}{Número usado para identificar los diferentes ETS registrados.}{Sí}
+	\brAttr{Id\_periodo}{Id\_periodo}{integer}
 	{Número usado para identificar el periodo en el que se realiza el ETS.}{Sí}
-	\brAttr{Turno}{Turno}{Caracter}
+	\brAttr{Turno}{Turno}{integer}
 	{Letra usada identificar el turno en el que se aplica el ETS ('M' para matutino, 'V' para vespertino).}{Sí}
-	\brAttr{Fecha}{Fecha}{Fecha}
+	\brAttr{Fecha}{Fecha}{datetime}
 	{Fecha y hora en la que se realizará el ETS.}{Sí}
-	\brAttr{Cupo}{Cupo}{Número}
+	\brAttr{Cupo}{Cupo}{integer}
 	{Número de personas permitidas a realizar el ETS.}{Sí}
-	\brAttr{Id\_UA}{Id\_UA}{Número}
+	\brAttr{Id\_UA}{Id\_UA}{varchar}
 	{Identificación de la Unidad de aprendizaje del ETS.}{Sí}
-	\brAttr{Duracion}{Duracion}{Número}
+	\brAttr{Duracion}{Duracion}{integer}
 	{Duración en horas del ETS.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 %	\cdtEntityRelSection
@@ -237,14 +235,14 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{PETS}{periodo\_ETS}
-	\brAttr{Id\_periodo}{Id\_periodo}{Id}{Número usado para identificar el periodo en el que se realizarán los ETS registrados.}{Sí}
-	\brAttr{Periodo}{Periodo}{Cadena de texto corta}
+	\brAttr{Id\_periodo}{Id\_periodo}{integer}{Número usado para identificar el periodo en el que se realizarán los ETS registrados.}{Sí}
+	\brAttr{Periodo}{Periodo}{varchar}
 	{Periodo registrado en el que se realizarán los ETS.}{Sí}
-	\brAttr{Tipo}{Tipo}{Caracter}
+	\brAttr{Tipo}{Tipo}{varchar}
 	{Letra usada identificar el tipo de los ETS que se aplicarán ('O' para ordinario, 'E' para especial).}{Sí}
-	\brAttr{Fecha\_Inicio}{Fecha\_Inicio}{Fecha}
+	\brAttr{Fecha\_Inicio}{Fecha\_Inicio}{date}
 	{Fecha en la que iniciará el periodo de los ETS.}{Sí}
-	\brAttr{Fecha\_Fin}{Fecha\_Fin}{Fecha}
+	\brAttr{Fecha\_Fin}{Fecha\_Fin}{date}
 	{Fecha en la que terminará el periodo de los ETS.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 %	\cdtEntityRelSection
@@ -252,33 +250,33 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{Aplica}{Aplica}
-	\brAttr{Id\_ETS}{Id\_ETS}{Id}{Número usado para identificar los diferentes ETS registrados.}{Sí}
-	\brAttr{DocenteRFC}{DocenteRFC}{Id}
+	\brAttr{Id\_ETS}{Id\_ETS}{integer}{Número usado para identificar los diferentes ETS registrados.}{Sí}
+	\brAttr{DocenteRFC}{DocenteRFC}{varchar}
 	{RFC que identifica al Docente.}{Sí}
-	\brAttr{Titular}{Titular}{Booleano}
+	\brAttr{Titular}{Titular}{tinyint}
 	{Booleano que identificará si el profesor que aplicará el ETS es el titular o es un ayudante.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{InscripcionETS}{InscripcionETS}
-	\brAttr{Boleta}{Boleta}{Id}
+	\brAttr{Boleta}{Boleta}{varchar}
 	{Código usado para identificar al alumnado de la institución}{Sí}
-	\brAttr{Id\_ETS}{Id\_ETS}{Id}{Número usado para identificar los diferentes ETS registrados.}{Sí}
+	\brAttr{Id\_ETS}{Id\_ETS}{integer}{Número usado para identificar los diferentes ETS registrados.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{SalonETS}{SalonETS}
-	\brAttr{Num\_Salon}{Num\_Salon}{Id}
+	\brAttr{Num\_Salon}{Num\_Salon}{integer}
 	{Número usado para identificar al salón en el que se aplicará un ETS.}{Sí}
-	\brAttr{Id\_ETS}{Id\_ETS}{Id}{Número usado para identificar los diferentes ETS registrados.}{Sí}
+	\brAttr{Id\_ETS}{Id\_ETS}{integer}{Número usado para identificar los diferentes ETS registrados.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{Salon}{Salon}
-	\brAttr{Num\_Salon}{Num\_Salon}{Id}
+	\brAttr{Num\_Salon}{Num\_Salon}{integer}
 	{Número usado para identificar el salón en el que se aplicará un ETS.}{Sí}
-	\brAttr{Edificio}{Edificio}{Número}
+	\brAttr{Edificio}{Edificio}{integer}
 	{Número usado para identificar el edificio en el que se realizará el ETS.}{Sí}
-	\brAttr{Piso}{Piso}{Número}
+	\brAttr{Piso}{Piso}{integer}
 	{Número usado para identificar el piso del edificio en el que se realizará el ETS.}{Sí}
-	\brAttr{TipoSalon}{TipoSalon}{Id}
+	\brAttr{TipoSalon}{integer}{Id}
 	{Identificación del tipo de salón en el que se va a aplicar el ETS.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 %	\cdtEntityRelSection
@@ -286,9 +284,9 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{TipoSalon}{TipoSalon}
-	\brAttr{Num\_Salon}{Num\_Salon}{Id}
+	\brAttr{Num\_Salon}{Num\_Salon}{integer}
 	{Número usado para identificar el salón en el que se aplicará un ETS.}{Sí}
-	\brAttr{Tipo}{Tipo}{Frase corta}
+	\brAttr{Tipo}{Tipo}{varchar}
 	{Frase indicando el tipo de salón en el que se aplicará el ETS.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	%	\cdtEntityRelSection
@@ -296,13 +294,13 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{UA}{Unidad\_aprendizaje}
-	\brAttr{Id\_UA}{Id\_UA}{Id}
+	\brAttr{Id\_UA}{Id\_UA}{varchar}
 	{Identificación de la Unidad de Aprendizaje.}{Sí}
-	\brAttr{Nombre}{Nombre}{Frase corta.}
+	\brAttr{Nombre}{Nombre}{varchar}
 	{Nombre de la unidad de aprendizaje.}{Sí}
-	\brAttr{Descripcion}{Descripcion}{Frase larga.}
+	\brAttr{Descripcion}{Descripcion}{varchar}
 	{Descripción pequeña de lo que trata la unidad de aprendizaje.}{Sí}
-	\brAttr{Id\_PA}{Id\_PA}{Id}
+	\brAttr{Id\_PA}{Id\_PA}{varchar}
 	{Identificación del programa académico al que pertenece la unidad de aprendizaje.}{Sí}
 	%- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 %	\cdtEntityRelSection
@@ -310,35 +308,35 @@ El modelo del dominio del problema se muestra en la figura~\ref{fig:modeloDeDomi
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{Turno}{Turno}
-	\brAttr{IdTurno}{IdTurno}{Id}
+	\brAttr{IdTurno}{IdTurno}{integer}
 	{Identificación del turno.}{Sí}
-	\brAttr{Nombre}{Nombre}{Frase corta}
+	\brAttr{Nombre}{Nombre}{varchar}
 	{Nombre del turno. Este puede variar entre 'Matutino' y 'Vespertino'.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{Sexo}{Sexo}
-	\brAttr{IdSexo}{IdSexo}{Id}
+	\brAttr{IdSexo}{IdSexo}{integer}
 	{Identificación del sexo.}{Sí}
-	\brAttr{Nombre}{Nombre}{Frase corta}
+	\brAttr{Nombre}{Nombre}{varchar}
 	{Nombre del sexo. Este puede variar entre 'Masculino' y 'Femenino'.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
 \begin{cdtEntidad}{AsistenciaInscripcion}{AsistenciaInscripcion}
-	\brAttr{Asistio}{Asistio}{Booleano}
+	\brAttr{Asistio}{Asistio}{tinyint}
 	{Booleano que ayuda a identificar si el alumno sí asistió al ETS o no.}{Sí}
-	\brAttr{FechaAsistencia}{FechaAsistencia}{Datetime}
+	\brAttr{FechaAsistencia}{FechaAsistencia}{datetime}
 	{Fecha y hora de la asistencia del alumno al ETS.}{Sí}
-	\brAttr{ResultadoRN}{ResultadoRN}{Booleano}
+	\brAttr{ResultadoRN}{ResultadoRN}{tinyint}
 	{Booleano que dice si la red identificó al alumno o no.}{Sí}
-	\brAttr{Aceptado}{Aceptado}{Booleano}
+	\brAttr{Aceptado}{Aceptado}{tinyint}
 	{Booleano que identifica si el profesor le aceptó la entrada al alumno.}{Sí}
-	\brAttr{AplicaDocenteRFC}{AplicaDocenteRFC}{Id}
+	\brAttr{AplicaDocenteRFC}{AplicaDocenteRFC}{varchar}
 	{RFC del docente que está aplicando el ETS.}{Sí}
-	\brAttr{InscripcionETSBoleta}{InscripcionETSBoleta}{Id}
+	\brAttr{InscripcionETSBoleta}{InscripcionETSBoleta}{varchar}
 	{Boleta del alumno que está inscrito al ETS.}{Sí}
-	\brAttr{InscripcionETSId\_ETS}{InscripcionETSId\_ETS}{Id}
+	\brAttr{InscripcionETSId\_ETS}{InscripcionETSId\_ETS}{integer}
 	{Identificación del ETS que se está aplicando.}{Sí}
-	\brAttr{ImagenAlumno}{ImagenAlumno}{Ruta}
+	\brAttr{ImagenAlumno}{ImagenAlumno}{varchar}
 	{Ruta de donde está guardada la imagen que se tomó para el reconocimiento facial del alumno.}{Sí}
 \end{cdtEntidad}
 %---------------------------------------------------------
