@@ -4,9 +4,14 @@
 \UCitem{Versión}{1.0}
 \UCitem{Autor}{\color{Gray}De la cruz De la cruz Alejandra}
 \UCitem{Supervisa}{\color{Gray}Huertas Ramírez Daniel Martín}
-\UCitem{Actor}{\hyperlink{PS}{Personal de Seguridad}}
+\UCitem{Actor}{\hyperlink{PersonalSeguridad}{Personal de Seguridad}}
 \UCitem{Propósito}{Facilitar el registro de entrada de los alumnos a las instalaciones.}
-\UCitem{Entradas}{Nombre del alumno o número de boleta y Escaneo de la credencial del alumno.}
+\UCitem{Entradas}{
+	\begin{itemize}
+		\item \hyperlink{Alumno.Nombre}{Nombre del alumno} Nombre del alumno o número de boleta.
+		\item Escaneo de la credencial del alumno.
+	\end{itemize}
+}
 \UCitem{Origen}{Pantalla táctil y Cámara con lector de códigos QR}
 \UCitem{Salidas}{Confirmación de entrada registrada.}
 \UCitem{Destino}{Pantalla del sistema.}
@@ -30,9 +35,8 @@
 \end{UseCase}
 %--------------------------------------
 \begin{UCtrayectoria}
-\UCpaso[\UCactor] El personal de seguridad selecciona al alumno desde la \IUref{IU12}{Pantalla Buscar alumno} o escanea la codigo QR de la credencial del alumno desde la \IUref{IU10}{Pantalla Código QR}.
-\UCpaso El sistema obtiene la boleta del alumno.
-\UCpaso El sistema verifica la información y busca en la base de datos por boleta. \Trayref{A} \Trayref{B}
+\UCpaso[\UCactor] El personal de seguridad presiona el botón \IUbutton{Registrar asistencia} desde la \IUref{IU12}{Pantalla Buscar alumno} o escanea la codigo QR de la credencial del alumno desde la \IUref{IU10}{Pantalla Código QR}.
+\UCpaso El sistema verifica la información y busca en la base de datos la correspondencia. \Trayref{A} \Trayref{B}
 \UCpaso El sistema despliega los datos del alumno y solicita confirmación al personal de seguridad para registrar la entrada.
 \UCpaso El sistema le muestra una imagen del alumno al personal de seguridad.
 \UCpaso[\UCactor] El personal de seguridad no está seguro de la identidad del alumno, por lo que decide usar el reconocimiento facial. \Trayref{C} \Trayref{D}
@@ -55,18 +59,18 @@
 %--------------------------------------
 \begin{UCtrayectoriaA}{B}{Error de conexión con la base de datos}
 
-\UCpaso El sistema muestra un mensaje de error: {\bf MSG-9}{``Error al consultar la base de datos. Intente nuevamente más tarde.''}
+\UCpaso EL sistema muestra un mensaje de error: {\bf MSG-9}{``Error al consultar la base de datos. Intente nuevamente más tarde.''}
 \UCpaso[\UCactor] El personal de seguridad presiona el botón \IUbutton{Aceptar} para cerrar el mensaje y puede intentar la consulta nuevamente.
 \UCpaso Fin de la trayectoria alternativa.
 \end{UCtrayectoriaA}
 %--------------------------------------        
-\begin{UCtrayectoriaA}{C}{El personal de seguridad está seguro de la identidad del alumno sin la necesidad de usar el reconocimiento facial y decide que le registrara asistencia sin la necesidad del reconocimiento facial}
+\begin{UCtrayectoriaA}{}{El personal de seguridad está seguro de la identidad del alumno sin la necesidad de usar el reconocimiento facial y decide que le registrara asistencia sin la necesidad del reconocimiento facial}
 \UCpaso[\UCactor] El personal de seguridad presiona el botón \IUbutton{Registrar asistencia}.
 \UCpaso El sistema actualiza la asistencia.
 \UCpaso Fin de la trayectoria alternativa.
 \end{UCtrayectoriaA}
 %--------------------------------------        
-\begin{UCtrayectoriaA}{D}{El personal de seguridad está seguro de la identidad del alumno sin la necesidad de usar el reconocimiento facial y decide que no le registrara asistencia}
+\begin{UCtrayectoriaA}{B}{El personal de seguridad está seguro de la identidad del alumno sin la necesidad de usar el reconocimiento facial y decide que no le registrara asistencia}
 \UCpaso[\UCactor] El personal de seguridad presiona el botón \IUbutton{No registrar asistencia}.
 \UCpaso El sistema no actualiza la asistencia.
 \UCpaso Fin de la trayectoria alternativa.

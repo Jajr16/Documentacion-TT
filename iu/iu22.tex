@@ -1,27 +1,29 @@
 % !TeX root = ../ejemplo.tex
 
 %--------------------------------------
-\subsection{IU22 Crear credencial}
+\section{IU22} {Crear credencial}
 
-\subsubsection{Objetivo}
+\subsection{Objetivo}
    Permite al personal de gestión escolar revisar una previsualización de la credencial del alumno y revisar los datos.
-\subsubsection{Diseño}
+\subsection{Diseño}
     Esta pantalla \IUref{IU22}{ Crear credencial } (ver figura~\ref{IU22}) puede ser accedida desde la pantalla \IUref{IU21}{ Dar de alta a alumno} apretando el botón \IUbutton{Dar de alta alumno }.
 
 \IUfig[1]{UI-CU22}{IU22}{ Crear credencial.}
 
-\subsubsection{Salidas}
+\subsection{Salidas}
 Ninguna
-\subsubsection{Entradas}
-    Boleta, Nombre, CURP, Sexo y Correo institucional
-\subsubsection{Comandos}
+\subsection{Entradas}
+    \hyperlink{Alumno.Boleta}{Boleta}, \hyperlink{Alumno.Nombre}{Nombre}, \hyperlink{Alumno.CURP}{CURP}, \hyperlink{Alumno.Sexo}{Sexo} y \hyperlink{Alumno.Correo institucional}{Correo institucional}
+\subsection{Comandos}
 \begin{itemize}
 \item \IUbutton{Subir foto} Guarda la información y redirige a la pantalla \IUref{UI23}{ Capturar fotografía estudiantil }.
+    \item \IUbutton{Calendario} Redirige a la pantalla \IUref{UI02}{Consultar calendario escolar}.
+    \item \IUbutton{Campana} Redirige a la pantalla \IUref{UI03}{Consultar notificaciones }.
     \item \IUbutton{Home} Redirige a la pantalla de bienvenida correspondiente al tipo de usuario.
     
 \end{itemize}
 
-\subsubsection{Mensajes}
+\subsection{Mensajes}
 
 \begin{Citemize}
     \item {\bf MSG-28}  ``El proceso no se pudo realizar por un falló de red.''

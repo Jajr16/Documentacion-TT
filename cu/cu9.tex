@@ -12,7 +12,7 @@
 	\UCitem{Versión}{\color{Gray}1.0}
 	\UCitem{Autor}{\color{Gray}De la cruz De la cruz Alejandra}
 	\UCitem{Supervisa}{\color{Gray}Huertas Ramírez Daniel Martín}
-	\UCitem{Actor}{\hyperlink{PersonalAcademico}{Docente}}
+	\UCitem{Actor}{\hyperlink{Docente}{Docente}}
 	\UCitem{Propósito}{Permitir al docente registrar la asistencia de los alumnos que estén inscritos a un ETS.}
 	\UCitem{Entradas}{-}
 	\UCitem{Origen}{Pantalla táctil}
@@ -32,15 +32,15 @@
 \end{UseCase}
 %--------------------------------------
 \begin{UCtrayectoria}
-	\UCpaso[\UCactor] El docente presiona el recuadro con la información del alumno que desee desde la pantalla \IUref{IU08}{Lista de asistencia de ETS}.
+	\UCpaso[\UCactor] El docente presiona el botón \IUbutton{Tomar asistencia} desde la pantalla \IUref{IU08}{Lista de asistencia de ETS}.
 	\UCpaso El sistema le muestra una imagen del alumno al docente.
-	\UCpaso[\UCactor] El docente no esta seguro de la identidad del alumno, por lo que decide usar el reconocimiento facial, accediendo a la pantalla \IUref{IU17}{Pantalla Reconocimiento facial} presionando el texto de \IUbutton{Estatus}. \Trayref{A} \Trayref{B}
+	\UCpaso[\UCactor] El docente no esta seguro de la identidad del alumno, por lo que decide usar el reconocimiento facial. \Trayref{A} \Trayref{B}
 	\UCpaso El sistema activa la cámara y comienza el proceso de reconocimiento facial de los alumnos presentes \IUref{IU17}{Pantalla Reconocimiento facial}. \Trayref{C} \Trayref{D}
 	\UCpaso El sistema analiza la imagen de cada alumno y muestra un indicador:
 	\begin{itemize}
 		\item Verde: El sistema está casi seguro de que la persona es quien dice ser y muestra las características coincidentes.
-		\item Amarillo: El sistema no está seguro y necesita la ayuda del docente para confirmar la identidad, mostrando tanto las características coincidentes como las que no coinciden. \Trayref{E}
 		\item Rojo: El sistema está casi seguro de que la persona no es quien dice ser y muestra las características que no coinciden. \Trayref{F}
+		\item Amarillo: El sistema no está seguro y necesita la ayuda del docente para confirmar la identidad, mostrando tanto las características coincidentes como las que no coinciden. \Trayref{G}
 	\end{itemize}
 	\UCpaso[\UCactor] El docente revisa las características del alumno y decide si confirma la identidad del alumno cuando el indicador marque el color Amarillo. 
 	\UCpaso El sistema marca la asistencia de cada alumno.
@@ -49,20 +49,20 @@
 	\UCpaso El sistema muestra la lista de asistencia de los alumnos en la \IUref{IU08}{Pantalla Lista de asistencia de ETS.}
 \end{UCtrayectoria}
 %--------------------------------------        
-\begin{UCtrayectoriaA}{A}{El Docente está seguro de la identidad del alumno sin la necesidad de usar el reconocimiento facial y decide que le registrara asistencia sin la necesidad del reconocimiento facial}
+\begin{UCtrayectoriaA}{A}{El Docente esta seguro de la identidad del alumno sin la necesidad de usar el reconocimiento facial y decide que le registrara asistencia sin la necesidad del reconocimiento facial}
 	\UCpaso[\UCactor] El docente presiona el botón \IUbutton{Registrar asistencia}.
 	\UCpaso El sistema actualiza la asistencia.
 	\UCpaso Fin de la trayectoria alternativa.
 \end{UCtrayectoriaA}
 %--------------------------------------        
-\begin{UCtrayectoriaA}{B}{El Docente no está seguro de la identidad del alumno sin la necesidad de usar el reconocimiento facial y decide que no le registrara asistencia}
+\begin{UCtrayectoriaA}{B}{El Docente esta seguro de la identidad del alumno sin la necesidad de usar el reconocimiento facial y decide que no le registrara asistencia}
 	\UCpaso[\UCactor] El docente presiona el botón \IUbutton{No registrar asistencia}.
 	\UCpaso El sistema no actualiza la asistencia.
 	\UCpaso Fin de la trayectoria alternativa.
 \end{UCtrayectoriaA}        
 %--------------------------------------        
 \begin{UCtrayectoriaA}{C}{El ETS no tiene alumnos inscritos}
-	\UCpaso El sistema muestra un mensaje: {\bf MSG-16}{``No hay alumnos inscritos en este ETS.''}
+	\UCpaso EL sistema muestra un mensaje: {\bf MSG-16}{``No hay alumnos inscritos en este ETS.''}
 	\UCpaso[\UCactor] El docente presiona el botón \IUbutton{Regresar} para volver a la pantalla anterior.
 	\UCpaso Fin de la trayectoria alternativa.
 \end{UCtrayectoriaA}
@@ -83,7 +83,7 @@
 	\UCpaso Fin de la trayectoria alternativa.
 \end{UCtrayectoriaA}
 %--------------------------------------        
-\begin{UCtrayectoriaA}{F}{El sistema identifica que el alumno no coincide con la foto registrada}
+\begin{UCtrayectoriaA}{F}{el sistema identifica que el alumno no coincide con la foto registrada}
 	\UCpaso El sistema muestra al docente las características que no coinciden.
 	\UCpaso[\UCactor] El docente revisa las discrepancias y decide marcar al alumno como ausente o realizar una verificación adicional.
 	\UCpaso El sistema actualiza la asistencia.

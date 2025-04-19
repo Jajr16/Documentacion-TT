@@ -94,57 +94,57 @@
 % Alfredo
 
 \begin{BussinesRule}{BR11}{Registro de usuarios válidos.} 
-    \BRitem[Tipo:] Habilitadora
-    \BRitem[Clase:] Integridad
-    \BRitem[Nivel:] Estricta
+    \BRitem[Tipo:] Habilitadora.
+    \BRitem[Clase:] Integridad.
+    \BRitem[Nivel:] Estricta.
     \BRitem[Descripción:] Todos los usuarios registrados dentro del sistema deberán de estar registrados dentro de la tabla “Persona”. 
     \BRitem[Motivación:] Asegurar que solo la comunidad de la institución pueda acceder a la escuela. 
     \BRitem[Referenciado por:] \hyperlink{Usuario}{Usuario} 
     \end{BussinesRule}
 
 \begin{BussinesRule}{BR12}{Registro de personal académico.} 
-    \BRitem[Tipo:] Habilitadora
+    \BRitem[Tipo:] Habilitadora.
     \BRitem[Clase:] Condición.
-    \BRitem[Nivel:] Estricta
+    \BRitem[Nivel:] Estricta.
     \BRitem[Descripción:] Para registrar al personal académico se deberá de dar de alta un RFC, un correo institucional válido y especificar el cargo que tiene dentro de la institución. Este puede variar entre un docente o personal administrativo, como lo es el personal de gestión escolar. En caso de ser un docente se debe especificar su cargo dentro de la escuela, como lo es el jefe de academia, presidente de academia, director o subdirector. 
     \BRitem[Motivación:] Moderar los diferentes permisos de los usuarios dependiendo del cargo que tengan dentro de la escuela. 
-    \BRitem[Referenciado por:] \hyperlink{PersonalAcademico}{Personal Académico} 
+    \BRitem[Referenciado por:] \hyperlink{}{} 
     \end{BussinesRule}
 
 \begin{BussinesRule}{BR13}{Límite de alumnos en un ETS.} 
     \BRitem[Tipo:] Cronometrada. 
     \BRitem[Clase:] Condición.
-    \BRitem[Nivel:] Estricta
+    \BRitem[Nivel:] Estricta.
     \BRitem[Descripción:] Un alumno se podrá inscribir a un ETS únicamente si la cantidad de alumnos aún no excede el cupo límite de un ETS.
     \BRitem[Motivación:] Evitar el sobrecupo de un salón el día del ETS.
-    \BRitem[Referenciado por:] \hyperlink{ETS}{ETS} 
+    \BRitem[Referenciado por:] \hyperlink{}{} 
     \end{BussinesRule}
-    
+
 \begin{BussinesRule}{BR14}{Fecha de aplicación de los ETS.} 
     \BRitem[Tipo:] Cronometrada. 
     \BRitem[Clase:] Condición.
-    \BRitem[Nivel:] Estricta
+    \BRitem[Nivel:] Estricta.
     \BRitem[Descripción:] Las fechas de los ETS deben de estar dentro del periodo especificado del mismo, en caso contrario no se podrá dar de alta. 
     \BRitem[Motivación:] Tener un control sobre las fechas en las que se aplican los ETS. 
-    \BRitem[Referenciado por:] \hyperlink{ETS}{ETS} 
+    \BRitem[Referenciado por:] \hyperlink{}{} 
     \end{BussinesRule}
 
 \begin{BussinesRule}{BR15}{Registro de un ETS} 
     \BRitem[Tipo:] Habilitadora. 
     \BRitem[Clase:] Condición.
-    \BRitem[Nivel:] Estricta
+    \BRitem[Nivel:] Estricta.
     \BRitem[Descripción:] Los ETS deberán de especificar siempre el turno en el ques e van a aplicar, especificar el periodo en el que se aplican y el cupo que se tendrá para ese ETS.
     \BRitem[Motivación:] Tener un mejor control sobre la información de los ETS.
-    \BRitem[Referenciado por:] \hyperlink{ETS}{ETS} 
+    \BRitem[Referenciado por:] \hyperlink{}{} 
     \end{BussinesRule}
 
 \begin{BussinesRule}{BR16}{Asignación de salón para un ETS} 
     \BRitem[Tipo:] Habilitadora. 
-    \BRitem[Clase:] Condición	.
-    \BRitem[Nivel:] Estricta
+    \BRitem[Clase:] Condición.
+    \BRitem[Nivel:] Estricta.
     \BRitem[Descripción:] Un salón solo puede ser asignado a un ETS si no ha sido asignado para otro ETS.
     \BRitem[Motivación:] Evitar la sobreasignación de salones.
-    \BRitem[Referenciado por:] \hyperlink{SalonETS}{Salón del ETS} 
+    \BRitem[Referenciado por:] \hyperlink{}{} 
     \end{BussinesRule}
 
 \begin{BussinesRule}{BR17}{Permisos del usuario de los docentes.} 
@@ -153,7 +153,7 @@
     \BRitem[Nivel:] Estricta
     \BRitem[Descripción:] Si un docente tiene asignado más de un cargo dentro de la institución, el sistema le mostrará las interfaces correspondientes a cada uno de los cargos. El acceso a las interfaces dependerá de las funcionalidades permitidas por cada cargo.
     \BRitem[Motivación:] Asegurar que los docentes tengan acceso a todas las funciones dependiendo del cargo que tengan.
-    \BRitem[Referenciado por:] \hyperlink{CargoDocente}{Cargo del docente} 
+    \BRitem[Referenciado por:] \hyperlink{}{} 
     \end{BussinesRule}
 
 \begin{BussinesRule}{BR18}{Número de docentes aplicadores de un ETS.} 
@@ -162,7 +162,7 @@
     \BRitem[Nivel:] Estricta
     \BRitem[Descripción:] Un mismo ETS puede ser aplicado por múltiples docentes en diferentes salones.
     \BRitem[Motivación:] Asegurar que todos los ETS tengan por lo menos un aplicador, ya sea en uno o más salones.
-    \BRitem[Referenciado por:] \hyperlink{Aplica}{Tabla Aplica} 
+    \BRitem[Referenciado por:] \hyperlink{}{} 
     \end{BussinesRule}
 
 \begin{BussinesRule}{BR19}{Inscripción de un ETS.} 
@@ -171,7 +171,7 @@
     \BRitem[Nivel:] Estricta
     \BRitem[Descripción:] Un alumno no puede estar inscrito en dos ETS que se lleven a cabo en el mismo horario.
     \BRitem[Motivación:] Evitar el solapamiento de dos o más ETS.
-    \BRitem[Referenciado por:] \hyperlink{InscripcionETS}{Inscripción de un ETS} 
+    \BRitem[Referenciado por:] \hyperlink{}{} 
     \end{BussinesRule}
 
 \begin{BussinesRule}{BR20}{Aplicador titular de un ETS.} 
@@ -180,9 +180,8 @@
     \BRitem[Nivel:] Estricta
     \BRitem[Descripción:] Los ETS deberán contar siempre con un docente titular que es el docente principal que va a aplicar el ETS. En caso de sustitución del docente o apoyo a este, también se especificará que estos son ayudantes y no titulares.
     \BRitem[Motivación:] Garantizar la asignación de roles dentro del sistema.
-    \BRitem[Referenciado por:] \hyperlink{Aplica}{Tabla Aplica} 
+    \BRitem[Referenciado por:] \hyperlink{}{} 
     \end{BussinesRule}
-    
 
 %
 \begin{BussinesRule}{RN21} {Acceso a información sobre el acceso a los ETS}
@@ -426,7 +425,7 @@
     \BRitem[Nivel:] Estricta.
     \BRitem[Descripción:] El sistema deberá analizar el rostro de cada alumno y proporcionar un indicador comparando las características registradas y las detectadas por el reconocimiento facial.
     \BRitem[Motivación:] Facilitar el proceso pase de lista al docente. 
-    \BRitem[Referenciado por:] \hyperlink{CU-09}{CU-09}.
+    \BRitem[Referenciado por:] \hyperlink{CU-09}{cu09}.
     \end{BussinesRule}
 
 \begin{BussinesRule}{RN48}{Mostrar la lista de asistencia de los alumnos.}

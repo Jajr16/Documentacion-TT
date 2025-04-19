@@ -1,0 +1,53 @@
+\babel@toc {spanish}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Arquitectura del sistema.}}{5}{figure.2.1}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Modelo del dominio del problema}}{10}{figure.3.1}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Análisis de viabilidad de los casos de uso.}}{29}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Estructura de los usuarios.}}{30}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagrama de casos de uso del sistema movil.}}{33}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagrama de casos de uso del sistema web.}}{34}{figure.4.4}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces IU01~{}Pantalla Iniciar sesión de personal escolar móvil.}}{107}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces IU02~{}Pantalla Consultar calendario escolar.}}{108}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces IU02-2~{}Pantalla Consultar calendario escolar.}}{109}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces IU03~{}Pantalla Consultar notificaciones.}}{110}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces IU03-2~{}Pantalla Consultar notificaciones.}}{111}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces IU04~{}Pantalla Periodo de ETS.}}{112}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces IU05~{}Pantalla Consultar ETS.}}{114}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces IU06~{}Pantalla Información de ETS}}{116}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces IU08~{}Pantalla Lista de asistencia de ETS}}{118}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces IU09~{}Pantalla de Asignar docente de remplazo}}{120}{figure.5.10}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces IU10~{}Pantalla Código QR}}{122}{figure.5.11}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces IU11~{}Pantalla Credencial del alumno}}{124}{figure.5.12}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces IU12~{}Pantalla Buscar alumno por boleta.}}{126}{figure.5.13}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces IU13~{}Consultar lista de alumnos inscritos a un ETS}}{128}{figure.5.14}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces IU14~{}Pantalla Periodo de ETS del alumno.}}{130}{figure.5.15}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces IU15~{}Pantalla Consultar ETS del alumno.}}{132}{figure.5.16}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces IU16~{}Pantalla de Información de ETS del alumno}}{134}{figure.5.17}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces IU17~{}Pantalla de Reconocimiento facial}}{136}{figure.5.18}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces IU18~{}Pantalla de Detalles del proces de ETS}}{138}{figure.5.19}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces IU19~{}Pantalla de Reconocimiento facial}}{140}{figure.5.20}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces IU20~{}Pantalla mostrar la foto e información del alumno.}}{142}{figure.5.21}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces IU21~{} Dar de alta a alumno.}}{144}{figure.5.22}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces IU22~{} Crear credencial.}}{146}{figure.5.23}%
+\contentsline {figure}{\numberline {5.24}{\ignorespaces IU23~{} Capturar fotografía estudiantil.}}{148}{figure.5.24}%
+\contentsline {figure}{\numberline {5.25}{\ignorespaces IU24~{} Consultar lista de periodo de ETS.}}{150}{figure.5.25}%
+\contentsline {figure}{\numberline {5.26}{\ignorespaces IU25~{}Dar de alta de periodo de ETS.}}{152}{figure.5.26}%
+\contentsline {figure}{\numberline {5.27}{\ignorespaces IU26~{}Consultar lista ETS.}}{154}{figure.5.27}%
+\contentsline {figure}{\numberline {5.28}{\ignorespaces IU27~{}Dar de alta ETS.}}{156}{figure.5.28}%
+\contentsline {figure}{\numberline {5.29}{\ignorespaces IU28~{}Consultar lista de personal de seguridad}}{158}{figure.5.29}%
+\contentsline {figure}{\numberline {5.30}{\ignorespaces IU29~{}Dar de alta personal de seguridad.}}{160}{figure.5.30}%
+\contentsline {figure}{\numberline {5.31}{\ignorespaces IU30~{}Consultar lista de docentes.}}{162}{figure.5.31}%
+\contentsline {figure}{\numberline {5.32}{\ignorespaces IU31~{}Dar de alta docente}}{164}{figure.5.32}%
+\contentsline {figure}{\numberline {5.33}{\ignorespaces IU32~{}Pantalla Solicitar desbloqueo de cuenta.}}{166}{figure.5.33}%
+\contentsline {figure}{\numberline {5.34}{\ignorespaces IU32-2~{}Pantalla Solicitar desbloqueo de cuenta.}}{167}{figure.5.34}%
+\contentsline {figure}{\numberline {5.35}{\ignorespaces IU33~{}Pantalla Iniciar sesión de personal escolar web.}}{169}{figure.5.35}%
+\contentsline {figure}{\numberline {5.36}{\ignorespaces IUE01~{}Pantalla Menú de docente.}}{171}{figure.5.36}%
+\contentsline {figure}{\numberline {5.37}{\ignorespaces IUE02~{}Pantalla Menú de personal de seguridad.}}{173}{figure.5.37}%
+\contentsline {figure}{\numberline {5.38}{\ignorespaces IUE03~{}Pantalla saludo de alumno.}}{175}{figure.5.38}%
+\contentsline {figure}{\numberline {5.39}{\ignorespaces IUE04~{}Pantalla saludo de personal de la DAE.}}{177}{figure.5.39}%
+\contentsline {figure}{\numberline {5.40}{\ignorespaces IUE05~{}Pantalla saludo de personal de gestión escolar.}}{179}{figure.5.40}%
+\contentsline {figure}{\numberline {5.41}{\ignorespaces IUE06~{}saludo del presidente de academia y el jefe de departamento.}}{182}{figure.5.41}%

@@ -1,27 +1,29 @@
 % !TeX root = ../ejemplo.tex
 
 %--------------------------------------
-\subsection{IU21 Dar de alta a alumno}
+\section{IU21} {Dar de alta a alumno}
 
-\subsubsection{Objetivo}
+\subsection{Objetivo}
 	Permitir al personal de la DAE dar de alta a un alumno.
-\subsubsection{Diseño}
+\subsection{Diseño}
     Esta pantalla \IUref{IU21}{ Dar de alta a alumno } (ver figura~\ref{IU21}) puede ser accedida desde la pantalla \IUref{IUE04}{de personal de la DAE}
 
 \IUfig[1]{UI-CU21}{IU21}{ Dar de alta a alumno.}
 
-\subsubsection{Salidas}
+\subsection{Salidas}
 Muestra mensaje {\bf MSG-31} ``Alumno dado de alta con éxito''.
-\subsubsection{Entradas}
-    Boleta, Nombre, CURP, Sexo y Correo institucional
-\subsubsection{Comandos}
+\subsection{Entradas}
+    \hyperlink{Alumno.Boleta}{Boleta}, \hyperlink{Alumno.Nombre}{Nombre}, \hyperlink{Alumno.CURP}{CURP}, \hyperlink{Alumno.Sexo}{Sexo} y \hyperlink{Alumno.Correo institucional}{Correo institucional}
+\subsection{Comandos}
 \begin{itemize}
     \item \IUbutton{Dar de alta un alumno}  El sistema revisa que los datos del alumno sean válidos, verifica que el CURP o la boleta no hayan sido registrados con anterioridad, mantiene los datos para usarlos en el proceso de crear credencial. Y redirige a la pantalla \IUref{UI22}{Crear credencial}.
+    \item \IUbutton{Calendario} Redirige a la pantalla \IUref{UI02}{Consultar calendario escolar}.
+    \item \IUbutton{Campana} Redirige a la pantalla \IUref{UI03}{Consultar notificaciones }.
     \item \IUbutton{Home} Redirige a la pantalla de bienvenida correspondiente al tipo de usuario.
     
 \end{itemize}
 
-\subsubsection{Mensajes}
+\subsection{Mensajes}
 
 \begin{Citemize}
     \item {\bf MSG-31} ``Alumno dado de alta con éxito''.

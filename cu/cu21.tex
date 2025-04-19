@@ -8,9 +8,9 @@
     \UCitem{Versión}{\color{Gray}1}
     \UCitem{Autor}{\color{Gray}Huertas Ramírez Daniel Martín}
     \UCitem{Supervisa}{\color{Gray}De la cruz De la cruz Alejandra.}
-    \UCitem{Actor}{Personal de la DAE}
+    \UCitem{Actor}{\hyperlink{Personal de la DAE}{Personal de la DAE}}
     \UCitem{Propósito}{ Permitir al personal de la DAE dar de alta un alumno para posteriormente tramitar su credencial.}
-    \UCitem{Entradas}{Boleta, Nombre, CURP, Sexo y Correo institucional}
+    \UCitem{Entradas}{ \hyperlink{Alumno.Boleta}{Boleta}, \hyperlink{Alumno.Nombre}{Nombre}, \hyperlink{Alumno.CURP}{CURP}, \hyperlink{Alumno.Sexo}{Sexo} y \hyperlink{Alumno.Correo institucional}{Correo institucional}}
     \UCitem{Origen}{Teclado}
     \UCitem{Salidas}{Muestra mensaje {\bf MSG-31} ``Alumno dado de alta con éxito''.}
     \UCitem{Destino}{Pantalla \IUref{IU22}{ Crear credencial } }
@@ -33,7 +33,7 @@
 
 \begin{UCtrayectoria}
 
-    \UCpaso[\UCactor] El Personal de la DAE accede a la pantalla \IUref{IU21}{ Dar de alta un alumno }\label{CU21.introduceDatos} desde la pantalla \IUref{IUE04}{Pantalla de saludo del personal de la DAE} presionando el botón \IUbutton{Dar de alta estudiantes} e introduce los datos de alumno (Boleta, Nombre, CURP, Sexo y Correo institucional) .
+    \UCpaso[\UCactor] El Personal de la DAE accede a la pantalla \IUref{IU21}{ Dar de alta un alumno }\label{CU21.introduceDatos} desde la pantalla \IUref{IUE04}{Pantalla de saludo del personal de la DAE} presionando el botón \IUbutton{Dar de alta estudiantes} e introduce los datos de alumno ( \hyperlink{Alumno.Boleta}{Boleta}, \hyperlink{Alumno.Nombre}{Nombre}, \hyperlink{Alumno.CURP}{CURP}, \hyperlink{Alumno.Sexo}{Sexo} y \hyperlink{Alumno.Correo institucional}{Correo institucional}) .
     \UCpaso[\UCactor] El Personal de la DAE oprime el botón \IUbutton{Dar de alta alumno }.
     \UCpaso El sistema revisa que los datos del alumno sean válidos.
     \UCpaso El sistema verifica que la CURP o la boleta no hayan sido registrados con anterioridad.

@@ -1,17 +1,22 @@
 %=========================================================
-\section{Modelo del Alcance}
+\chapter{Modelo del Alcance}
 \label{cap:reqUsr}
 
-	En está seccion se modela el alcance del sistema, se presentan  los requerimientos de usuario identificados y un diagrama de arquitectura de la solución propuesta junto con la especificación de plataforma correspondiente.
+	En este capítulo se modela el alcance del sistema, se presentan  los requerimientos de usuario identificados y un diagrama de arquitectura de la solución propuesta junto con la especificación de plataforma correspondiente.
 
 %---------------------------------------------------------
 
 %---------------------------------------------------------
 
 
-\subsection{Requerimientos de usuario}
+\section{Requerimientos de usuario}
 
 En la siguiente tabla se enlistan los requerimientos de usuario identificados, estos corresponden a necesidades de los usuarios que harán uso del sistema. Se encuentran organizados por un Id único, el nombre del requerimiento, su descripción y su prioridad, que no es más que un análisis sobre su impacto en el desarrollo del sistema. 
+
+\cdtInstrucciones{
+	Identifique y describa los requerimientos funcionales del sistema señalando: id, nombre, descripción y prioridad.
+}
+
 
 \begin{requerimientosU}
 	\FRitem{RU1}{Confirmar la asistencia a ETS}{Los alumnos quieren garantizar que su asistencia a la evaluación sea registrada.}{Alta}
@@ -41,8 +46,8 @@ En la siguiente tabla se enlistan los requerimientos de usuario identificados, e
 	\FRitem{RU25}{Registro de alumnos.}{El personal de la DAE requiere dar de alta alumnos.}{Media}
 	\FRitem{RU26}{Generación de credenciales de alumnos.}{El personal de la DAE requiere tomar fotografías de los alumnos para generar sus credenciales institucionales.}{Media}
 	
-	\caption{Requerimientos de usuario identificados. Elaboración propia}
-	{\footnotesize\em}
+	\caption{Requerimientos de usuario identificados.}
+	{\footnotesize\em Para leer correctamente esta tabla vea la leyenda en la Tabla~\ref{tbl:leyendaRF} en la página~\pageref{tbl:leyendaRF}.}
 	\label{tbl:reqFunc}	
 	\end{requerimientosU}
 	
@@ -50,12 +55,14 @@ En la siguiente tabla se enlistan los requerimientos de usuario identificados, e
 
 
 
-\newpage
 
 %---------------------------------------------------------
-\subsection{Especificación de plataforma}
+\section{Especificación de plataforma}
 
 A continuación se presenta la especificación de plataforma para aclarar el tipo de solución propuesta junto con un diagrama para establecer el patrón de arquitectura a utilizar.
+
+\cdtInstrucciones{
+	Coloque un diagrama y su descripción para aclarar el tipo de solución propuesta. \\
 	
  En esta sección se debe aclarar:
 	
@@ -64,8 +71,7 @@ A continuación se presenta la especificación de plataforma para aclarar el tip
 	\item[Software requerido:] Python, SpringBoot, Java, Kotlin, bases de datos relacional PostgreSQL, base de datos vectorial (Pinecone).
 	\item[Servicios:] De conexión, seguridad, firewall, respaldo de energía, redundancia, uso de raids, etc.
 \end{description}
-
-
+}
 
 \begin{figure}[htbp!]
 	\begin{center}
